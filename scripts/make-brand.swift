@@ -23,18 +23,6 @@ func save(_ img: CGImage, _ path: String) {
     try! NSBitmapImageRep(cgImage: img).representation(using: .png, properties: [:])!.write(to: url)
     print("wrote", path)
 }
-func linear(_ c: CGContext, _ path: CGPath, _ cols: [CGColor], from: CGPoint, to: CGPoint) {
-    c.saveGState(); c.addPath(path); c.clip()
-    let g = CGGradient(colorsSpace: CGColorSpace(name: CGColorSpace.sRGB)!, colors: cols as CFArray, locations: nil)!
-    c.drawLinearGradient(g, start: from, end: to, options: [.drawsBeforeStartLocation, .drawsAfterEndLocation])
-    c.restoreGState()
-}
-func radial(_ c: CGContext, _ path: CGPath, _ cols: [CGColor], center: CGPoint, r: CGFloat) {
-    c.saveGState(); c.addPath(path); c.clip()
-    let g = CGGradient(colorsSpace: CGColorSpace(name: CGColorSpace.sRGB)!, colors: cols as CFArray, locations: nil)!
-    c.drawRadialGradient(g, startCenter: center, startRadius: 0, endCenter: center, endRadius: r, options: [.drawsAfterEndLocation])
-    c.restoreGState()
-}
 func leaf(_ c: CGContext, base: CGPoint, tip: CGPoint, width: CGFloat, color: CGColor, vein: CGColor) {
     let dx = tip.x - base.x, dy = tip.y - base.y, len = hypot(dx, dy), nx = -dy / len * width, ny = dx / len * width
     let p = CGMutablePath()
@@ -46,7 +34,8 @@ func leaf(_ c: CGContext, base: CGPoint, tip: CGPoint, width: CGFloat, color: CG
     c.move(to: base); c.addLine(to: CGPoint(x: base.x + dx * 0.85, y: base.y + dy * 0.85)); c.strokePath()
 }
 
-// 3. A pair of Rainier cherries (yellow with a red blush) on evergreen
+// 3. A pair of Rainier cherries (yellow with a red blush) on evergreen. Matte (Nick, 2026-10-06: "less glossy"): flat yellow, one
+// soft-edged blush on the lower right, no highlight; a thin evergreen gap cut into the back cherry keeps the two apart at 60 px.
 func cherries(_ c: CGContext, _ s: CGFloat) {
     c.setFillColor(evergreen); c.fill(CGRect(x: 0, y: 0, width: s, height: s))
     let r = s * 0.18
@@ -55,10 +44,15 @@ func cherries(_ c: CGContext, _ s: CGFloat) {
     c.move(to: CGPoint(x: a.x + r * 0.15, y: a.y + r * 0.9)); c.addQuadCurve(to: top, control: CGPoint(x: s * 0.38, y: s * 0.66)); c.strokePath()
     c.move(to: CGPoint(x: b.x, y: b.y + r * 0.9)); c.addQuadCurve(to: top, control: CGPoint(x: s * 0.64, y: s * 0.58)); c.strokePath()
     leaf(c, base: top, tip: CGPoint(x: s * 0.84, y: s * 0.86), width: s * 0.07, color: rgb(0x5DAE4B), vein: rgb(0x2F7A2A))
-    for (p, flip) in [(a, false), (b, true)] {
-        let path = CGPath(ellipseIn: CGRect(x: p.x - r, y: p.y - r, width: r * 2, height: r * 2.0), transform: nil)
-        radial(c, path, [rgb(0xFFF1B0), rgb(0xF7C948), rgb(0xE5764F), rgb(0xC0303A)], center: CGPoint(x: p.x + (flip ? -1 : -1) * r * 0.35, y: p.y + r * 0.35), r: r * 1.6)
-        c.setFillColor(rgb(0xFFFFFF, 0.45)); c.fillEllipse(in: CGRect(x: p.x - r * 0.55, y: p.y + r * 0.25, width: r * 0.32, height: r * 0.22))
+    let ba = CGRect(x: a.x - r, y: a.y - r, width: r * 2, height: r * 2), bb = CGRect(x: b.x - r, y: b.y - r, width: r * 2, height: r * 2)
+    let blush = CGGradient(colorsSpace: CGColorSpace(name: CGColorSpace.sRGB)!, colors: [rgb(0xE0574A), rgb(0xE0574A), rgb(0xE0574A, 0)] as CFArray, locations: [0, 0.62, 1])!
+    for body in [ba, bb] {
+        c.saveGState(); c.addEllipse(in: body); c.clip()
+        c.setFillColor(rgb(0xF7C948)); c.fill(body)
+        let ctr = CGPoint(x: body.midX + r * 0.7, y: body.midY - r * 0.6)
+        c.drawRadialGradient(blush, startCenter: ctr, startRadius: 0, endCenter: ctr, endRadius: r * 1.45, options: [])
+        if body == ba { c.setFillColor(evergreen); c.fillEllipse(in: bb.insetBy(dx: -s * 0.014, dy: -s * 0.014)) }
+        c.restoreGState()
     }
 }
 
