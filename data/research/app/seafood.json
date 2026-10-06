@@ -1,0 +1,3936 @@
+[
+ {
+  "name": "Ivar's Seafood Bar (Aurora)",
+  "address": "13448 Aurora Ave N",
+  "city": "Seattle",
+  "zip": "98133",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on Aurora Ave N, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Bellevue)",
+  "address": "1505 156th Ave NE",
+  "city": "Bellevue",
+  "zip": "98007",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on 156th Ave NE in Bellevue, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Bothell)",
+  "address": "24016 Bothell Everett Hwy, Ste 400",
+  "city": "Bothell",
+  "zip": "98021",
+  "county": "Snohomish",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on the Bothell-Everett Hwy, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Burien)",
+  "address": "125 SW 148th St, Ste D",
+  "city": "Burien",
+  "zip": "98166",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on SW 148th St in Burien, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Edmonds)",
+  "address": "9910 Edmonds Way",
+  "city": "Edmonds",
+  "zip": "98020",
+  "county": "Snohomish",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on Edmonds Way, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Everett)",
+  "address": "1520 41st St",
+  "city": "Everett",
+  "zip": "98201",
+  "county": "Snohomish",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on 41st St in Everett, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Federal Way)",
+  "address": "2004 S 320th St",
+  "city": "Federal Way",
+  "zip": "98003",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on S 320th St in Federal Way, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Gig Harbor)",
+  "address": "4901 Point Fosdick Dr",
+  "city": "Gig Harbor",
+  "zip": "98335",
+  "county": "Pierce",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on Point Fosdick Dr in Gig Harbor, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Issaquah)",
+  "address": "6150 E Lake Sammamish Pkwy SE",
+  "city": "Issaquah",
+  "zip": "98029",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on E Lake Sammamish Pkwy SE, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (James Center)",
+  "address": "1820 S Mildred St",
+  "city": "Tacoma",
+  "zip": "98465",
+  "county": "Pierce",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on S Mildred St in Tacoma, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Kent)",
+  "address": "25405 104th Ave SE",
+  "city": "Kent",
+  "zip": "98030",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on 104th Ave SE in Kent, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Kirkland)",
+  "address": "5910 Lake Washington Blvd NE",
+  "city": "Kirkland",
+  "zip": "98033",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on Lake Washington Blvd NE in Kirkland, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Lakewood)",
+  "address": "10114 S Tacoma Way",
+  "city": "Lakewood",
+  "zip": "98499",
+  "county": "Pierce",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location. The brand's list gives the mailing city as Tacoma.",
+  "display_note": "Ivar's counter-service seafood bar on S Tacoma Way in Lakewood, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Marysville)",
+  "address": "9726 State Ave",
+  "city": "Marysville",
+  "zip": "98270",
+  "county": "Snohomish",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on State Ave in Marysville, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Puyallup)",
+  "address": "13101 Meridian Ave E",
+  "city": "Puyallup",
+  "zip": "98373",
+  "county": "Pierce",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on Meridian Ave E in Puyallup, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Seafood Bar (Renton)",
+  "address": "1201 Lake Washington Blvd, Ste B",
+  "city": "Renton",
+  "zip": "98055",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "true cod fish 'n chips",
+   "wild Alaska salmon 'n chips",
+   "halibut 'n chips",
+   "clams 'n chips",
+   "fried oysters with fries",
+   "white and red clam chowder",
+   "smoked salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's quick-serve seafood bar (order at the counter); fish is hand-cut and breaded, menus vary a little by location.",
+  "display_note": "Ivar's counter-service seafood bar on Lake Washington Blvd in Renton, with hand-cut, breaded fish 'n chips, fried oysters and clam chowder. Ivar's dates to 1938.",
+  "website": "https://www.ivars.com/seafood-bars",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand's seafood bar location list, live, with this address and current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-menu",
+    "what": "brand's seafood bar menu, live: fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Acres of Clams",
+  "address": "1001 Alaskan Way, Pier 54",
+  "city": "Seattle",
+  "zip": "98104",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "clam chowder (Fish Bar)",
+   "true cod fish 'n chips (Pier 54 Fish Bar)",
+   "wild Alaska salmon",
+   "halibut",
+   "Dungeness crab",
+   "Alaska king crab",
+   "Manila clams"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's flagship sit-down restaurant on Pier 54, remodeled in 2015; the walk-up Pier 54 Fish Bar is at the same address.",
+  "display_note": "Ivar's flagship sit-down restaurant on Pier 54, remodeled in 2015, with the walk-up Pier 54 Fish Bar at the same address. Ivar Haglund started on Pier 54 in 1938.",
+  "website": "https://www.ivars.com/acres",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/acres",
+    "what": "own restaurant page, live: address, current hours, menu summary (salmon, halibut, king and Dungeness crab, Manila clams)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand location list includes the Pier 54 Fish Bar at 1001 Alaskan Way",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/fb-menupier-54",
+    "what": "Pier 54 Fish Bar menu, live: true cod and rock cod fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Salmon House",
+  "address": "401 NE Northlake Way",
+  "city": "Seattle",
+  "zip": "98105",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "alder-smoked salmon",
+   "prawns",
+   "seasonal seafood specials",
+   "true cod fish 'n chips (outdoor Fish Bar)",
+   "clam chowder (Fish Bar)"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's longhouse-style restaurant on Lake Union with an open alder-fire barbecue; a walk-up Fish Bar shares the site and boaters can tie up at the dock.",
+  "display_note": "Ivar's longhouse-style restaurant on Lake Union with an open alder-fire barbecue for smoked salmon. A walk-up Fish Bar shares the site, and boaters can tie up at the dock.",
+  "website": "https://www.ivars.com/salmon-house",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/salmon-house",
+    "what": "own restaurant page, live: address, current hours, alder-smoked salmon",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand location list includes the Salmon House Fish Bar",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/fb-menu-salmon-house",
+    "what": "Salmon House Fish Bar menu, live: true cod fish 'n chips, clams, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Mukilteo Landing",
+  "address": "710 Front St",
+  "city": "Mukilteo",
+  "zip": "98275",
+  "county": "Snohomish",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "Northwest seafood entrees",
+   "true cod fish 'n chips (outdoor Fish Bar)",
+   "halibut 'n chips (Fish Bar)",
+   "clam chowder (Fish Bar)",
+   "fried oysters (Fish Bar)"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's sit-down restaurant beside the Mukilteo ferry dock on Possession Sound, with a take-out Fish Bar outside.",
+  "display_note": "Ivar's sit-down restaurant beside the Mukilteo ferry dock on Possession Sound, with a take-out Fish Bar outside.",
+  "website": "https://www.ivars.com/mukilteo-landing",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/mukilteo-landing",
+    "what": "own restaurant page, live: address, current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/sfb-locations",
+    "what": "brand location list includes the Mukilteo Fish Bar at 710 Front St",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/fb-menu-mukilteo-landing",
+    "what": "Mukilteo Fish Bar menu, live: true cod and halibut fish 'n chips, clams, oysters, chowders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/our-story",
+    "what": "brand history: Ivar Haglund started at his Pier 54 aquarium in 1938",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's at Cap Sante Marina",
+  "address": "1207 Q Ave",
+  "city": "Anacortes",
+  "zip": "98221",
+  "county": "Skagit",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried Willapa Bay oysters",
+   "New England-style clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "wild Alaska true cod 'n chips"
+  ],
+  "opened": 2011,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's seafood restaurant on Cap Sante Marina; the seasonal Anthony's Cabana (fish and chips) shares the address and was listed as closed for winter.",
+  "display_note": "Anthony's seafood restaurant on Cap Sante Marina, opened in 2011. The seasonal Anthony's Cabana, serving fish and chips, shares the address.",
+  "website": "https://anthonys.com/restaurant/anthonys-at-cap-sante-marina-anacortes/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-at-cap-sante-marina-anacortes/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's at Squalicum Harbor",
+  "address": "25 Bellwether Way",
+  "city": "Bellingham",
+  "zip": "98225",
+  "county": "Whatcom",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried Willapa Bay oysters",
+   "New England-style clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "wild Alaska true cod 'n chips"
+  ],
+  "opened": null,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's seafood restaurant on Squalicum Harbor; brunch on Sundays.",
+  "display_note": "Anthony's seafood restaurant on Squalicum Harbor, with brunch on Sundays. The Anthony's group was founded in Bellevue in 1973.",
+  "website": "https://anthonys.com/restaurant/anthonys-at-bellingham-squalicum-harbor/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-at-bellingham-squalicum-harbor/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's at Sinclair Inlet",
+  "address": "20 Washington Ave",
+  "city": "Bremerton",
+  "zip": "98337",
+  "county": "Kitsap",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried Willapa Bay oysters",
+   "New England-style clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "wild true cod 'n chips"
+  ],
+  "opened": null,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's seafood restaurant on Sinclair Inlet in Bremerton.",
+  "display_note": "Anthony's seafood restaurant on Sinclair Inlet in Bremerton. The Anthony's group was founded in Bellevue in 1973.",
+  "website": "https://anthonys.com/restaurant/anthonys-at-bremerton-sinclair-inlet/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-at-bremerton-sinclair-inlet/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's at Gig Harbor",
+  "address": "8827 N Harborview Dr",
+  "city": "Gig Harbor",
+  "zip": "98332",
+  "county": "Pierce",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried Willapa Bay oysters",
+   "New England-style clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "true cod 'n chips"
+  ],
+  "opened": null,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's seafood restaurant on Gig Harbor's waterfront.",
+  "display_note": "Anthony's seafood restaurant on Gig Harbor's waterfront. The Anthony's group was founded in Bellevue in 1973.",
+  "website": "https://anthonys.com/restaurant/anthonys-at-gig-harbor/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-at-gig-harbor/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's HomePort Des Moines",
+  "address": "421 S 227th St",
+  "city": "Des Moines",
+  "zip": "98198",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried Willapa Bay oysters",
+   "New England-style clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "wild Alaska true cod 'n chips"
+  ],
+  "opened": null,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's seafood restaurant on the Des Moines marina; happy hour is served in its Lower Deck.",
+  "display_note": "Anthony's seafood restaurant on the Des Moines marina, with happy hour in its Lower Deck. The group was founded in Bellevue in 1973.",
+  "website": "https://anthonys.com/restaurant/anthonys-homeport-des-moines/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-homeport-des-moines/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's HomePort Edmonds",
+  "address": "456 Admiral Way",
+  "city": "Edmonds",
+  "zip": "98020",
+  "county": "Snohomish",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried Willapa Bay oysters",
+   "New England-style clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "wild Alaska halibut 'n chips"
+  ],
+  "opened": null,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's dinner restaurant on the Edmonds waterfront; Anthony's Beach Cafe, a walk-in fish-and-chips cafe, is just beneath it at the same address.",
+  "display_note": "Anthony's dinner restaurant on the Edmonds waterfront. Anthony's Beach Cafe, a walk-in fish-and-chips cafe, is just beneath it.",
+  "website": "https://anthonys.com/restaurant/anthonys-homeport-edmonds/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-homeport-edmonds/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's HomePort Everett",
+  "address": "1726 W Marine View Dr",
+  "city": "Everett",
+  "zip": "98201",
+  "county": "Snohomish",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried Willapa Bay oysters",
+   "New England-style clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "wild true cod 'n chips",
+   "Puget Sound mussels",
+   "Manila clams"
+  ],
+  "opened": null,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's seafood restaurant overlooking the Everett marina.",
+  "display_note": "Anthony's seafood restaurant overlooking the Everett marina, with Puget Sound mussels and Manila clams. The group was founded in Bellevue in 1973.",
+  "website": "https://anthonys.com/restaurant/anthonys-homeport-everett/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-homeport-everett/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's HomePort Kirkland",
+  "address": "135 Lake St S",
+  "city": "Kirkland",
+  "zip": "98033",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried Willapa Bay oysters",
+   "New England-style clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "fish & chips"
+  ],
+  "opened": null,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's seafood restaurant on Lake Washington in downtown Kirkland. The brand says its first HomePort opened on the Kirkland shore in 1976.",
+  "display_note": "Anthony's seafood restaurant on Lake Washington in downtown Kirkland. The first Anthony's HomePort opened on the Kirkland shore in 1976.",
+  "website": "https://anthonys.com/restaurant/anthonys-homeport-kirkland/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-homeport-kirkland/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's HomePort Olympia",
+  "address": "704 Columbia St NW",
+  "city": "Olympia",
+  "zip": "98501",
+  "county": "Thurston",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell (Anthony's Select, Discovery Bay)",
+   "pan-fried Willapa Bay oysters",
+   "New England-style clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "fish & chips"
+  ],
+  "opened": null,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's seafood restaurant on Budd Inlet; a half-shell oyster list rotates daily.",
+  "display_note": "Anthony's seafood restaurant on Budd Inlet, with a half-shell oyster list that rotates daily.",
+  "website": "https://anthonys.com/restaurant/anthonys-homeport-olympia/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-homeport-olympia/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's Pier 66",
+  "address": "2201 Alaskan Way",
+  "city": "Seattle",
+  "zip": "98121",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell (Anthony's Select, Discovery Bay)",
+   "clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "fish & chips (Bell Street Diner and Fish Bar)"
+  ],
+  "opened": 1996,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's flagship on the downtown waterfront; the casual Bell Street Diner and the walk-up Anthony's Fish Bar are in the same building, all opened in 1996.",
+  "display_note": "Anthony's flagship on the downtown waterfront, opened in 1996, with the casual Bell Street Diner and the walk-up Anthony's Fish Bar in the same building.",
+  "website": "https://anthonys.com/restaurant/pier-66/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/pier-66/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's at Point Defiance",
+  "address": "5910 N Waterfront Dr",
+  "city": "Tacoma",
+  "zip": "98407",
+  "county": "Pierce",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell",
+   "pan-fried Willapa Bay oysters",
+   "clam chowder",
+   "wild Alaska halibut 'n chips",
+   "Dungeness crab",
+   "salmon"
+  ],
+  "opened": null,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's seafood restaurant at Point Defiance with a view of Commencement Bay and the Vashon ferry.",
+  "display_note": "Anthony's seafood restaurant at Point Defiance with a view of Commencement Bay and the Vashon ferry.",
+  "website": "https://anthonys.com/restaurant/anthonys-at-point-defiance/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-at-point-defiance/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's at Columbia Point",
+  "address": "550 Columbia Point Dr",
+  "city": "Richland",
+  "zip": "99352",
+  "county": "Benton",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried Willapa Bay oysters",
+   "New England-style clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "wild true cod 'n chips"
+  ],
+  "opened": 2004,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's seafood restaurant on the Columbia River at Columbia Point Marina; one of three Anthony's opened in 2004 when the brand first crossed the Cascades.",
+  "display_note": "Anthony's seafood restaurant on the Columbia River at Columbia Point Marina, one of three Anthony's that opened in 2004 when the brand first crossed the Cascades.",
+  "website": "https://anthonys.com/restaurant/anthonys-at-richland-columbia-point/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-at-richland-columbia-point/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Anthony's at Spokane Falls",
+  "address": "510 N Lincoln St",
+  "city": "Spokane",
+  "zip": "99201",
+  "county": "Spokane",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried Willapa Bay oysters",
+   "New England-style clam chowder",
+   "Dungeness crab",
+   "wild salmon",
+   "halibut",
+   "wild true cod 'n chips"
+  ],
+  "opened": 2004,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's seafood restaurant overlooking the Spokane Falls; opened in 2004 per the brand's timeline.",
+  "display_note": "Anthony's seafood restaurant overlooking the Spokane Falls, opened in 2004.",
+  "website": "https://anthonys.com/restaurant/anthonys-at-spokane-falls/",
+  "sources": [
+   {
+    "url": "https://anthonys.com/restaurant/anthonys-at-spokane-falls/",
+    "what": "own location page, live: address, current hours and full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Chinook's at Salmon Bay",
+  "address": "1900 W Nickerson St",
+  "city": "Seattle",
+  "zip": "98119",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried Willapa Bay oysters",
+   "oyster stew",
+   "Boston clam chowder",
+   "fish and chips",
+   "Dungeness crab",
+   "wild Alaska salmon"
+  ],
+  "opened": 1988,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Anthony's-owned seafood restaurant at Fishermen's Terminal among the fishing fleet, with a to-go fish bar (Little Chinook's) alongside; opened in 1988.",
+  "display_note": "Seafood restaurant at Fishermen's Terminal among the fishing fleet, opened in 1988 and owned by Anthony's. Little Chinook's, a to-go fish bar, is alongside.",
+  "website": "https://chinooksrestaurant.com/",
+  "sources": [
+   {
+    "url": "https://chinooksrestaurant.com/",
+    "what": "own website, live: address, current hours, full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand timeline: Chinook's at Salmon Bay opened in 1988 at Fishermen's Terminal",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Harbor Lights",
+  "address": "2761 N Ruston Way",
+  "city": "Tacoma",
+  "zip": "98402",
+  "county": "Pierce",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "steamed clams",
+   "pan-fried Willapa Bay oysters",
+   "clam chowder",
+   "panko true cod 'n chips",
+   "Dungeness crab",
+   "salmon"
+  ],
+  "opened": 1959,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ruston Way seafood house opened in 1959 by Anton Barcott; serves a four-pound bucket of steamed clams; part of the Anthony's group since 2000.",
+  "display_note": "Ruston Way seafood house opened in 1959 by Anton Barcott, serving a four-pound bucket of steamed clams. Part of the Anthony's group since 2000.",
+  "website": "https://theharborlights.com/",
+  "sources": [
+   {
+    "url": "https://theharborlights.com/",
+    "what": "own website, live: address, history (opened 1959, joined Anthony's 2000), full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Boathouse 19",
+  "address": "9001 S 19th St",
+  "city": "Tacoma",
+  "zip": "98466",
+  "county": "Pierce",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried oysters",
+   "clam chowder",
+   "Alaskan cod & chips",
+   "halibut",
+   "salmon"
+  ],
+  "opened": null,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "Seafood restaurant with a view of the Narrows Bridge, on the site of an old lumber mill; part of the Anthony's group since 2022.",
+  "display_note": "Seafood restaurant with a view of the Narrows Bridge, on the site of an old lumber mill. Part of the Anthony's group since 2022.",
+  "website": "https://theboathouse19.com/",
+  "sources": [
+   {
+    "url": "https://theboathouse19.com/",
+    "what": "own website, live: address, phone, full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/about/",
+    "what": "brand history: founded 1973 in Bellevue; HomePort Kirkland 1976; timeline of openings",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Tides Tavern",
+  "address": "2925 Harborview Dr",
+  "city": "Gig Harbor",
+  "zip": "98335",
+  "county": "Pierce",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "New England clam chowder",
+   "steamed Manila clams",
+   "Dungeness crab sandwich",
+   "grilled halibut",
+   "smoked salmon",
+   "Bloody Mary oyster shot"
+  ],
+  "opened": 1973,
+  "brand_founded": 1973,
+  "chain": true,
+  "kasahara": false,
+  "note": "21+ waterfront tavern in a 1910 mercantile building, run as Tides Tavern since 1973; joined the Anthony's group in 2026.",
+  "display_note": "21+ waterfront tavern in a 1910 mercantile building, run as Tides Tavern since 1973. Joined the Anthony's group in 2026.",
+  "website": "https://tidestavern.com/",
+  "sources": [
+   {
+    "url": "https://tidestavern.com/",
+    "what": "own website, live: address, current hours, history (1973; Anthony's family from 2026)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://tidestavern.com/menu/",
+    "what": "own menu page, live: clam chowder, Manila clams, Dungeness crab, halibut",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://anthonys.com/restaurants/",
+    "what": "brand's restaurant list, live (copyright 2026), lists this location",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Taylor Shellfish Oyster Bar (Queen Anne)",
+  "address": "124 Republican St",
+  "city": "Seattle",
+  "zip": "98109",
+  "county": "King",
+  "kinds": [
+   "oysters"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell",
+   "steamed clams and mussels",
+   "geoduck sashimi",
+   "Dungeness crab"
+  ],
+  "opened": null,
+  "brand_founded": 1890,
+  "chain": true,
+  "kasahara": false,
+  "note": "Taylor Shellfish oyster bar across from Seattle Center; seats are first come, first served. Taylor grows its own oysters, including Shigoku, Kumamoto, Olympia and Totten Inlet Virginica.",
+  "display_note": "Taylor Shellfish oyster bar across from Seattle Center; seats are first come, first served. Taylor grows its own oysters, including Shigoku, Kumamoto and Olympia.",
+  "website": "https://www.taylorshellfishfarms.com/locations/queen-anne",
+  "sources": [
+   {
+    "url": "https://www.taylorshellfishfarms.com/locations/queen-anne",
+    "what": "own location page, live: address, current hours, menu summary",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/locations",
+    "what": "brand's location list, live: oyster bars and shellfish markets",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/about-us",
+    "what": "company history: family farming shellfish since 1890, starting with Olympia oysters in Totten Inlet",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/our-shellfish",
+    "what": "company's shellfish list: Shigoku, Kumamoto, Olympia, Pacific and Totten Inlet Virginica oysters, geoduck, mussels",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Taylor Shellfish Oyster Bar (Capitol Hill / Melrose)",
+  "address": "1521 Melrose Ave",
+  "city": "Seattle",
+  "zip": "98122",
+  "county": "King",
+  "kinds": [
+   "oysters"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell",
+   "steamed Manila clams",
+   "Totten Inlet mussels",
+   "Dungeness crab"
+  ],
+  "opened": null,
+  "brand_founded": 1890,
+  "chain": true,
+  "kasahara": false,
+  "note": "Taylor's original Seattle oyster bar, part shellfish deli: sit down for shucked oysters or buy live shellfish from the tank to take home. Taylor grows its own oysters, including Shigoku, Kumamoto, Olympia and Totten Inlet Virginica.",
+  "display_note": "Taylor's original Seattle oyster bar and shellfish deli: sit down for shucked oysters or buy live shellfish from the tank to take home.",
+  "website": "https://www.taylorshellfishfarms.com/locations/capitol-hill-melrose",
+  "sources": [
+   {
+    "url": "https://www.taylorshellfishfarms.com/locations/capitol-hill-melrose",
+    "what": "own location page, live: address, current hours, menu summary",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/locations",
+    "what": "brand's location list, live: oyster bars and shellfish markets",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/about-us",
+    "what": "company history: family farming shellfish since 1890, starting with Olympia oysters in Totten Inlet",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/our-shellfish",
+    "what": "company's shellfish list: Shigoku, Kumamoto, Olympia, Pacific and Totten Inlet Virginica oysters, geoduck, mussels",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Taylor Shellfish Oyster Bar (Pioneer Square)",
+  "address": "410 Occidental Ave S",
+  "city": "Seattle",
+  "zip": "98104",
+  "county": "King",
+  "kinds": [
+   "oysters"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell",
+   "oyster po' boy",
+   "shrimp po' boy"
+  ],
+  "opened": null,
+  "brand_founded": 1890,
+  "chain": true,
+  "kasahara": false,
+  "note": "Taylor's oyster bar in the Washington Shoe Building near the stadiums and King Street Station. Taylor grows its own oysters, including Shigoku, Kumamoto, Olympia and Totten Inlet Virginica.",
+  "display_note": "Taylor's oyster bar in the Washington Shoe Building near the stadiums and King Street Station, with oyster and shrimp po' boys.",
+  "website": "https://www.taylorshellfishfarms.com/locations/pioneer-square",
+  "sources": [
+   {
+    "url": "https://www.taylorshellfishfarms.com/locations/pioneer-square",
+    "what": "own location page, live: address, current hours, menu summary",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/locations",
+    "what": "brand's location list, live: oyster bars and shellfish markets",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/about-us",
+    "what": "company history: family farming shellfish since 1890, starting with Olympia oysters in Totten Inlet",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/our-shellfish",
+    "what": "company's shellfish list: Shigoku, Kumamoto, Olympia, Pacific and Totten Inlet Virginica oysters, geoduck, mussels",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Taylor Shellfish Samish Oyster Bar & Shellfish Market",
+  "address": "2182 Chuckanut Dr",
+  "city": "Bow",
+  "zip": "98232",
+  "county": "Skagit",
+  "kinds": [
+   "oysters"
+  ],
+  "open": true,
+  "dishes": [
+   "trays of freshly shucked oysters",
+   "barbecued shellfish",
+   "Dungeness crab",
+   "prawns",
+   "local fish dishes"
+  ],
+  "opened": null,
+  "brand_founded": 1890,
+  "chain": true,
+  "kasahara": false,
+  "note": "Taylor's Samish Bay farm on Chuckanut Drive: order shucked or grilled shellfish and eat at waterfront picnic tables (first come, first served); daily-changing seasonal menu.",
+  "display_note": "Taylor's Samish Bay farm on Chuckanut Drive: order shucked or grilled shellfish and eat at waterfront picnic tables. The seasonal menu changes daily.",
+  "website": "https://www.taylorshellfishfarms.com/locations/samish-oyster-bar-and-seafood-market",
+  "sources": [
+   {
+    "url": "https://www.taylorshellfishfarms.com/locations/samish-oyster-bar-and-seafood-market",
+    "what": "own location page, live: address, current daily hours, description of the farm oyster bar",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/locations",
+    "what": "brand's location list, live: oyster bars and shellfish markets",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/about-us",
+    "what": "company history: family farming shellfish since 1890, starting with Olympia oysters in Totten Inlet",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Taylor Shellfish Shelton Seafood Market",
+  "address": "130 SE Lynch Rd",
+  "city": "Shelton",
+  "zip": "98584",
+  "county": "Mason",
+  "kinds": [
+   "oysters"
+  ],
+  "open": true,
+  "dishes": [
+   "live oysters to shuck yourself",
+   "geoduck chowder (hot)",
+   "smoked scallops",
+   "smoked salmon"
+  ],
+  "opened": null,
+  "brand_founded": 1890,
+  "chain": true,
+  "kasahara": false,
+  "note": "Shellfish market at Taylor's Shelton headquarters on US-101. Not an oyster bar: buy oysters and shuck them at the picnic tables, or get a cup of hot geoduck chowder.",
+  "display_note": "Shellfish market at Taylor's Shelton headquarters on US-101: buy oysters and shuck them at the picnic tables, or get a cup of hot geoduck chowder.",
+  "website": "https://www.taylorshellfishfarms.com/locations/shelton-seafood-market",
+  "sources": [
+   {
+    "url": "https://www.taylorshellfishfarms.com/locations/shelton-seafood-market",
+    "what": "own location page, live: address, current hours, picnic-table shucking and hot geoduck chowder",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/locations",
+    "what": "brand's location list, live: oyster bars and shellfish markets",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.taylorshellfishfarms.com/about-us",
+    "what": "company history: family farming shellfish since 1890, starting with Olympia oysters in Totten Inlet",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Elliott's Oyster House",
+  "address": "1201 Alaskan Way, Pier 56",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "oysters",
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell (24-26 varieties at the oyster bar)",
+   "oyster happy hour",
+   "Northwest seafood"
+  ],
+  "opened": 1975,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Seafood house on Pier 56 with a long oyster bar; holds an annual all-you-can-eat oyster party each November. A 20% service charge is added to checks.",
+  "display_note": "Seafood house on Pier 56, open since 1975, with an oyster bar of 24 to 26 varieties. Holds an all-you-can-eat oyster party each November.",
+  "website": "https://elliottsoysterhouse.com/",
+  "sources": [
+   {
+    "url": "https://elliottsoysterhouse.com/",
+    "what": "own website, live: Pier 56 address, current hours, oyster bar of 24-26 varieties, November 2026 oyster event",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://elliottsoysterhouse.com/about/",
+    "what": "own about page: opened in 1975",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Walrus and the Carpenter",
+  "address": "4743 Ballard Ave NW",
+  "city": "Seattle",
+  "zip": "98107",
+  "county": "King",
+  "kinds": [
+   "oysters"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell (e.g. Blue Pool from Hama Hama, Baywater Sweets, Cliff Point)",
+   "fried oysters",
+   "Hama Hama clams",
+   "Dungeness crab roll",
+   "halibut crudo",
+   "grilled sardines"
+  ],
+  "opened": 2010,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Old Ballard oyster bar opened in 2010; the oyster list names each farm and bay and the menu changes daily. Walk-in only, first come, first served.",
+  "display_note": "Old Ballard oyster bar opened in 2010; the oyster list names each farm and bay, and the menu changes daily. Walk-in only.",
+  "website": "https://thewalrusbar.com/",
+  "sources": [
+   {
+    "url": "https://thewalrusbar.com/",
+    "what": "own website, live: address, hours, 'opened in 2010', walk-in policy",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://sea-creatures-satellites.sfo3.digitaloceanspaces.com/walrus-carpenter/uploads/Walrus-Food-Menu-10.03.26.pdf",
+    "what": "own food menu PDF dated 10.03.26 (linked from thewalrusbar.com/menu): named oysters by farm and bay",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Emmett Watson's Oyster Bar",
+  "address": "1916 Pike Pl",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "oysters",
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell",
+   "fried oysters",
+   "oyster stew",
+   "New England clam chowder",
+   "blackened salmon Caesar"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Casual oyster bar at Pike Place Market; it occasionally closes for a day to restock after busy weekends.",
+  "display_note": "Casual oyster bar at Pike Place Market with oyster stew and clam chowder. It sometimes closes for a day to restock after busy weekends.",
+  "website": "https://emmettwatsonsoysterbar.com/",
+  "sources": [
+   {
+    "url": "https://emmettwatsonsoysterbar.com/",
+    "what": "own website, live: address, current notice and hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://emmettwatsonsoysterbar.com/food-menu",
+    "what": "own food menu page, live: oysters, chowder, oyster stew",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-06-25"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Frank's Oyster House & Champagne Parlor",
+  "address": "2616 NE 55th St",
+  "city": "Seattle",
+  "zip": "98105",
+  "county": "King",
+  "kinds": [
+   "oysters"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell",
+   "baked oysters with parmesan-cognac aioli"
+  ],
+  "opened": 2009,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Ravenna oyster bar and Champagne parlor founded in 2009 by Sarah Penn and named for her grandfather; dinner Tuesday to Saturday.",
+  "display_note": "Ravenna oyster bar and Champagne parlor founded in 2009 by Sarah Penn and named for her grandfather. Dinner Tuesday to Saturday.",
+  "website": "https://www.franksoysterhouse.com/",
+  "sources": [
+   {
+    "url": "https://www.franksoysterhouse.com/",
+    "what": "own website, live: founding story (2009), current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.franksoysterhouse.com/eat",
+    "what": "own menu page, live: oysters",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Shuckers Oyster Bar",
+  "address": "411 University St",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "oysters",
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters (raw and cooked, four ways)",
+   "Pacific Northwest seafood"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Oyster bar and seafood pub inside the Fairmont Olympic Hotel, set in a preserved 1930s haberdashery with a tin ceiling and carved oak.",
+  "display_note": "Oyster bar and seafood pub inside the Fairmont Olympic Hotel, set in a preserved 1930s haberdashery with a tin ceiling and carved oak.",
+  "website": "https://www.fairmont.com/seattle/dining/shuckers/",
+  "sources": [
+   {
+    "url": "https://www.fairmont.com/en/hotels/seattle/fairmont-olympic-hotel/dining/shuckers.restaurant.html",
+    "what": "hotel's own restaurant page, live: current hours, happy hour, oysters prepared four ways",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-06-11"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "All Water Seafood & Oyster Bar",
+  "address": "1000 1st Ave",
+  "city": "Seattle",
+  "zip": "98104",
+  "county": "King",
+  "kinds": [
+   "oysters",
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "Puget Sound oysters",
+   "Manila and littleneck clams",
+   "Penn Cove mussels",
+   "Pacific king salmon",
+   "halibut",
+   "Dungeness crab (seasonal)"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Seafood restaurant in downtown's Hotel 1000, open for breakfast, lunch and dinner on weekdays; also runs oyster-shucking classes.",
+  "display_note": "Seafood restaurant in downtown's Hotel 1000, open for breakfast, lunch and dinner on weekdays. Also runs oyster-shucking classes.",
+  "website": "https://www.allwaterseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.allwaterseattle.com/",
+    "what": "own website, live: address, current hours, oyster shucking class",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.allwaterseattle.com/about-us",
+    "what": "own about page: seafood sourcing (oysters, clams, Penn Cove mussels, king salmon, halibut)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Matt's Rotisserie & Oyster Lounge",
+  "address": "7325 166th Ave NE, Suite F210",
+  "city": "Redmond",
+  "zip": "98052",
+  "county": "King",
+  "kinds": [
+   "oysters"
+  ],
+  "open": true,
+  "dishes": [
+   "raw oysters shucked to order",
+   "crispy fried oysters",
+   "white wine steamed clams",
+   "seafood chowder",
+   "Dungeness crab and artichoke dip",
+   "halibut"
+  ],
+  "opened": null,
+  "brand_founded": 2003,
+  "chain": false,
+  "kasahara": false,
+  "note": "Rotisserie and steak restaurant in Redmond with an oyster lounge, serving since 2003. The map listing showed an older address (16551 NE 74th St); this is the address on its site.",
+  "display_note": "Rotisserie and steak restaurant in Redmond with an oyster lounge, serving since 2003.",
+  "website": "https://www.mattsrotisserie.com/",
+  "sources": [
+   {
+    "url": "https://www.mattsrotisserie.com/",
+    "what": "own website, live: address, 'since 2003'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.mattsrotisserie.com/menu/dinner",
+    "what": "own dinner menu, live: oysters, clams, seafood chowder, halibut",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected under the listed 16551 NE 74th St address; shows it operates, not what it serves",
+    "date": "2026-08-18"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Hama Hama Oyster Saloon & Farm Store",
+  "address": "35846 N US Hwy 101",
+  "city": "Lilliwaup",
+  "zip": "98555",
+  "county": "Mason",
+  "kinds": [
+   "oysters"
+  ],
+  "open": true,
+  "dishes": [
+   "Hama Hama oysters (raw and grilled)",
+   "Blue Pool oysters",
+   "clams",
+   "seafood chowder (farm store)",
+   "u-shuck oysters",
+   "house-smoked oysters and salmon"
+  ],
+  "opened": 2014,
+  "brand_founded": 1922,
+  "chain": false,
+  "kasahara": false,
+  "note": "Sixth-generation family oyster farm on Hood Canal. The outdoor Oyster Saloon (added 2014) is open Friday-Sunday with all seating outside; the farm store sells oysters, chowder and u-shuck oysters daily. The map listing gave 301 N Lon Webb Rd; this is the address on the farm's site.",
+  "display_note": "Sixth-generation family oyster farm on Hood Canal. The outdoor Oyster Saloon, added in 2014, opens Friday to Sunday; the farm store sells oysters and chowder daily.",
+  "website": "https://hamahamaoysters.com/",
+  "sources": [
+   {
+    "url": "https://hamahamaoysters.com/",
+    "what": "own website, live (copyright 2026): address, Saloon open weekends year round",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://hamahamaoysters.com/pages/oyster-saloon",
+    "what": "own Oyster Saloon page, live: Friday-Sunday hours, outdoor seating, menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://hamahamaoysters.com/pages/farm-store",
+    "what": "own farm store page: open daily, chowder and u-shuck oysters",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://hamahamaoysters.com/pages/story",
+    "what": "own history: restaurant added 2014; company centennial in 2022",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Fjord Oyster Bank",
+  "address": "24341 US-101",
+  "city": "Hoodsport",
+  "zip": "98548",
+  "county": "Mason",
+  "kinds": [
+   "oysters",
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell (raw)",
+   "grilled oysters on the half shell",
+   "clam chowder",
+   "geoduck chowder",
+   "sauteed steamer clams"
+  ],
+  "opened": 2022,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Restaurant in a former bank building above Hood Canal and the Hoodsport hatchery; opened in 2022 with guidance from chef Xinh Dwelley.",
+  "display_note": "Restaurant in a former bank building above Hood Canal and the Hoodsport hatchery, opened in 2022 with guidance from chef Xinh Dwelley. Serves geoduck chowder and grilled oysters.",
+  "website": "https://www.tracingthefjord.com/oyster-bank",
+  "sources": [
+   {
+    "url": "https://www.tracingthefjord.com/oyster-bank",
+    "what": "own page, live: address, '2026 fall restaurant hours', menu with oysters and chowders, history (2022)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Chelsea Farms Oyster Bar",
+  "address": "222 Capitol Way N, Ste 114",
+  "city": "Olympia",
+  "zip": "98501",
+  "county": "Thurston",
+  "kinds": [
+   "oysters"
+  ],
+  "open": true,
+  "dishes": [
+   "Chelsea Gem Pacific oysters (Eld Inlet)",
+   "Chelsea Olympia oysters (Eld Inlet)",
+   "Chelsea Bonita oysters",
+   "Mirimichi oysters (Totten Inlet)",
+   "Hama Hama oysters",
+   "Kumamoto oysters"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Downtown Olympia oyster bar run by Chelsea Farms, which grows oysters in Eld and Totten inlets; dining room plus a 21+ lounge.",
+  "display_note": "Downtown Olympia oyster bar run by Chelsea Farms, which grows oysters in Eld and Totten inlets. Dining room plus a 21+ lounge.",
+  "website": "https://www.chelseafarms.net/",
+  "sources": [
+   {
+    "url": "https://www.chelseafarms.net/hours-and-information",
+    "what": "own hours page, live: address, current hours, happy hour",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.chelseafarms.net/menu",
+    "what": "own oyster menu page (sample menu): named oysters by inlet",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Olympia Oyster House",
+  "address": "320 4th Ave W",
+  "city": "Olympia",
+  "zip": "98501",
+  "county": "Thurston",
+  "kinds": [
+   "oysters",
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "fried Pacific oysters",
+   "baked oysters (Rockefeller, Benedict, bacon bleu)",
+   "oyster stew",
+   "clam chowder",
+   "steamers",
+   "seafood Louie",
+   "oyster po' boy"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Seafood restaurant in downtown Olympia, in the building where the Olympia Oyster Company culled native oysters in 1859; its menu says est. 1924, and it is under new management.",
+  "display_note": "Seafood restaurant in downtown Olympia, in the building where the Olympia Oyster Company culled native oysters in 1859. Established in 1924; now under new management.",
+  "website": "https://www.olympiaoysterhouse.com/",
+  "sources": [
+   {
+    "url": "https://www.olympiaoysterhouse.com/",
+    "what": "own website, live: address, building history",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://images.squarespace-cdn.com/content/v1/62c8aee2a6b36f353af97e44/c986fa2f-a377-45c9-a029-7faff5da2beb/OH+Menu+25+-+1.jpeg",
+    "what": "own 2025 menu ('OH Menu 25'), posted on olympiaoysterhouse.com/menu",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Drayton Harbor Oyster Co.",
+  "address": "685 Peace Portal Dr",
+  "city": "Blaine",
+  "zip": "98230",
+  "county": "Whatcom",
+  "kinds": [
+   "oysters"
+  ],
+  "open": true,
+  "dishes": [
+   "raw Drayton oysters on the half shell",
+   "grilled oysters",
+   "fried oysters",
+   "oyster chowder",
+   "oyster po' boy",
+   "fried oyster, rockfish or shrimp baskets"
+  ],
+  "opened": null,
+  "brand_founded": 1980,
+  "chain": false,
+  "kasahara": false,
+  "note": "Oyster bar run by a farm whose oysters grow less than a mile away in Drayton Harbor; it began selling oysters from this storefront in 2015. Indoor and outdoor seating near the Peace Arch border crossing.",
+  "display_note": "Oyster bar run by a farm whose oysters grow less than a mile away in Drayton Harbor, near the Peace Arch border crossing. Indoor and outdoor seating.",
+  "website": "https://www.draytonharboroysters.com/",
+  "sources": [
+   {
+    "url": "https://www.draytonharboroysters.com/",
+    "what": "own website, live (c) 2026: address, current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.draytonharboroysters.com/menu-ordering",
+    "what": "own menu and ordering page, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.draytonharboroysters.com/our-story",
+    "what": "own story: farm 'since 1980', oyster sales from the storefront from 2015",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Rock and Rye Oyster House",
+  "address": "1145 N State St",
+  "city": "Bellingham",
+  "zip": "98225",
+  "county": "Whatcom",
+  "kinds": [
+   "oysters",
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell (Massimo from Samish Bay, Judd Cove from Orcas Island)",
+   "oysters Rockefeller",
+   "pan-fried oysters",
+   "oyster shooter",
+   "beer-battered cod fish & chips",
+   "saffron corn chowder with clams",
+   "seared halibut"
+  ],
+  "opened": 2014,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Downtown Bellingham oyster house (est. 2014) with a rotating list of Washington oysters; dinner Tuesday to Sunday.",
+  "display_note": "Downtown Bellingham oyster house, established in 2014, with a rotating list of Washington oysters. Dinner Tuesday to Sunday.",
+  "website": "https://www.rockrye.com/",
+  "sources": [
+   {
+    "url": "https://www.rockrye.com/",
+    "what": "own website, live: address, current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.rockrye.com/s/Dinner-Drinks-May-2026.pdf",
+    "what": "own dinner menu PDF, May 2026: named oysters, fish & chips, chowder; 'Est. 2014'",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Oystercatcher",
+  "address": "901 Grace St",
+  "city": "Coupeville",
+  "zip": "98239",
+  "county": "Island",
+  "kinds": [
+   "oysters",
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "half dozen oysters",
+   "grilled oysters (add Dungeness crab)",
+   "Dungeness crab risotto"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Dinner restaurant in Coupeville on Whidbey Island, open Thursday to Sunday; the site says it marked 26 years in business in August 2024, now under owners Sophia Kitay and Ben Jones.",
+  "display_note": "Dinner restaurant in Coupeville on Whidbey Island, open Thursday to Sunday. It marked 26 years in business in 2024 and is owned by Sophia Kitay and Ben Jones.",
+  "website": "https://www.oystercatcherwhidbey.com/",
+  "sources": [
+   {
+    "url": "https://www.oystercatcherwhidbey.com/",
+    "what": "own website, live: address, current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.oystercatcherwhidbey.com/dinner-menu",
+    "what": "own dinner menu page, live: oysters, Dungeness crab",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Saltwater Fish House & Oyster Bar",
+  "address": "113 1st St",
+  "city": "Langley",
+  "zip": "98260",
+  "county": "Island",
+  "kinds": [
+   "oysters",
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters",
+   "fish and chips",
+   "clam chowder",
+   "lobster rolls",
+   "crab cakes",
+   "mussels",
+   "clams"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Seafood house in Langley from the owners of Prima Bistro; no reservations. Its site posted a one-day closure on October 13 for seasonal projects.",
+  "display_note": "Seafood house in Langley from the owners of Prima Bistro, with oysters, lobster rolls and crab cakes. No reservations.",
+  "website": "https://saltwaterlangley.com/",
+  "sources": [
+   {
+    "url": "https://saltwaterlangley.com/",
+    "what": "own website, live: address, current hours and October 2026 notices, menu summary",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "http://saltwaterlangley.com/wp-content/uploads/2026/01/saltwater-jan-2026.pdf",
+    "what": "own menu PDF, January 2026 (linked from the site)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Salty Girls Seafood",
+  "address": "210 W Washington St #3",
+  "city": "Sequim",
+  "zip": "98382",
+  "county": "Clallam",
+  "kinds": [
+   "oysters",
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "raw oyster bar (Shigoku, Pacific, Johnson & Gunstone oysters from Discovery Bay and Hood Canal)",
+   "baked oysters",
+   "oysters Rockefeller",
+   "steamed clams",
+   "Penn Cove mussels",
+   "chowders"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Casual oyster bar and seafood counter in downtown Sequim; dine in or take out. Closed Tuesdays.",
+  "display_note": "Casual oyster bar and seafood counter in downtown Sequim, with oysters from Discovery Bay and Hood Canal. Dine in or take out; closed Tuesdays.",
+  "website": "https://www.saltygirlsseafood.com/",
+  "sources": [
+   {
+    "url": "https://www.saltygirlsseafood.com/",
+    "what": "own website, live: address, current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.saltygirlsseafood.com/food-menu",
+    "what": "own food menu, live: named oysters, baked oysters, clams, mussels",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Squaxin Island Seafood Bar",
+  "address": "91 W State Route 108 (Little Creek Casino Resort)",
+  "city": "Shelton",
+  "zip": "98584",
+  "county": "Mason",
+  "kinds": [
+   "oysters",
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell",
+   "Dungeness crab bisque",
+   "crab cocktail",
+   "shrimp saute with Thai peanut sauce",
+   "seafood tower (king crab, Dungeness crab, oysters, mussels, clams)"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Seafood bar at the Squaxin Island Tribe's Little Creek Casino Resort near Shelton, where cooks prepare dishes in view of diners.",
+  "display_note": "Seafood bar at the Squaxin Island Tribe's Little Creek Casino Resort near Shelton, where cooks prepare dishes in view of diners.",
+  "website": "https://littlecreek.com/seafood-bar/",
+  "sources": [
+   {
+    "url": "https://littlecreek.com/seafood-bar/",
+    "what": "resort's own Seafood Bar page, live (copyright 2026): hours and menu highlights",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Chuckanut Manor Seafood & Grill",
+  "address": "3056 Chuckanut Dr",
+  "city": "Bow",
+  "zip": "98232",
+  "county": "Skagit",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters Rockefeller (Pacific oysters)",
+   "fried oysters",
+   "Taylor Shellfish clams",
+   "clam chowder",
+   "Alaskan halibut & chips",
+   "Northwest cioppino",
+   "pistachio-crusted rockfish"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Seafood and grill restaurant on Chuckanut Drive overlooking Samish Bay; the building dates to the 1930s and was expanded in 1968.",
+  "display_note": "Seafood and grill restaurant on Chuckanut Drive overlooking Samish Bay, in a building that dates to the 1930s and was expanded in 1968.",
+  "website": "https://www.chuckanutmanor.com/",
+  "sources": [
+   {
+    "url": "https://www.chuckanutmanor.com/",
+    "what": "own website, live: address, current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://images.squarespace-cdn.com/content/v1/528aa5a8e4b009fd592e99c2/39c62854-67ea-4840-86dd-65d6abcd2a5f/Dinner+June+2026+%283%29.png",
+    "what": "own dinner menu image 'Dinner June 2026', posted on chuckanutmanor.com/menu",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Mr. Fish Chips & Chowder",
+  "address": "2010 Western Ave",
+  "city": "Seattle",
+  "zip": "98121",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "classic fish & chips",
+   "halibut & chips",
+   "clam and bacon chowder",
+   "raw oysters (Hama Hama)",
+   "30 Mile clams",
+   "Dungeness crab"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Fish-and-chips and chowder spot at the north end of Pike Place Market; has an oyster happy hour.",
+  "display_note": "Fish-and-chips and chowder spot at the north end of Pike Place Market, with an oyster happy hour.",
+  "website": "https://www.mrfishseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.mrfishseattle.com/",
+    "what": "own website, live: address, hours, menu summary, Toast ordering link",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.mrfishseattle.com/menus/",
+    "what": "own menu page, live: fish & chips, chowder, raw oysters, crab",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-06-08"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Athenian Seafood Restaurant and Bar",
+  "address": "1517 Pike Pl",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "Alaskan king crab legs",
+   "seafood stew over herb rice (mussels, prawns, clams, squid, salmon, cod)",
+   "crab or bay shrimp Louie",
+   "chowder bread bowl",
+   "fried oyster pasta",
+   "Penn Cove mussels and clams",
+   "Alaskan cod"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Pike Place Market seafood restaurant and bar; its site says established 1909. Closed Wednesdays.",
+  "display_note": "Pike Place Market seafood restaurant and bar, established in 1909. Closed Wednesdays.",
+  "website": "https://athenianseattle.com/",
+  "sources": [
+   {
+    "url": "https://athenianseattle.com/",
+    "what": "own website, live (c) 2026: address, current hours, daily seafood specials",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://athenianseattle.com/menu/",
+    "what": "own menu page, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-08-06"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pike Place Chowder (Pike Place Market)",
+  "address": "1530 Post Alley",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "New England clam chowder",
+   "smoked salmon chowder",
+   "Manhattan clam chowder",
+   "Dungeness crab roll"
+  ],
+  "opened": null,
+  "brand_founded": 2003,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-owned chowder shop in Post Alley at Pike Place Market, the original of its two shops.",
+  "display_note": "Family-owned chowder shop in Post Alley at Pike Place Market, opened in 2003; the original of its two shops.",
+  "website": "https://www.pikeplacechowder.com/pikeplacemarketlocation",
+  "sources": [
+   {
+    "url": "https://www.pikeplacechowder.com/locations",
+    "what": "own locations page, live: Post Alley address, daily hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://order.toasttab.com/online/pike-place-chowder-1530-post-alley",
+    "what": "own Toast ordering page for this shop (linked from its site)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.pikeplacechowder.com/ourstory",
+    "what": "own history: opened in Pike Place Market in 2003",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pike Place Chowder (Pacific Place)",
+  "address": "600 Pine St, 4th Floor",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "New England clam chowder",
+   "smoked salmon chowder",
+   "fish n' chips",
+   "Dungeness crab roll"
+  ],
+  "opened": null,
+  "brand_founded": 2003,
+  "chain": false,
+  "kasahara": false,
+  "note": "Second Pike Place Chowder shop, on the 4th floor of Pacific Place mall, with more seating, a daily happy hour and a wider menu including fish and chips.",
+  "display_note": "Second Pike Place Chowder shop, on the 4th floor of Pacific Place, with more seating, a daily happy hour and a wider menu including fish and chips.",
+  "website": "https://www.pikeplacechowder.com/pacificplacelocation",
+  "sources": [
+   {
+    "url": "https://www.pikeplacechowder.com/locations",
+    "what": "own locations page, live: Pacific Place address, hours, happy hour",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.pikeplacechowder.com/",
+    "what": "own website FAQ: fish n' chips offered at Pacific Place",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.pikeplacechowder.com/ourstory",
+    "what": "own history: opened in Pike Place Market in 2003",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-06-08"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Jack's Fish Spot",
+  "address": "1514 Pike Pl",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "fish and chips",
+   "clam chowder",
+   "raw oysters",
+   "grilled salmon"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Fresh-fish counter in Pike Place Market with a small seafood bar that cooks fish and chips and chowder; the shop says it has been in the Market about 40 years.",
+  "display_note": "Fresh-fish counter in Pike Place Market with a small seafood bar that cooks fish and chips and chowder. It has been in the Market about 40 years.",
+  "website": "https://jacksfishspot.com/",
+  "sources": [
+   {
+    "url": "https://jacksfishspot.com/",
+    "what": "own website, live: seafood bar description (fish and chips, chowder, raw oysters, grilled salmon)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://jacksfishspot.com/contact-us/",
+    "what": "own contact page, live: 1514 Pike Place and hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Spud Fish & Chips (Green Lake)",
+  "address": "6860 E Green Lake Way N",
+  "city": "Seattle",
+  "zip": "98115",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "Alaskan cod fish & chips",
+   "prawn & chips",
+   "oyster & chips",
+   "clam & chips",
+   "clam chowder"
+  ],
+  "opened": null,
+  "brand_founded": 1940,
+  "chain": false,
+  "kasahara": false,
+  "note": "Fish-and-chips shop on East Green Lake Way; the Green Lake Spud has moved homes around the lake over the years and opened its current space in 2022.",
+  "display_note": "Fish-and-chips shop on East Green Lake Way. Spud has served Green Lake since 1940, moving around the lake over the years, and opened this space in 2022.",
+  "website": "https://www.greenlakespud.com/",
+  "sources": [
+   {
+    "url": "https://www.greenlakespud.com/aboutus",
+    "what": "own about page: serving Green Lake since 1940; new space 2022",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.greenlakespud.com/menu",
+    "what": "own menu page, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.toasttab.com/spud-fish-chip-6860-e-green-lake-way-n/v3",
+    "what": "own Toast ordering page (linked from its site)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-05-22"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Alki Spud Fish & Chips",
+  "address": "2666 Alki Ave SW",
+  "city": "Seattle",
+  "zip": "98116",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "Alaska true cod fish & chips",
+   "Alaska rock cod",
+   "wild Pacific halibut & fries"
+  ],
+  "opened": 1935,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Fish-and-chips stand on Alki Beach started in 1935 by the Alger brothers in a converted garage on this beachfront; the building has since grown to two stories.",
+  "display_note": "Fish-and-chips stand on Alki Beach, started in 1935 by the Alger brothers in a converted garage on this beachfront. The building has since grown to two stories.",
+  "website": "https://www.alkispud.com/",
+  "sources": [
+   {
+    "url": "https://www.alkispud.com/",
+    "what": "own website, live: address, daily hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.alkispud.com/fihstory",
+    "what": "own history page: opened June 1935 on the Alki beachfront",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.alkispud.com/menu",
+    "what": "own menu page, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-05-06"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Spud Fish & Chips (Juanita Beach)",
+  "address": "9702 NE Juanita Dr",
+  "city": "Kirkland",
+  "zip": "98034",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "wild Alaskan cod fish & chips",
+   "halibut & chips",
+   "rockfish",
+   "soft-serve ice cream"
+  ],
+  "opened": 1969,
+  "brand_founded": 1935,
+  "chain": false,
+  "kasahara": false,
+  "note": "Fish-and-chips stand by Juanita Beach Park on Lake Washington, at this spot since 1969; its site traces the Spud name to Jack Alger's 1935 stand on Alki.",
+  "display_note": "Fish-and-chips stand by Juanita Beach Park on Lake Washington, at this spot since 1969. The Spud name goes back to Jack Alger's 1935 stand on Alki.",
+  "website": "https://www.spudfishandchips.com/juanita-beach",
+  "sources": [
+   {
+    "url": "https://www.spudfishandchips.com/juanita-beach",
+    "what": "own location page, live (c) 2026: 'since 1969' at Juanita Beach, menu summary",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.spudfishandchips.com/",
+    "what": "own website: open daily 10a-8p, Toast ordering",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-03-26"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Not Just Fish & Chips",
+  "address": "7347 35th Ave NE, #E",
+  "city": "Seattle",
+  "zip": "98115",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "panko Pacific cod & chips",
+   "Alaskan sockeye salmon & chips",
+   "butterflied prawns",
+   "clam strips"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Fish-and-chips shop in Wedgwood with seafood sandwiches and loaded fries; open Tuesday to Saturday.",
+  "display_note": "Fish-and-chips shop in Wedgwood with seafood sandwiches and loaded fries. Open Tuesday to Saturday.",
+  "website": "https://notjustfishandchips.com/",
+  "sources": [
+   {
+    "url": "https://notjustfishandchips.com/",
+    "what": "own website, live: address, current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://notjustfishandchips.com/menu",
+    "what": "own menu page, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-03-03"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "West Seattle Fish House",
+  "address": "9005 35th Ave SW",
+  "city": "Seattle",
+  "zip": "98126",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "cod fish & chips",
+   "salmon & chips",
+   "prawns & chips",
+   "cod cakes",
+   "clam chowder",
+   "salmon chowder"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Take-out fish-and-chips shop across from the Southwest Branch Library; open Monday to Saturday.",
+  "display_note": "Take-out fish-and-chips shop across from the Southwest Branch Library, with cod cakes and salmon chowder. Open Monday to Saturday.",
+  "website": "https://wsfishhouse.com/",
+  "sources": [
+   {
+    "url": "https://wsfishhouse.com/",
+    "what": "own website, live (c) 2021-2026: address, hours, full menu",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-06-18"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The 100 Pound Clam",
+  "address": "1001 Fairview Ave N",
+  "city": "Seattle",
+  "zip": "98109",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "fish & chips",
+   "seafood chowder",
+   "rotating oysters on the half shell",
+   "fried oyster sliders",
+   "Dungeness crab Louie wedge"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Seafood counter on South Lake Union; its site still listed 'spring hours' (Monday-Saturday, 11:30am-5pm) when checked, so confirm hours before going.",
+  "display_note": "Seafood counter on South Lake Union with fish and chips, seafood chowder, rotating oysters and fried oyster sliders.",
+  "website": "http://www.100poundclam.com/",
+  "sources": [
+   {
+    "url": "http://www.100poundclam.com/",
+    "what": "own website, live: address, menu, seasonal hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-07-15"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Salty Blue Fish & Chips",
+  "address": "601 S 3rd St, Suite D",
+  "city": "Renton",
+  "zip": "98057",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "New Zealand hoki fish & chips",
+   "Australian barramundi fish & chips"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Australian-style fish-and-chips shop in downtown Renton serving hoki and barramundi.",
+  "display_note": "Australian-style fish-and-chips shop in downtown Renton serving hoki and barramundi.",
+  "website": "https://saltyblueseattle.com/",
+  "sources": [
+   {
+    "url": "https://saltyblueseattle.com/",
+    "what": "own website, live (c) 2026: address, hours, menu PDF and Toast ordering",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2025-09-10"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Wally's Chowder House",
+  "address": "22531 Marine View Dr S",
+  "city": "Des Moines",
+  "zip": "98198",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "clam chowder",
+   "chowder bread bowl",
+   "fish & chips",
+   "Dungeness crab cocktail",
+   "Manila clams",
+   "clam strips",
+   "crab cakes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Chowder and fish-and-chips house in downtown Des Moines; open daily 11am-10pm.",
+  "display_note": "Chowder and fish-and-chips house in downtown Des Moines, with chowder bread bowls and Dungeness crab cocktail. Open daily.",
+  "website": "https://www.wallyschowderhouse.com/",
+  "sources": [
+   {
+    "url": "https://www.wallyschowderhouse.com/",
+    "what": "own website, live: address, daily hours, Toast ordering",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.wallyschowderhouse.com/main-menu",
+    "what": "own main menu, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-08-04"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "RockCreek Seafood & Spirits (Kirkland)",
+  "address": "89 Kirkland Ave",
+  "city": "Kirkland",
+  "zip": "98033",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters"
+  ],
+  "opened": 2024,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Kirkland branch of chef Eric Donnelly's seafood restaurant, opened in 2024 overlooking Lake Washington (the original is in Fremont). Menus are posted as images, so dishes are listed only in general terms.",
+  "display_note": "Kirkland branch of chef Eric Donnelly's seafood restaurant, opened in 2024 overlooking Lake Washington. The original is in Fremont.",
+  "website": "https://rockcreekseafood.com/kirkland-rock-creek-seafood/",
+  "sources": [
+   {
+    "url": "https://rockcreekseafood.com/kirkland-rock-creek-seafood/",
+    "what": "own location page, live: address, hours, 'oysters and ocean fare'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://rockcreekseafood.com/about/",
+    "what": "own about page: Kirkland opened in 2024",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-05-21"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ray's Boathouse & Cafe",
+  "address": "6049 Seaview Ave NW",
+  "city": "Seattle",
+  "zip": "98107",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "fish and chips",
+   "steamers",
+   "fresh oysters",
+   "clam chowder",
+   "wild salmon",
+   "Dungeness crab",
+   "halibut"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Shilshole waterfront seafood house with the Boathouse dining room downstairs and a casual Cafe upstairs; the site traces Ray's to a 1939 boat rental and fish-and-chips cafe.",
+  "display_note": "Shilshole waterfront seafood house with the Boathouse dining room downstairs and a casual Cafe upstairs. Ray's traces back to a 1939 boat rental and fish-and-chips cafe.",
+  "website": "https://www.rays.com/",
+  "sources": [
+   {
+    "url": "https://www.rays.com/",
+    "what": "own website, live (c) 2026: address, current hours, Thanksgiving 2026 notice, menu summary",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.rays.com/about",
+    "what": "own history page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Salty's on Alki Beach",
+  "address": "1936 Harbor Ave SW",
+  "city": "Seattle",
+  "zip": "98126",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "Northwest seafood",
+   "Sunday brunch buffet with chilled Dungeness crab legs",
+   "Emerald Acres oysters on the half shell"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": true,
+  "kasahara": false,
+  "note": "Family-owned (Kingen family) seafood restaurant on Alki; the brand also has a Portland location. Serves a Sunday brunch buffet.",
+  "display_note": "Family-owned seafood restaurant on Alki, run by the Kingen family, with a Sunday brunch buffet. The brand also has a Portland location.",
+  "website": "https://saltys.com/seattle/",
+  "sources": [
+   {
+    "url": "https://saltys.com/",
+    "what": "own website, live: Alki address, history",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://saltys.com/seattle/",
+    "what": "own Seattle page, live: lunch, dinner and brunch hours, brunch menu summary",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Seattle Fish Guys",
+  "address": "411 23rd Ave S",
+  "city": "Seattle",
+  "zip": "98144",
+  "county": "King",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "poke bowls (salmon, tuna, tako)",
+   "clam chowder",
+   "oyster shooters",
+   "smoked salmon",
+   "Dungeness crab (market)"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Central District fish market that also serves poke bowls, chowder and oyster shooters.",
+  "display_note": "Central District fish market that also serves poke bowls, chowder and oyster shooters.",
+  "website": "https://www.seattlefishguys.com/",
+  "sources": [
+   {
+    "url": "https://www.seattlefishguys.com/",
+    "what": "own website, live (c) 2026: address, market hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.seattlefishguys.com/restaurant-menu",
+    "what": "own restaurant menu page, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Castaway's Seafood Grille",
+  "address": "207 Pacific Ave S",
+  "city": "Long Beach",
+  "zip": "98631",
+  "county": "Pacific",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell",
+   "Dungeness crab cocktail",
+   "crab cakes",
+   "cheesy crab bread",
+   "clam chowder",
+   "fish and chips",
+   "cod tacos"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Casual seafood grill in downtown Long Beach with daily specials; hosts an annual Crab Pot Christmas event in December.",
+  "display_note": "Casual seafood grill in downtown Long Beach with daily specials. Hosts an annual Crab Pot Christmas event in December.",
+  "website": "https://castawayslongbeach.com/",
+  "sources": [
+   {
+    "url": "https://castawayslongbeach.com/",
+    "what": "own website, live: address, hours, December 2026 event",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://castawayslongbeach.com/food-menu",
+    "what": "own food menu page, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://surfsidewa.com/2026/09/09/long-beach-peninsula-restaurants-and-bakeries/",
+    "what": "Surfside (Ocean Park) peninsula dining roundup, Sept 9 2026: chowder, fish and chips",
+    "date": "2026-09-09"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Drop Anchor Seafood & Grill",
+  "address": "900 Pacific Ave S",
+  "city": "Long Beach",
+  "zip": "98631",
+  "county": "Pacific",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "fish and chips",
+   "clam chowder",
+   "oysters",
+   "prawns",
+   "seafood baskets"
+  ],
+  "opened": 2019,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-run seafood grill in Long Beach opened in August 2019 by Eddie Hillard in a former Dooger's; serves lunch and dinner. A sister breakfast-and-lunch bistro opened at the Port of Ilwaco in late 2025.",
+  "display_note": "Family-run seafood grill opened in August 2019 by Eddie Hillard in a former Dooger's; serves lunch and dinner. A sister bistro opened at the Port of Ilwaco in late 2025.",
+  "website": "https://dropanchorseafood.com/",
+  "sources": [
+   {
+    "url": "https://chinookobserver.com/2026/01/25/drop-anchor-bistro-lb-restaurant-expands-to-ilwaco-waterfront/",
+    "what": "Chinook Observer, Jan 25 2026: Long Beach restaurant open since August 2019, lunch and dinner",
+    "date": "2026-01-25"
+   },
+   {
+    "url": "https://surfsidewa.com/2026/09/09/long-beach-peninsula-restaurants-and-bakeries/",
+    "what": "Surfside peninsula dining roundup, Sept 9 2026: fish and chips, chowder, oysters, prawns",
+    "date": "2026-09-09"
+   },
+   {
+    "url": "https://dropanchorseafood.com/",
+    "what": "own website, live: address and hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Merino's Seafood Market",
+  "address": "301 E Harbor St",
+  "city": "Westport",
+  "zip": "98595",
+  "county": "Grays Harbor",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "fish 'n chips (walk-up window)",
+   "whole cooked Dungeness crab",
+   "smoked salmon",
+   "canned local albacore, salmon and razor clams"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Westport seafood market selling fish caught by local boats, with a walk-up fish-and-chips window open seven days a week.",
+  "display_note": "Westport seafood market selling fish caught by local boats, with a walk-up fish-and-chips window open seven days a week.",
+  "website": "https://merinoseafoods.com/",
+  "sources": [
+   {
+    "url": "https://merinoseafoods.com/",
+    "what": "own website, live (c) 2026: walk-up fish 'n chips window, products",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://merinoseafoods.com/contact-merinos/",
+    "what": "own contact page: 301 E Harbor St address",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Hook & Line Pub",
+  "address": "201 E Front St",
+  "city": "Port Angeles",
+  "zip": "98362",
+  "county": "Clallam",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "beer-battered fish & chips",
+   "halibut",
+   "flash-fried clam strips",
+   "Dungeness crab cakes",
+   "smoked salmon chowder",
+   "raw oyster shooters",
+   "gumbo"
+  ],
+  "opened": 2016,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Waterfront pub opened in 2016 next to its sister restaurant Kokopelli Grill; serves lunch and dinner daily.",
+  "display_note": "Waterfront pub opened in 2016 next to its sister restaurant Kokopelli Grill; serves lunch and dinner daily.",
+  "website": "https://www.hookandlinepub.com/",
+  "sources": [
+   {
+    "url": "https://www.hookandlinepub.com/",
+    "what": "own website, live: hours, daily specials, Toast ordering",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.hookandlinepub.com/menus/",
+    "what": "own menu page, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.hookandlinepub.com/about/",
+    "what": "own about page: opened in 2016",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "La Conner Seafood & Prime Rib House",
+  "address": "614 1st St",
+  "city": "La Conner",
+  "zip": "98257",
+  "county": "Skagit",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "pan-fried oysters",
+   "house-made clam chowder",
+   "halibut fish & chips",
+   "macadamia nut-crusted halibut",
+   "prime rib"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Seafood and prime rib restaurant on the Swinomish Channel in downtown La Conner; open daily.",
+  "display_note": "Seafood and prime rib restaurant on the Swinomish Channel in downtown La Conner. Open daily.",
+  "website": "https://laconnerseafood.com/",
+  "sources": [
+   {
+    "url": "https://laconnerseafood.com/",
+    "what": "own website, live: address, daily hours, menu highlights",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://static.showit.co/file/URN5t2jbwlB3C-Nlh91L-A/186425/2025_2026_menu.pdf",
+    "what": "own 2025-2026 menu PDF (linked from the site)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Beau Legs Fish & Chips",
+  "address": "8765 Tallon Ln NE, Suite G",
+  "city": "Lacey",
+  "zip": "98516",
+  "county": "Thurston",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "cod or salmon fish & chips with hush puppies",
+   "seafood gumbo",
+   "combination platters (shrimp, fish, oysters, crab cakes)",
+   "shrimp po' boy"
+  ],
+  "opened": null,
+  "brand_founded": 2009,
+  "chain": false,
+  "kasahara": false,
+  "note": "Southern-style fish-and-chips restaurant in a Lacey shopping plaza, serving since 2009; closed Sundays.",
+  "display_note": "Southern-style fish-and-chips restaurant in a Lacey shopping plaza, serving since 2009; fish and chips come with hush puppies. Closed Sundays.",
+  "website": "https://www.beaulegs.com/",
+  "sources": [
+   {
+    "url": "https://www.beaulegs.com/",
+    "what": "own website, live (c) 2025: address, current hours, menu summary, 'since 2009'",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Waterfront Tavern Seafood & Bar",
+  "address": "521 W Holly St",
+  "city": "Bellingham",
+  "zip": "98225",
+  "county": "Whatcom",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "beer-battered Pacific cod fish & chips",
+   "clam chowder",
+   "clam strips",
+   "fresh oysters"
+  ],
+  "opened": 1910,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Dive bar with a seafood kitchen over the mouth of Whatcom Creek; also serves breakfast, with pool and darts. Its site says it has been at this spot since 1910.",
+  "display_note": "Dive bar with a seafood kitchen over the mouth of Whatcom Creek, at this spot since 1910. Also serves breakfast, with pool and darts.",
+  "website": "https://waterfronttavernseafoodbar.com/",
+  "sources": [
+   {
+    "url": "https://waterfronttavernseafoodbar.com/",
+    "what": "own website, live (c) 2026: address, current hours, menu summary",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Port Fairhaven Fish & Chips",
+  "address": "355 Harris Ave (Bellingham Cruise Terminal)",
+  "city": "Bellingham",
+  "zip": "98225",
+  "county": "Whatcom",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "cod basket",
+   "halibut basket",
+   "salmon basket",
+   "clam strips basket",
+   "clam chowder",
+   "whiskey crab soup"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Fish-and-chips counter inside the Bellingham Cruise Terminal in Fairhaven; open daily 11am-7pm.",
+  "display_note": "Fish-and-chips counter inside the Bellingham Cruise Terminal in Fairhaven, with whiskey crab soup. Open daily.",
+  "website": "https://www.fairhavenfish.com/",
+  "sources": [
+   {
+    "url": "https://www.fairhavenfish.com/",
+    "what": "own website, live (c) 2026: address, daily hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.fairhavenfish.com/menu/",
+    "what": "own menu page, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Andy's Fish House",
+  "address": "1229 1st St",
+  "city": "Snohomish",
+  "zip": "98290",
+  "county": "Snohomish",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "hand-breaded fish and chips",
+   "gluten-free fish and chips",
+   "clam chowder",
+   "oysters on the half shell",
+   "cioppino",
+   "fish tacos",
+   "crab cakes"
+  ],
+  "opened": 2014,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Seafood restaurant in a 1940s former service station on First Street; Andy opened The Fish House here in 2014, following his father's Chuck's Seafood Grotto (1996). First come, first served.",
+  "display_note": "Seafood restaurant in a 1940s former service station on First Street, opened by Andy in 2014 following his father's Chuck's Seafood Grotto (1996). First come, first served.",
+  "website": "https://www.andysfishhouse.com/",
+  "sources": [
+   {
+    "url": "https://www.andysfishhouse.com/",
+    "what": "own website, live: hours, Toast ordering",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.andysfishhouse.com/about-6",
+    "what": "own page: chowder, fish and chips, oysters on the half shell, cioppino",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.andysfishhouse.com/about-6-1",
+    "what": "own history page: building history, opened 2014",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Spud Fish & Chips (Edmonds)",
+  "address": "174 Sunset Ave",
+  "city": "Edmonds",
+  "zip": "98020",
+  "county": "Snohomish",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "wild Alaskan cod fish & chips",
+   "halibut & chips",
+   "rockfish"
+  ],
+  "opened": 2015,
+  "brand_founded": 1935,
+  "chain": false,
+  "kasahara": false,
+  "note": "Fish-and-chips shop in Salish Crossing across from the Edmonds-Kingston ferry dock, open since 2015; its site traces the Spud name to Jack Alger's 1935 Alki stand.",
+  "display_note": "Fish-and-chips shop in Salish Crossing across from the Edmonds-Kingston ferry dock, open since 2015. The Spud name goes back to Jack Alger's 1935 Alki stand.",
+  "website": "https://www.spudfishandchips.com/edmonds-ferry-terminal",
+  "sources": [
+   {
+    "url": "https://www.spudfishandchips.com/edmonds-ferry-terminal",
+    "what": "own location page, live (c) 2026: address, 'since 2015', menu summary",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.spudfishandchips.com/",
+    "what": "own website: open daily 10a-8p, Toast ordering",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Hook Seafood Broiler & Spirits",
+  "address": "18521 76th Ave W",
+  "city": "Edmonds",
+  "zip": "98026",
+  "county": "Snohomish",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "Alaskan cod, salmon or halibut & fries",
+   "panko-fried Pacific oysters",
+   "clam chowder",
+   "steamed Manila clams and mussels",
+   "Northwest cioppino",
+   "seafood linguine"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Neighborhood seafood restaurant in Perrinville (Edmonds/Lynnwood line) with a long pasta and entree menu; happy hour daily.",
+  "display_note": "Neighborhood seafood restaurant in Perrinville, on the Edmonds-Lynnwood line, with a long pasta and entree menu. Happy hour daily.",
+  "website": "https://thehookseafood.com/",
+  "sources": [
+   {
+    "url": "https://thehookseafood.com/",
+    "what": "own website, live: address, current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "http://thehookseafood.com/pdf/dinnermenu.pdf",
+    "what": "own dinner menu PDF (server date July 2025)",
+    "date": "2025-07-21"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Lobster Shop",
+  "address": "4015 Ruston Way",
+  "city": "Tacoma",
+  "zip": "98402",
+  "county": "Pierce",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "lobster dishes",
+   "oysters (progressive oyster happy hour)",
+   "Pacific Northwest seafood",
+   "dry-aged steaks"
+  ],
+  "opened": 1981,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Ruston Way waterfront restaurant on Commencement Bay, open since 1981, serving lobster, Northwest seafood and steaks.",
+  "display_note": "Ruston Way waterfront restaurant on Commencement Bay, open since 1981, serving lobster, Northwest seafood and steaks.",
+  "website": "https://www.lobstershop.com/",
+  "sources": [
+   {
+    "url": "https://www.lobstershop.com/",
+    "what": "own website, live: address, current hours, oyster happy hour, 'since opening in 1981'",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Budd Bay Cafe",
+  "address": "525 Columbia St NW",
+  "city": "Olympia",
+  "zip": "98501",
+  "county": "Thurston",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "Budd Bay crab cakes",
+   "Northwest Manila clams",
+   "New England-style clam chowder",
+   "seafood Louie",
+   "seafood cocktail",
+   "smoked salmon pate"
+  ],
+  "opened": 1988,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Locally owned restaurant on Percival Landing on Budd Inlet, there since 1988.",
+  "display_note": "Locally owned restaurant on Percival Landing on Budd Inlet, there since 1988. The menu includes Budd Bay crab cakes and smoked salmon pate.",
+  "website": "https://www.buddbaycafe.com/",
+  "sources": [
+   {
+    "url": "https://www.buddbaycafe.com/",
+    "what": "own website, live: address, 'since 1988' on Percival Landing",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://images.squarespace-cdn.com/content/v1/61d8f033628fa101ce5497f9/978bfd70-9458-4bda-85ce-c02e74371122/working+BBMenu+2026+-+2.png",
+    "what": "own 2026 menu image (posted on buddbaycafe.com/lunch-and-dinner-menu)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "McGrath's Fish House (Vancouver)",
+  "address": "12501 SE 2nd Cir",
+  "city": "Vancouver",
+  "zip": "98684",
+  "county": "Clark",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "oysters on the half shell",
+   "char-grilled oysters",
+   "pan-fried oysters",
+   "oyster shooters",
+   "clam chowder",
+   "fish & chips",
+   "Dungeness crab"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": true,
+  "kasahara": false,
+  "note": "Vancouver location of the McGrath's Fish House seafood chain, with an oyster bar menu.",
+  "display_note": "Vancouver location of the McGrath's Fish House seafood chain, with an oyster bar menu.",
+  "website": "https://mcgrathsfishhouse.com/",
+  "sources": [
+   {
+    "url": "https://mcgrathsfishhouse.com/locations-contact/",
+    "what": "brand's location list, live (c) 2026: Vancouver, WA at 12501 SE 2nd Circle",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://mcgrathsfishhouse.com/menu/",
+    "what": "brand's menu page, live: oyster bar, chowder, fish & chips, Dungeness crab",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "JJ's Fish House",
+  "address": "18881 Front St NE",
+  "city": "Poulsbo",
+  "zip": "98370",
+  "county": "Kitsap",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "beer-battered cod, sockeye salmon or halibut fish & chips",
+   "New England clam chowder",
+   "cod chowder",
+   "half-shell oysters",
+   "Dungeness crab cakes",
+   "miso black cod"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Seafood restaurant on Front Street in downtown Poulsbo; open Monday to Saturday.",
+  "display_note": "Seafood restaurant on Front Street in downtown Poulsbo, with miso black cod and Dungeness crab cakes. Open Monday to Saturday.",
+  "website": "https://jjsfishhouse.com/",
+  "sources": [
+   {
+    "url": "https://jjsfishhouse.com/",
+    "what": "own website, live: address, hours, full menu, Toast ordering",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Twiggy's Fish & Chips",
+  "address": "1505 N Ash St",
+  "city": "Spokane",
+  "zip": "99201",
+  "county": "Spokane",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "northern English-style cod and chips",
+   "chips with gravy",
+   "smashed peas",
+   "baked beans",
+   "sausage and chips"
+  ],
+  "opened": 2026,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "900-square-foot British chip shop in West Central Spokane opened in June 2026 by Mark Twigg (from Manchester) and Maureen Torphy; buys Pacific cod directly from Alaska fishermen. Lunch hours Tuesday to Saturday while evening service is added.",
+  "display_note": "British chip shop in West Central Spokane, opened in June 2026 by Mark Twigg (from Manchester) and Maureen Torphy. Its Pacific cod comes directly from Alaska fishermen.",
+  "website": null,
+  "sources": [
+   {
+    "url": "https://www.spokanejournal.com/articles/18516-twiggys-brings-british-cuisine-to-spokane",
+    "what": "Spokane Journal of Business, July 30 2026: opened in June, address, hours, menu",
+    "date": "2026-07-30"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Mojarra Mia Mexican Seafood",
+  "address": "2024 N Hamilton St",
+  "city": "Spokane",
+  "zip": "99207",
+  "county": "Spokane",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "aguachiles",
+   "shrimp and fish ceviches",
+   "mojarras (whole fried fish)",
+   "caldo 7 mares",
+   "camarones a la diabla",
+   "shrimp and octopus cocktail"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Mexican seafood (mariscos) restaurant on North Hamilton.",
+  "display_note": "Mexican seafood (mariscos) restaurant on North Hamilton, with aguachiles, ceviches, whole fried mojarras and caldo 7 mares.",
+  "website": "https://mojarramia.cloveronline.com/menu/all",
+  "sources": [
+   {
+    "url": "https://mojarramia.cloveronline.com/menu/all",
+    "what": "own Clover online-ordering menu, live: address, 'open today', full menu",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Wacky Crab Shack",
+  "address": "1601 E Washington Ave, Ste 101",
+  "city": "Union Gap",
+  "zip": "98903",
+  "county": "Yakima",
+  "kinds": [
+   "seafood"
+  ],
+  "open": true,
+  "dishes": [
+   "Louisiana-style seafood boils (snow crab, shrimp, crawfish, lobster)",
+   "shrimp ceviche tostadas",
+   "Sinaloa-style seafood plates",
+   "clams"
+  ],
+  "opened": 2024,
+  "brand_founded": 2021,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-run Cajun seafood-boil and Sinaloa-style kitchen; started in 2021 on 1st Avenue in Yakima and moved to Union Gap in 2024. Open daily from 11am.",
+  "display_note": "Family-run Cajun seafood-boil and Sinaloa-style kitchen; started in 2021 on 1st Avenue in Yakima and moved to Union Gap in 2024. Open daily.",
+  "website": "https://wackycrabshack.com/",
+  "sources": [
+   {
+    "url": "https://wackycrabshack.com/",
+    "what": "own website, live: address, hours, menu summary, relocation in 2024",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://order.toasttab.com/online/wacky-crab-shack-new-1601-east-washington-avenue",
+    "what": "own Toast ordering page (linked from its site)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ }
+]

@@ -1,0 +1,4621 @@
+{
+ "honors": [
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Outstanding Baker",
+   "person": "Evan Andres",
+   "restaurant": "Columbia City Bakery",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Outstanding Bar Program",
+   "person": null,
+   "restaurant": "Canon",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Holly Smith",
+   "restaurant": "Cafe Juanita",
+   "city": "Kirkland",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Outstanding Restaurant",
+   "person": null,
+   "restaurant": "Canlis",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Outstanding Restaurateur",
+   "person": "Ethan Stowell",
+   "restaurant": "Ethan Stowell Restaurants (Staple & Fancy, How to Cook a Wolf, Anchovies & Olives, and others)",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine Program",
+   "person": null,
+   "restaurant": "Wild Ginger",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Jay Blackinton",
+   "restaurant": "Hogstone Wood Oven",
+   "city": "Orcas Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Eric Donnelly",
+   "restaurant": "RockCreek",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest",
+   "person": "Renee Erickson",
+   "restaurant": "The Whale Wins",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-complete-2015-jbf-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-complete-2015-jbf-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Jeremy Hansen",
+   "restaurant": "Sante",
+   "city": "Spokane",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Nathan Lockwood",
+   "restaurant": "Altura",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Garrett Melkonian",
+   "restaurant": "Mamnoon",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Dustin Ronspies",
+   "restaurant": "Art of the Table",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Jason Stratton",
+   "restaurant": "Spinasse",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Winner",
+   "category": "Best Chef: Northwest",
+   "person": "Blaine Wetzel",
+   "restaurant": "The Willows Inn on Lummi Island",
+   "city": "Lummi Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2015-james-beard-award-winners",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-complete-2015-jbf-award-nominees",
+    "https://www.jamesbeard.org/stories/the-2015-james-beard-award-winners"
+   ]
+  },
+  {
+   "year": 2015,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest",
+   "person": "Rachel Yang and Seif Chirchi",
+   "restaurant": "Joule",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-complete-2015-jbf-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-complete-2015-jbf-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "Girin Steakhouse & Ssam Bar",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Outstanding Baker",
+   "person": "Evan Andres",
+   "restaurant": "Columbia City Bakery",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Outstanding Bar Program",
+   "person": null,
+   "restaurant": "Canon",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Matt Dillon",
+   "restaurant": "Bar Sajor",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Jerry Traunfeld",
+   "restaurant": "Poppy",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Outstanding Pastry Chef",
+   "person": "Junko Mine",
+   "restaurant": "Cafe Juanita",
+   "city": "Kirkland",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Outstanding Restaurant",
+   "person": null,
+   "restaurant": "Lark",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Outstanding Restaurateur",
+   "person": "Ethan Stowell",
+   "restaurant": "Ethan Stowell Restaurants (Staple & Fancy, How to Cook a Wolf, Anchovies & Olives, and others)",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Outstanding Service",
+   "person": null,
+   "restaurant": "Cafe Juanita",
+   "city": "Kirkland",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Finalist",
+   "category": "Outstanding Wine Program",
+   "person": null,
+   "restaurant": "Canlis",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine Program",
+   "person": null,
+   "restaurant": "Wild Ginger",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine, Beer, or Spirits Professional",
+   "person": "Wayne Carpenter",
+   "restaurant": "Skagit Valley Malting",
+   "city": "Burlington",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Jay Blackinton",
+   "restaurant": "Hogstone Wood Oven",
+   "city": "Orcas Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Maximillian Petty",
+   "restaurant": "Eden Hill",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Eric Donnelly",
+   "restaurant": "RockCreek",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest",
+   "person": "Mike Easton",
+   "restaurant": "Il Corvo Pasta",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2016,
+   "level": "Winner",
+   "category": "Best Chef: Northwest",
+   "person": "Renee Erickson",
+   "restaurant": "The Whale Wins",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-beard-award-winners",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees",
+    "https://www.jamesbeard.org/stories/the-2016-beard-award-winners"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Adam Hegsted",
+   "restaurant": "The Wandering Table",
+   "city": "Spokane",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Edouardo Jordan",
+   "restaurant": "Salare",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Nathan Lockwood",
+   "restaurant": "Altura",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Dustin Ronspies",
+   "restaurant": "Art of the Table",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2016,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest",
+   "person": "Rachel Yang and Seif Chirchi",
+   "restaurant": "Joule",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2016-james-beard-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "No Anchor",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "Upper Bar Ferdinand",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Outstanding Baker",
+   "person": "Evan Andres",
+   "restaurant": "Columbia City Bakery",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Outstanding Bar Program",
+   "person": null,
+   "restaurant": "Canon",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Matt Dillon",
+   "restaurant": "Sitka & Spruce",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Blaine Wetzel",
+   "restaurant": "Willows Inn on Lummi Island",
+   "city": "Lummi Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Outstanding Restaurant",
+   "person": null,
+   "restaurant": "Cafe Juanita",
+   "city": "Kirkland",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Outstanding Restaurateur",
+   "person": "Ethan Stowell",
+   "restaurant": "Ethan Stowell Restaurants (Staple & Fancy, Tavolata, Anchovies & Olives, and others)",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Winner",
+   "category": "Outstanding Wine Program",
+   "person": null,
+   "restaurant": "Canlis",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2017-james-beard-award-winners",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2017-james-beard-restaurant-and-chef-award-nominees",
+    "https://www.jamesbeard.org/stories/the-2017-james-beard-award-winners"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine Program",
+   "person": null,
+   "restaurant": "Wild Ginger",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine, Beer, or Spirits Professional",
+   "person": "Wayne Carpenter",
+   "restaurant": "Skagit Valley Malting",
+   "city": "Burlington",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Jay Blackinton",
+   "restaurant": "Hogstone's Wood Oven",
+   "city": "Orcas Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Maximillian Petty",
+   "restaurant": "Eden Hill",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Finalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Brady Williams",
+   "restaurant": "Canlis",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2017-james-beard-restaurant-and-chef-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2017-james-beard-restaurant-and-chef-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Eric Donnelly",
+   "restaurant": "RockCreek",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Mike Easton",
+   "restaurant": "Il Corvo",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest",
+   "person": "Edouardo Jordan",
+   "restaurant": "Salare",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2017-james-beard-restaurant-and-chef-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2017-james-beard-restaurant-and-chef-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Kotaro Kumita",
+   "restaurant": "Wataru",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Nathan Lockwood",
+   "restaurant": "Altura",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Shaun McCrain",
+   "restaurant": "Copine",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2017,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest",
+   "person": "Rachel Yang and Seif Chirchi",
+   "restaurant": "Joule",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2017-james-beard-restaurant-and-chef-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2017-james-beard-restaurant-and-chef-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2018,
+   "level": "Winner",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "JuneBaby",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-nominees",
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Outstanding Baker",
+   "person": "Evan Andres",
+   "restaurant": "Columbia City Bakery",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Outstanding Bar Program",
+   "person": null,
+   "restaurant": "Canon",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Renee Erickson",
+   "restaurant": "Bateau",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Holly Smith",
+   "restaurant": "Cafe Juanita",
+   "city": "Kirkland",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Blaine Wetzel",
+   "restaurant": "The Willows Inn on Lummi Island",
+   "city": "Lummi Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Finalist",
+   "category": "Outstanding Restaurant",
+   "person": null,
+   "restaurant": "Canlis",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Outstanding Restaurateur",
+   "person": "Ethan Stowell and Angela Stowell",
+   "restaurant": "Ethan Stowell Restaurants (Staple & Fancy, Tavolata, How to Cook a Wolf, and others)",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine Program",
+   "person": null,
+   "restaurant": "Wild Ginger",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine, Beer, or Spirits Professional",
+   "person": "Dave Green",
+   "restaurant": "Skagit Valley Malting",
+   "city": "Burlington",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Jay Blackinton",
+   "restaurant": "Hogstone's Wood Oven/Aelder",
+   "city": "Orcas Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Shota Nakajima",
+   "restaurant": "Adana",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Maximillian Petty",
+   "restaurant": "Eden Hill",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Eric Donnelly",
+   "restaurant": "RockCreek",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Winner",
+   "category": "Best Chef: Northwest",
+   "person": "Edouardo Jordan",
+   "restaurant": "Salare",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-nominees",
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Taichi Kitamura",
+   "restaurant": "Sushi Kappo Tamura",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Mark Schroder",
+   "restaurant": "Opus Co.",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Mutsuko Soma",
+   "restaurant": "Kamonegi",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Anna Vogel",
+   "restaurant": "Italia Trattoria",
+   "city": "Spokane",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2018,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest",
+   "person": "Rachel Yang and Seif Chirchi",
+   "restaurant": "Joule",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "Sawyer",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Outstanding Baker",
+   "person": "Kit Schumann and Jesse Schumann",
+   "restaurant": "Sea Wolf Bakers",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Outstanding Bar Program",
+   "person": null,
+   "restaurant": "No Anchor",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Renee Erickson",
+   "restaurant": "Bateau",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Shiro Kashiba",
+   "restaurant": "Sushi Kashiba",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Outstanding Pastry Chef",
+   "person": "Junko Mine",
+   "restaurant": "Cafe Juanita",
+   "city": "Kirkland",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Outstanding Restaurant",
+   "person": null,
+   "restaurant": "Cafe Juanita",
+   "city": "Kirkland",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Outstanding Restaurateur",
+   "person": "Ethan Stowell",
+   "restaurant": "Ethan Stowell Restaurants (Ballard Pizza Co., Bramling Cross, Cortina, and others)",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Finalist",
+   "category": "Outstanding Service",
+   "person": null,
+   "restaurant": "Canlis",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine Program",
+   "person": null,
+   "restaurant": "L'Oursin",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine, Spirits, or Beer Producer",
+   "person": "Dave Green",
+   "restaurant": "Skagit Valley Malting",
+   "city": "Burlington",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine, Spirits, or Beer Producer",
+   "person": "Mike Sauer",
+   "restaurant": "Red Willow Vineyard",
+   "city": "Wapato",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine, Spirits, or Beer Producer",
+   "person": "Mhairi Voelsgen",
+   "restaurant": "broVo Spirits",
+   "city": "Woodinville",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Jay Blackinton",
+   "restaurant": "Aelder/Hogstone's Wood Oven",
+   "city": "Orcas Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Shota Nakajima",
+   "restaurant": "Adana",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Logan Cox",
+   "restaurant": "Homer",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Eric Donnelly",
+   "restaurant": "RockCreek",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Eric Johnson",
+   "restaurant": "Stateside",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Taichi Kitamura",
+   "restaurant": "Sushi Kappo Tamura",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Colin Patterson",
+   "restaurant": "Mana Restaurant",
+   "city": "Leavenworth",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest",
+   "person": "Mutsuko Soma",
+   "restaurant": "Kamonegi",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Winner",
+   "category": "Best Chef: Northwest",
+   "person": "Brady Williams",
+   "restaurant": "Canlis",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-winners",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-nominees",
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-winners"
+   ]
+  },
+  {
+   "year": 2019,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest",
+   "person": "Rachel Yang and Seif Chirchi",
+   "restaurant": "Joule",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "Il Nido",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Outstanding Baker",
+   "person": "Matthew Tinder",
+   "restaurant": "Saboteur Bakery",
+   "city": "Bremerton",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Holly Smith",
+   "restaurant": "Cafe Juanita",
+   "city": "Kirkland",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Finalist",
+   "category": "Outstanding Hospitality",
+   "person": null,
+   "restaurant": "Canlis",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine Program",
+   "person": null,
+   "restaurant": "L'Oursin",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine, Spirits, or Beer Producer",
+   "person": "Steve Luke",
+   "restaurant": "Cloudburst Brewing",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Liz Kenyon",
+   "restaurant": "Rupee Bar",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Rising Star Chef of the Year",
+   "person": "Shota Nakajima",
+   "restaurant": "Adana",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Chera Amlag",
+   "restaurant": "Hood Famous Cafe + Bar",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Jay Blackinton",
+   "restaurant": "Hogstone",
+   "city": "Orcas Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Logan Cox",
+   "restaurant": "Homer",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Sun Hong",
+   "restaurant": "By Tae",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Mitch Mayers",
+   "restaurant": "Sawyer",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Mutsuko Soma",
+   "restaurant": "Kamonegi",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Aaron Verzosa",
+   "restaurant": "Archipelago",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Chad White",
+   "restaurant": "Zona Blanca",
+   "city": "Spokane",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2020,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Rachel Yang and Seif Chirchi",
+   "restaurant": "Joule",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2022,
+   "level": "Finalist",
+   "category": "Outstanding Chef",
+   "person": "Rachel Yang and Seif Chirchi",
+   "restaurant": "Joule",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-restaurant-and-chef-awards-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-restaurant-and-chef-awards-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2022,
+   "level": "Finalist",
+   "category": "Outstanding Restaurant",
+   "person": null,
+   "restaurant": "The Walrus and the Carpenter",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-restaurant-and-chef-awards-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-restaurant-and-chef-awards-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Emerging Chef",
+   "person": "Kristi Brown",
+   "restaurant": "Communion",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "Matia Kitchen & Bar",
+   "city": "Orcas Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Outstanding Baker",
+   "person": "Pamela Vuong",
+   "restaurant": "The Flour Box",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Outstanding Hospitality",
+   "person": null,
+   "restaurant": "Bar del Corso",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine Program",
+   "person": null,
+   "restaurant": "Tomo",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Nick Coffey",
+   "restaurant": "Ursa Minor",
+   "city": "Lopez Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Erasto Jackson",
+   "restaurant": "Lil Red's Takeout and Catering",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Liz Kenyon",
+   "restaurant": "Rupee Bar",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Melissa Miranda",
+   "restaurant": "Musang",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "David Nichols",
+   "restaurant": "Eight Row",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Brandon Pettit",
+   "restaurant": "Delancey",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Mutsuko Soma",
+   "restaurant": "Kamonegi",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-restaurant-and-chef-awards-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-restaurant-and-chef-awards-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Aaron Verzosa",
+   "restaurant": "Archipelago",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2022,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Chad White",
+   "restaurant": "Zona Blanca",
+   "city": "Spokane",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2023,
+   "level": "Finalist",
+   "category": "Outstanding Restaurateur",
+   "person": "Yenvy and Quynh Pham",
+   "restaurant": "Pho Bac Sup Shop, Phocific Standard Time, and The Boat",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2023,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Renee Erickson",
+   "restaurant": "The Walrus and the Carpenter",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2023,
+   "level": "Finalist",
+   "category": "Outstanding Restaurant",
+   "person": null,
+   "restaurant": "Copine",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2023,
+   "level": "Semifinalist",
+   "category": "Emerging Chef",
+   "person": "Kevin Smith",
+   "restaurant": "Beast & Cleaver",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2023,
+   "level": "Finalist",
+   "category": "Outstanding Hospitality",
+   "person": null,
+   "restaurant": "The Black Cypress",
+   "city": "Pullman",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2023,
+   "level": "Semifinalist",
+   "category": "Outstanding Hospitality",
+   "person": null,
+   "restaurant": "Lark",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2023,
+   "level": "Finalist",
+   "category": "Outstanding Bar",
+   "person": null,
+   "restaurant": "Rob Roy",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2023,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Tony Brown",
+   "restaurant": "Ruins",
+   "city": "Spokane",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2023,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Dan Koommoo",
+   "restaurant": "Crafted",
+   "city": "Yakima",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2023,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Melissa Miranda",
+   "restaurant": "Musang",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2023,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "David Nichols",
+   "restaurant": "Eight Row",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2023,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Mutsuko Soma",
+   "restaurant": "Kamonegi",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2023,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Aaron Verzosa",
+   "restaurant": "Archipelago",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2024,
+   "level": "Finalist",
+   "category": "Outstanding Restaurateur",
+   "person": "Quynh-Vy and Yenvy Pham",
+   "restaurant": "Pho Bac Sup Shop, Phocific Standard Time, and The Boat",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2024,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Aaron Verzosa",
+   "restaurant": "Archipelago",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2024,
+   "level": "Semifinalist",
+   "category": "Outstanding Restaurant",
+   "person": null,
+   "restaurant": "The Walrus and the Carpenter",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2024,
+   "level": "Finalist",
+   "category": "Emerging Chef",
+   "person": "Janet Becerra",
+   "restaurant": "Pancita",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2024,
+   "level": "Finalist",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "Bar Bacetto",
+   "city": "Waitsburg",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2024,
+   "level": "Semifinalist",
+   "category": "Outstanding Pastry Chef or Baker",
+   "person": "Ben Campbell",
+   "restaurant": "Ben's Bread Co.",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2024,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine and Other Beverages Program",
+   "person": null,
+   "restaurant": "Eight Row",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2024,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Avery Adams",
+   "restaurant": "Matia Kitchen",
+   "city": "Orcas Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2024,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Derek Bray",
+   "restaurant": "The Table",
+   "city": "Tacoma",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2024,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Kristi Brown",
+   "restaurant": "Communion",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2024,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Grayson Corrales",
+   "restaurant": "MariPili Tapas Bar",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2024,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Dan Koommoo",
+   "restaurant": "Crafted",
+   "city": "Yakima",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2024,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Evan Leichtling",
+   "restaurant": "Off Alley",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists"
+   ]
+  },
+  {
+   "year": 2024,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest and Pacific",
+   "person": "Melissa Miranda",
+   "restaurant": "Musang",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+    "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Outstanding Restaurateur",
+   "person": "Quynh Pham and Yenvy Pham",
+   "restaurant": "Pho Bac Sup Shop, Phocific Standard Time, and The Boat",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Finalist",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "Atoma",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/2025-james-beard-awards-restaurant-and-chef-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/2025-james-beard-awards-restaurant-and-chef-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "familyfriend",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Outstanding Bakery",
+   "person": null,
+   "restaurant": "Saint Bread",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Finalist",
+   "category": "Outstanding Hospitality",
+   "person": null,
+   "restaurant": "Archipelago",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/2025-james-beard-awards-restaurant-and-chef-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/2025-james-beard-awards-restaurant-and-chef-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine and Other Beverages Program",
+   "person": null,
+   "restaurant": "Ltd Edition Sushi",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Outstanding Bar",
+   "person": null,
+   "restaurant": "Roquette",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Best New Bar",
+   "person": null,
+   "restaurant": "Sophon",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Outstanding Professional in Beverage Service",
+   "person": "Linda Milagros Violago",
+   "restaurant": "Canlis",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Outstanding Professional in Cocktail Service",
+   "person": "Anu Apte",
+   "restaurant": "Rob Roy",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Janet Becerra",
+   "restaurant": "Pancita",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Jay Blackinton",
+   "restaurant": "Houlme",
+   "city": "Orcas Island",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/2025-james-beard-awards-restaurant-and-chef-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+    "https://www.jamesbeard.org/stories/2025-james-beard-awards-restaurant-and-chef-nominees"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Logan Cox",
+   "restaurant": "Homer",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Aisha Ibrahim",
+   "restaurant": "Canlis",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Ajay Panicker",
+   "restaurant": "Kathakali, An Indian Eatery",
+   "city": "Kirkland",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2025,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Jun Takai",
+   "restaurant": "Takai by Kashiba",
+   "city": "Bellevue",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Outstanding Chef",
+   "person": "Aaron Verzosa",
+   "restaurant": "Archipelago",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Emerging Chef",
+   "person": "Ahmed Suliman",
+   "restaurant": "Cafe Suliman",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "Little Beast Ballard",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Best New Restaurant",
+   "person": null,
+   "restaurant": "The Wayland Mill",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Outstanding Pastry Chef or Baker",
+   "person": "Christina Wood",
+   "restaurant": "Temple Pastries",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Outstanding Wine and Other Beverages Program",
+   "person": null,
+   "restaurant": "Le Caviste",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Outstanding Bar",
+   "person": null,
+   "restaurant": "Roquette",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Best New Bar",
+   "person": null,
+   "restaurant": "The Elbow Room",
+   "city": "Vancouver",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Outstanding Professional in Cocktail Service",
+   "person": "Anu Apte",
+   "restaurant": "Rob Roy",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Janet Becerra",
+   "restaurant": "Pancita",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Johnny Courtney",
+   "restaurant": "Atoma",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Logan Cox",
+   "restaurant": "Homer",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Jordan Koplowitz",
+   "restaurant": "Starla's",
+   "city": "Bellingham",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Melissa Miranda",
+   "restaurant": "Musang",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Semifinalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Thai Nguyen and Trinh Nguyen",
+   "restaurant": "Ramie",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026"
+   ]
+  },
+  {
+   "year": 2026,
+   "level": "Finalist",
+   "category": "Best Chef: Northwest & Pacific",
+   "person": "Aaron Tekulve",
+   "restaurant": "Surrell",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026"
+   ],
+   "jbf_label": "Nominee (JBF's term for a finalist)"
+  },
+  {
+   "year": 2019,
+   "level": "Winner",
+   "category": "Design Icon",
+   "person": null,
+   "restaurant": "Canlis",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-winners",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-nominees",
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-winners"
+   ],
+   "note": "Special design honor listed on the 2019 nominees and winners pages."
+  },
+  {
+   "year": 2019,
+   "level": "Finalist",
+   "category": "Outstanding Restaurant Design, 75 Seats and Under",
+   "person": "Heliotrope Architects and Price Erickson Interior Design (designers)",
+   "restaurant": "Willmott's Ghost",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2019-james-beard-award-nominees"
+   ],
+   "jbf_label": "Nominee",
+   "note": "Design award goes to the design firms for the project; not on the 2019 winners page."
+  },
+  {
+   "year": 2020,
+   "level": "Winner",
+   "category": "Outstanding Restaurant Design, 75 Seats and Under",
+   "person": "Heliotrope Architects (designer)",
+   "restaurant": "Rupee Bar",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-nominees",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-nominees"
+   ],
+   "level_source": "JBF page shows it as a 2020 design nominee ('Firms: Heliotrope Architects / Project: Rupee, Seattle'); the win is reported by My Ballard 2020-10-02 (https://www.myballard.com/2020/10/02/rupee-bar-wins-james-beard-design-award/) and a Seattle Times headline; I did not find a jamesbeard.org 2020 design-winners page.",
+   "jbf_confirmed_level": false,
+   "note": "Design award goes to the design firm for the project. Not a chef or food award."
+  },
+  {
+   "year": 2018,
+   "level": "America's Classics",
+   "category": "America's Classics",
+   "person": "Felipe Hernandez (owner)",
+   "restaurant": "Los Hernandez",
+   "city": "Union Gap",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/introducing-the-2018-americas-classics-winners",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/introducing-the-2018-americas-classics-winners",
+    "https://www.jamesbeard.org/stories/the-2018-james-beard-award-winners"
+   ],
+   "note": "JBF page (2018-01-17): 3706 Main Street, Union Gap; opened 1990 by Felipe Hernandez with a tamale recipe adapted from his sister's."
+  },
+  {
+   "year": 2020,
+   "level": "America's Classics",
+   "category": "America's Classics",
+   "person": "Mila Apostol and Joy Apostol (owners)",
+   "restaurant": "Oriental Mart",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://www.jamesbeard.org/stories/announcing-the-2020-americas-classics-winners",
+   "jbf_urls": [
+    "https://www.jamesbeard.org/stories/announcing-the-2020-americas-classics-winners",
+    "https://www.jamesbeard.org/stories/the-2020-james-beard-award-nominees"
+   ],
+   "note": "JBF page (2020-02-14): 1506 Pike Pl. #509 (Pike Place Market); Mila Apostol opened it in 1971."
+  },
+  {
+   "year": 2008,
+   "level": "America's Classics",
+   "category": "America's Classics",
+   "person": "Jean Nakayama (owner)",
+   "restaurant": "Maneki",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": "https://archive.jamesbeard.org/blog/americas-classics-maneki",
+   "jbf_urls": [
+    "https://archive.jamesbeard.org/blog/americas-classics-maneki"
+   ],
+   "jbf_confirmed_level": true,
+   "jbf_confirmed_year": false,
+   "year_source": "Washington Trust for Historic Preservation, https://revisitwa.org/waypoint/maneki/ ('celebrated in 2008 ... by the James Beard Foundation'); Seattle Met 2026 list. The JBF archive post (2010-02-17) names Maneki an America's Classic but gives no year."
+  },
+  {
+   "year": 2002,
+   "level": "America's Classics",
+   "category": "America's Classics",
+   "person": null,
+   "restaurant": "Ray's Boathouse",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": null,
+   "jbf_urls": [],
+   "jbf_confirmed_level": false,
+   "year_source": "Seattle Met, 'Seattle's James Beard-Winning Restaurants and Chefs' (dated 2026-08-24), https://www.seattlemet.com/eat-and-drink/seattle-s-james-beard-winning-restaurants ; Wikipedia list. Not confirmed on a jamesbeard.org page (its awards search is JavaScript-only)."
+  },
+  {
+   "year": 1998,
+   "level": "America's Classics",
+   "category": "America's Classics",
+   "person": null,
+   "restaurant": "Emmett Watson's Oyster Bar",
+   "city": "Seattle",
+   "state": "WA",
+   "jbf_url": null,
+   "jbf_urls": [],
+   "jbf_confirmed_level": false,
+   "year_source": "Seattle Met, 'Seattle's James Beard-Winning Restaurants and Chefs' (dated 2026-08-24); Wikipedia list. Not confirmed on a jamesbeard.org page."
+  }
+ ],
+ "restaurants": [
+  {
+   "name": "Takai by Kashiba",
+   "address": "180 Bellevue Way NE",
+   "zip": "98004",
+   "city": "Bellevue",
+   "open": true,
+   "open_source": {
+    "url": "https://www.takaibykashiba.com/",
+    "what": "own site live: 'Now Open Tuesdays', lunch box Tue-Fri, omakase dinner box Tue-Sat; '2025 James Beard Award Nominee - Chef Jun Takai', '2025 Business of the Year - Visit Bellevue', copyright 2026",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [
+    {
+     "url": "https://data.kingcounty.gov/d/r878-4sxa",
+     "what": "Public Health - Seattle & King County food inspection data: 'TAKAI BY KASHIBA' last inspected 2025-04-02 (routine inspection; shows the business operates, not its menu)",
+     "date": "2025-04-02"
+    }
+   ],
+   "note": "Address from own contact-and-location page; phone 425-502-7259.",
+   "honors": [
+    "2025 Semifinalist - Best Chef: Northwest & Pacific (Jun Takai)"
+   ]
+  },
+  {
+   "name": "Starla's",
+   "address": "1149 N State St",
+   "zip": null,
+   "city": "Bellingham",
+   "open": false,
+   "open_source": {
+    "url": "https://www.cascadiadaily.com/2026/mar/30/acclaimed-pizzeria-abruptly-closes-in-downtown-bellingham/",
+    "what": "Cascadia Daily News: Starla's pizzeria closed in Bellingham on March 28, 2026; owners moving it back to Seattle",
+    "date": "2026-03-30"
+   },
+   "extra_sources": [],
+   "note": "Opened 2024 as a natural wine bar, pizza from Feb 2025; chef/co-owner Jordan Koplowitz (ex-Blotto), 2026 James Beard semifinalist. CDN 2026-04-01: new pizza/wine bar planned for the space. starlasbham.com now redirects to starlaspizza.com, which lists Saturday pop-ups (Aug 29-Sept 26) at 926 12th Ave, Seattle - no permanent Washington location confirmed.",
+   "honors": [
+    "2026 Semifinalist - Best Chef: Northwest & Pacific (Jordan Koplowitz)"
+   ]
+  },
+  {
+   "name": "Saboteur Bakery",
+   "address": null,
+   "zip": null,
+   "city": "Bremerton",
+   "open": null,
+   "open_source": {
+    "url": "https://www.saboteurbakery.com/",
+    "what": "own site returned HTTP 403 (skipped per rules)",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Could not confirm. Kitsap Sun not fetchable; Kitsap Daily News search had no articles on it. Address and status missing.",
+   "honors": [
+    "2020 Semifinalist - Outstanding Baker (Matthew Tinder)"
+   ]
+  },
+  {
+   "name": "Skagit Valley Malting",
+   "address": null,
+   "zip": null,
+   "city": "Burlington",
+   "open": true,
+   "open_source": {
+    "url": "https://www.skagitvalleymalting.com/",
+    "what": "own e-commerce site live selling malts (Pilsner, Pale, British, Millet), batch COA pages; footer copyright 2026; no closure/sale notice",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "WEAK evidence: no dated 2025-26 content beyond the auto copyright; blog posts undated. Founded 2011 per own malthouse page. It is a malt producer, not a restaurant; no public hours/taproom mentioned. No street address on site (contact page is a form only); address missing.",
+   "type": "producer (not a restaurant)",
+   "honors": [
+    "2016 Semifinalist - Outstanding Wine, Beer, or Spirits Professional (Wayne Carpenter)",
+    "2017 Semifinalist - Outstanding Wine, Beer, or Spirits Professional (Wayne Carpenter)",
+    "2018 Semifinalist - Outstanding Wine, Beer, or Spirits Professional (Dave Green)",
+    "2019 Semifinalist - Outstanding Wine, Spirits, or Beer Producer (Dave Green)"
+   ]
+  },
+  {
+   "name": "Houlme (formerly Hogstone's Wood Oven / Aelder)",
+   "address": null,
+   "zip": null,
+   "city": "Eastsound (Orcas Island)",
+   "open": true,
+   "open_source": {
+    "url": "https://www.houlme.com/",
+    "what": "own site live: 'Our hours are currently 4-9 Wednesday-Saturday', OpenTable reservations (Eastsound), chef Jay Blackinton, GM Jocelyn Cecil",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Houlme is the one that exists now: hogstone.com 301-redirects to houlme.com. Hogstone's Wood Oven confirmed as Blackinton's earlier restaurant (Islands' Sounder 2015-02-24). Aelder not confirmed by any source fetched. No street address on own site (no phone; email only); OpenTable page timed out. Address missing.",
+   "honors": [
+    "2015 Semifinalist - Rising Star Chef of the Year (Jay Blackinton) [as 'Hogstone Wood Oven']",
+    "2016 Semifinalist - Rising Star Chef of the Year (Jay Blackinton) [as 'Hogstone Wood Oven']",
+    "2017 Semifinalist - Rising Star Chef of the Year (Jay Blackinton) [as 'Hogstone's Wood Oven']",
+    "2018 Semifinalist - Rising Star Chef of the Year (Jay Blackinton) [as 'Hogstone's Wood Oven/Aelder']",
+    "2019 Semifinalist - Rising Star Chef of the Year (Jay Blackinton) [as 'Aelder/Hogstone's Wood Oven']",
+    "2020 Semifinalist - Best Chef: Northwest & Pacific (Jay Blackinton) [as 'Hogstone']",
+    "2025 Finalist - Best Chef: Northwest & Pacific (Jay Blackinton) [as 'Houlme']"
+   ]
+  },
+  {
+   "name": "Matia Kitchen & Bar",
+   "address": "382 Prune Alley",
+   "zip": "98245",
+   "city": "Eastsound (Orcas Island)",
+   "open": true,
+   "open_source": {
+    "url": "https://www.matiakitchen.com/",
+    "what": "own site live: hours Wednesday-Sunday 5-9pm, active reservation links, phone 360.375.4350; no closure notice",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "No dated (2025/2026) content seen on the site; hours have no year attached.",
+   "honors": [
+    "2022 Semifinalist - Best New Restaurant",
+    "2024 Finalist - Best Chef: Northwest and Pacific (Avery Adams) [as 'Matia Kitchen']"
+   ]
+  },
+  {
+   "name": "Cafe Juanita",
+   "address": "9702 NE 120th Pl",
+   "zip": "98034",
+   "city": "Kirkland",
+   "open": true,
+   "open_source": {
+    "url": "https://www.cafejuanita.com/",
+    "what": "own site live: current hours Tue-Wed 5-9pm, Fri-Sat 5-9:45pm, OpenTable reservations, prix-fixe tasting menus; no closure notice",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [
+    {
+     "url": "https://data.kingcounty.gov/d/r878-4sxa",
+     "what": "Public Health - Seattle & King County food inspection data: 'CAFE JUANITA' last inspected 2026-09-04 (routine inspection; shows the business operates, not its menu)",
+     "date": "2026-09-04"
+    }
+   ],
+   "note": "Own site shows no street address; address from Kirkland Reporter 2017-08-30 (https://www.kirklandreporter.com/2017/08/30/public-health-investigates-foodborne-illness-link-to-cafe-juanita-in-kirkland/). Zip not stated by any source fetched (likely 98034, unconfirmed). Kirkland Reporter 2010-03-19 says Holly Smith opened it April 2000.",
+   "honors": [
+    "2015 Semifinalist - Outstanding Chef (Holly Smith)",
+    "2016 Semifinalist - Outstanding Pastry Chef (Junko Mine)",
+    "2016 Semifinalist - Outstanding Service",
+    "2017 Semifinalist - Outstanding Restaurant",
+    "2018 Semifinalist - Outstanding Chef (Holly Smith)",
+    "2019 Semifinalist - Outstanding Pastry Chef (Junko Mine)",
+    "2019 Semifinalist - Outstanding Restaurant",
+    "2020 Semifinalist - Outstanding Chef (Holly Smith)"
+   ]
+  },
+  {
+   "name": "Kathakali, An Indian Eatery",
+   "address": "11451 98th Ave NE",
+   "zip": "98033",
+   "city": "Kirkland",
+   "open": true,
+   "open_source": {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'KATHAKALI' last inspected 2026-08-25 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-08-25"
+   },
+   "extra_sources": [],
+   "note": "No own website found; open status from King County inspection 2026-08-25. Could not confirm. Tried kathakalikirkland.com, kathakalirestaurant.com, kathakalieatery.com and other variants - none resolve. Address and status missing.",
+   "honors": [
+    "2025 Semifinalist - Best Chef: Northwest & Pacific (Ajay Panicker)"
+   ]
+  },
+  {
+   "name": "Mana Restaurant",
+   "address": null,
+   "zip": null,
+   "city": "Leavenworth",
+   "open": null,
+   "open_source": {
+    "url": "https://manarestaurant.com/",
+    "what": "domain 302-redirects to a HugeDomains for-sale page - not evidence of open",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Could not confirm. No working own site found (manaleavenworth.com etc. do not resolve); Leavenworth Echo returned 403 and Wenatchee World 429, so no news source checked. Lapsed domain is a warning sign of closure but not proof.",
+   "honors": [
+    "2019 Semifinalist - Best Chef: Northwest (Colin Patterson)"
+   ]
+  },
+  {
+   "name": "Ursa Minor",
+   "address": "210 Lopez Rd",
+   "zip": "98261",
+   "city": "Lopez Island",
+   "open": true,
+   "open_source": {
+    "url": "https://www.ursaminorlopez.com/",
+    "what": "own site live: current fall schedule - dinner Fri-Sun 5-8pm, pantry Thu-Mon 12-2pm; chef Nick Coffey, co-owner Nova Askue",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Also runs a daytime pantry with grab-and-go sandwiches.",
+   "honors": [
+    "2022 Semifinalist - Best Chef: Northwest and Pacific (Nick Coffey)"
+   ]
+  },
+  {
+   "name": "The Willows Inn",
+   "address": "2579 W Shore Dr",
+   "zip": "98262",
+   "city": "Lummi Island",
+   "open": false,
+   "open_source": {
+    "url": "https://www.cascadiadaily.com/2025/mar/05/willows-inn-property-on-the-market-for-the-third-time/",
+    "what": "Cascadia Daily News: closed since property was donated to Lighthouse Mission Ministries in Nov 2022; property relisted for sale ($2.29M) in Mar 2025",
+    "date": "2025-03-05"
+   },
+   "extra_sources": [],
+   "note": "Closure story: Cascadia Daily News 2022-11-28 'Famed Willows Inn on Lummi Island closes, property donated' (https://www.cascadiadaily.com/2022/nov/28/famed-willows-inn-on-lummi-island-closes-property-donated/). WARNING: willows-inn.com is still live with stale content (Blaine Wetzel, $225 menu, 'Make a Reservation', auto copyright 2026) - do NOT treat as open.",
+   "honors": [
+    "2015 Winner - Best Chef: Northwest (Blaine Wetzel) [as 'The Willows Inn on Lummi Island']",
+    "2017 Semifinalist - Outstanding Chef (Blaine Wetzel) [as 'Willows Inn on Lummi Island']",
+    "2018 Semifinalist - Outstanding Chef (Blaine Wetzel) [as 'The Willows Inn on Lummi Island']"
+   ]
+  },
+  {
+   "name": "The Black Cypress",
+   "address": "215 E Main St, Ste B",
+   "zip": "99163",
+   "city": "Pullman",
+   "open": true,
+   "open_source": {
+    "url": "https://www.theblackcypress.com/location-hours",
+    "what": "own site live: hours Mon-Thu 5-9pm, Fri-Sat 5-10pm, Sun closed; copyright 2026; reservations active",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Owner Nick Pitsilionis (Spokesman-Review 2023-01-25, James Beard Outstanding Hospitality semifinalist). Suite B from own site's gift-card link. Founding year not stated.",
+   "honors": [
+    "2023 Finalist - Outstanding Hospitality"
+   ]
+  },
+  {
+   "name": "Adana",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2020/05/shota-nakajima-makes-capitol-hill-kaiseki-restaurant-adana-s-closure-permanent-coronavirus",
+    "what": "Seattle Met 2020-05-22: Shota Nakajima makes Capitol Hill restaurant Adana's closure permanent",
+    "date": "2020-05-22"
+   },
+   "extra_sources": [],
+   "note": "Capitol Hill; Adana was the 2017 rebrand of Naka. Own domain returns 404. Address not in source.",
+   "honors": [
+    "2018 Semifinalist - Rising Star Chef of the Year (Shota Nakajima)",
+    "2019 Semifinalist - Rising Star Chef of the Year (Shota Nakajima)",
+    "2020 Semifinalist - Rising Star Chef of the Year (Shota Nakajima)"
+   ]
+  },
+  {
+   "name": "Altura",
+   "address": "617 Broadway E",
+   "zip": "98102",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.alturarestaurant.com/faqs-4",
+    "what": "Own site live: seatings Tue-Thu 6pm, Fri-Sat 5pm & 8:30pm, Sun 5pm; SevenRooms booking link",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Sibling Carrello (622 Broadway E) linked from site.",
+   "honors": [
+    "2015 Semifinalist - Best Chef: Northwest (Nathan Lockwood)",
+    "2016 Semifinalist - Best Chef: Northwest (Nathan Lockwood)",
+    "2017 Semifinalist - Best Chef: Northwest (Nathan Lockwood)"
+   ]
+  },
+  {
+   "name": "Archipelago",
+   "address": "5607 Rainier Ave S",
+   "zip": "98118",
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.archipelagoseattle.com/blog",
+    "what": "own site: blog post 'Space for the Stories Still to Come: Why Archipelago is Temporarily Closing' (2026-07-11); closed starting Aug 3 for a major renovation after new building ownership; no reopening date",
+    "date": "2026-07-11"
+   },
+   "extra_sources": [
+    {
+     "url": "https://data.kingcounty.gov/d/r878-4sxa",
+     "what": "Public Health - Seattle & King County food inspection data: 'ARCHIPELAGO' last inspected 2026-05-20 (routine inspection; shows the business operates, not its menu)",
+     "date": "2026-05-20"
+    }
+   ],
+   "note": "Closed only TEMPORARILY, not permanently. Open through Aug 2, 2026, now closed for renovation. Recheck for a reopening date. Hillman City.",
+   "honors": [
+    "2020 Semifinalist - Best Chef: Northwest & Pacific (Aaron Verzosa)",
+    "2022 Semifinalist - Best Chef: Northwest and Pacific (Aaron Verzosa)",
+    "2023 Finalist - Best Chef: Northwest and Pacific (Aaron Verzosa)",
+    "2024 Semifinalist - Outstanding Chef (Aaron Verzosa)",
+    "2025 Finalist - Outstanding Hospitality",
+    "2026 Semifinalist - Outstanding Chef (Aaron Verzosa)"
+   ]
+  },
+  {
+   "name": "Art of the Table",
+   "address": "3801 Stone Way N",
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.wallyhood.org/2024/10/art-of-the-table-to-close/",
+    "what": "Wallyhood 2024-10-14: Dustin Ronspies closing after 17 years; final regular service Nov 22 (2024)",
+    "date": "2024-10-14"
+   },
+   "extra_sources": [],
+   "note": "Wallingford. Seattle Met also has a 2024-10 closing story (seattlemet.com/eat-and-drink/2024/10/art-of-the-table-closing, not fetched). Own domain returns 404.",
+   "honors": [
+    "2015 Semifinalist - Best Chef: Northwest (Dustin Ronspies)",
+    "2016 Semifinalist - Best Chef: Northwest (Dustin Ronspies)"
+   ]
+  },
+  {
+   "name": "Atoma",
+   "address": "1411 N 45th St",
+   "zip": "98103",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.atomaseattle.com/location/atoma/",
+    "what": "own site live with hours (Tue-Sat), OpenTable reservations, Toast gift cards",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Wallingford. Seattle Met Restaurant of the Year 2024.",
+   "honors": [
+    "2025 Finalist - Best New Restaurant",
+    "2026 Finalist - Best Chef: Northwest & Pacific (Johnny Courtney)"
+   ]
+  },
+  {
+   "name": "Bar Sajor",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2016/07/matt-dillon-s-bar-sajor-closes",
+    "what": "Seattle Met 2016-07-12: Matt Dillon's Bar Sajor 'served its last meal Saturday night'",
+    "date": "2016-07-12"
+   },
+   "extra_sources": [],
+   "note": "Pioneer Square. Space reportedly reopened as Copal (per Wikipedia citing Food & Wine; not verified). Address not given in source.",
+   "honors": [
+    "2016 Semifinalist - Outstanding Chef (Matt Dillon)"
+   ]
+  },
+  {
+   "name": "Bar del Corso",
+   "address": "3057 Beacon Ave S",
+   "zip": "98144",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.bardelcorso.com/",
+    "what": "own site live with hours (Tue-Sat 4-9pm) and Tock reservations; summer-break notice (Sept 6-14, year not shown)",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Beacon Hill.",
+   "honors": [
+    "2022 Semifinalist - Outstanding Hospitality"
+   ]
+  },
+  {
+   "name": "Bateau",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2026/02/seattle-restaurant-openings-closings-jeffrys-boon-boona-petoskeys",
+    "what": "Seattle Met 2026-02-13: Bateau and Boat Bar (temporarily closed June 2025) merge into a new steakhouse, Jeffry's, reopening March 11, 2026",
+    "date": "2026-02-13"
+   },
+   "extra_sources": [],
+   "note": "RENAMED: Bateau no longer exists under that name. Successor Jeffry's own site (jeffrysseattle.com) is live: 1060 E Union St, Seattle 98122, Wed-Sun 5-9pm (photos dated 2026-03). Bateau's old address per Wikipedia was 1040 E Union St (unverified). Own site restaurantbateau.com returned 403.",
+   "honors": [
+    "2018 Semifinalist - Outstanding Chef (Renee Erickson)",
+    "2019 Semifinalist - Outstanding Chef (Renee Erickson)"
+   ]
+  },
+  {
+   "name": "Beast & Cleaver",
+   "address": "2362 NW 80th St",
+   "zip": "98117",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.beastandcleaver.com/",
+    "what": "own site live with butcher-shop hours (Tue-Sun), The Peasant dinners, SevenRooms booking; Toast gift-card slug 'beast-cleaver-2362-nw-80th-st'",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "RELOCATED: now at 2362 NW 80th St (Ballard/Crown Hill area), not the old 5525 Ballard Ave NW. Sister pub Little Beast is at 5107 Ballard Ave NW.",
+   "honors": [
+    "2023 Semifinalist - Emerging Chef (Kevin Smith)"
+   ]
+  },
+  {
+   "name": "Ben's Bread Co.",
+   "address": "216 N 70th St",
+   "zip": "98103",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://bensbread.com/",
+    "what": "own site live with hours (daily 8am-3pm, Wed pizza nights) and menu document dated March 25, 2026",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Official domain is bensbread.com (bensbreadco.com refused connections). Phinney Ridge.",
+   "honors": [
+    "2024 Semifinalist - Outstanding Pastry Chef or Baker (Ben Campbell)"
+   ]
+  },
+  {
+   "name": "By Tae",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": null,
+   "open_source": {
+    "url": null,
+    "what": "not confirmed",
+    "date": null
+   },
+   "extra_sources": [],
+   "note": "Could not confirm. Candidate domain bytaeseattle.com does not resolve (NXDOMAIN), which suggests a lapsed site but is not closure evidence. An Overture listing puts By Tae at 3315 Beacon Ave S (Beacon Hill), the same address it lists for familyfriend, which conflicts with the Pike Place Market location given; unverified. Needs a dated news story or a working official page.",
+   "honors": [
+    "2020 Semifinalist - Best Chef: Northwest & Pacific (Sun Hong)"
+   ]
+  },
+  {
+   "name": "Cafe Suliman",
+   "address": "1531 Melrose Ave",
+   "zip": "98122",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.cafesuliman.com/info",
+    "what": "own site live with dinner hours (closed Tue), reservations, inside Melrose Market",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "LOCATION MISMATCH: now inside Melrose Market on Capitol Hill, not Rainier Ave S/Columbia City (Seattle Met 2024-09-05 also places it at Melrose Market). The site shows zip 98122 on the homepage and 98102 on the info page; 98122 used.",
+   "honors": [
+    "2026 Semifinalist - Emerging Chef (Ahmed Suliman)"
+   ]
+  },
+  {
+   "name": "Canlis",
+   "address": "2576 Aurora Ave N",
+   "zip": "98109",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://canlis.com",
+    "what": "Own site live with active reservation system; cites 2025 Food & Wine ranking; no closure notice",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "",
+   "honors": [
+    "2015 Semifinalist - Outstanding Restaurant",
+    "2016 Finalist - Outstanding Wine Program",
+    "2017 Winner - Outstanding Wine Program",
+    "2017 Finalist - Rising Star Chef of the Year (Brady Williams)",
+    "2018 Finalist - Outstanding Restaurant",
+    "2019 Finalist - Outstanding Service",
+    "2019 Winner - Best Chef: Northwest (Brady Williams)",
+    "2020 Finalist - Outstanding Hospitality",
+    "2025 Semifinalist - Outstanding Professional in Beverage Service (Linda Milagros Violago)",
+    "2025 Semifinalist - Best Chef: Northwest & Pacific (Aisha Ibrahim)",
+    "2019 Winner - Design Icon"
+   ]
+  },
+  {
+   "name": "Canon",
+   "address": "928 12th Ave",
+   "zip": "98122",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.canonseattle.com",
+    "what": "Own site live: Wed-Sun 5pm to late, current menus/reservations, references 2026 press; closed only on major holidays",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Whiskey bar, Capitol Hill. Apex canonseattle.com has a cert mismatch; www works.",
+   "honors": [
+    "2015 Semifinalist - Outstanding Bar Program",
+    "2016 Semifinalist - Outstanding Bar Program",
+    "2017 Semifinalist - Outstanding Bar Program",
+    "2018 Semifinalist - Outstanding Bar Program"
+   ]
+  },
+  {
+   "name": "Cloudburst Brewing",
+   "address": "2116 Western Ave",
+   "zip": "98121",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.cloudburstbrew.com/",
+    "what": "own site live with hours for both taprooms; fresh-hop release dated 'Wednesday September 23rd' (weekday matches 2026)",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Two taprooms: Belltown 2116 Western Ave (21+) and Ballard 5456 Shilshole Ave NW, 98107 (all-ages beer garden).",
+   "honors": [
+    "2020 Semifinalist - Outstanding Wine, Spirits, or Beer Producer (Steve Luke)"
+   ]
+  },
+  {
+   "name": "Columbia City Bakery",
+   "address": "4865 Rainier Ave S",
+   "zip": "98118",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://columbiacitybakery.com/",
+    "what": "Own Square Online site live: banner 'Cafe Now Open Wednesday through Saturday, 8am - 3pm!'; online menu catalog updated 2026-01-15 (incl. Valentine's Day specials), catalog cache version 2026-03-25",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [
+    {
+     "url": "https://data.kingcounty.gov/d/r878-4sxa",
+     "what": "Public Health - Seattle & King County food inspection data: 'COLUMBIA CITY BAKERY' last inspected 2026-08-27 (routine inspection; shows the business operates, not its menu)",
+     "date": "2026-08-27"
+    }
+   ],
+   "note": "Site is JS-rendered; read from raw page HTML. Street address NOT shown anywhere on own site (template placeholder only). Believed 4865 Rainier Ave S, 98118 - UNVERIFIED, confirm before use. Street address from King County inspection records (own site shows none).",
+   "honors": [
+    "2015 Semifinalist - Outstanding Baker (Evan Andres)",
+    "2016 Semifinalist - Outstanding Baker (Evan Andres)",
+    "2017 Semifinalist - Outstanding Baker (Evan Andres)",
+    "2018 Semifinalist - Outstanding Baker (Evan Andres)"
+   ]
+  },
+  {
+   "name": "Communion",
+   "address": "2350 E Union St",
+   "zip": "98122",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.communionseattle.com/",
+    "what": "own site live with current hours (Wed-Sun) and OpenTable; mentions chef Kristi Brown's 2026 James Beard Best Chef NW nomination; 'Sunday brunch is back'",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Central District.",
+   "honors": [
+    "2022 Semifinalist - Emerging Chef (Kristi Brown)",
+    "2024 Finalist - Best Chef: Northwest and Pacific (Kristi Brown)"
+   ]
+  },
+  {
+   "name": "Copine",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2025/12/un-po-tipsy-lowlander-opening-copine-closing",
+    "what": "Seattle Met 2025-12-12: Copine to keep serving through May 30 (2026) then close; own site copineseattle.com now refers to 'its 10 years in operation' in past tense and offers only 'Copine Project' consulting/private chef services",
+    "date": "2025-12-12"
+   },
+   "extra_sources": [],
+   "note": "Closed ~May 30, 2026. Ballard. Address not in fetched sources (Wikipedia lists 6460 24th Ave NW, 98107 - unverified).",
+   "honors": [
+    "2017 Semifinalist - Best Chef: Northwest (Shaun McCrain)",
+    "2023 Finalist - Outstanding Restaurant"
+   ]
+  },
+  {
+   "name": "Delancey",
+   "address": "1415 NW 70th St",
+   "zip": "98117",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.delanceyseattle.com/",
+    "what": "own site live with hours (Tue-Sun) and Tock large-party booking; copyright 2026",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Ballard. Mostly walk-in.",
+   "honors": [
+    "2022 Semifinalist - Best Chef: Northwest and Pacific (Brandon Pettit)"
+   ]
+  },
+  {
+   "name": "Eden Hill",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2025/09/seattle-restaurant-openings-closings-eden-hill-somm-queen-city",
+    "what": "Seattle Met 2025-09-12 calls Eden Hill 'now-closed'; Seattle Met 2025-04-11 said it would stay open until September 2025 after a decade; MyNorthwest 2025-09-26 lists it as closed",
+    "date": "2025-09-12"
+   },
+   "extra_sources": [],
+   "note": "Queen Anne. edenhillrestaurant.com now redirects to an unrelated gambling site. Address not in sources (believed 2209 Queen Anne Ave N - unverified).",
+   "honors": [
+    "2016 Semifinalist - Rising Star Chef of the Year (Maximillian Petty)",
+    "2017 Semifinalist - Rising Star Chef of the Year (Maximillian Petty)",
+    "2018 Semifinalist - Rising Star Chef of the Year (Maximillian Petty)"
+   ]
+  },
+  {
+   "name": "Eight Row",
+   "address": "7102 Woodlawn Ave NE",
+   "zip": "98115",
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2024/05/eight-row-will-close-in-june",
+    "what": "Seattle Met: Eight Row closing; final dinner service June 29, 2024 (lease up); owners hope to reopen somewhere eventually, no timeline",
+    "date": "2024-05-13"
+   },
+   "extra_sources": [],
+   "note": "Also in Seattle Met's 2024 closures roundup (2024-12-20). eightrow.com now 301-redirects to a design agency portfolio page. Street address is the last-known address from the Overture listing, not from the article. The family is planning a separate restaurant in Wenatchee.",
+   "honors": [
+    "2022 Semifinalist - Best Chef: Northwest and Pacific (David Nichols)",
+    "2023 Semifinalist - Best Chef: Northwest and Pacific (David Nichols)",
+    "2024 Semifinalist - Outstanding Wine and Other Beverages Program"
+   ]
+  },
+  {
+   "name": "Ethan Stowell Restaurants",
+   "address": null,
+   "city": "Seattle",
+   "open": null,
+   "open_source": null,
+   "note": "Restaurant group (several restaurants), not one place; not checked individually.",
+   "honors": [
+    "2015 Semifinalist - Outstanding Restaurateur (Ethan Stowell) [as 'Ethan Stowell Restaurants (Staple & Fancy, How to Cook a Wolf, Anchovies & Olives, and others)']",
+    "2016 Semifinalist - Outstanding Restaurateur (Ethan Stowell) [as 'Ethan Stowell Restaurants (Staple & Fancy, How to Cook a Wolf, Anchovies & Olives, and others)']",
+    "2017 Semifinalist - Outstanding Restaurateur (Ethan Stowell) [as 'Ethan Stowell Restaurants (Staple & Fancy, Tavolata, Anchovies & Olives, and others)']",
+    "2018 Semifinalist - Outstanding Restaurateur (Ethan Stowell and Angela Stowell) [as 'Ethan Stowell Restaurants (Staple & Fancy, Tavolata, How to Cook a Wolf, and others)']",
+    "2019 Semifinalist - Outstanding Restaurateur (Ethan Stowell) [as 'Ethan Stowell Restaurants (Ballard Pizza Co., Bramling Cross, Cortina, and others)']"
+   ]
+  },
+  {
+   "name": "Girin Steakhouse & Ssam Bar",
+   "address": "501 Stadium Pl S",
+   "zip": "98104",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'GIRIN RESTAURANT' last inspected 2026-09-24 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-09-24"
+   },
+   "extra_sources": [],
+   "note": "Own site and Toast page returned 403 (skipped); King County inspected 'GIRIN RESTAURANT' at 501 Stadium Pl S on 2026-09-24. UNKNOWN. Believed 501 Stadium Pl S, 98104 (unverified). Needs a manual check.",
+   "honors": [
+    "2016 Semifinalist - Best New Restaurant"
+   ]
+  },
+  {
+   "name": "Homer",
+   "address": "3013 Beacon Ave S",
+   "zip": "98144",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.restauranthomer.com/",
+    "what": "own site live with hours (Tue-Sun 5-10pm) and SevenRooms reservations; Seattle Met 2025-07-25 reported reopening Aug 1, 2025 after a June 2025 fire",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Closed about 2 months in June-July 2025 after a fire (Seattle Met 2025-06-06); reopened Aug 1, 2025 (Seattle Met https://www.seattlemet.com/eat-and-drink/2025/07/seattle-restaurant-openings-homer-gordo).",
+   "honors": [
+    "2019 Semifinalist - Best Chef: Northwest (Logan Cox)",
+    "2020 Semifinalist - Best Chef: Northwest & Pacific (Logan Cox)",
+    "2025 Semifinalist - Best Chef: Northwest & Pacific (Logan Cox)",
+    "2026 Semifinalist - Best Chef: Northwest & Pacific (Logan Cox)"
+   ]
+  },
+  {
+   "name": "Hood Famous Cafe + Bar",
+   "address": "504 5th Ave S",
+   "zip": "98104",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.hoodfamousbakeshop.com/contactus",
+    "what": "own site live: Cafe + Bar address with hours (Tue-Fri 8am-4pm, Sat-Sun 9am-4pm, closed Mon), active Toast ordering links; homepage photo dated Feb 12 2026",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Chinatown-International District. Ballard bakeshop facility (2325 1/2 NW Market St) is wholesale only, closed to the public.",
+   "honors": [
+    "2020 Semifinalist - Best Chef: Northwest & Pacific (Chera Amlag)"
+   ]
+  },
+  {
+   "name": "Il Corvo",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2020/05/mike-easton-announces-il-corvo-will-not-reopen",
+    "what": "Seattle Met 2020-05-06: Mike Easton announces Il Corvo will not reopen after COVID shutdown; Seattle Met 2023-01-30 confirms it never reopened",
+    "date": "2020-05-06"
+   },
+   "extra_sources": [],
+   "note": "Pioneer Square. Easton now runs Bar Bacetto in Waitsburg, WA. ilcorvopasta.com now redirects to an unrelated site. Address not in sources.",
+   "honors": [
+    "2016 Finalist - Best Chef: Northwest (Mike Easton) [as 'Il Corvo Pasta']",
+    "2017 Semifinalist - Best Chef: Northwest (Mike Easton)"
+   ]
+  },
+  {
+   "name": "Il Nido",
+   "address": "2717 61st Ave SW",
+   "zip": "98116",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.ilnidoseattle.com/",
+    "what": "own site live with hours (Tue-Sat 4-9pm), Resy booking; notice closed Saturday Sept 19 for private event, reopening Tuesday Sept 22 (weekdays match 2026)",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Alki, in the Alki Homestead building.",
+   "honors": [
+    "2020 Semifinalist - Best New Restaurant"
+   ]
+  },
+  {
+   "name": "Joule",
+   "address": "3506 Stone Way N",
+   "zip": "98103",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "http://www.relayrestaurantgroup.com/restaurants/joule/",
+    "what": "Owner Relay Restaurant Group site (joulerestaurant.com 301-redirects here): 'Open for dinner 7 days', Sun-Thu 5-9pm, Fri-Sat 5-10pm; site copyright 2026",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Same building as the now-closed Whale Wins.",
+   "honors": [
+    "2015 Finalist - Best Chef: Northwest (Rachel Yang and Seif Chirchi)",
+    "2016 Finalist - Best Chef: Northwest (Rachel Yang and Seif Chirchi)",
+    "2017 Finalist - Best Chef: Northwest (Rachel Yang and Seif Chirchi)",
+    "2018 Finalist - Best Chef: Northwest (Rachel Yang and Seif Chirchi)",
+    "2019 Finalist - Best Chef: Northwest (Rachel Yang and Seif Chirchi)",
+    "2020 Finalist - Best Chef: Northwest & Pacific (Rachel Yang and Seif Chirchi)",
+    "2022 Finalist - Outstanding Chef (Rachel Yang and Seif Chirchi)"
+   ]
+  },
+  {
+   "name": "JuneBaby",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://mynorthwest.com/3943868/junebaby-chef-announces-closure-promises-to-dream-up-some-things/",
+    "what": "MyNorthwest 2023-12-21: Edouardo Jordan closing JuneBaby; last day Dec 31, 2023",
+    "date": "2023-12-21"
+   },
+   "extra_sources": [],
+   "note": "Ravenna. junebabyseattle.com is now an unrelated casino-review site. Address not in source (Wikipedia: 2122 NE 65th St, 98115 - unverified).",
+   "honors": [
+    "2018 Winner - Best New Restaurant"
+   ]
+  },
+  {
+   "name": "Kamonegi",
+   "address": "1054 N 39th St",
+   "zip": "98103",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.kamonegiseattle.com/hours-and-location",
+    "what": "Own site live: Tue-Sat 4:00pm-9:30pm last seating; no closure notice",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Fremont.",
+   "honors": [
+    "2018 Semifinalist - Best Chef: Northwest (Mutsuko Soma)",
+    "2019 Semifinalist - Best Chef: Northwest (Mutsuko Soma)",
+    "2020 Semifinalist - Best Chef: Northwest & Pacific (Mutsuko Soma)",
+    "2022 Finalist - Best Chef: Northwest and Pacific (Mutsuko Soma)",
+    "2023 Semifinalist - Best Chef: Northwest and Pacific (Mutsuko Soma)"
+   ]
+  },
+  {
+   "name": "L'Oursin",
+   "address": "1315 E Jefferson St",
+   "zip": "98122",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.loursinseattle.com/",
+    "what": "own site live with current hours (Sun-Thu 5-9pm, Fri-Sat 5-9:30pm), Resy reservations; page timestamp Aug 8, 2026",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Central District, between 13th and 14th Aves.",
+   "honors": [
+    "2019 Semifinalist - Outstanding Wine Program",
+    "2020 Semifinalist - Outstanding Wine Program"
+   ]
+  },
+  {
+   "name": "Lark",
+   "address": "952 E Seneca St",
+   "zip": "98122",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.larkseattle.com",
+    "what": "Own site live: 5-9pm Mon-Sat; no closure notice",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Capitol Hill.",
+   "honors": [
+    "2016 Semifinalist - Outstanding Restaurant",
+    "2023 Semifinalist - Outstanding Hospitality"
+   ]
+  },
+  {
+   "name": "Le Caviste",
+   "address": "1919 7th Ave",
+   "zip": "98101",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'LE CAVISTE' last inspected 2026-06-10 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-06-10"
+   },
+   "extra_sources": [],
+   "note": "Own site lecavisteseattle.com has an expired TLS certificate; open status from King County inspection 2026-06-10. Could not confirm. Its site lecavisteseattle.com has an EXPIRED TLS certificate and shows only a title/keyword shell with no hours or dates. lecaviste.com is a for-sale domain. Not mentioned in Seattle Met's 2024 or 2025 closures roundups. Unverified candidate address from Overture: 1919 7th Ave, 98101. Needs a dated news story or a working official page.",
+   "honors": [
+    "2026 Semifinalist - Outstanding Wine and Other Beverages Program"
+   ]
+  },
+  {
+   "name": "Lil Red's Takeout and Catering",
+   "address": "4225 Rainier Ave S",
+   "zip": "98118",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'LIL RED'S TAKEOUT & CATERING' last inspected 2026-07-02 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-07-02"
+   },
+   "extra_sources": [],
+   "note": "No own website found; open status from King County inspection 2026-07-02. Could not confirm. No official site found: lilredstakeout.com, lilredstakeoutandcatering.com, lilredsseattle.com and lilredtakeout.com do not resolve. The ordering short link in its Overture listing (rebrand.ly/orderlilreds) returned 403, so it was skipped. Unverified candidate address from Overture: 4225 Rainier Ave S, 98118 (Columbia City).",
+   "honors": [
+    "2022 Semifinalist - Best Chef: Northwest and Pacific (Erasto Jackson)"
+   ]
+  },
+  {
+   "name": "Little Beast Ballard",
+   "address": "5107 Ballard Ave NW",
+   "zip": "98107",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://beastandcleaver.com/the-little-beast/",
+    "what": "Beast & Cleaver site live with Little Beast hours (Thu-Sat 4-9pm, Sun 11am-3:30pm) and reservations; Seattle Met named it Restaurant of the Year 2025 (Oct 2025)",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "English pub from Beast & Cleaver; soft-opened around July 2025 (Seattle Met 2025-06-27).",
+   "honors": [
+    "2026 Semifinalist - Best New Restaurant"
+   ]
+  },
+  {
+   "name": "Ltd Edition Sushi",
+   "address": "1641 Nagle Pl, Suite 006",
+   "zip": "98122",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.ltdeditionsushi.com/",
+    "what": "own site live with hours (Mon-Fri 5-9:30pm) and Tock booking",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Capitol Hill. Omakase only.",
+   "honors": [
+    "2025 Semifinalist - Outstanding Wine and Other Beverages Program"
+   ]
+  },
+  {
+   "name": "Mamnoon",
+   "address": "1508 Melrose Ave",
+   "zip": "98122",
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2025/08/mamnoon-closing",
+    "what": "Seattle Met 2025-08-25: Mamnoon to close Sept 14, 2025 after 13 years; own site mamnoonrestaurant.com/mamnoon: 'Sunday September 14th 2025 was mamnoon's last service.'",
+    "date": "2025-08-25"
+   },
+   "extra_sources": [],
+   "note": "Brand continues only as Mamnoon Fine Foods retail/catering. Seattle Met 2025-12-19 roundup also lists Mamnooncita, Hanoon, Mamnoon Street and mBar among 2025 closures.",
+   "honors": [
+    "2015 Semifinalist - Best Chef: Northwest (Garrett Melkonian)"
+   ]
+  },
+  {
+   "name": "Maneki",
+   "address": "304 6th Ave S",
+   "zip": "98104",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'MANEKI RESTAURANT' last inspected 2026-05-26 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-05-26"
+   },
+   "extra_sources": [
+    {
+     "url": "https://manekiseattle.com/",
+     "what": "live site with text-message reservations; no address/hours shown",
+     "date": "2026-10-05"
+    },
+    {
+     "url": "http://manekirestaurant.com/",
+     "what": "old domain shows parked 'This domain is coming soon' page",
+     "date": "2026-10-05"
+    }
+   ],
+   "note": "Open per King County inspection 2026-05-26; manekirestaurant.com is a parked 'Coming Soon' page (2026-10-05); manekiseattle.com is live but shows no address or hours.",
+   "honors": []
+  },
+  {
+   "name": "MariPili Tapas Bar",
+   "address": "1117 12th Ave",
+   "zip": "98122",
+   "city": "Seattle",
+   "open": null,
+   "open_source": {
+    "url": "https://www.maripili-tapas-bar.com/",
+    "what": "own site live with current hours (Tue-Sat, closed Sun-Mon)",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Capitol Hill. Also runs MariPili at Cafe Frieda in the Frye Art Museum (704 Terry Ave).",
+   "honors": [
+    "2024 Semifinalist - Best Chef: Northwest and Pacific (Grayson Corrales)"
+   ]
+  },
+  {
+   "name": "Musang",
+   "address": "2524 Beacon Ave S",
+   "zip": "98144",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.musangseattle.com/info-hours",
+    "what": "own site live with hours (dinner Wed-Mon 5-10pm, closed Tue) and OpenTable reservations",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Beacon Hill.",
+   "honors": [
+    "2022 Semifinalist - Best Chef: Northwest and Pacific (Melissa Miranda)",
+    "2023 Semifinalist - Best Chef: Northwest and Pacific (Melissa Miranda)",
+    "2024 Finalist - Best Chef: Northwest and Pacific (Melissa Miranda)",
+    "2026 Semifinalist - Best Chef: Northwest & Pacific (Melissa Miranda)"
+   ]
+  },
+  {
+   "name": "No Anchor",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2021/12/seattle-restaurants-that-closed-permanently-in-2021",
+    "what": "Seattle Met 2021-12-28 year-end closures: No Anchor pivoted in July 2021 into a neighborhood tavern; caption 'No Anchor is now Trade Winds Tavern'",
+    "date": "2021-12-28"
+   },
+   "extra_sources": [],
+   "note": "RENAMED: became Trade Winds Tavern (same owners Chris Elford & Anu Apte). Trade Winds' current status not checked. Own site has a broken (Squarespace) cert. Address not in source.",
+   "honors": [
+    "2017 Semifinalist - Best New Restaurant",
+    "2019 Semifinalist - Outstanding Bar Program"
+   ]
+  },
+  {
+   "name": "Off Alley",
+   "address": "4903 1/2 Rainier Ave S",
+   "zip": "98118",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.offalleyseattle.com/",
+    "what": "own site live with hours and SevenRooms reservations; links a New York Times review dated 2026-04-07",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Columbia City. Closed Tue-Wed.",
+   "honors": [
+    "2024 Semifinalist - Best Chef: Northwest and Pacific (Evan Leichtling)"
+   ]
+  },
+  {
+   "name": "Opus Co.",
+   "address": "7410 Greenwood Ave N",
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2021/07/opus-co-closing-filipino-fried-chicken-supply-coming-to-phinney-ridge",
+    "what": "Seattle Met 2021-07-20: Opus Co. closing, operating through early September 2021; space going to The Chicken Supply; Seattle Met 2021-12-28 says it served its final tasting menu in September",
+    "date": "2021-07-20"
+   },
+   "extra_sources": [],
+   "note": "Phinney Ridge. Own domain no longer resolves.",
+   "honors": [
+    "2018 Semifinalist - Best Chef: Northwest (Mark Schroder)"
+   ]
+  },
+  {
+   "name": "Pancita",
+   "address": "5501 30th Ave NE",
+   "zip": "98105",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.pancitaseattle.com/",
+    "what": "own site live with hours (Tue-Sat), reservations, dinner and drink menus dated September 2026",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "LOCATION MISMATCH: Pancita is in Ravenna (the former Pair space, 5501 30th Ave NE), not White Center. Seattle Met (2023-11-29) gives this address. Remove it from White Center.",
+   "honors": [
+    "2024 Finalist - Emerging Chef (Janet Becerra)",
+    "2025 Semifinalist - Best Chef: Northwest & Pacific (Janet Becerra)",
+    "2026 Semifinalist - Best Chef: Northwest & Pacific (Janet Becerra)"
+   ]
+  },
+  {
+   "name": "Pho Bac Sup Shop",
+   "address": "1240 S Jackson St",
+   "zip": "98144",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.thephobac.com/",
+    "what": "Pho Bac group site live listing Sup Shop address, hours (10am-9pm) and active Clover online ordering",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Little Saigon. The family also runs Pho Bac Downtown (1923 7th Ave) and Pho Bac Rainier Valley (3300 Rainier Ave S).",
+   "honors": [
+    "2023 Finalist - Outstanding Restaurateur (Yenvy and Quynh Pham)",
+    "2024 Finalist - Outstanding Restaurateur (Quynh-Vy and Yenvy Pham)",
+    "2025 Semifinalist - Outstanding Restaurateur (Quynh Pham and Yenvy Pham)"
+   ]
+  },
+  {
+   "name": "Phocific Standard Time",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.thephobac.com/phocific-standard-time",
+    "what": "Pho Bac group site live with PST hours (Tue-Thu 5-11pm, Fri-Sat 5pm-midnight), no reservations, private-party email",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Open, but the street address is MISSING: no PST page (including the raw HTML) gives one. The page nav reads 'Only Sup Shop', which may mean PST is now at or with the Sup Shop (1240 S Jackson St), but that is unconfirmed. The South Lake Union location in the input was NOT verified.",
+   "honors": [
+    "2023 Finalist - Outstanding Restaurateur (Yenvy and Quynh Pham)",
+    "2024 Finalist - Outstanding Restaurateur (Quynh-Vy and Yenvy Pham)",
+    "2025 Semifinalist - Outstanding Restaurateur (Quynh Pham and Yenvy Pham)"
+   ]
+  },
+  {
+   "name": "Poppy",
+   "address": "622 Broadway E",
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2019/07/jerry-traunfeld-will-close-poppy-altura-s-nathan-lockwood-will-take-over",
+    "what": "Seattle Met 2019-07-15: Jerry Traunfeld to close Poppy after dinner Sun Aug 4 (2019); Altura owners to open Carrello in the space",
+    "date": "2019-07-15"
+   },
+   "extra_sources": [],
+   "note": "Address = Carrello's address per Carrello's own site (Carrello occupies the former Poppy space per Seattle Met). poppyseattle.com no longer resolves.",
+   "honors": [
+    "2016 Semifinalist - Outstanding Chef (Jerry Traunfeld)"
+   ]
+  },
+  {
+   "name": "Ramie",
+   "address": "1529 14th Ave",
+   "zip": "98122",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.ramieseattle.com/",
+    "what": "own site live with hours (Wed-Sun, happy hour 5-8pm, dinner 5-10pm) and OpenTable",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Capitol Hill. Opened May 2024.",
+   "honors": [
+    "2026 Semifinalist - Best Chef: Northwest & Pacific (Thai Nguyen and Trinh Nguyen)"
+   ]
+  },
+  {
+   "name": "Rob Roy",
+   "address": "2332 2nd Ave",
+   "zip": null,
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.robroyseattle.com/event-calendar",
+    "what": "own site event calendar with 2026 events: Rob Roy XVII Anniversary Aug 17-18, 2026; Black Lagoon Oct 1 - Nov 7, 2026 (4pm-midnight)",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Belltown. The site does not print a zip (2nd Ave in Belltown is normally 98121). No regular hours on the homepage.",
+   "honors": [
+    "2023 Finalist - Outstanding Bar",
+    "2025 Semifinalist - Outstanding Professional in Cocktail Service (Anu Apte)",
+    "2026 Semifinalist - Outstanding Professional in Cocktail Service (Anu Apte)"
+   ]
+  },
+  {
+   "name": "RockCreek",
+   "address": "4300 Fremont Ave N",
+   "zip": null,
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://rockcreekseafood.com/",
+    "what": "Own site live (rockcreekseattle.com 301-redirects here): Seattle and Kirkland locations listed, no closure notice, current operational-fee notice",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Now branded 'RockCreek Seafood & Spirits'. Zip not shown on site. Second location in Kirkland (89 Kirkland Ave, opened 2024). Hours not on homepage.",
+   "honors": [
+    "2015 Semifinalist - Best Chef: Northwest (Eric Donnelly)",
+    "2016 Semifinalist - Best Chef: Northwest (Eric Donnelly)",
+    "2017 Semifinalist - Best Chef: Northwest (Eric Donnelly)",
+    "2018 Semifinalist - Best Chef: Northwest (Eric Donnelly)",
+    "2019 Semifinalist - Best Chef: Northwest (Eric Donnelly)"
+   ]
+  },
+  {
+   "name": "Roquette",
+   "address": "2232 1st Ave",
+   "zip": "98121",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://roquettesea.com/",
+    "what": "own site live with hours (Wed-Sat 5pm-2am, Sun-Tue 5pm-1am)",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Official domain is roquettesea.com (roquetteseattle.com does not resolve). Belltown.",
+   "honors": [
+    "2025 Semifinalist - Outstanding Bar",
+    "2026 Semifinalist - Outstanding Bar"
+   ]
+  },
+  {
+   "name": "Rupee Bar",
+   "address": "6307 24th Ave NW",
+   "zip": "98107",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.rupeebar.com/",
+    "what": "own site live with current hours (Mon-Thu 4-9pm, Fri-Sat 4-10pm) and happy hour; no dated content",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Walk-ins only, 21+.",
+   "honors": [
+    "2020 Semifinalist - Rising Star Chef of the Year (Liz Kenyon)",
+    "2022 Semifinalist - Best Chef: Northwest and Pacific (Liz Kenyon)",
+    "2020 Finalist - Outstanding Restaurant Design, 75 Seats and Under (Heliotrope Architects (designer))"
+   ]
+  },
+  {
+   "name": "Saint Bread",
+   "address": "1421 NE Boat St",
+   "zip": "98105",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.saintbread.com/",
+    "what": "own site live with daily hours and Toast ordering; Seattle Met 2026-03-30 describes Saint Bread as open (NYT best bakeries, JBF longlist)",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Portage Bay/University District waterfront.",
+   "honors": [
+    "2025 Semifinalist - Outstanding Bakery"
+   ]
+  },
+  {
+   "name": "Salare",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2021/06/edouardo-jordan-will-close-salare-seattle-permanently",
+    "what": "Seattle Met 2021-06-08: Edouardo Jordan will close Salare permanently July 3 (2021); Seattle Met 2021-12-28 confirms it shut July 3",
+    "date": "2021-06-08"
+   },
+   "extra_sources": [],
+   "note": "Ravenna. salarerestaurant.com is now an unrelated gambling site. Address not in source.",
+   "honors": [
+    "2016 Semifinalist - Best Chef: Northwest (Edouardo Jordan)",
+    "2017 Finalist - Best Chef: Northwest (Edouardo Jordan)",
+    "2018 Winner - Best Chef: Northwest (Edouardo Jordan)"
+   ]
+  },
+  {
+   "name": "Sawyer",
+   "address": "5309 22nd Ave NW",
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.myballard.com/2022/09/13/sawyer-to-close-after-four-years-in-ballard/",
+    "what": "My Ballard 2022-09-13: Sawyer closing after four years; last night of service Oct 2, 2022",
+    "date": "2022-09-13"
+   },
+   "extra_sources": [],
+   "note": "Ballard. Space became Rough & Tumble women's sports bar (My Ballard 2022-10-21, which gives the 5309 22nd Ave NW address). Own site has a self-signed cert.",
+   "honors": [
+    "2019 Semifinalist - Best New Restaurant",
+    "2020 Semifinalist - Best Chef: Northwest & Pacific (Mitch Mayers)"
+   ]
+  },
+  {
+   "name": "Sea Wolf Bakers",
+   "address": "3617 Stone Way N, Ste 101",
+   "zip": "98103",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.seawolfbakers.com",
+    "what": "Own site live: open daily 7am-6pm, pre-order system active",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Fremont/Wallingford.",
+   "honors": [
+    "2019 Semifinalist - Outstanding Baker (Kit Schumann and Jesse Schumann)"
+   ]
+  },
+  {
+   "name": "Sitka & Spruce",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2019/09/matt-dillon-is-closing-sitka-and-spruce",
+    "what": "Seattle Met 2019-09-25: Matt Dillon closing Sitka & Spruce (Melrose Market) after New Year's Eve 2019",
+    "date": "2019-09-25"
+   },
+   "extra_sources": [],
+   "note": "Own domain has an expired cert. Address not in source (was in Melrose Market, Capitol Hill).",
+   "honors": [
+    "2017 Semifinalist - Outstanding Chef (Matt Dillon)"
+   ]
+  },
+  {
+   "name": "Sophon",
+   "address": "7314 Greenwood Ave N",
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.thestranger.com/news/sophon-appears-to-shuttered/",
+    "what": "The Stranger: 'Sophon Appears to Be Shuttered', closed after staff walkout and unpaid taxes, business license revoked early June 2026; KIRO 7 2026-06-18 also reports it shuttered",
+    "date": "2026-06-15"
+   },
+   "extra_sources": [],
+   "note": "LOCATION MISMATCH: Sophon was in Phinney Ridge (7314 Greenwood Ave N per Seattle Met 2024-06-11), not Columbia City. Closed June 2026. KIRO 7: https://www.kiro7.com/news/local/james-beard-nominated-phinney-ridge-restaurant-shutters-after-amassing-160k-debt/BJCIZS4Q6RB5XKKLQLZEOEYFPQ/",
+   "honors": [
+    "2025 Semifinalist - Best New Bar"
+   ]
+  },
+  {
+   "name": "Spinasse",
+   "address": "1531 14th Ave",
+   "zip": "98122",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://spinasse.com",
+    "what": "Own site live: open Sun-Thu 5-10pm, Fri-Sat 5-11pm; no closure notice",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Capitol Hill. Note www.spinasse.com has an expired TLS cert; apex domain works.",
+   "honors": [
+    "2015 Semifinalist - Best Chef: Northwest (Jason Stratton)"
+   ]
+  },
+  {
+   "name": "Stateside",
+   "address": "300 E Pike St, Ste 1200",
+   "zip": "98122",
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://mynorthwest.com/local/capitol-hill-restaurant/4118962",
+    "what": "MyNorthwest story: Stateside (Eric Johnson's Vietnamese-French restaurant) closed suddenly, lease expired; also in Seattle Met's 2025 closures roundup (2025-12-19)",
+    "date": "2025-08-04"
+   },
+   "extra_sources": [],
+   "note": "Sister bar Foreign National also closed. Own site statesideseattle.com now shows 'Squarespace - Website Expired'. Street address is the last-known address from the Overture listing, not from the closure story.",
+   "honors": [
+    "2019 Semifinalist - Best Chef: Northwest (Eric Johnson)"
+   ]
+  },
+  {
+   "name": "Surrell",
+   "address": "2319 E Madison St",
+   "zip": "98112",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.surrellseattle.com/",
+    "what": "own site live with Wed-Sat tasting-menu schedule, Tock booking; mentions 2026 James Beard Best Chef Northwest & Pacific finalist",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Madison Valley.",
+   "honors": [
+    "2026 Finalist - Best Chef: Northwest & Pacific (Aaron Tekulve)"
+   ]
+  },
+  {
+   "name": "Sushi Kappo Tamura",
+   "address": "2968 Eastlake Ave E",
+   "zip": "98102",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.sushikappotamura.com/locations",
+    "what": "Own site live: Tue-Thu dinner 5-9:30pm, Fri-Sat 5-10pm, lunch Tue-Sat 11:30am-2pm; closed Sun-Mon",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Eastlake.",
+   "honors": [
+    "2018 Semifinalist - Best Chef: Northwest (Taichi Kitamura)",
+    "2019 Semifinalist - Best Chef: Northwest (Taichi Kitamura)"
+   ]
+  },
+  {
+   "name": "Sushi Kashiba",
+   "address": "86 Pine St, Suite 1",
+   "zip": "98101",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://sushikashiba.com/reservations",
+    "what": "Own site live: 'Open Wednesday - Monday beginning at 5:00 PM', seatings 5/7/9pm; surcharge policy update",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Pike Place Market.",
+   "honors": [
+    "2019 Semifinalist - Outstanding Chef (Shiro Kashiba)"
+   ]
+  },
+  {
+   "name": "Temple Pastries",
+   "address": "2524 S Jackson St",
+   "zip": "98144",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://orders.templepastries.com/",
+    "what": "own site live (open 7 days 7am-3pm) with active pre-order system; Seattle Met 2025-08-20 places it at 2524 S Jackson St",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Central District. Sister evening pizzeria Sacro Bosco shares the space (Seattle Met 2025-08-20).",
+   "honors": [
+    "2026 Semifinalist - Outstanding Pastry Chef or Baker (Christina Wood)"
+   ]
+  },
+  {
+   "name": "The Boat (Pho Bac)",
+   "address": "1314 S Jackson St",
+   "zip": "98144",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.thephobac.com/",
+    "what": "Pho Bac group site live listing 'The Boat: Chicken Rice Shop' with address, hours (Thu-Sat 11am-9pm; closed Sun-Wed) and Clover ordering",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Concept changed: the original boat-shaped Pho Bac building now runs as 'The Boat: Chicken Rice Shop' (Seattle Met covered the change in 2023). Only open Thu-Sat.",
+   "honors": [
+    "2023 Finalist - Outstanding Restaurateur (Yenvy and Quynh Pham)",
+    "2024 Finalist - Outstanding Restaurateur (Quynh-Vy and Yenvy Pham)",
+    "2025 Semifinalist - Outstanding Restaurateur (Quynh Pham and Yenvy Pham)"
+   ]
+  },
+  {
+   "name": "The Flour Box",
+   "address": "5520 Rainier Ave S",
+   "zip": "98118",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.theflourboxseattle.com/",
+    "what": "own site live with hours (Thu-Sun 10am-12:30pm, open until sellout); Seattle Met 2025-06-06 reported a temporary break with reopening June 26, 2025",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Official domain is theflourboxseattle.com (theflourbox.com did not respond). Hillman City.",
+   "honors": [
+    "2022 Semifinalist - Outstanding Baker (Pamela Vuong)"
+   ]
+  },
+  {
+   "name": "The Walrus and the Carpenter",
+   "address": "4743 Ballard Ave NW",
+   "zip": "98107",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://thewalrusbar.com/",
+    "what": "own site live with hours (Sun-Thu 4-9pm, Fri-Sat 4-10pm), $3 oyster happy hour, 'We are open for indoor and outdoor patio dining'",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Walk-in only (first come, first served). WebFetch output was truncated, so this was read from the raw HTML of the same page.",
+   "honors": [
+    "2022 Finalist - Outstanding Restaurant",
+    "2023 Semifinalist - Outstanding Chef (Renee Erickson)",
+    "2024 Semifinalist - Outstanding Restaurant"
+   ]
+  },
+  {
+   "name": "The Wayland Mill",
+   "address": "3800 Latona Ave NE, Ste 112",
+   "zip": "98105",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.thewaylandmill.com/",
+    "what": "own site live with hours (daily 8am; to 3pm Sun-Tue, to 9pm Wed-Sat) and Toast ordering; Seattle Met 2026-03-30: James Beard Best New Restaurant nominee",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "NEIGHBORHOOD MISMATCH: it is on North Lake Union/Wallingford (Northlake Commons, 3800 Latona Ave NE), not Fremont. Opened May 2025.",
+   "honors": [
+    "2026 Semifinalist - Best New Restaurant"
+   ]
+  },
+  {
+   "name": "The Whale Wins",
+   "address": "3506 Stone Way N",
+   "zip": "98103",
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2025/07/whale-wins-marche-pitch-the-baby",
+    "what": "Seattle Met 2025-07-11: Whale Wins to close when its lease runs out at end of October 2025; own site thewhalewins.com now says 'The Whale Wins is permanently closed... thirteen amazing years'",
+    "date": "2025-07-11"
+   },
+   "extra_sources": [],
+   "note": "Closed end of Oct 2025 (Renee Erickson / Sea Creatures). Address from own site. Listed among 2025 closures in Seattle Met 2025-12-19 roundup.",
+   "honors": [
+    "2015 Finalist - Best Chef: Northwest (Renee Erickson)",
+    "2016 Winner - Best Chef: Northwest (Renee Erickson)"
+   ]
+  },
+  {
+   "name": "Tomo",
+   "address": "9811 16th Ave SW",
+   "zip": "98106",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.tomoseattle.com/contact",
+    "what": "own site live: contact page with address and hours (Wed-Sun from 5pm); homepage notice 'closed Wednesday, September 23 - Wednesday, September 30 for private events, see you Thursday, October 1' (weekdays match 2026)",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "White Center, next to Taboo Video.",
+   "honors": [
+    "2022 Semifinalist - Outstanding Wine Program"
+   ]
+  },
+  {
+   "name": "Upper Bar Ferdinand",
+   "address": null,
+   "zip": null,
+   "city": "Seattle",
+   "open": false,
+   "open_source": {
+    "url": "https://www.seattlemet.com/eat-and-drink/2020/05/bar-ferdinand-will-become-a-wine-bar-called-light-sleeper",
+    "what": "Seattle Met 2020-05-11: the former Bar Ferdinand space in Chophouse Row will become wine bar Light Sleeper",
+    "date": "2020-05-11"
+   },
+   "extra_sources": [],
+   "note": "Upper Bar Ferdinand was later called just 'Bar Ferdinand' (Matt Dillon, Chophouse Row, Capitol Hill); Seattle Met 2017-12-28 noted the Melrose Market Lower Bar Ferdinand folded into it. Chophouse Row's own tenant list (copyright 2026) no longer includes it. Address not in source.",
+   "honors": [
+    "2017 Semifinalist - Best New Restaurant"
+   ]
+  },
+  {
+   "name": "Wataru",
+   "address": "2400 NE 65th St",
+   "zip": "98115",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.wataruseattle.com",
+    "what": "Own site live: seatings Wed-Thu 7:30pm, Fri-Sun 4:30 & 7:30pm, closed Mon-Tue; takeout Thu 5-7pm; reservations open monthly",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [
+    {
+     "url": "https://data.kingcounty.gov/d/r878-4sxa",
+     "what": "Public Health - Seattle & King County food inspection data: 'WATARU' last inspected 2025-09-25 (routine inspection; shows the business operates, not its menu)",
+     "date": "2025-09-25"
+    }
+   ],
+   "note": "Ravenna.",
+   "honors": [
+    "2017 Semifinalist - Best Chef: Northwest (Kotaro Kumita)"
+   ]
+  },
+  {
+   "name": "Wild Ginger",
+   "address": "1401 3rd Ave",
+   "zip": "98101",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://wildginger.net",
+    "what": "Own site live: Downtown hours Mon 4-9pm, Tue-Thu 11:30am-9pm (lunch Tue-Thu 11:30-2), Fri-Sun 4-9pm; copyright 2026",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Downtown location. Other locations listed: McKenzie (2202B 8th Ave, 98121) and Bellevue (508 Bellevue Way NE, 98004).",
+   "honors": [
+    "2015 Semifinalist - Outstanding Wine Program",
+    "2016 Semifinalist - Outstanding Wine Program",
+    "2017 Semifinalist - Outstanding Wine Program",
+    "2018 Semifinalist - Outstanding Wine Program"
+   ]
+  },
+  {
+   "name": "Willmott's Ghost",
+   "address": "2100 6th Ave",
+   "zip": "98121",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://www.willmottsghost.com/",
+    "what": "own site live with hours (lunch Tue-Fri, dinner Tue-Sat), OpenTable + Toast links; notice of dinner closure 'Tuesday 9/22 - Thursday 9/24' for private events (weekdays match 2026)",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Inside the Amazon Spheres, downtown. Sea Creatures (Renee Erickson) group.",
+   "honors": [
+    "2019 Finalist - Outstanding Restaurant Design, 75 Seats and Under (Heliotrope Architects and Price Erickson Interior Design (designers))"
+   ]
+  },
+  {
+   "name": "familyfriend",
+   "address": "3315 Beacon Ave S",
+   "zip": "98144",
+   "city": "Seattle",
+   "open": true,
+   "open_source": {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'FAMILYFRIEND' last inspected 2025-12-15 (routine inspection; shows the business operates, not its menu)",
+    "date": "2025-12-15"
+   },
+   "extra_sources": [],
+   "note": "No own website found; open status from King County inspection (2025-12-15). Could not confirm. No official site found: familyfriendseattle.com, familyfriend.co, familyfriendsea.com, familyfriendrestaurant.com, familyfriend.restaurant and eatfamilyfriend.com do not resolve. Tock returned 403 and OpenTable timed out, so both were skipped. Unverified candidate address from Overture: 3315 Beacon Ave S, 98144.",
+   "honors": [
+    "2025 Semifinalist - Best New Restaurant"
+   ]
+  },
+  {
+   "name": "Emmett Watson's Oyster Bar",
+   "address": "1916 Pike Pl",
+   "zip": "98101",
+   "city": "Seattle (Pike Place Market / Post Alley)",
+   "open": true,
+   "open_source": {
+    "url": "https://www.emmettwatsonsoysterbar.com/",
+    "what": "own site live: hours Mon 11-2, Wed/Thu/Sun 11-7, Fri/Sat 11-8, plus a current notice 'THE WEEKEND CLEANED US OUT! WE ARE CLOSED TODAY TO REGROUP AND PREP FOR THE WEEK.'",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [
+    {
+     "url": "https://data.kingcounty.gov/d/r878-4sxa",
+     "what": "Public Health - Seattle & King County food inspection data: 'EMMETT WATSON'S OYSTER BAR' last inspected 2026-06-25 (routine inspection; shows the business operates, not its menu)",
+     "date": "2026-06-25"
+    }
+   ],
+   "note": "Own site: opened 1978 in Pike Place Market, 'the city's first oyster bar', named for Seattle columnist Emmett Watson. Site does not say whether it has always been at 1916 Pike Pl. Pike Place Market vendor URL guessed for it returned 404.",
+   "honors": []
+  },
+  {
+   "name": "Oriental Mart",
+   "address": "1506 Pike Pl",
+   "zip": "98101",
+   "city": "Seattle (Pike Place Market)",
+   "open": true,
+   "open_source": {
+    "url": "https://www.pikeplacemarket.org/vendor/oriental-mart",
+    "what": "Pike Place Market official vendor directory: current vendor, hours 11am-3pm daily, 18-seat Filipino lunch counter",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [
+    {
+     "url": "https://data.kingcounty.gov/d/r878-4sxa",
+     "what": "Public Health - Seattle & King County food inspection data: 'ORIENTAL MARKET (1506 Pike Pl)' last inspected 2026-06-11 (routine inspection; shows the business operates, not its menu)",
+     "date": "2026-06-11"
+    }
+   ],
+   "note": "SOURCE CAVEAT: this is the Market's official (PDA) vendor page, not the business's own site or a news story - caller may treat as null under strict rules. No own website found (orientalmart.com refused connection; orientalmartseattle.com does not resolve). Market page: 'a mainstay of the Market since the 1970s', three-generation family-owned; Instagram handle @omart1973 hints at 1973 but no source states the year. No source says whether it has always been at 1506 Pike Pl.",
+   "honors": [
+    "2020 America's Classics - America's Classics (Mila Apostol and Joy Apostol (owners))"
+   ]
+  },
+  {
+   "name": "Ray's Boathouse",
+   "address": "6049 Seaview Ave NW",
+   "zip": "98107",
+   "city": "Seattle (Shilshole / Ballard)",
+   "open": true,
+   "open_source": {
+    "url": "https://www.rays.com/",
+    "what": "own site live: Boathouse daily 5-9pm, Cafe daily 11:30am-9pm; Thanksgiving Nov 26, 2026 dining offered",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [
+    {
+     "url": "https://data.kingcounty.gov/d/r878-4sxa",
+     "what": "Public Health - Seattle & King County food inspection data: 'RAY'S BOAT HOUSE RESTAURANT' last inspected 2026-03-13 (routine inspection; shows the business operates, not its menu)",
+     "date": "2026-03-13"
+    }
+   ],
+   "note": "Own history page (rays.com/about): Ray Lichtenberger moved his boat rental/bait house to this location in 1939, opened a coffee house in 1945; became a formal restaurant in 1973 under new owners. Fires May 26, 1987 (reopened April 1988) and May 23, 1997 (reopened July 1997). Same location since 1939.",
+   "honors": []
+  },
+  {
+   "name": "Ruins",
+   "address": "225 W Riverside Ave",
+   "zip": null,
+   "city": "Spokane",
+   "open": null,
+   "open_source": {
+    "url": "https://www.spokesman.com/stories/2023/jan/25/spokane-chef-of-ruins-pullman-restaurant-named-jam/",
+    "what": "Spokesman-Review: Tony Brown of Ruins (225 W. Riverside Ave) named James Beard semifinalist - confirms open in Jan 2023 only",
+    "date": "2023-01-25"
+   },
+   "extra_sources": [],
+   "note": "No 2025-26 confirmation found. History: founded 2014 at 825 N Monroe St; Spokesman 2021-09-03 said it would close, then 2021-10-04 said it relocated to 225 W Riverside Ave (Bickett Building, shared with sister restaurant Hunt). No own domain resolves (ruinsspokane.com etc.); sister restaurant Hunt's site huntspokane.com shows 'Squarespace - Website Expired' (a warning sign, not proof). Spokesman search blocked; Inlander returned 429.",
+   "honors": [
+    "2023 Semifinalist - Best Chef: Northwest and Pacific (Tony Brown)"
+   ]
+  },
+  {
+   "name": "Sante Restaurant & Charcuterie",
+   "address": "404 W Main Ave",
+   "zip": null,
+   "city": "Spokane",
+   "open": false,
+   "open_source": {
+    "url": "https://www.spokesman.com/stories/2018/dec/14/a-votre-sante-decade-old-downtown-spokane-restaura/",
+    "what": "Spokesman-Review: Jeremy and Kate Hansen to close Sante in 2019 (approx. March 2019); space to become Smoke & Mirrors Saloon",
+    "date": "2018-12-14"
+   },
+   "extra_sources": [],
+   "note": "santespokane.com now shows only 'This site is currently under construction'.",
+   "honors": [
+    "2015 Semifinalist - Best Chef: Northwest (Jeremy Hansen) [as 'Sante']"
+   ]
+  },
+  {
+   "name": "The Wandering Table",
+   "address": "1242 W Summit Pkwy",
+   "zip": "99201",
+   "city": "Spokane",
+   "open": false,
+   "open_source": {
+    "url": "https://www.spokesman.com/stories/2020/dec/24/wandering-table-restaurant-in-kendall-yards-to-clo/",
+    "what": "Spokesman-Review: Kendall Yards restaurant closing permanently Jan 9, 2021; brand to be kept for pop-ups",
+    "date": "2020-12-24"
+   },
+   "extra_sources": [],
+   "note": "Own site still lists old address and hours but says 'Wandering Table is back' only for catering + pop-ups; catering page describes chefs Adam Hegsted/Aaron Fish cooking at client venues, no dine-in, no dates. Eat Good Group site does not list it among current restaurants (Baba, Francaise, Honey, Republic Kitchen+Taphouse, The Yards). Opened May 2014 per Spokesman.",
+   "honors": [
+    "2016 Semifinalist - Best Chef: Northwest (Adam Hegsted)"
+   ]
+  },
+  {
+   "name": "Zona Blanca",
+   "address": "157 S Howard St",
+   "zip": null,
+   "city": "Spokane",
+   "open": false,
+   "open_source": {
+    "url": "https://www.spokesman.com/stories/2024/sep/06/chad-white-to-close-zona-blanca-citing-downtown-cr/",
+    "what": "Spokesman-Review: Chad White to close Zona Blanca (Holley-Mason Building) on Sept 29, 2024, citing downtown crime",
+    "date": "2024-09-06"
+   },
+   "extra_sources": [],
+   "note": "Space to be used for catering and special events through end of lease. Chad White's other businesses per article: Uno Mas Taco Shop and TT's Old Iron Brewery and Barbecue (Spokane Valley, Liberty Lake). No other Zona Blanca location. No own website found (zonablancaceviche.com, zonablancaspokane.com do not resolve).",
+   "honors": [
+    "2020 Semifinalist - Best Chef: Northwest & Pacific (Chad White)",
+    "2022 Semifinalist - Best Chef: Northwest and Pacific (Chad White)"
+   ]
+  },
+  {
+   "name": "Italia Trattoria",
+   "address": "144 S Cannon St",
+   "zip": null,
+   "city": "Spokane (Browne's Addition)",
+   "open": true,
+   "open_source": {
+    "url": "https://www.italiatrattoriaspokane.com/",
+    "what": "own site live: 'Open today 05:00 pm - 08:00 pm', dinner Wed-Sat plus Sunday brunch, copyright 2026, no closure notice",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Zip not shown on own site. Founding year not stated.",
+   "honors": [
+    "2018 Semifinalist - Best Chef: Northwest (Anna Vogel)"
+   ]
+  },
+  {
+   "name": "The Table",
+   "address": null,
+   "zip": null,
+   "city": "Tacoma",
+   "open": null,
+   "open_source": {
+    "url": "https://thetabletacoma.com/",
+    "what": "own domain shows 'Squarespace - Website Expired' - not evidence of open",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Could not confirm. News Tribune and Tacoma Weekly not fetchable (blocked/403). Expired site is a warning sign of closure but not proof. Address missing.",
+   "honors": [
+    "2024 Semifinalist - Best Chef: Northwest and Pacific (Derek Bray)"
+   ]
+  },
+  {
+   "name": "Los Hernandez Tamales",
+   "address": "3706 Main St",
+   "zip": "98903",
+   "city": "Union Gap",
+   "open": true,
+   "open_source": {
+    "url": "https://www.loshernandeztamales.com/",
+    "what": "own site live: hours for both locations (Union Gap Sun-Fri 11-6, Sat 10-7), copyright 2026, no closure notice",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Own site: 'a Yakima Valley tradition since 1990', founded 1990 by Felipe Hernandez; James Beard America's Classic 2018. Site does NOT say whether 3706 Main St is the original 1990 address. Second location: 6411 W Nob Hill Blvd, Yakima (509-367-6480; Mon-Thu 11-6, Fri-Sat 11-7); opening date not given.",
+   "honors": [
+    "2018 America's Classics - America's Classics (Felipe Hernandez (owner)) [as 'Los Hernandez']"
+   ]
+  },
+  {
+   "name": "The Elbow Room (at Paul's Restaurant)",
+   "address": "1800 Broadway St",
+   "zip": "98663",
+   "city": "Vancouver",
+   "open": null,
+   "open_source": {
+    "url": "https://www.columbian.com/news/2026/mar/31/elbow-room-at-pauls-restaurant-not-finalist-for-james-beard-award/",
+    "what": "The Columbian: revamped '70s-style bar connected to Paul's Restaurant in downtown Vancouver; James Beard Best New Bar semifinalist Jan 2026 (did not advance)",
+    "date": "2026-03-31"
+   },
+   "extra_sources": [],
+   "note": "Address from own site https://www.paulselbowroom.com/ (live; Paul's hours Mon-Tue 7am-2pm, Wed-Sun 7am-9pm; Elbow Room operates daily). It is a bar attached to Paul's Restaurant, not a standalone business.",
+   "honors": [
+    "2026 Semifinalist - Best New Bar [as 'The Elbow Room']"
+   ]
+  },
+  {
+   "name": "Bar Bacetto",
+   "address": null,
+   "zip": null,
+   "city": "Waitsburg",
+   "open": true,
+   "open_source": {
+    "url": "https://www.waitsburgtimes.com/story/2026/09/24/news-briefs/second-annual-royal-block-party-rocked/22508.html",
+    "what": "Waitsburg Times: Bar Bacetto listed among Waitsburg businesses that jointly hosted the Royal Block Party on Sept 18, 2026",
+    "date": "2026-09-24"
+   },
+   "extra_sources": [],
+   "note": "Evidence is a passing mention, not a dedicated story. Own site barbacetto.com shows 'Squarespace - Website Expired'. Union-Bulletin returned 429. Street address not found. Own site barbacetto.com shows 'Website Expired'; open evidence is only a Waitsburg Times 2026-09-24 mention (block-party host); street address not confirmed from a citable source.",
+   "honors": [
+    "2024 Finalist - Best New Restaurant"
+   ]
+  },
+  {
+   "name": "Red Willow Vineyard",
+   "address": null,
+   "zip": null,
+   "city": "Wapato",
+   "open": true,
+   "open_source": {
+    "url": "https://redwillowvineyard.com/",
+    "what": "own site live: supplies fruit to over 30 wineries in WA and OR; footer '(c) 2015-2026 RED WILLOW VINEYARD'",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "WEAK evidence (no dated 2025-26 news/harvest content). Own site: founded 1971 as a division of the Stephenson family farm (with Mike Sauer), on the south slopes of Ahtanum Ridge. Grape grower only - no tasting room, tours or public hours mentioned; contact is email only. No street address on site.",
+   "type": "producer (not a restaurant)",
+   "honors": [
+    "2019 Semifinalist - Outstanding Wine, Spirits, or Beer Producer (Mike Sauer)"
+   ]
+  },
+  {
+   "name": "broVo Spirits",
+   "address": "18808 142nd Ave NE",
+   "zip": "98072",
+   "city": "Woodinville",
+   "open": true,
+   "open_source": {
+    "url": "https://brovospirits.com/2025-booklet-tech-sheets/",
+    "what": "own site live with '2025 Booklet + Tech Sheets' page and active online shop",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Brand is operating, but own Find Us page says 'We don't have a tasting room' (tastings by appointment with the head distiller) and says 'visit us in Seattle'. The Woodinville address appears only as the online shop's returns/mailing address. Own site: distillery founded 2011; James Beard Outstanding Beer/Wine/Spirits Supplier 2019. Not a walk-in destination.",
+   "type": "producer (not a restaurant)",
+   "honors": [
+    "2019 Semifinalist - Outstanding Wine, Spirits, or Beer Producer (Mhairi Voelsgen)"
+   ]
+  },
+  {
+   "name": "Crafted",
+   "address": "22 N 1st St",
+   "zip": "98901",
+   "city": "Yakima",
+   "open": true,
+   "open_source": {
+    "url": "https://www.craftedyakima.com/",
+    "what": "own site live: hours Thu-Mon 5-9pm; sample dinner menu PDF dated 6.20.26",
+    "date": "2026-10-05"
+   },
+   "extra_sources": [],
+   "note": "Own site says founded 2017; chef Dan Koommoo and Mollie Koommoo.",
+   "honors": [
+    "2023 Semifinalist - Best Chef: Northwest and Pacific (Dan Koommoo)",
+    "2024 Semifinalist - Best Chef: Northwest and Pacific (Dan Koommoo)"
+   ]
+  }
+ ],
+ "checked": "2026-10-05",
+ "notes": [
+  "Levels: 'Finalist' = JBF 'Nominee'. Each honor appears once, at the highest level reached that year; jbf_urls lists the announcement pages (semifinalist -> nominee -> winner).",
+  "JBF announced no 2020 winners in 23 Restaurant and Chef categories (https://www.jamesbeard.org/stories/why-were-not-announcing-the-remaining-2020-award-winners); no awards in 2021.",
+  "No Washington State place or person appears on the 2022, 2023, 2024, 2025 or 2026 Restaurant and Chef winners pages (checked each page).",
+  "America's Classics for Washington: 1998 Emmett Watson's, 2002 Ray's Boathouse, 2008 Maneki (years for these three from non-JBF sources), 2018 Los Hernandez and 2020 Oriental Mart (JBF pages). JBF pages for 2019, 2022, 2024, 2025 and 2026 America's Classics list no Washington place."
+ ]
+}

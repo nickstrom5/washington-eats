@@ -1,0 +1,1408 @@
+[
+ {
+  "name": "Super Duper Teriyaki",
+  "address": "2019 Harris Ave",
+  "city": "Bellingham",
+  "zip": "98225",
+  "county": "Whatcom",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "kalbi short rib",
+   "mochiko chicken",
+   "spam teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter on Harris Ave; plates come with rice, and the house specials add gyoza and an egg roll.",
+  "display_note": "Teriyaki counter on Harris Ave; plates come with rice, and the house specials add gyoza and an egg roll. Also has mochiko chicken and Spam teriyaki.",
+  "website": "https://www.superduperteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.superduperteriyaki.com/",
+    "what": "own website, live, current weekly hours and address",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.superduperteriyaki.com/foodmenu",
+    "what": "own food menu page, live: teriyaki, combos, katsu, yakisoba, fried rice",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Oishii Teriyaki & Rolls",
+  "address": "424 W Bakerview Rd #101",
+  "city": "Bellingham",
+  "zip": "98226",
+  "county": "Whatcom",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "pork teriyaki",
+   "beef teriyaki",
+   "chicken teriyaki bowl",
+   "katsu",
+   "yakisoba",
+   "gyoza",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": 1993,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-run teriyaki and sushi-roll shop in Bakerview Square; teriyaki plates come with rice and salad. Its site says it has served Bellingham since 1993.",
+  "display_note": "Family-run teriyaki and sushi-roll shop in Bakerview Square, serving Bellingham since 1993. Teriyaki plates come with rice and salad.",
+  "website": "https://www.oishiiteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.oishiiteriyaki.com/",
+    "what": "own website, live: Bakerview Square address, 'since 1993'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.oishiiteriyaki.com/Images/Final%20Takeout%20MENU.pdf",
+    "what": "own takeout menu PDF (file created 2026-02-26): teriyaki plates and bowls, katsu, yakisoba, gyoza",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Secret",
+  "address": "1733 H St #420",
+  "city": "Blaine",
+  "zip": "98230",
+  "county": "Whatcom",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken teriyaki with beef or pork",
+   "chicken yakisoba",
+   "gyoza",
+   "tempura shrimp"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Small family-run teriyaki shop in the heart of Blaine (per its site). A second site and Square ordering page from the shop (same address and phone) use the name Island Teriyaki.",
+  "display_note": "Small family-run teriyaki shop in the heart of Blaine, also known as Island Teriyaki. The menu includes yakisoba, gyoza and tempura shrimp.",
+  "website": "https://theteriyakisecret.com/",
+  "sources": [
+   {
+    "url": "https://theteriyakisecret.com/",
+    "what": "own website, live: name, address, phone, hours, menu highlights",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://teriyakisecretnew.com/",
+    "what": "shop's second website (titled Island Teriyaki), same address/phone; menu images uploaded Dec 2025; lunch-box teriyaki with gyoza, yakisoba",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://teriyaki-secret-new.square.site/",
+    "what": "shop's Square online-ordering site, live; 'Teriyaki Plates' category updated 2025-12-31",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Cherry Street Teriyaki",
+  "address": "200 S Cherry St",
+  "city": "Burlington",
+  "zip": "98233",
+  "county": "Skagit",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken breast teriyaki",
+   "pork teriyaki",
+   "beef teriyaki",
+   "beef short ribs",
+   "chicken and gyoza",
+   "yakisoba",
+   "yakiudon",
+   "sushi"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on S Cherry St in Burlington; teriyaki dinners come with steamed rice and salad, and it also serves sushi. Map listings call it Cherry Teriyaki.",
+  "display_note": "Teriyaki shop on S Cherry St; teriyaki dinners come with steamed rice and salad, and it also serves sushi.",
+  "website": "http://www.cherrystreetteriyaki.com/",
+  "sources": [
+   {
+    "url": "http://www.cherrystreetteriyaki.com/",
+    "what": "own website, live: address, phone, hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "http://www.cherrystreetteriyaki.com/Cherry_Street_Teriyaki_Menu_202604.pdf",
+    "what": "own menu PDF (file dated 2026-04): teriyaki dinners, combos, yakisoba",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "BITE Teriyaki and Pho",
+  "address": "323 E College Way",
+  "city": "Mount Vernon",
+  "zip": "98273",
+  "county": "Skagit",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "tofu teriyaki",
+   "chicken breast katsu",
+   "gyoza",
+   "chicken yakisoba",
+   "pho",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki-and-pho shop on College Way; the menu has a full teriyaki and combo section alongside pho, sushi rolls and bubble tea.",
+  "display_note": "Teriyaki-and-pho shop on College Way with a full teriyaki and combo menu alongside pho, sushi rolls and bubble tea.",
+  "website": "https://www.biteteriyakipho.com/",
+  "sources": [
+   {
+    "url": "https://www.biteteriyakipho.com/",
+    "what": "own website, live: hours, address, phone",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.biteteriyakipho.com/menu",
+    "what": "own menu page, live: teriyaki, combos, pho, sushi",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Time (Oak Harbor)",
+  "address": "31531 State Route 20 Ste 4",
+  "city": "Oak Harbor",
+  "zip": "98277",
+  "county": "Island",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on SR 20 (its ordering page is titled Teriyaki Time II Oak Harbor) with yakisoba, Chinese and Korean dishes and a sushi menu.",
+  "display_note": "Teriyaki shop on SR 20 with yakisoba, Chinese and Korean dishes and a sushi menu.",
+  "website": "https://teriyakitime.menu11.com/oak/order",
+  "sources": [
+   {
+    "url": "https://teriyakitime.menu11.com/oak/order",
+    "what": "shop's menu11 online-ordering page, live: full menu, address, hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Botan Ramen n' Teriyaki",
+  "address": "902 N Broadway Unit D",
+  "city": "Everett",
+  "zip": "98201",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "beef short rib teriyaki",
+   "tofu teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza",
+   "ramen"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Ramen-and-teriyaki counter on N Broadway, listed on the same website as Botan Ramen & Bar on Colby Ave; teriyaki plates come with rice and salad.",
+  "display_note": "Ramen-and-teriyaki counter on N Broadway; teriyaki plates come with rice and salad.",
+  "website": "https://www.botanramen.com/menu-ramen-teriyaki/",
+  "sources": [
+   {
+    "url": "https://www.botanramen.com/menu-ramen-teriyaki/",
+    "what": "own website page, live: Ramen & Teriyaki location address, phone, hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.botanramen.com/wp-content/uploads/2023/01/menu-ramen-teriyaki.jpg",
+    "what": "own menu image (uploaded 2023-01): teriyaki, katsu, yaki soba, ramen",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Manna Teriyaki (Casino Rd)",
+  "address": "205 E Casino Rd Ste A1",
+  "city": "Everett",
+  "zip": "98208",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki"
+  ],
+  "opened": null,
+  "brand_founded": 2004,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-run teriyaki shop on Casino Rd; its site says the family founded Manna Teriyaki in 2004 after immigrating from Korea. The menu page is not readable as text; ties to other Manna Teriyaki shops are not stated.",
+  "display_note": "Family-run teriyaki shop on Casino Rd. The family founded Manna Teriyaki in 2004 after immigrating from Korea.",
+  "website": "https://www.mannateriyakieverett.com/",
+  "sources": [
+   {
+    "url": "https://www.mannateriyakieverett.com/",
+    "what": "own website (c) 2025, live: 'fresh teriyaki in Everett', open for delivery and pickup, address, hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.mannateriyakieverett.com/about",
+    "what": "own About page, live: founded in 2004",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "PNW Teriyaki",
+  "address": "11014 19th Ave SE Ste 18B",
+  "city": "Everett",
+  "zip": "98208",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "beef short ribs",
+   "chicken katsu",
+   "bento",
+   "yakisoba",
+   "gyoza",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on 19th Ave SE with combos, bento boxes, yakisoba, Chinese entrees, sushi rolls and poke.",
+  "display_note": "Teriyaki shop on 19th Ave SE with combos, bento boxes, yakisoba, Chinese entrees, sushi rolls and poke.",
+  "website": "https://pnwteriyaki2.menu11.com/everett/order",
+  "sources": [
+   {
+    "url": "https://pnwteriyaki2.menu11.com/everett/order",
+    "what": "shop's menu11 online-ordering page, live: full menu, address, hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Zone",
+  "address": "4927 Evergreen Way",
+  "city": "Everett",
+  "zip": "98203",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "tofu teriyaki",
+   "salmon teriyaki",
+   "chicken katsu",
+   "bento",
+   "yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on Evergreen Way with an in-house Chinese wok menu (Mongolian beef, General Tso's and more).",
+  "display_note": "Teriyaki shop on Evergreen Way with a Chinese wok menu that includes Mongolian beef and General Tso's chicken.",
+  "website": "https://www.teriyakizone.store/online-ordering",
+  "sources": [
+   {
+    "url": "https://www.teriyakizone.store/online-ordering",
+    "what": "own online-ordering site, live and accepting orders; address 4927 Evergreen Way and phone shown",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Echigo Teriyaki & Roll",
+  "address": "520 128th St SW Ste B6",
+  "city": "Everett",
+  "zip": "98204",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "yakisoba",
+   "gyoza",
+   "bento",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and sushi-roll shop on 128th St SW with yakisoba, bento, fried rice and stir-fry.",
+  "display_note": "Teriyaki and sushi-roll shop on 128th St SW with yakisoba, bento, fried rice and stir-fry.",
+  "website": "https://echigoteriyakiandroll.com/",
+  "sources": [
+   {
+    "url": "https://echigoteriyakiandroll.com/",
+    "what": "own online-ordering site (c) 2026, live: menu categories, address, phone",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Manna Teriyaki & Wok",
+  "address": "12906 Bothell Everett Hwy Ste D",
+  "city": "Everett",
+  "zip": "98208",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba",
+   "bento"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Flame-grilled teriyaki next to Fred Meyer on the Bothell-Everett Hwy, plus Chinese wok dishes; it calls itself the Mill Creek / Everett shop.",
+  "display_note": "Flame-grilled teriyaki next to Fred Meyer on the Bothell-Everett Hwy, plus Chinese wok dishes.",
+  "website": "https://mcmannateriyaki.com/",
+  "sources": [
+   {
+    "url": "https://mcmannateriyaki.com/",
+    "what": "own website and ordering site (c) 2026, live: menu summary, address, hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Miyako's Teriyaki & Wok (Everett)",
+  "address": "13112 39th Ave SE Ste D",
+  "city": "Everett",
+  "zip": "98208",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza",
+   "tempura udon"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and wok shop on 39th Ave SE; plates come with rice and salad. Shares a name with Miyako's shops in Marysville and Stanwood, each with its own site; links between them are not stated.",
+  "display_note": "Teriyaki and wok shop on 39th Ave SE; plates come with rice and salad. Also serves tempura udon.",
+  "website": "https://miyakosteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://miyakosteriyaki.com/",
+    "what": "own website, live: menu highlights, address, hours, online ordering",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Yoshi Teriyaki",
+  "address": "11632 Highway 99 Ste D",
+  "city": "Everett",
+  "zip": "98204",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "garlic chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "chicken katsu",
+   "bento",
+   "gyoza",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on Highway 99; plates come with rice and salad. Map listings still show this address and phone as Sunny Teriyaki; the shop's own site uses Yoshi Teriyaki.",
+  "display_note": "Teriyaki shop on Highway 99, formerly Sunny Teriyaki. Plates come with rice and salad.",
+  "website": "https://www.yoshiteriyaki.online/",
+  "sources": [
+   {
+    "url": "https://www.yoshiteriyaki.online/",
+    "what": "own website, live: address, phone, weekly hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.yoshiteriyaki.online/menu",
+    "what": "own menu page, live: teriyaki, katsu, bento, rolls",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ichi Teriyaki",
+  "address": "14920 Highway 99 Ste 102",
+  "city": "Lynnwood",
+  "zip": "98087",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken",
+   "beef teriyaki",
+   "chicken katsu"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and katsu counter on Highway 99 for quick lunches and takeout.",
+  "display_note": "Teriyaki and katsu counter on Highway 99 for quick lunches and takeout.",
+  "website": "https://www.ichiteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.ichiteriyaki.com/",
+    "what": "own website, live: dishes, address, phone, pickup hours, link to online ordering",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Town",
+  "address": "4615 196th St SW Ste 124",
+  "city": "Lynnwood",
+  "zip": "98036",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "short rib",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza",
+   "bento"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on 196th St SW with combos, yakisoba, a wok menu, soups and fish and chips.",
+  "display_note": "Teriyaki shop on 196th St SW with combos, yakisoba, a wok menu, soups and fish and chips.",
+  "website": "https://teritownlynnwood.menu11.com/lynnwood/order",
+  "sources": [
+   {
+    "url": "https://teritownlynnwood.menu11.com/lynnwood/order",
+    "what": "shop's menu11 online-ordering page, live: full menu, address, phone",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Time Lynnwood",
+  "address": "2109 196th St SW #102",
+  "city": "Lynnwood",
+  "zip": "98036",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "tofu teriyaki",
+   "chicken teriyaki with gyoza and shrimp skewers",
+   "kalbi bento",
+   "chicken karaage"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Flame-grilled teriyaki serving the Lynnwood and Alderwood area, plus Korean fried chicken, ramen, wok dishes and bubble tea; plates come with rice and house salad.",
+  "display_note": "Flame-grilled teriyaki in the Lynnwood and Alderwood area, plus Korean fried chicken, ramen, wok dishes and bubble tea. Plates come with rice and house salad.",
+  "website": "https://teriyakitimelynnwood.com/",
+  "sources": [
+   {
+    "url": "https://teriyakitimelynnwood.com/",
+    "what": "own website, live: address, phone, hours, featured dishes, online ordering",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Martha Lake Wok & Teriyaki",
+  "address": "16415 6th Ave W",
+  "city": "Lynnwood",
+  "zip": "98037",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki",
+   "gyoza",
+   "egg rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and wok shop near Martha Lake; map listings call it Wok & Teriyaki.",
+  "display_note": "Teriyaki and wok shop near Martha Lake, with gyoza and egg rolls.",
+  "website": "https://www.marthalakewokteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.marthalakewokteriyaki.com/",
+    "what": "own Menufy online-ordering site, live: 'teriyaki made from the heart', address, phone, hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Kim's Teriyaki",
+  "address": "6810 208th St SW",
+  "city": "Lynnwood",
+  "zip": "98036",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "tofu teriyaki",
+   "chicken yakisoba",
+   "chicken and gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on 208th St SW with stir-fried and deep-fried plates, combinations and a lunch special.",
+  "display_note": "Teriyaki shop on 208th St SW with stir-fried and deep-fried plates, combinations and a lunch special.",
+  "website": "https://kimsteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://kimsteriyaki.com/",
+    "what": "own online-ordering site (c) 2026, live: menu, address, phone",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Wok Express",
+  "address": "18500 33rd Ave W",
+  "city": "Lynnwood",
+  "zip": "98037",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken teriyaki and katsu",
+   "beef short ribs",
+   "bento",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-owned teriyaki and wok shop across from Alderwood Mall, next to Ross (per its site), with bento, chow mein, ramen and udon.",
+  "display_note": "Family-owned teriyaki and wok shop across from Alderwood Mall, next to Ross. Also serves bento, chow mein, ramen and udon.",
+  "website": "https://teriyakiwokexpress.com/",
+  "sources": [
+   {
+    "url": "https://teriyakiwokexpress.com/",
+    "what": "own website (c) 2026, live: dishes, phone",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://teriyakiwokexpress.com/contact/",
+    "what": "own contact page, live: location and hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Wow Teriyaki",
+  "address": "3609 164th St SW Ste C",
+  "city": "Lynnwood",
+  "zip": "98087",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on 164th St SW. Map listings show this address and phone as Tokyo Teriyaki 11; the shop's own site uses Wow Teriyaki. Its menu sits in an ordering app we could not read.",
+  "display_note": "Teriyaki shop on 164th St SW, formerly Tokyo Teriyaki 11.",
+  "website": "https://www.wowteriyakilynnwood.com/",
+  "sources": [
+   {
+    "url": "https://www.wowteriyakilynnwood.com/",
+    "what": "own website, live: address, phone, weekly hours, online ordering link",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki and More (Yummy Teriyaki & Fried Chicken)",
+  "address": "9808 Edmonds Way",
+  "city": "Edmonds",
+  "zip": "98020",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken",
+   "chicken breast teriyaki",
+   "tofu teriyaki",
+   "beef short ribs",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza",
+   "Korean fried chicken"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki plates plus Korean-style fried chicken on Edmonds Way. Map listings name it Teriyaki and More; its live ordering page (same address and phone) uses Yummy Teriyaki & Fried Chicken.",
+  "display_note": "Teriyaki plates plus Korean-style fried chicken on Edmonds Way. Also goes by Yummy Teriyaki & Fried Chicken.",
+  "website": "https://yummyteriyakichicken.menu11.com/edmonds/order",
+  "sources": [
+   {
+    "url": "https://yummyteriyakichicken.menu11.com/edmonds/order",
+    "what": "shop's menu11 online-ordering page, live: menu, address, phone, hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Kami Teriyaki & Sushi (Snohomish)",
+  "address": "2707 Bickford Ave",
+  "city": "Snohomish",
+  "zip": "98290",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "chicken katsu",
+   "bento",
+   "yakisoba",
+   "gyoza",
+   "sushi"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and sushi shop on Bickford Ave; its site says it has kept the same teriyaki recipe for over 20 years.",
+  "display_note": "Teriyaki and sushi shop on Bickford Ave that has kept the same teriyaki recipe for over 20 years.",
+  "website": "https://kamiteriyakisushi.com/",
+  "sources": [
+   {
+    "url": "https://kamiteriyakisushi.com/",
+    "what": "own website, live: teriyaki and sushi menus, address, phone, hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Kami Teriyaki & Sushi (Monroe)",
+  "address": "19191 State Route 2 Ste 183",
+  "city": "Monroe",
+  "zip": "98272",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "hot and spicy chicken",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "chicken katsu",
+   "bento",
+   "yakisoba",
+   "gyoza",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and sushi shop on SR 2 with lunch specials, bento and bubble tea. Ties to other Kami Teriyaki shops are not stated.",
+  "display_note": "Teriyaki and sushi shop on SR 2 with lunch specials, bento and bubble tea.",
+  "website": "https://kamiteriyaki.menu11.com/monroe/order",
+  "sources": [
+   {
+    "url": "https://kamiteriyaki.menu11.com/monroe/order",
+    "what": "shop's menu11 online-ordering page, live: full menu, address, phone",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Manse Teriyaki",
+  "address": "383 Butler Ave",
+  "city": "Monroe",
+  "zip": "98272",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "white meat chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "Korean BBQ short ribs",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on Butler Ave with a long spicy-teriyaki section, combinations and catering.",
+  "display_note": "Teriyaki shop on Butler Ave with a long spicy-teriyaki section, combinations, Korean BBQ short ribs and catering.",
+  "website": "https://manseteriyaki.menu11.com/monroe/order",
+  "sources": [
+   {
+    "url": "https://manseteriyaki.menu11.com/monroe/order",
+    "what": "shop's menu11 online-ordering page, live: full menu, address, phone",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Point (Marysville)",
+  "address": "1206 State Ave Ste D-E",
+  "city": "Marysville",
+  "zip": "98270",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken",
+   "beef teriyaki",
+   "pork teriyaki",
+   "beef short rib",
+   "salmon teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza",
+   "bento"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on State Ave with lunch specials, many combos, bento and curry.",
+  "display_note": "Teriyaki shop on State Ave with lunch specials, many combos, bento and curry.",
+  "website": "https://teriyakipoint.menu11.com/marysville/order",
+  "sources": [
+   {
+    "url": "https://teriyakipoint.menu11.com/marysville/order",
+    "what": "shop's menu11 online-ordering page, live: full menu, address, phone",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Tokyo Teriyaki & Wok (Marysville)",
+  "address": "11603 State Ave Ste F",
+  "city": "Marysville",
+  "zip": "98271",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken",
+   "pork teriyaki",
+   "beef teriyaki",
+   "teriyaki short rib",
+   "salmon teriyaki",
+   "chicken katsu",
+   "gyoza",
+   "bento"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and wok shop on State Ave; teriyaki plates come with steamed rice and salad.",
+  "display_note": "Teriyaki and wok shop on State Ave; teriyaki plates come with steamed rice and salad.",
+  "website": "https://www.tokyoteriyakiwok.com/",
+  "sources": [
+   {
+    "url": "https://www.tokyoteriyakiwok.com/",
+    "what": "own website, live: address, phone, hours (Mon-Sat)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.tokyoteriyakiwok.com/static/menu-81df5b6cfea82e44a4422ca143e19ff8.pdf",
+    "what": "own menu PDF (undated): teriyaki plates, bento, gyoza, katsu",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Miyako's Teriyaki & Wok (Marysville)",
+  "address": "16516 Twin Lakes Ave Ste K-101",
+  "city": "Marysville",
+  "zip": "98271",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "chicken katsu",
+   "bento",
+   "yakisoba",
+   "gyoza",
+   "tempura"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and wok shop on Twin Lakes Ave with bento, yakisoba and tempura. Shares a name with Miyako's shops in Everett and Stanwood; links are not stated.",
+  "display_note": "Teriyaki and wok shop on Twin Lakes Ave with bento, yakisoba and tempura.",
+  "website": "https://www.miyakoswa.com/",
+  "sources": [
+   {
+    "url": "https://www.miyakoswa.com/",
+    "what": "own website (c) 2026, live: menu, address, phone, hours, online ordering",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Bowl Marysville",
+  "address": "1416 5th St Ste B",
+  "city": "Marysville",
+  "zip": "98270",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza",
+   "bento box",
+   "sushi"
+  ],
+  "opened": null,
+  "brand_founded": 2012,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on 5th St with yakisoba, hand-rolled sushi and bubble tea; its site says it has been open since 2012.",
+  "display_note": "Teriyaki shop on 5th St, open since 2012, with yakisoba, hand-rolled sushi and bubble tea.",
+  "website": "https://teriyakibowlmarysville.com/",
+  "sources": [
+   {
+    "url": "https://teriyakibowlmarysville.com/",
+    "what": "own website, live: address, phone, hours (Mon-Sat), menu, 'since 2012'",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Toshi's Teriyaki Grill",
+  "address": "16212 Bothell Everett Hwy Ste G",
+  "city": "Mill Creek",
+  "zip": "98012",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "spicy teriyaki"
+  ],
+  "opened": 2013,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": true,
+  "note": "Toshi Kasahara, who opened Toshi's Teriyaki on Roy Street in Lower Queen Anne in 1976, opened this shop in 2013 and is its owner; the many other shops named Toshi's are not his.",
+  "display_note": "Takeout-only teriyaki shop on the Bothell-Everett Hwy in Mill Creek, opened in 2013.",
+  "website": "https://www.toshisgrill.com/location",
+  "sources": [
+   {
+    "url": "https://www.toshisgrill.com/location",
+    "what": "own website, live: 'Opened in 2013 by Toshi himself', takeout only, address, Tue-Sat 4-8pm",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.toshisgrill.com/story",
+    "what": "own website story page, live: names Toshi Kasahara and his first shop of March 2, 1976",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "SOLID modern teriyaki",
+  "address": "15603 Main St Ste B104",
+  "city": "Mill Creek",
+  "zip": "98012",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki",
+   "tempura calamari"
+  ],
+  "opened": 2009,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on Main St in Mill Creek. The Everett Herald reported in 2018 that it opened in 2009 as Town Center Teriyaki and reopened as SOLID in April 2018. Its site asks customers to order by phone or in person.",
+  "display_note": "Teriyaki shop on Main St in Mill Creek, opened in 2009 as Town Center Teriyaki and renamed SOLID in 2018. Also serves tempura calamari.",
+  "website": "https://solid-mt.com/",
+  "sources": [
+   {
+    "url": "https://solid-mt.com/",
+    "what": "own website, live: name SOLID modern teriyaki, address, phone, today's hours, ordering note",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.heraldnet.com/life/mill-creek-teriyaki-eatery-has-new-owner-same-quality-food/",
+    "what": "Everett Herald article (history only): opened 2009 as Town Center Teriyaki, rebranded April 2018",
+    "date": "2018-05-03"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki & Pho (Bothell)",
+  "address": "24024 Bothell Everett Hwy Ste 600",
+  "city": "Bothell",
+  "zip": "98021",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken",
+   "beef teriyaki",
+   "pork teriyaki",
+   "beef short ribs",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba",
+   "bento",
+   "pho"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki-and-pho shop on the Bothell-Everett Hwy with combos, a Chinese wok menu, ramen and udon.",
+  "display_note": "Teriyaki-and-pho shop on the Bothell-Everett Hwy with combos, a Chinese wok menu, ramen and udon.",
+  "website": "https://teriyakipho.menu11.com/bothell/order",
+  "sources": [
+   {
+    "url": "https://teriyakipho.menu11.com/bothell/order",
+    "what": "shop's menu11 online-ordering page, live: full menu, address, phone",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ohana Teriyaki",
+  "address": "212 W Winesap Rd Ste 103",
+  "city": "Bothell",
+  "zip": "98012",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "garlic chicken teriyaki",
+   "chicken and beef teriyaki",
+   "chicken katsu",
+   "chicken yakisoba",
+   "beef yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on Winesap Rd with yakisoba, fried rice and Chinese wok dishes.",
+  "display_note": "Teriyaki shop on Winesap Rd with yakisoba, fried rice and Chinese wok dishes.",
+  "website": "https://www.ohanateriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.ohanateriyaki.com/",
+    "what": "own website, live: top dishes, address, phone, hours, online ordering",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Joy Teriyaki (Mukilteo)",
+  "address": "8410 Mukilteo Speedway Ste D",
+  "city": "Mukilteo",
+  "zip": "98275",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken breast teriyaki",
+   "chicken and beef teriyaki",
+   "kalbi short rib",
+   "chicken katsu",
+   "chicken and egg roll combo"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Weekday teriyaki shop on the Mukilteo Speedway (closed weekends per its site) with Chinese wok and Korean dishes.",
+  "display_note": "Teriyaki shop on the Mukilteo Speedway with Chinese wok and Korean dishes. Closed weekends.",
+  "website": "https://www.eatjoyteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.eatjoyteriyaki.com/",
+    "what": "own website (c) 2025, live: dishes, address, phone, hours, direct ordering",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Point Teriyaki (Stanwood)",
+  "address": "9322 271st St NW",
+  "city": "Stanwood",
+  "zip": "98292",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza",
+   "bento",
+   "curry katsu"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop in Stanwood with lunch specials, combos and bento. Map listings show this address and phone as Naha Teriyaki; its live ordering page uses Point Teriyaki (Stanwood).",
+  "display_note": "Teriyaki shop in Stanwood, formerly Naha Teriyaki, with lunch specials, combos and bento.",
+  "website": "https://teriyakipointstanwood.menu11.com/stanwood/order",
+  "sources": [
+   {
+    "url": "https://teriyakipointstanwood.menu11.com/stanwood/order",
+    "what": "shop's menu11 online-ordering page, live: full menu, address, phone",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Miyako's Teriyaki & Wok (Stanwood)",
+  "address": "7200 267th St NW Ste 101",
+  "city": "Stanwood",
+  "zip": "98292",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "yakisoba",
+   "gyoza",
+   "bento",
+   "tempura"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and wok shop in Stanwood with bento, tempura and a kids menu. Shares a name with Miyako's shops in Everett and Marysville; links are not stated.",
+  "display_note": "Teriyaki and wok shop in Stanwood with bento, tempura and a kids menu.",
+  "website": "https://miyakosteriyakiandwok.com/",
+  "sources": [
+   {
+    "url": "https://miyakosteriyakiandwok.com/",
+    "what": "own online-ordering site (c) 2026, live: menu categories, address, phone",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Bowl (Arlington)",
+  "address": "3405 172nd St NE Ste 23",
+  "city": "Arlington",
+  "zip": "98223",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken and beef teriyaki",
+   "chicken and gyoza",
+   "yakisoba",
+   "chicken katsu",
+   "sushi rolls",
+   "udon"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on 172nd St NE with combos, wok dishes, sushi rolls and bubble tea. Map listings show this address and phone as No 1 Teriyaki; its ordering site uses Teriyaki Bowl.",
+  "display_note": "Teriyaki shop on 172nd St NE, formerly No 1 Teriyaki, with combos, wok dishes, sushi rolls and bubble tea.",
+  "website": "https://teriyakibowlrestaurant.com/",
+  "sources": [
+   {
+    "url": "https://teriyakibowlrestaurant.com/",
+    "what": "own online-ordering site (c) 2026, live: menu categories, address, phone",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Misora Teriyaki Sushi Wok",
+  "address": "16809 Highway 99",
+  "city": "Lynnwood",
+  "zip": "98037",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "yakisoba",
+   "bento",
+   "tempura plates",
+   "sushi rolls",
+   "poke bowl"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki, sushi and wok shop on Highway 99, open weekdays; its ordering menu lists combinations, main entrees, bento, yakisoba and sushi (individual dishes load in an app we could not read).",
+  "display_note": "Teriyaki, sushi and wok shop on Highway 99, open weekdays, with combinations, bento, yakisoba and sushi.",
+  "website": "https://misora-teriyaki-and-sushi.square.site/",
+  "sources": [
+   {
+    "url": "https://misora-teriyaki-and-sushi.square.site/",
+    "what": "own Square online-ordering site, live: address, phone, weekday hours; menu categories updated Aug 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ }
+]

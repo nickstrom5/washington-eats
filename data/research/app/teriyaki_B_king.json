@@ -1,0 +1,2071 @@
+[
+ {
+  "name": "Midori Teriyaki Wok",
+  "address": "1202 Supermall Way #105",
+  "city": "Auburn",
+  "zip": "98001",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "yakisoba",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki-and-wok counter at the Outlet Collection (the site also gives the address as 1202 Outlet Collection Way #105).",
+  "display_note": "Teriyaki-and-wok counter at the Outlet Collection, with chicken teriyaki, yakisoba and sushi rolls.",
+  "website": "https://www.midoriteriyakiwok.com/",
+  "sources": [
+   {
+    "url": "https://www.midoriteriyakiwok.com/",
+    "what": "own website, live; hours Mon-Sat, links to its own online ordering",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-05-19 (open data, via candidate file); shows the business operates",
+    "date": "2026-05-19"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Sunny Teriyaki #6",
+  "address": "914 D St NE",
+  "city": "Auburn",
+  "zip": "98002",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "chicken curry",
+   "gyoza",
+   "yakisoba",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": true,
+  "kasahara": false,
+  "note": "Numbered Sunny Teriyaki shop with teriyaki plates, combos, Chinese wok dishes and yakisoba.",
+  "display_note": "Numbered Sunny Teriyaki shop with teriyaki plates, combos, Chinese wok dishes and yakisoba.",
+  "website": "https://sunnyteriyaki6.menu11.com/auburn/order",
+  "sources": [
+   {
+    "url": "https://sunnyteriyaki6.menu11.com/auburn/order",
+    "what": "own online-ordering menu (menu11), live; daily hours listed",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-09-15 (open data, via candidate file); shows the business operates",
+    "date": "2026-09-15"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ringo Wok Teriyaki",
+  "address": "12722 SE 312th St Ste G",
+  "city": "Auburn",
+  "zip": "98092",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "spicy chicken teriyaki",
+   "chicken katsu",
+   "gyoza plate",
+   "chow mein",
+   "bento box"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki-and-wok shop: teriyaki plates and combos alongside a long Chinese specials menu.",
+  "display_note": "Teriyaki-and-wok shop with teriyaki plates and combos alongside a long Chinese specials menu.",
+  "website": "https://ringo-wok-teriyaki-auburn.cloveronline.com/",
+  "sources": [
+   {
+    "url": "https://ringo-wok-teriyaki-auburn.cloveronline.com/menu/all",
+    "what": "own Clover online-ordering menu, live and accepting orders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-04-27 (open data, via candidate file); shows the business operates",
+    "date": "2026-04-27"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Sapporo Teriyaki",
+  "address": "550 106th Ave NE Ste 220",
+  "city": "Bellevue",
+  "zip": "98004",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "chicken katsu",
+   "chicken yakisoba",
+   "gyoza plate",
+   "chicken curry"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop in downtown Bellevue; teriyaki plates come with rice and a choice of salad or steamed vegetables. Its site says it moved here from an earlier location.",
+  "display_note": "Teriyaki shop in downtown Bellevue. Teriyaki plates come with rice and a choice of salad or steamed vegetables.",
+  "website": "http://sapporoteriyaki.com/",
+  "sources": [
+   {
+    "url": "http://sapporoteriyaki.com/location.htm",
+    "what": "own website, live; gives this address as its new location",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "http://sapporoteriyaki.com/menu/entrees.htm",
+    "what": "own menu page, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-01-05 (open data, via candidate file); shows the business operates",
+    "date": "2026-01-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki N More",
+  "address": "3080 148th Ave SE",
+  "city": "Bellevue",
+  "zip": "98007",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "ribeye beef teriyaki",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba",
+   "kalbi",
+   "Japanese curry"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop near Eastgate; plates come with rice and salad, plus Korean and Chinese dishes. Listed in map data as Teriyaki & More.",
+  "display_note": "Teriyaki shop near Eastgate; plates come with rice and salad. Also serves Korean and Chinese dishes.",
+  "website": "https://www.teriyakiandmore.com/",
+  "sources": [
+   {
+    "url": "https://www.teriyakiandmore.com/bellevue/order",
+    "what": "own online-ordering menu, live; menu item IDs show edits in July 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-03-09 (open data, via candidate file); shows the business operates",
+    "date": "2026-03-09"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Express",
+  "address": "1425 130th Ave NE #2221",
+  "city": "Bellevue",
+  "zip": "98005",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "chicken and gyoza",
+   "bento special",
+   "galbi"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter on 130th Ave NE; plates come with rice and salad.",
+  "display_note": "Teriyaki counter on 130th Ave NE; plates come with rice and salad. Also has galbi and bento specials.",
+  "website": "http://www.teriyakiexpressbellevue.com/",
+  "sources": [
+   {
+    "url": "http://www.teriyakiexpressbellevue.com/bellevue/order",
+    "what": "own online-ordering menu, live; daily hours listed",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-08-28 (open data, via candidate file); shows the business operates",
+    "date": "2026-08-28"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Time",
+  "address": "12813 SE 38th St",
+  "city": "Bellevue",
+  "zip": "98006",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on SE 38th St with teriyaki plates and combos.",
+  "display_note": "Teriyaki shop on SE 38th St with teriyaki plates and combos.",
+  "website": "https://teriyakitimebellevue.com/",
+  "sources": [
+   {
+    "url": "https://teriyakitimebellevue.com/",
+    "what": "own online-ordering site, live; copyright 2026 (site has a TLS certificate problem)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2025-11-06 (open data, via candidate file); shows the business operates",
+    "date": "2025-11-06"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Tokyo Stop Teriyaki",
+  "address": "1504 145th Pl SE",
+  "city": "Bellevue",
+  "zip": "98007",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "chicken katsu",
+   "spicy chicken katsu",
+   "yakisoba",
+   "gyoza plate"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter near Lake Hills with teriyaki plates, combos and small plates.",
+  "display_note": "Teriyaki counter near Lake Hills with teriyaki plates, combos and small plates.",
+  "website": "https://www.tokyostopteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.tokyostopteriyaki.com/",
+    "what": "own website, live; gives this address",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://order1.usakor.com/tokyostopteriyaki/product-category/main-dish/",
+    "what": "own online-ordering menu, live; copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-03-20 (open data, via candidate file); shows the business operates",
+    "date": "2026-03-20"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Toshi's Teriyaki",
+  "address": "4038 Factoria Blvd SE Ste D",
+  "city": "Bellevue",
+  "zip": "98006",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef steak teriyaki",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba",
+   "Chinese wok dishes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and Chinese wok counter in Factoria using the Toshi's Teriyaki name; the Toshi's Teriyaki Grill brand site says this location is no longer affiliated with it.",
+  "display_note": "Teriyaki and Chinese wok counter in Factoria, with beef steak teriyaki, chicken katsu, gyoza and yakisoba.",
+  "website": "https://toshisteriyakibellevue.com/",
+  "sources": [
+   {
+    "url": "https://toshisteriyakibellevue.com/",
+    "what": "own website with full menu, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://toshisteriyakirestaurant.com/",
+    "what": "own online-ordering site, live; copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.toshisgrill.com/toshis-teriyaki-bellevue-factoria",
+    "what": "Toshi's Teriyaki Grill brand site: 'The Factoria location is no longer affiliated with us'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-01-02 (open data, via candidate file); shows the business operates",
+    "date": "2026-01-02"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Best Teriyaki & Wok",
+  "address": "11801 NE 160th St",
+  "city": "Bothell",
+  "zip": "98011",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "gyoza plate",
+   "yakisoba",
+   "Chinese wok dishes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki-and-wok shop; its ordering menu marks a set of gluten-free teriyaki and fried rice dishes.",
+  "display_note": "Bothell teriyaki-and-wok shop; some of its teriyaki and fried rice dishes are gluten-free.",
+  "website": "https://bestteriyakiwok.menu11.com/bothell/order",
+  "sources": [
+   {
+    "url": "https://bestteriyakiwok.menu11.com/bothell/order",
+    "what": "own online-ordering menu (menu11), live; daily hours listed",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-03-06 (open data, via candidate file); shows the business operates",
+    "date": "2026-03-06"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Etc",
+  "address": "11511 NE 195th St",
+  "city": "Bothell",
+  "zip": "98011",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken katsu",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on NE 195th St; its own site is old (2015 copyright) and its menu PDF is dated, so check current dishes.",
+  "display_note": "Teriyaki shop on NE 195th St serving chicken and spicy chicken teriyaki, chicken katsu and gyoza.",
+  "website": "https://iloveteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://iloveteriyaki.com/contact/",
+    "what": "own website (iloveteriyaki.com), live; gives the Bothell location and weekday hours; site copyright 2015",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "http://iloveteriyaki.com/wp-content/uploads/pdf/delivery_menu2.pdf",
+    "what": "own menu PDF (older)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-01-28 (open data, via candidate file); shows the business operates",
+    "date": "2026-01-28"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Sunny Teriyaki",
+  "address": "15830 1st Ave S #103",
+  "city": "Burien",
+  "zip": "98148",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "katsu",
+   "gyoza plate",
+   "chicken yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on 1st Ave S with teriyaki plates, combos, yakisoba and wok dishes.",
+  "display_note": "Teriyaki shop on 1st Ave S with teriyaki plates, combos, yakisoba and wok dishes.",
+  "website": "https://sunny-teriyaki-burien-2.cloveronline.com/",
+  "sources": [
+   {
+    "url": "https://sunny-teriyaki-burien-2.cloveronline.com/menu/all",
+    "what": "own Clover online-ordering menu, live and accepting orders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-10-01 (open data, via candidate file); shows the business operates",
+    "date": "2026-10-01"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Toshi's Teriyaki",
+  "address": "14200 1st Ave S Ste F",
+  "city": "Burien",
+  "zip": "98168",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "udon",
+   "gyoza",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter by Fred Meyer using the Toshi's Teriyaki name; the Toshi's Teriyaki Grill brand site says the Burien location is no longer affiliated with it.",
+  "display_note": "Teriyaki counter by Fred Meyer, also serving udon, yakisoba and sushi rolls.",
+  "website": "https://toshis-teriyaki-burien.cloveronline.com/",
+  "sources": [
+   {
+    "url": "https://toshis-teriyaki-burien.cloveronline.com/menu/all",
+    "what": "own Clover online-ordering menu, live (not taking online orders at time of check)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.toshisgrill.com/toshis-teriyaki-burien",
+    "what": "Toshi's Teriyaki Grill brand site: 'The Burien location is no longer affiliated with us'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2025-09-25 (open data, via candidate file); shows the business operates",
+    "date": "2025-09-25"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Pho Teriyaki",
+  "address": "16929 SE 270th Pl #114",
+  "city": "Covington",
+  "zip": "98042",
+  "county": "King",
+  "kinds": [
+   "teriyaki",
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "spicy teriyaki chicken",
+   "chicken katsu",
+   "yakisoba",
+   "pho",
+   "bento"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Pho-and-teriyaki shop: teriyaki plates with rice and salad alongside Vietnamese pho.",
+  "display_note": "Pho-and-teriyaki shop: teriyaki plates with rice and salad alongside Vietnamese pho.",
+  "website": "https://orderphos.com/",
+  "sources": [
+   {
+    "url": "https://orderphos.com/food-menu",
+    "what": "own website and food menu, live; page data dated 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Teriyaki",
+  "address": "27011 Pacific Hwy S",
+  "city": "Des Moines",
+  "zip": "98198",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "beef short rib",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba",
+   "teriyaki bento",
+   "teriyaki bowls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": true,
+  "kasahara": false,
+  "note": "Des Moines shop of the Happy Teriyaki group (its site lists six South Sound locations). Map data lists this address as Manna Teriyaki.",
+  "display_note": "Des Moines shop of the Happy Teriyaki group, which has six South Sound locations. Serves teriyaki plates, bowls, bento and beef short rib.",
+  "website": "https://thehappyteriyaki.com/location-desmoines.html",
+  "sources": [
+   {
+    "url": "https://thehappyteriyaki.com/location-desmoines.html",
+    "what": "own website location page, live; gives this address and hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://thehappyteriyaki.com/menu-desmoines.html",
+    "what": "own Des Moines menu page, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-05-26 (open data, via candidate file); shows the business operates",
+    "date": "2026-05-26"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "New Tokyo Teriyaki",
+  "address": "22340 Marine View Dr S Ste C",
+  "city": "Des Moines",
+  "zip": "98198",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "gyoza plate",
+   "tempura",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter near the Des Moines marina district with teriyaki, katsu and yakisoba plates.",
+  "display_note": "Teriyaki counter near the Des Moines marina district with teriyaki, katsu and yakisoba plates.",
+  "website": "https://newtokyoteriyaki.menu11.com/desmoines/order",
+  "sources": [
+   {
+    "url": "https://newtokyoteriyaki.menu11.com/desmoines/order",
+    "what": "own online-ordering menu (menu11), live; daily hours listed",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-05-21 (open data, via candidate file); shows the business operates",
+    "date": "2026-05-21"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Best Teriyaki & Sushi",
+  "address": "15420 Main St NE Ste A",
+  "city": "Duvall",
+  "zip": "98019",
+  "county": "King",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "chicken yakisoba",
+   "gyoza",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki-and-sushi shop on Duvall's Main St; teriyaki plates sit beside a sushi menu.",
+  "display_note": "Teriyaki-and-sushi shop on Duvall's Main St, with teriyaki plates beside a sushi menu.",
+  "website": "https://bestteriyakisushiduvall.com/",
+  "sources": [
+   {
+    "url": "https://bestteriyakisushiduvall.com/",
+    "what": "own website, live; address and hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://best-teriyaki-and-sushi-duvall.cloveronline.com/menu/all",
+    "what": "own Clover online-ordering menu, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-04-13 (open data, via candidate file); shows the business operates",
+    "date": "2026-04-13"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "International Teriyaki House",
+  "address": "1620 S 312th St",
+  "city": "Federal Way",
+  "zip": "98003",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken breast teriyaki",
+   "chicken katsu",
+   "chicken yakisoba",
+   "beef yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter on S 312th St with teriyaki plates and gyoza or katsu combos.",
+  "display_note": "Teriyaki counter on S 312th St with teriyaki plates and gyoza or katsu combos.",
+  "website": "https://orderinternationalteriyakihouse.com/",
+  "sources": [
+   {
+    "url": "https://orderinternationalteriyakihouse.com/",
+    "what": "own online-ordering site, live; address and hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-08-19 (open data, via candidate file); shows the business operates",
+    "date": "2026-08-19"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Yoko's Teriyaki Bistro",
+  "address": "34024 Hoyt Rd SW Ste B",
+  "city": "Federal Way",
+  "zip": "98023",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "teriyaki bowls",
+   "yakisoba",
+   "tempura",
+   "bento box"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop in Twin Lakes area with plates, teriyaki bowls and bento boxes.",
+  "display_note": "Teriyaki shop in the Twin Lakes area with plates, teriyaki bowls and bento boxes.",
+  "website": "https://yokosteriyakibistro.menu11.com/federalway/order",
+  "sources": [
+   {
+    "url": "https://yokosteriyakibistro.menu11.com/federalway/order",
+    "what": "own online-ordering menu (menu11), live; daily hours listed",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-01-22 (open data, via candidate file); shows the business operates",
+    "date": "2026-01-22"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Yummy Teriyaki",
+  "address": "28849 Military Rd S",
+  "city": "Federal Way",
+  "zip": "98003",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "gyoza plate",
+   "tempura plate"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on Military Rd; plates come with rice and a small salad.",
+  "display_note": "Teriyaki shop on Military Rd; plates come with rice and a small salad.",
+  "website": "https://yummyteriyakifederalway.com/",
+  "sources": [
+   {
+    "url": "https://yummyteriyakifederalway.com/products/items/MTQxOA/NjU3",
+    "what": "own online-ordering menu, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-08-19 (open data, via candidate file); shows the business operates",
+    "date": "2026-08-19"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Bistro",
+  "address": "6100 E Lake Sammamish Pkwy SE Ste B",
+  "city": "Issaquah",
+  "zip": "98029",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki chicken",
+   "spicy garlic chicken",
+   "beef teriyaki",
+   "salmon teriyaki",
+   "chicken teriyaki salad",
+   "gyoza",
+   "Japanese croquette"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki box shop near Lake Sammamish; meals come with rice and a Japanese-style salad.",
+  "display_note": "Teriyaki box shop near Lake Sammamish; meals come with rice and a Japanese-style salad. Also has salmon teriyaki and Japanese croquettes.",
+  "website": "https://www.teriyakibistro.com/",
+  "sources": [
+   {
+    "url": "https://www.teriyakibistro.com/menu",
+    "what": "own website menu, live; copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.teriyakibistro.com/location",
+    "what": "own location page with address and hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Toshi's Teriyaki",
+  "address": "6830 NE Bothell Way",
+  "city": "Kenmore",
+  "zip": "98028",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken thigh teriyaki",
+   "chicken breast teriyaki",
+   "chicken katsu",
+   "chicken yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter on Bothell Way using the Toshi's Teriyaki name; the Toshi's Teriyaki Grill brand site says the Kenmore location is no longer affiliated with it.",
+  "display_note": "Teriyaki counter on Bothell Way with chicken thigh or breast teriyaki, chicken katsu, yakisoba and gyoza.",
+  "website": "https://toshisteriyakikenmore.com/",
+  "sources": [
+   {
+    "url": "https://toshisteriyakikenmore.com/",
+    "what": "own online-ordering site, live; copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.toshisgrill.com/toshis-teriyaki-kenmore",
+    "what": "Toshi's Teriyaki Grill brand site: 'The Kenmore location is no longer affiliated with us'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-04-30 (open data, via candidate file); shows the business operates",
+    "date": "2026-04-30"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Buck's Teriyaki",
+  "address": "10611 SE 240th St",
+  "city": "Kent",
+  "zip": "98031",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "beef short ribs",
+   "yakisoba",
+   "gyoza",
+   "bento box"
+  ],
+  "opened": null,
+  "brand_founded": 1991,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-owned teriyaki shop on Kent's East Hill; its ordering page says it has served Kent since 1991.",
+  "display_note": "Family-owned teriyaki shop on Kent's East Hill, serving Kent since 1991. The menu includes beef short ribs and bento.",
+  "website": "https://bucksteriyaki.cloveronline.com/",
+  "sources": [
+   {
+    "url": "https://bucksteriyaki.cloveronline.com/menu/all",
+    "what": "own Clover online-ordering menu with about text, live and accepting orders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-01-14 (open data, via candidate file); shows the business operates",
+    "date": "2026-01-14"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy at the Bay Teriyaki #5",
+  "address": "13003 SE Kent-Kangley Rd #114",
+  "city": "Kent",
+  "zip": "98030",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza",
+   "bulgogi"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": true,
+  "kasahara": false,
+  "note": "Numbered Happy at the Bay shop on Kent-Kangley Rd with teriyaki, katsu, wok and Korean dishes.",
+  "display_note": "Numbered Happy at the Bay shop on Kent-Kangley Rd with teriyaki, katsu, wok and Korean dishes.",
+  "website": "https://happyatthebaykent.com/",
+  "sources": [
+   {
+    "url": "https://happyatthebaykent.com/",
+    "what": "own website, live; address and hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://happyatthebaykent.com/menu-2/",
+    "what": "own menu page with menu images uploaded 2025",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-01-15 (open data, via candidate file); shows the business operates",
+    "date": "2026-01-15"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "King's Teriyaki",
+  "address": "25803 104th Ave SE",
+  "city": "Kent",
+  "zip": "98030",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "beef teriyaki",
+   "honey sesame chicken",
+   "chicken katsu"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop near French Field on 104th Ave SE.",
+  "display_note": "Teriyaki shop near French Field on 104th Ave SE, with beef teriyaki, honey sesame chicken and chicken katsu.",
+  "website": "https://www.kingsteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.kingsteriyaki.com/",
+    "what": "own website with online ordering, live; address and hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-09-14 (open data, via candidate file); shows the business operates",
+    "date": "2026-09-14"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Konich's Teriyaki",
+  "address": "23217 Pacific Hwy S",
+  "city": "Kent",
+  "zip": "98032",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "kalbi short ribs",
+   "chicken katsu",
+   "gyoza plate",
+   "yakisoba",
+   "tempura"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter on Pacific Hwy S; plates and combos come with steamed rice and salad.",
+  "display_note": "Teriyaki counter on Pacific Hwy S; plates and combos come with steamed rice and salad. Also has kalbi short ribs and tempura.",
+  "website": "https://konichsteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://konichsteriyaki.com/products/items/MTMxMg/NTgw",
+    "what": "own online-ordering menu, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-04-28 (open data, via candidate file); shows the business operates",
+    "date": "2026-04-28"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Nikko Teriyaki",
+  "address": "6621 S 211th St #105",
+  "city": "Kent",
+  "zip": "98032",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "spicy chicken katsu",
+   "chicken katsu curry",
+   "gyoza plate",
+   "yakisoba",
+   "bento"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter on S 211th St; plates come with steamed rice and salad.",
+  "display_note": "Teriyaki counter on S 211th St; plates come with steamed rice and salad. Also serves chicken katsu curry and bento.",
+  "website": "https://nikkoteri.menu11.com/kent/order",
+  "sources": [
+   {
+    "url": "https://nikkoteri.menu11.com/kent/order",
+    "what": "own online-ordering menu (menu11), live; daily hours listed",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-09-24 (open data, via candidate file); shows the business operates",
+    "date": "2026-09-24"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Tokyo Town Teriyaki",
+  "address": "21004 108th Ave SE",
+  "city": "Kent",
+  "zip": "98031",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "spicy chicken katsu",
+   "chicken curry",
+   "gyoza plate",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on Kent's East Hill; plates come with rice, macaroni salad and green salad.",
+  "display_note": "Teriyaki shop on Kent's East Hill; plates come with rice, macaroni salad and green salad.",
+  "website": "https://tokyotownteriyaki.menu11.com/kent/order",
+  "sources": [
+   {
+    "url": "https://tokyotownteriyaki.menu11.com/kent/order",
+    "what": "own online-ordering menu (menu11), live; daily hours listed",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-02-26 (open data, via candidate file); shows the business operates",
+    "date": "2026-02-26"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Yummy Teriyaki",
+  "address": "10844 SE 208th St",
+  "city": "Kent",
+  "zip": "98031",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba",
+   "bento box",
+   "udon"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on SE 208th St with plates, bento boxes, yakisoba and noodle soups.",
+  "display_note": "Teriyaki shop on SE 208th St with plates, bento boxes, yakisoba and noodle soups.",
+  "website": "https://yummyteriyakikent.com/",
+  "sources": [
+   {
+    "url": "https://yummyteriyakikent.com/products/items/MTM0NA/NjAy",
+    "what": "own online-ordering menu, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-09-30 (open data, via candidate file); shows the business operates",
+    "date": "2026-09-30"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Nasai Teriyaki",
+  "address": "8417 122nd Ave NE",
+  "city": "Kirkland",
+  "zip": "98033",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "chicken katsu curry",
+   "yakisoba",
+   "gyoza plate"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on 122nd Ave NE with numbered teriyaki plates and combos.",
+  "display_note": "Teriyaki shop on 122nd Ave NE with numbered teriyaki plates and combos.",
+  "website": "https://nasai-teriyaki-kirkland-kirkland.cloveronline.com/",
+  "sources": [
+   {
+    "url": "https://nasai-teriyaki-kirkland-kirkland.cloveronline.com/menu/all",
+    "what": "own Clover online-ordering menu, live and accepting orders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-04-15 (open data, via candidate file); shows the business operates",
+    "date": "2026-04-15"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Gourmet Teriyaki",
+  "address": "7671 SE 27th St",
+  "city": "Mercer Island",
+  "zip": "98040",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "chicken curry",
+   "yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter in the Mercer Island town center; katsu comes with salad, rice and sauce.",
+  "display_note": "Teriyaki counter in the Mercer Island town center; katsu comes with salad, rice and sauce.",
+  "website": "http://ordergourmetteriyaki.com/",
+  "sources": [
+   {
+    "url": "http://ordergourmetteriyaki.com/menu",
+    "what": "own online-ordering site and menu, live; copyright 2026; hours listed",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-08-18 (open data, via candidate file); shows the business operates",
+    "date": "2026-08-18"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "I Luv Teriyaki",
+  "address": "458 SW Mt Si Blvd Ste B1C",
+  "city": "North Bend",
+  "zip": "98045",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki plates with rice and salad"
+  ],
+  "opened": 2005,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-run teriyaki shop; its site says the owner opened in North Bend in 2005.",
+  "display_note": "Family-run teriyaki shop, open in North Bend since 2005. Teriyaki plates come with rice and salad.",
+  "website": "https://www.iluvteriyakinorthbend.com/",
+  "sources": [
+   {
+    "url": "https://www.iluvteriyakinorthbend.com/",
+    "what": "own website, live; copyright 2026; story, address, hours and online ordering link",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-04-13 (open data, via candidate file); shows the business operates",
+    "date": "2026-04-13"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Wok & Teriyaki",
+  "address": "420 Ellingson Rd",
+  "city": "Pacific",
+  "zip": "98047",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "kalbi",
+   "teriyaki bowls",
+   "yakisoba",
+   "gyoza",
+   "bento"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki-and-wok shop on Ellingson Rd with teriyaki plates, bowls, bento and wok specials.",
+  "display_note": "Teriyaki-and-wok shop on Ellingson Rd with teriyaki plates, bowls, bento and wok specials.",
+  "website": "https://wokteriyakipacific.menu11.com/pacific/order",
+  "sources": [
+   {
+    "url": "https://wokteriyakipacific.menu11.com/pacific/order",
+    "what": "own online-ordering menu (menu11), live; daily hours listed",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-05-27 (open data, via candidate file); shows the business operates",
+    "date": "2026-05-27"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Himitsu Teriyaki Redmond Ridge",
+  "address": "22350 NE Marketplace Dr Suite 112",
+  "city": "Redmond",
+  "zip": "98053",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "yakisoba",
+   "curry",
+   "stir-fry",
+   "ramen"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop at Redmond Ridge serving Japanese, Korean and Chinese dishes.",
+  "display_note": "Teriyaki shop at Redmond Ridge serving Japanese, Korean and Chinese dishes, including curry and ramen.",
+  "website": "https://himitsuteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://himitsuteriyaki.com/",
+    "what": "own website with online ordering, live; address and description",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-06-30 (open data, via candidate file); shows the business operates",
+    "date": "2026-06-30"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Niko Teriyaki",
+  "address": "15946 Redmond Way #102",
+  "city": "Redmond",
+  "zip": "98052",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "gyoza plate",
+   "yakisoba",
+   "tempura",
+   "udon"
+  ],
+  "opened": null,
+  "brand_founded": 1995,
+  "chain": false,
+  "kasahara": false,
+  "note": "Downtown Redmond teriyaki counter; meats are char-broiled and served with rice and salad. Its menu says 'since 1995'.",
+  "display_note": "Downtown Redmond teriyaki counter, serving since 1995. Meats are char-broiled and served with rice and salad.",
+  "website": "https://www.nikoteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.nikoteriyaki.com/",
+    "what": "own website, live; copyright 2025; address and hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.nikoteriyaki.com/_files/ugd/f903a2_93840fc0da514e2090d03d718052a577.pdf",
+    "what": "own menu PDF linked from site",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-02-10 (open data, via candidate file); shows the business operates",
+    "date": "2026-02-10"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Yummy Teriyaki",
+  "address": "17218 Redmond Way",
+  "city": "Redmond",
+  "zip": "98052",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba",
+   "bento special"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on Redmond Way with plates, combos and bento.",
+  "display_note": "Teriyaki shop on Redmond Way with plates, combos and bento.",
+  "website": "https://yummyteriyakirestaurant.com/",
+  "sources": [
+   {
+    "url": "https://yummyteriyakirestaurant.com/",
+    "what": "own online-ordering site, live; copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-08-04 (open data, via candidate file); shows the business operates",
+    "date": "2026-08-04"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Fuji Teriyaki",
+  "address": "17650 140th Ave SE",
+  "city": "Renton",
+  "zip": "98058",
+  "county": "King",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza",
+   "bento",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki plates and bento alongside a long sushi-roll list, in the Fairwood area.",
+  "display_note": "Teriyaki shop in the Fairwood area with teriyaki plates and bento alongside a long sushi-roll list.",
+  "website": "https://fujiteriyakirenton.menu11.com/renton/order",
+  "sources": [
+   {
+    "url": "https://fujiteriyakirenton.menu11.com/renton/order",
+    "what": "own online-ordering menu (menu11), live; menu item IDs show edits in Aug 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-09-09 (open data, via candidate file); shows the business operates",
+    "date": "2026-09-09"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy at the Bay Teriyaki",
+  "address": "203 S 2nd St",
+  "city": "Renton",
+  "zip": "98057",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "fried rice",
+   "ramen"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Downtown Renton teriyaki shop with combos and Chinese dishes.",
+  "display_note": "Downtown Renton teriyaki shop with combos and Chinese dishes.",
+  "website": "https://happyatthebayteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://happyatthebayteriyaki.com/",
+    "what": "own website, live; copyright 2025; address and online ordering hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-06-01 (open data, via candidate file); shows the business operates",
+    "date": "2026-06-01"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Miako Teriyaki",
+  "address": "17328 140th Ave SE",
+  "city": "Renton",
+  "zip": "98058",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken breast teriyaki",
+   "chicken katsu",
+   "chicken yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop in the Fairwood area (map data gives 17326 140th Ave SE).",
+  "display_note": "Teriyaki shop in the Fairwood area with chicken or chicken breast teriyaki, chicken katsu, yakisoba and gyoza.",
+  "website": "https://miakoteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://miakoteriyaki.com/",
+    "what": "own online-ordering site, live; copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-09-14 (open data, via candidate file); shows the business operates",
+    "date": "2026-09-14"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Nori Presto Teriyaki",
+  "address": "4710 NE 4th St Ste 102",
+  "city": "Renton",
+  "zip": "98059",
+  "county": "King",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "kalbi short rib",
+   "chicken katsu",
+   "spicy chicken katsu",
+   "yakisoba",
+   "udon",
+   "bento",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki-and-sushi shop on NE 4th St (county records list it as Nor Presto Teriyaki & Sushi).",
+  "display_note": "Teriyaki-and-sushi shop on NE 4th St, with kalbi short rib, katsu, udon and bento.",
+  "website": "https://noriprestoteriyaki.menu11.com/renton/order",
+  "sources": [
+   {
+    "url": "https://noriprestoteriyaki.menu11.com/renton/order",
+    "what": "own online-ordering menu (menu11), live; menu item IDs show edits in Aug 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-05-06 (open data, via candidate file); shows the business operates",
+    "date": "2026-05-06"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ono Teriyaki",
+  "address": "20 SW 7th St Ste F",
+  "city": "Renton",
+  "zip": "98057",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "crispy spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "salmon teriyaki",
+   "yakisoba",
+   "yaki udon",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter near downtown Renton with plates, combos and noodle dishes.",
+  "display_note": "Teriyaki counter near downtown Renton with plates, combos and noodle dishes, including crispy spicy chicken and salmon teriyaki.",
+  "website": "https://ono-teriyaki-renton.cloveronline.com/",
+  "sources": [
+   {
+    "url": "https://ono-teriyaki-renton.cloveronline.com/menu/all",
+    "what": "own Clover online-ordering menu, live (not taking online orders at time of check)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-10-01 (open data, via candidate file); shows the business operates",
+    "date": "2026-10-01"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Box",
+  "address": "364 Renton Center Way SW Ste 55",
+  "city": "Renton",
+  "zip": "98057",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "bento",
+   "yakisoba",
+   "fried rice"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop at Renton Center with plates, combos, bento and yakisoba.",
+  "display_note": "Teriyaki shop at Renton Center with plates, combos, bento and yakisoba.",
+  "website": "https://teriyakibox.menu11.com/renton/order",
+  "sources": [
+   {
+    "url": "https://teriyakibox.menu11.com/renton/order",
+    "what": "own online-ordering menu (menu11), live; menu item IDs show edits in Sept 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-09-10 (open data, via candidate file); shows the business operates",
+    "date": "2026-09-10"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Wild Ginger Teriyaki",
+  "address": "305 Burnett Ave S",
+  "city": "Renton",
+  "zip": "98057",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "yaki udon",
+   "gyoza",
+   "teriyaki bento box"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and Chinese wok shop downtown; teriyaki plates come with rice and salad.",
+  "display_note": "Downtown Renton teriyaki and Chinese wok shop; teriyaki plates come with rice and salad.",
+  "website": "https://wildgingerteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://wildgingerteriyaki.com/",
+    "what": "own website, live; copyright 2025; links its online ordering and menu PDF",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://img1.wsimg.com/blobby/go/6aa69cba-ce9b-4f2a-83c2-0afd965cae78/Menu_Web_final.pdf",
+    "what": "own menu PDF linked from site",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-09-14 (open data, via candidate file); shows the business operates",
+    "date": "2026-09-14"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Nasai Teriyaki",
+  "address": "506 228th Ave NE",
+  "city": "Sammamish",
+  "zip": "98074",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken katsu",
+   "gyoza plate",
+   "yakisoba",
+   "udon",
+   "ramen"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop in the Sammamish Highlands; plates come with rice and salad.",
+  "display_note": "Teriyaki shop in the Sammamish Highlands; plates come with rice and salad.",
+  "website": "https://nasaiteriyaki.menu11.com/sami/order",
+  "sources": [
+   {
+    "url": "https://nasaiteriyaki.menu11.com/sami/order",
+    "what": "own online-ordering menu (menu11), live; menu item IDs show edits in July 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-09-01 (open data, via candidate file); shows the business operates",
+    "date": "2026-09-01"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Masae's Teriyaki",
+  "address": "19021 International Blvd",
+  "city": "SeaTac",
+  "zip": "98188",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki",
+   "yakisoba",
+   "orange chicken"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Takeout teriyaki shop on International Blvd near the airport hotels.",
+  "display_note": "Takeout teriyaki shop on International Blvd near the airport hotels.",
+  "website": "https://www.masaesteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.masaesteriyaki.com/",
+    "what": "own website with online ordering, live; address and hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-01-22 (open data, via candidate file); shows the business operates",
+    "date": "2026-01-22"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Mama's Grill 'n Bento Teriyaki",
+  "address": "20030 Ballinger Way NE",
+  "city": "Shoreline",
+  "zip": "98155",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "teriyaki combos",
+   "bento box",
+   "yakisoba",
+   "tempura",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki and bento shop on Ballinger Way; also sushi rolls and Korean dishes.",
+  "display_note": "Teriyaki and bento shop on Ballinger Way; also sushi rolls and Korean dishes.",
+  "website": "https://www.mamasbento.com/",
+  "sources": [
+   {
+    "url": "https://www.mamasbento.com/",
+    "what": "own website with online ordering, live; content updated 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Himitsu Teriyaki",
+  "address": "7903 Center Blvd SE",
+  "city": "Snoqualmie",
+  "zip": "98065",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "salmon teriyaki",
+   "teriyaki combos"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop at Snoqualmie Ridge with house-made teriyaki sauce.",
+  "display_note": "Teriyaki shop at Snoqualmie Ridge with house-made teriyaki sauce.",
+  "website": "https://www.snohimit.com/",
+  "sources": [
+   {
+    "url": "https://www.snohimit.com/order-online",
+    "what": "own website and online-ordering menu, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-04-09 (open data, via candidate file); shows the business operates",
+    "date": "2026-04-09"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Time",
+  "address": "80 Andover Park W",
+  "city": "Tukwila",
+  "zip": "98188",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken katsu",
+   "chicken yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop near Southcenter with plates and two-item combos.",
+  "display_note": "Teriyaki shop near Southcenter with plates and two-item combos.",
+  "website": "https://teriyakitimerestaurant.com/",
+  "sources": [
+   {
+    "url": "https://teriyakitimerestaurant.com/",
+    "what": "own online-ordering site, live; copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-09-21 (open data, via candidate file); shows the business operates",
+    "date": "2026-09-21"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Matsu Teriyaki",
+  "address": "14231 NE Woodinville Duvall Rd",
+  "city": "Woodinville",
+  "zip": "98072",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken katsu",
+   "gyoza plate",
+   "yakisoba",
+   "bento specials"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on Woodinville-Duvall Rd with many teriyaki and katsu combos.",
+  "display_note": "Teriyaki shop on Woodinville-Duvall Rd with many teriyaki and katsu combos.",
+  "website": "https://matsu-teriyaki-woodinville.cloveronline.com/",
+  "sources": [
+   {
+    "url": "https://matsu-teriyaki-woodinville.cloveronline.com/menu/all",
+    "what": "own Clover online-ordering menu, live and accepting orders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2025-03-28 (open data, via candidate file); shows the business operates",
+    "date": "2025-03-28"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Minami Teriyaki",
+  "address": "17307 140th Ave NE",
+  "city": "Woodinville",
+  "zip": "98072",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "katsu",
+   "gyoza plate",
+   "beef bulgogi",
+   "yakisoba",
+   "yaki udon",
+   "ramen",
+   "bento"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on 140th Ave NE with wok dishes, ramen, sushi and bento.",
+  "display_note": "Teriyaki shop on 140th Ave NE with wok dishes, ramen, sushi and bento.",
+  "website": "https://minamiteriyaki.menu11.com/woodinville/order",
+  "sources": [
+   {
+    "url": "https://minamiteriyaki.menu11.com/woodinville/order",
+    "what": "own online-ordering menu (menu11), live; menu item IDs show edits in Apr 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2025-04-16 (open data, via candidate file); shows the business operates",
+    "date": "2025-04-16"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Bowl",
+  "address": "13620 NE 175th St #104",
+  "city": "Woodinville",
+  "zip": "98072",
+  "county": "King",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken",
+   "beef teriyaki",
+   "chicken katsu",
+   "chicken katsu curry",
+   "yakisoba",
+   "bento",
+   "gyoza plate"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop in downtown Woodinville with plates, gyoza combos, bento and Chinese wok dishes.",
+  "display_note": "Teriyaki shop in downtown Woodinville with plates, gyoza combos, bento and Chinese wok dishes.",
+  "website": "https://teriyaki-bowl-woodinville.cloveronline.com/",
+  "sources": [
+   {
+    "url": "https://teriyaki-bowl-woodinville.cloveronline.com/menu/all",
+    "what": "own Clover online-ordering menu, live and accepting orders",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov",
+    "what": "Public Health - Seattle & King County food inspection on 2026-08-21 (open data, via candidate file); shows the business operates",
+    "date": "2026-08-21"
+   }
+  ],
+  "checked": "2026-10-05"
+ }
+]

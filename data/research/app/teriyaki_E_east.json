@@ -1,0 +1,688 @@
+[
+ {
+  "name": "Ginger Teriyaki & Sushi",
+  "address": "13032 W Sunset Hwy",
+  "city": "Airway Heights",
+  "zip": "99001",
+  "county": "Spokane",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken",
+   "beef teriyaki",
+   "chicken & beef teriyaki",
+   "chicken & gyoza",
+   "chicken katsu",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki plates served with rice and salad, plus sushi, Thai, Korean and Chinese dishes. Mixed menu, so it's a borderline teriyaki shop. Map data calls it Ginger Teriyaki & Thai.",
+  "display_note": "Airway Heights shop on W Sunset Hwy with teriyaki plates served with rice and salad, plus sushi, Thai, Korean and Chinese dishes.",
+  "website": "https://www.gingerteriyakisushispokane.com/",
+  "sources": [
+   {
+    "url": "https://www.gingerteriyakisushispokane.com/ginger-sushi-japanese-restaurant-teriyaki-sushi-airway-heights-wa-menu/",
+    "what": "own menu page with a Teriyaki section (page modified 2025-09-11), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.gingerteriyakisushispokane.com/contact-ginger-teriyaki-and-sushi-airway-heights-wa/",
+    "what": "own contact page: address and weekly hours, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Chelan Teriyaki Bistro",
+  "address": "109 S Emerson St",
+  "city": "Chelan",
+  "zip": "98816",
+  "county": "Chelan",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "chicken & beef teriyaki",
+   "shrimp teriyaki",
+   "salmon teriyaki",
+   "tofu teriyaki",
+   "yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki plates come with sticky white or brown rice and Asian slaw. Dine-in or phone-in takeout. Gluten-free sauce on request.",
+  "display_note": "Teriyaki bistro on S Emerson St; plates come with sticky white or brown rice and Asian slaw. Gluten-free sauce on request.",
+  "website": "https://www.chelanteriyakibistro.com/",
+  "sources": [
+   {
+    "url": "https://www.chelanteriyakibistro.com/",
+    "what": "own site (footer (c) 2024-2026) with address and hours, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.chelanteriyakibistro.com/menu",
+    "what": "own menu page: teriyaki and yakisoba entrees, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Grill (Kennewick)",
+  "address": "7600 W Clearwater Ave",
+  "city": "Kennewick",
+  "zip": "99336",
+  "county": "Benton",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "chicken & beef teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza",
+   "bulgogi"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "One of two Tri-Cities Teriyaki Grill shops (the other is in Pasco). Plates come with steamed rice and vegetables. Its own site gives 7600 W Clearwater (map data said 7520), and the old teriyaki-grill.com domain no longer loads.",
+  "display_note": "Kennewick shop on W Clearwater Ave, one of two Tri-Cities Teriyaki Grill shops (the other is in Pasco). Plates come with steamed rice and vegetables.",
+  "website": "https://teriyakigrilltc.com/",
+  "sources": [
+   {
+    "url": "https://teriyakigrilltc.com/",
+    "what": "own site listing the Kennewick address and Mon-Sat hours (footer (c) 2023), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://teriyakigrilltc.com/menu/",
+    "what": "own menu page (teriyaki, yakisoba, katsu, combos), live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Grill (Pasco)",
+  "address": "5325 N Road 68, Suite 3",
+  "city": "Pasco",
+  "zip": "99301",
+  "county": "Franklin",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "chicken & beef teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "gyoza",
+   "bulgogi"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Pasco shop of the two-location Tri-Cities Teriyaki Grill. Teriyaki plates and yakisoba come with steamed rice.",
+  "display_note": "Pasco shop of the two-location Tri-Cities Teriyaki Grill. Teriyaki plates and yakisoba come with steamed rice.",
+  "website": "https://teriyakigrilltc.com/",
+  "sources": [
+   {
+    "url": "https://teriyakigrilltc.com/",
+    "what": "own site listing the Pasco address and Mon-Sat hours (footer (c) 2023), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://teriyakigrilltc.com/menu/",
+    "what": "own menu page, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "J's Teriyaki Grill",
+  "address": "123 E Broadway Ave",
+  "city": "Moses Lake",
+  "zip": "98837",
+  "county": "Grant",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "spicy teriyaki",
+   "Hawaiian teriyaki with grilled pineapple",
+   "chicken katsu",
+   "potstickers",
+   "teriyaki salads"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter. Plates come with steamed rice, cabbage salad and teriyaki sauce. Weakest source in this file: its own site is live with hours and a menu, but the footer reads (c) 2016, and we couldn't open its Toast ordering page (403).",
+  "display_note": "Teriyaki counter on E Broadway Ave. Plates come with steamed rice, cabbage salad and teriyaki sauce; Hawaiian teriyaki adds grilled pineapple.",
+  "website": "http://www.jsteriyakigrill.com/",
+  "sources": [
+   {
+    "url": "http://www.jsteriyakigrill.com/menu/",
+    "what": "own menu page, live (footer (c) 2016)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "http://www.jsteriyakigrill.com/location/",
+    "what": "own location page: 123 E. Broadway, Mon-Sat 11-9, Sun 11-8, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Takasushi Sushi & Teriyaki",
+  "address": "602 6th St",
+  "city": "Prosser",
+  "zip": "99350",
+  "county": "Benton",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "gyoza",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Sushi-and-teriyaki shop. The chicken teriyaki plate comes with salad and rice.",
+  "display_note": "Sushi-and-teriyaki shop in Prosser. The chicken teriyaki plate comes with salad and rice.",
+  "website": "https://takasushisushiteriyakiwa.com/",
+  "sources": [
+   {
+    "url": "https://takasushisushiteriyakiwa.com/takasushi-sushi--teriyaki/",
+    "what": "own online-ordering page with weekly hours and teriyaki chicken plate, live (footer (c) 2026)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Iggy's Teriyaki On The Go",
+  "address": "709 1st Ave SE",
+  "city": "Quincy",
+  "zip": "98848",
+  "county": "Grant",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken yakisoba",
+   "chicken teriyaki bowl"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop: grilled marinated chicken with house teriyaki sauce, served with rice and garden salad. Its own site gives 709 1st Ave SE and phone 509-612-7706; map data had 500 1st Ave SE and a different phone.",
+  "display_note": "Quincy teriyaki shop serving grilled marinated chicken with house teriyaki sauce, rice and garden salad.",
+  "website": "https://iggysteriyakionthegowa.com/",
+  "sources": [
+   {
+    "url": "https://iggysteriyakionthegowa.com/iggys-teriyaki-on-the-go/",
+    "what": "own online-ordering page with hours and teriyaki items, live (footer (c) 2026)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Woo's Teriyaki",
+  "address": "1379 George Washington Way",
+  "city": "Richland",
+  "zip": "99354",
+  "county": "Benton",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "chicken & beef teriyaki",
+   "pork teriyaki",
+   "spicy BBQ pork teriyaki",
+   "chicken teriyaki & gyoza",
+   "yakisoba",
+   "tempura"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter in Richland's Uptown area. Also has Chinese-American dishes and a few sushi rolls.",
+  "display_note": "Teriyaki counter in Richland's Uptown area, also serving Chinese-American dishes and a few sushi rolls.",
+  "website": "http://orderwoosteriyaki.com/",
+  "sources": [
+   {
+    "url": "http://orderwoosteriyaki.com/",
+    "what": "own online-ordering site with menu and Mon-Sat hours, live (footer (c) 2026)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Kay's Teriyaki Plus",
+  "address": "601 E Francis Ave",
+  "city": "Spokane",
+  "zip": "99208",
+  "county": "Spokane",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "chicken & beef teriyaki",
+   "chicken katsu teriyaki",
+   "chicken & gyoza teriyaki",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "North Spokane teriyaki shop. Plates come with egg flower soup, salad and white rice. Also serves Korean and Chinese dishes.",
+  "display_note": "North Spokane teriyaki shop; plates come with egg flower soup, salad and white rice. Also serves Korean and Chinese dishes.",
+  "website": "https://kaysteriyakiplus.com/",
+  "sources": [
+   {
+    "url": "https://kaysteriyakiplus.com/c/teriyaki/",
+    "what": "own online-ordering menu, Teriyaki section, live (footer (c) 2026)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Spice (Spokane)",
+  "address": "1412 W 2nd Ave",
+  "city": "Spokane",
+  "zip": "99201",
+  "county": "Spokane",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "hot & spicy chicken",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "shrimp teriyaki",
+   "rib eye teriyaki",
+   "chicken katsu",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Downtown Spokane teriyaki shop. One of two Teriyaki Spice locations (the other is in Airway Heights). Not on the candidate list.",
+  "display_note": "Downtown Spokane teriyaki shop, one of two Teriyaki Spice locations along with Airway Heights.",
+  "website": "https://teriyakispicespokane.com/location/spokane/",
+  "sources": [
+   {
+    "url": "https://teriyakispicespokane.com/location/spokane/c/entrees/",
+    "what": "own online-ordering menu (entrees), live (footer (c) 2026)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://teriyakispicespokane.com/location_selector/",
+    "what": "own location list showing both shops, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Spice (Airway Heights)",
+  "address": "11980 W Sunset Hwy, Suite A",
+  "city": "Airway Heights",
+  "zip": "99001",
+  "county": "Spokane",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "yakisoba",
+   "chicken katsu"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Airway Heights shop of the two-location Teriyaki Spice. Its ordering site uses the same menu categories as the Spokane shop. Not on the candidate list.",
+  "display_note": "Airway Heights shop of the two-location Teriyaki Spice, serving chicken and beef teriyaki, yakisoba and chicken katsu.",
+  "website": "https://teriyakispicespokane.com/location/airway_heights/",
+  "sources": [
+   {
+    "url": "https://teriyakispicespokane.com/location/airway_heights/",
+    "what": "own online-ordering page for this location, live (footer (c) 2026)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://teriyakispicespokane.com/location_selector/",
+    "what": "own location list, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "New York Teriyaki & Sushi Bar (Union Gap)",
+  "address": "2518 Main St",
+  "city": "Union Gap",
+  "zip": "98903",
+  "county": "Yakima",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "beef short ribs",
+   "salmon teriyaki",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki plates come with salad and steamed rice; spicy versions available. Also has sushi, Korean dishes and burgers. Several New York Teriyaki shops in the Yakima area have separate websites, and no source shows shared ownership.",
+  "display_note": "Union Gap teriyaki shop on Main St; plates come with salad and steamed rice, with spicy versions available. Also has sushi, Korean dishes and burgers.",
+  "website": "http://www.newyork-teriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.newyork-teriyaki.com/main/order",
+    "what": "own online-ordering menu (Teriyaki first category), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://nyteriyaki.weebly.com/menu.html",
+    "what": "own menu page listing teriyaki plates, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "New York Teriyaki & Burgers (72nd Ave)",
+  "address": "210 S 72nd Ave, Suite 150",
+  "city": "Yakima",
+  "zip": "98908",
+  "county": "Yakima",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "beef short ribs",
+   "salmon teriyaki",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "West Yakima teriyaki-and-burger shop. Teriyaki plates come with garden salad and steamed rice, and there's sushi too. Its site says 'family owned & operated since 2002'. No source links it to the other New York Teriyaki shops.",
+  "display_note": "West Yakima teriyaki-and-burger shop, family owned and operated since 2002. Teriyaki plates come with garden salad and steamed rice, and there's sushi too.",
+  "website": "https://www.newyorkteriyaki72nd.com/",
+  "sources": [
+   {
+    "url": "https://www.newyorkteriyaki72nd.com/",
+    "what": "own site with address and Mon-Sat hours, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://newyorkteriyakiburger72nd.menu11.com/yakima/order",
+    "what": "own online-ordering menu (Teriyaki section), live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "New York Teriyaki (N 1st St)",
+  "address": "822 N 1st St",
+  "city": "Yakima",
+  "zip": "98901",
+  "county": "Yakima",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "beef short ribs",
+   "salmon teriyaki",
+   "spicy garlic chicken teriyaki",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "North First Street teriyaki and Japanese shop. Plates come with salad and rice, and there's sushi too. Its own site calls it New York Teriyaki & Japanese Restaurant.",
+  "display_note": "North First Street teriyaki and Japanese shop, also called New York Teriyaki & Japanese Restaurant. Plates come with salad and rice, and there's sushi too.",
+  "website": "https://www.nyteriyaki.net/",
+  "sources": [
+   {
+    "url": "https://newyorkteriyakijapanese.menu11.com/yakima/order",
+    "what": "own online-ordering menu (TERIYAKI section), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.nyteriyaki.net/",
+    "what": "own site with address and Mon-Sat hours (footer (c) 2023), live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "New York Teriyaki (Selah)",
+  "address": "723 N Park Dr Central",
+  "city": "Selah",
+  "zip": "98942",
+  "county": "Yakima",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "steamed gyoza",
+   "egg roll"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Selah teriyaki shop. Address is as printed on its site; map data had '723 N Park Ctr'.",
+  "display_note": "Selah teriyaki shop serving chicken teriyaki, steamed gyoza and egg rolls.",
+  "website": "https://newyorkteriyakiselah.com/",
+  "sources": [
+   {
+    "url": "https://newyorkteriyakiselah.com/",
+    "what": "own site with online ordering, Mon-Sat hours and chicken teriyaki, live (footer (c) 2026)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Express Wapato",
+  "address": "208 S Wapato Ave",
+  "city": "Wapato",
+  "zip": "98951",
+  "county": "Yakima",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "chicken katsu",
+   "yakisoba",
+   "chicken & gyoza",
+   "sushi rolls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki plates with steamed rice and salad, plus yakisoba, sushi rolls, burgers and aguas frescas.",
+  "display_note": "Wapato teriyaki shop: plates come with steamed rice and salad, plus yakisoba, sushi rolls, burgers and aguas frescas.",
+  "website": "https://teriyakiexpresswapato0866.s4shops.com/",
+  "sources": [
+   {
+    "url": "https://teriyakiexpresswapato0866.s4shops.com/",
+    "what": "own Shift4 restaurant site with menu, address and Mon-Sat hours, live (footer 2026)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Tiki Teriyaki Grille",
+  "address": "205 Wildwood St",
+  "city": "Walla Walla",
+  "zip": "99362",
+  "county": "Walla Walla",
+  "kinds": [
+   "teriyaki",
+   "hawaiian"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki chicken (boneless thigh)",
+   "Dukes teriyaki beef",
+   "kalbi beef ribs",
+   "crispy garlic chicken",
+   "chicken katsu",
+   "kalua pig"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Hawaiian plate-lunch-style teriyaki: meats glazed in house teriyaki sauce, served with rice and mac salad (not classic Seattle style). Takeout only, Tue-Fri. Gluten-free teriyaki sauce.",
+  "display_note": "Hawaiian plate-lunch-style teriyaki: meats glazed in a gluten-free house teriyaki sauce, served with rice and mac salad. Takeout only, Tuesday to Friday.",
+  "website": "https://tikiteriyakigrille.com/",
+  "sources": [
+   {
+    "url": "https://tikiteriyakigrille.com/menu",
+    "what": "own menu page, live (footer (c) 2026)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://tikiteriyakigrille.com/contact-us",
+    "what": "own contact page: 205 Wildwood St, Tue-Fri hours, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Toshi's Teriyaki Grill",
+  "address": "16212 Bothell Everett Hwy",
+  "city": "Mill Creek",
+  "zip": "98012",
+  "county": "Snohomish",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "spicy teriyaki options"
+  ],
+  "opened": 2013,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": true,
+  "note": "Toshi Kasahara, who opened Toshi's Teriyaki on Roy Street in Lower Queen Anne in 1976, opened this shop in 2013 and is its owner; the many other shops named Toshi's are not his.",
+  "display_note": "Teriyaki shop on the Bothell-Everett Hwy in Mill Creek, opened in 2013, with chicken, beef and spicy teriyaki.",
+  "website": "https://www.toshisgrill.com/",
+  "sources": [
+   {
+    "url": "https://www.toshisgrill.com/location",
+    "what": "own site: Mill Creek address, 'Opened in 2013 by Toshi himself', Tue-Sat hours, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "name": "Triple XXX Rootbeer Drive-In",
+  "address": "98 NE Gilman Blvd",
+  "city": "Issaquah",
+  "source_url": "https://mynorthwest.com/history/all-over-the-map-remodel-project-uncovers-hidden-past-of-beloved-xxx-drive-in/3963528",
+  "source_date": "2024-06-29",
+  "why": "MyNorthwest: closed abruptly in November 2023. Burgermaster restored the building and opened there May 26, 2026 (MyNorthwest 2026-05-26), so the address is now Burgermaster (Issaquah) in the guide."
+ },
+ {
+  "name": "Burgermaster (University District)",
+  "address": "University District (NE 45th St area; exact address not in source)",
+  "city": "Seattle",
+  "source_url": "https://mynorthwest.com/lifestyle/burgermaster-issaquah-opening/4241978",
+  "source_date": "2026-05-26",
+  "why": "The original 1952 Burgermaster closed at the end of February 2025 (land redeveloped). Burgermaster's own About page still mentions it, but its home page no longer lists it."
+ },
+ {
+  "name": "Dusty's In-N-Out",
+  "address": "N Wenatchee Ave (exact number not in source)",
+  "city": "Wenatchee",
+  "source_url": "https://kw3.com/wenatchee-business-closure/",
+  "source_date": "2024-01-25",
+  "why": "KW3: Saturday Jan. 27, 2024 was the final day; owners planned a different restaurant in the building. Not on the candidate list."
+ }
+]

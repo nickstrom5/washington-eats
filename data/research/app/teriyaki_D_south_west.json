@@ -1,0 +1,1969 @@
+[
+ {
+  "name": "Happy Teriyaki #4 Downtown Tacoma",
+  "address": "2223 Pacific Ave",
+  "city": "Tacoma",
+  "zip": "98402",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki chicken",
+   "teriyaki beef",
+   "teriyaki pork",
+   "teriyaki beef short ribs",
+   "teriyaki salmon",
+   "chicken katsu",
+   "gyoza plate",
+   "yakisoba",
+   "hot & spicy chicken",
+   "sushi bento"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": true,
+  "kasahara": false,
+  "note": "Downtown teriyaki-and-sushi counter; one of the Happy Teriyaki locations listed on thehappyteriyaki.com with Fife and Lacey.",
+  "display_note": "Downtown Tacoma teriyaki-and-sushi counter, part of the Happy Teriyaki group with locations in Fife and Lacey.",
+  "website": "https://happyteriyaki4tacoma.com/",
+  "sources": [
+   {
+    "url": "https://happyteriyaki4tacoma.com/",
+    "what": "own site with current hours and a menu PDF labeled Aug 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://order.chownow.com/order/3318/locations",
+    "what": "group's ChowNow ordering, location live with 2026-10-05 pickup hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.thehappyteriyaki.com/menu-tacoma.html",
+    "what": "group site menu image: teriyaki menu, katsu, gyoza, yakisoba",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Teriyaki #7",
+  "address": "4027 Tacoma Mall Blvd Ste E",
+  "city": "Tacoma",
+  "zip": "98409",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken yakisoba",
+   "California roll bento",
+   "house fried rice"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki shop on Tacoma Mall Blvd with its own online ordering; dishes taken from the site's dish photos.",
+  "display_note": "Teriyaki shop on Tacoma Mall Blvd with chicken teriyaki, yakisoba, house fried rice and California roll bento.",
+  "website": "https://www.happyteriyakitacoma.com/",
+  "sources": [
+   {
+    "url": "https://www.happyteriyakitacoma.com/",
+    "what": "own site (c) 2026 with daily hours, online ordering enabled, dish photos",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Apple Teriyaki",
+  "address": "11401 S Steele St",
+  "city": "Tacoma",
+  "zip": "98444",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken breast teriyaki",
+   "gyoza",
+   "yakisoba",
+   "bento"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter on S Steele St whose menu also has Chinese dishes, sushi and boba.",
+  "display_note": "Teriyaki counter on S Steele St whose menu also has Chinese dishes, sushi and boba.",
+  "website": "https://appleteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://appleteriyaki.com/",
+    "what": "own online-ordering site, live menu with pickup ordering (c) 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Bento Teriyaki & Sushi",
+  "address": "3201 6th Ave",
+  "city": "Tacoma",
+  "zip": "98406",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken breast teriyaki",
+   "chicken katsu",
+   "beef teriyaki",
+   "pork teriyaki",
+   "short ribs",
+   "salmon teriyaki",
+   "bento box",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Sixth Avenue teriyaki plates served with two scoops of rice and salad, plus bento boxes, sushi rolls and Chinese dishes.",
+  "display_note": "Sixth Avenue teriyaki shop; plates come with two scoops of rice and salad. Also serves bento boxes, sushi rolls and Chinese dishes.",
+  "website": "https://www.bentoteriyakisushi.com/",
+  "sources": [
+   {
+    "url": "https://www.bentoteriyakisushi.com/menu",
+    "what": "own site with Mon-Sat hours and menu image",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Kobe Teriyaki & Wok",
+  "address": "11457 Pacific Ave S Ste 4",
+  "city": "Tacoma",
+  "zip": "98444",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "spicy teriyaki",
+   "tofu teriyaki",
+   "prawn skewer teriyaki",
+   "pineapple teriyaki",
+   "chicken katsu",
+   "gyoza plate",
+   "bento specials",
+   "teriyaki bowl"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Parkland-area teriyaki and wok counter on Pacific Ave S.",
+  "display_note": "Parkland-area teriyaki and wok counter on Pacific Ave S, with pineapple teriyaki, prawn skewers and bento specials.",
+  "website": "https://kobeteriyakiwok.menu11.com/tacoma/order",
+  "sources": [
+   {
+    "url": "https://kobeteriyakiwok.menu11.com/tacoma/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Mimi Teriyaki",
+  "address": "1901 Martin Luther King Jr Way Ste B",
+  "city": "Tacoma",
+  "zip": "98405",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken",
+   "beef teriyaki",
+   "pork teriyaki",
+   "short ribs",
+   "beef bulgogi",
+   "chicken katsu",
+   "gyoza",
+   "yakisoba",
+   "katsu burrito"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Hilltop teriyaki counter with teriyaki plates and combos, yakisoba and chow mein; closed Saturdays per its hours.",
+  "display_note": "Hilltop teriyaki counter with teriyaki plates and combos, yakisoba, chow mein and a katsu burrito. Closed Saturdays.",
+  "website": "https://mimiteriyaki.menu11.com/tacoma/order",
+  "sources": [
+   {
+    "url": "https://mimiteriyaki.menu11.com/tacoma/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Yummy Pho & Teriyaki",
+  "address": "5522 E McKinley Ave",
+  "city": "Tacoma",
+  "zip": "98404",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "prawn teriyaki",
+   "salmon teriyaki",
+   "tofu teriyaki",
+   "chicken katsu",
+   "teriyaki combo",
+   "yakisoba",
+   "bento",
+   "gyoza",
+   "pho"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "East Side shop pairing a teriyaki plate menu with pho.",
+  "display_note": "East Side Tacoma shop pairing a teriyaki plate menu with pho.",
+  "website": "https://yummyphoteriyaki.menu11.com/tacoma/order",
+  "sources": [
+   {
+    "url": "https://yummyphoteriyaki.menu11.com/tacoma/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Teriyaki Lakewood",
+  "address": "6007 100th St SW",
+  "city": "Lakewood",
+  "zip": "98499",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki chicken",
+   "teriyaki chicken breast",
+   "teriyaki beef",
+   "teriyaki pork",
+   "teriyaki beef short ribs",
+   "teriyaki salmon",
+   "tofu teriyaki",
+   "chicken katsu",
+   "gyoza plate",
+   "bento",
+   "tempura meals"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Lakewood teriyaki counter with teriyaki plates, combos, tempura meals, bento and Chinese wok dishes.",
+  "display_note": "Lakewood teriyaki counter with teriyaki plates, combos, tempura meals, bento and Chinese wok dishes.",
+  "website": "https://happyteriyakilakewood.menu11.com/lakewood/order",
+  "sources": [
+   {
+    "url": "https://happyteriyakilakewood.menu11.com/lakewood/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Koto Teriyaki",
+  "address": "5700 100th St SW",
+  "city": "Lakewood",
+  "zip": "98499",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "beef short rib teriyaki",
+   "shrimp teriyaki",
+   "tofu teriyaki",
+   "chicken katsu",
+   "chicken with gyoza",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Lakewood teriyaki counter; plates come with fried vegetables, plus combos and Chinese wok dishes.",
+  "display_note": "Lakewood teriyaki counter; plates come with fried vegetables. Also has combos and Chinese wok dishes.",
+  "website": "https://kototeriyaki.menu11.com/lakewood/order",
+  "sources": [
+   {
+    "url": "https://kototeriyaki.menu11.com/lakewood/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Teriyaki (Fife)",
+  "address": "4910 Pacific Hwy E",
+  "city": "Fife",
+  "zip": "98424",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki chicken",
+   "teriyaki chicken breast",
+   "teriyaki beef",
+   "teriyaki pork",
+   "teriyaki beef short rib",
+   "teriyaki salmon",
+   "tofu teriyaki",
+   "chicken katsu",
+   "curry katsu",
+   "yakisoba",
+   "gyoza",
+   "teriyaki combinations"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": true,
+  "kasahara": false,
+  "note": "Fife location of the Happy Teriyaki group listed on thehappyteriyaki.com; also serves sushi.",
+  "display_note": "Fife location of the Happy Teriyaki group, serving teriyaki, katsu, yakisoba and sushi.",
+  "website": "https://www.thehappyteriyaki.com/location-fife.html",
+  "sources": [
+   {
+    "url": "https://order.chownow.com/order/3318/locations",
+    "what": "group's ChowNow ordering, Fife location live with 2026-10-05 pickup hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.thehappyteriyaki.com/menu-fife.html",
+    "what": "group site Fife menu page with teriyaki, katsu and yakisoba",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Big Boi Teriyaki n Sushi",
+  "address": "1406 54th Ave E",
+  "city": "Fife",
+  "zip": "98424",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "tofu teriyaki",
+   "chicken katsu",
+   "teriyaki combinations",
+   "yakisoba",
+   "bento box",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Fife teriyaki-and-sushi shop; teriyaki plates come with salad or steamed vegetables.",
+  "display_note": "Fife teriyaki-and-sushi shop; teriyaki plates come with salad or steamed vegetables.",
+  "website": "https://sites.google.com/view/bigboiteriyaki/home",
+  "sources": [
+   {
+    "url": "https://sites.google.com/view/bigboiteriyaki/menu",
+    "what": "own site (built on Google Sites) with current hours and full menu; no dated text on page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Yoko Teriyaki",
+  "address": "2800 Milton Way Ste 18",
+  "city": "Milton",
+  "zip": "98354",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken breast teriyaki",
+   "chicken katsu",
+   "teriyaki bowl",
+   "teriyaki combo",
+   "lunch bento",
+   "gyoza",
+   "yakisoba",
+   "udon"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Milton teriyaki counter with teriyaki bowls and combos, Chinese wok combos and udon.",
+  "display_note": "Milton teriyaki counter with teriyaki bowls and combos, Chinese wok combos and udon.",
+  "website": "https://yokoteriyakimilton.menu11.com/milton/order",
+  "sources": [
+   {
+    "url": "https://yokoteriyakimilton.menu11.com/milton/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Wok Teriyaki",
+  "address": "11430 51st Ave NW Ste 106",
+  "city": "Gig Harbor",
+  "zip": "98332",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "shrimp teriyaki",
+   "tofu teriyaki",
+   "teriyaki bowl",
+   "katsu",
+   "yakisoba",
+   "bento box",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Gig Harbor teriyaki shop (listed in map data as Wok Teriyaki II) with teriyaki, katsu, yakisoba, Chinese dishes and some sushi.",
+  "display_note": "Gig Harbor teriyaki shop with teriyaki, katsu, yakisoba, Chinese dishes and some sushi.",
+  "website": "https://wokteriyaki.menu11.com/gigharbor/order",
+  "sources": [
+   {
+    "url": "https://wokteriyaki.menu11.com/gigharbor/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Teriyaki #11",
+  "address": "717 River Rd",
+  "city": "Puyallup",
+  "zip": "98371",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki chicken",
+   "spicy teriyaki chicken",
+   "teriyaki beef",
+   "teriyaki beef short rib",
+   "teriyaki pork",
+   "teriyaki tofu",
+   "chicken katsu",
+   "spicy chicken katsu",
+   "yakisoba",
+   "gyoza plate",
+   "bento sampler"
+  ],
+  "opened": null,
+  "brand_founded": 1987,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-run teriyaki shop near downtown Puyallup; its site says the family's first teriyaki restaurant opened in 1987 and that many similarly named shops are not connected to it.",
+  "display_note": "Family-run teriyaki shop near downtown Puyallup. The family opened its first teriyaki restaurant in 1987.",
+  "website": "https://happyt11.com/",
+  "sources": [
+   {
+    "url": "https://happyt11.com/",
+    "what": "own site with current hours and family history",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://happyt11.com/menu",
+    "what": "own menu page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Town",
+  "address": "5605 112th St E Ste 100",
+  "city": "Puyallup",
+  "zip": "98373",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken",
+   "beef teriyaki",
+   "pork teriyaki",
+   "chicken breast",
+   "chicken katsu",
+   "prawn teriyaki",
+   "beef short ribs",
+   "salmon teriyaki",
+   "tofu teriyaki",
+   "teriyaki bowl",
+   "yakisoba",
+   "gyoza",
+   "bento"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "South Hill teriyaki counter; plates come with rice and salad, plus combos, bowls and family dinners.",
+  "display_note": "South Hill teriyaki counter; plates come with rice and salad. Also has combos, bowls and family dinners.",
+  "website": "https://teriyakitown1.menu11.com/puyallup/order",
+  "sources": [
+   {
+    "url": "https://teriyakitown1.menu11.com/puyallup/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Shilla Teriyaki",
+  "address": "4423 S Meridian",
+  "city": "Puyallup",
+  "zip": "98373",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken breast",
+   "spicy chicken",
+   "gyoza plate",
+   "yakisoba",
+   "bento specials",
+   "teriyaki bowls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Meridian teriyaki counter with teriyaki, combos, bento and Chinese dishes.",
+  "display_note": "Teriyaki counter on S Meridian with teriyaki, combos, bento and Chinese dishes.",
+  "website": "https://shillateriyaki.com/",
+  "sources": [
+   {
+    "url": "https://shillateriyaki.com/",
+    "what": "own online-ordering site, live menu with pickup ordering (c) 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Takara Teriyaki",
+  "address": "17526 Meridian E",
+  "city": "Puyallup",
+  "zip": "98375",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "grilled vegetables"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "South Hill teriyaki shop; its site describes teriyaki chicken and beef plates and links to its online ordering.",
+  "display_note": "South Hill teriyaki shop serving chicken and beef teriyaki plates and grilled vegetables.",
+  "website": "https://www.takarateriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.takarateriyaki.com/",
+    "what": "own site (Menusifu) with Mon-Sat hours and online-order link",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ichi 5 Teriyaki",
+  "address": "19916 S Prairie Rd E",
+  "city": "Bonney Lake",
+  "zip": "98391",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki plates",
+   "teriyaki bowls",
+   "teriyaki combos",
+   "yakisoba",
+   "fried rice",
+   "Korean-style ramen"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Bonney Lake teriyaki counter; menu sections are teriyaki, teriyaki bowls, teriyaki combos, yakisoba, fried rice and wok specials.",
+  "display_note": "Bonney Lake teriyaki counter with teriyaki plates, bowls and combos, plus yakisoba, fried rice and wok specials.",
+  "website": "https://www.ichi5teriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.ichi5teriyaki.com/",
+    "what": "own Square ordering site, accepting orders, menu categories updated 2026-04-02",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Niko Teriyaki",
+  "address": "21241 WA-410 E",
+  "city": "Bonney Lake",
+  "zip": "98391",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "tofu teriyaki",
+   "salmon teriyaki",
+   "beef short ribs",
+   "yakisoba",
+   "chicken katsu",
+   "bento box",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Bonney Lake teriyaki shop that also serves sushi and ramen.",
+  "display_note": "Bonney Lake teriyaki shop that also serves sushi and ramen.",
+  "website": "https://nikoteriyakiwa.com/",
+  "sources": [
+   {
+    "url": "https://nikoteriyakiwa.com/",
+    "what": "own site with Mon-Sat hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://nikoteriyakiwa.com/food-menu",
+    "what": "own food menu page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Wok & Sushi",
+  "address": "9925 214th Ave E Ste L",
+  "city": "Bonney Lake",
+  "zip": "98391",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "spicy chicken teriyaki",
+   "chicken breast teriyaki",
+   "prawn teriyaki",
+   "salmon teriyaki",
+   "tofu teriyaki",
+   "chicken katsu plate",
+   "gyoza plate",
+   "bento box",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Bonney Lake teriyaki-and-sushi shop; closed Mondays per its hours.",
+  "display_note": "Bonney Lake teriyaki-and-sushi shop. Closed Mondays.",
+  "website": "https://teriyakiwoksushi.menu11.com/bonneylake/order",
+  "sources": [
+   {
+    "url": "https://teriyakiwoksushi.menu11.com/bonneylake/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Modoo #2 Teriyaki",
+  "address": "15127 Main St E Ste 103",
+  "city": "Sumner",
+  "zip": "98390",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "white chicken",
+   "prawn teriyaki",
+   "tofu teriyaki",
+   "chicken katsu",
+   "gyoza plate",
+   "teriyaki combo",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Sumner teriyaki counter with teriyaki plates, combos and yakisoba.",
+  "display_note": "Sumner teriyaki counter with teriyaki plates, combos and yakisoba.",
+  "website": "https://modoo2teriyakisumner.menu11.com/sumner/order",
+  "sources": [
+   {
+    "url": "https://modoo2teriyakisumner.menu11.com/sumner/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Modoo 3 Teriyaki",
+  "address": "215 Whitesell St NW Ste B106",
+  "city": "Orting",
+  "zip": "98360",
+  "county": "Pierce",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken",
+   "chicken breast",
+   "beef teriyaki",
+   "pork teriyaki",
+   "beef short ribs",
+   "salmon teriyaki",
+   "chicken katsu",
+   "teriyaki combo",
+   "bento",
+   "gyoza",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Orting teriyaki counter; plates come with rice and salad.",
+  "display_note": "Orting teriyaki counter; plates come with rice and salad.",
+  "website": "http://modoo3teriyaki.com/",
+  "sources": [
+   {
+    "url": "http://modoo3teriyaki.com/",
+    "what": "own site (c) 2026 with Mon-Sat hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "http://modoo3teriyaki.com/menu/",
+    "what": "own menu page (menu board images)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Chung's Teriyaki",
+  "address": "3111 NW Bucklin Hill Rd",
+  "city": "Silverdale",
+  "zip": "98383",
+  "county": "Kitsap",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "Chung's special teriyaki chicken",
+   "beef teriyaki",
+   "pork teriyaki",
+   "tofu teriyaki",
+   "chicken teriyaki pho",
+   "vermicelli bowls"
+  ],
+  "opened": null,
+  "brand_founded": 1994,
+  "chain": false,
+  "kasahara": false,
+  "note": "Silverdale teriyaki shop whose menu mixes teriyaki with Vietnamese and Chinese dishes; the site says the family business has run since 1994 and also lists Chung's Express in Bremerton.",
+  "display_note": "Silverdale teriyaki shop whose menu mixes teriyaki with Vietnamese and Chinese dishes. A family business since 1994; sister shop Chung's Express is in Bremerton.",
+  "website": "https://www.chungsteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.chungsteriyaki.com/",
+    "what": "own site with current hours, menu and online-order links",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Down East Teriyaki",
+  "address": "3299 Randall Way NW",
+  "city": "Silverdale",
+  "zip": "98383",
+  "county": "Kitsap",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki",
+   "fish and chips",
+   "bubble tea"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Silverdale shop serving teriyaki, fish and chips and bubble tea, with online ordering for pickup.",
+  "display_note": "Silverdale shop serving teriyaki, fish and chips and bubble tea.",
+  "website": "https://downeastrestaurant.com/",
+  "sources": [
+   {
+    "url": "https://downeastrestaurant.com/menu",
+    "what": "own site (c) 2026 with online-order link (Clover)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Heidi's Teriyaki Express",
+  "address": "3014 NW Bucklin Hill Rd",
+  "city": "Silverdale",
+  "zip": "98383",
+  "county": "Kitsap",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "pork teriyaki",
+   "beef teriyaki",
+   "tofu teriyaki",
+   "shrimp yakisoba",
+   "vegetable yakisoba",
+   "pho"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Silverdale teriyaki shop that also serves pho; open weekdays only per its site.",
+  "display_note": "Silverdale teriyaki shop that also serves pho. Open weekdays only.",
+  "website": "https://www.heidisteriyaki.org/",
+  "sources": [
+   {
+    "url": "https://www.heidisteriyaki.org/",
+    "what": "own site with current hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.heidisteriyaki.org/menu",
+    "what": "own menu page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Teriyaki & Sushi",
+  "address": "844 6th St",
+  "city": "Bremerton",
+  "zip": "98337",
+  "county": "Kitsap",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "chicken breast teriyaki",
+   "shrimp teriyaki",
+   "salmon teriyaki",
+   "tofu teriyaki",
+   "chicken katsu",
+   "bento box",
+   "yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Downtown Bremerton teriyaki-and-sushi shop with teriyaki plates, combos and bento.",
+  "display_note": "Downtown Bremerton teriyaki-and-sushi shop with teriyaki plates, combos and bento.",
+  "website": "https://happyteriyakisushi.menu11.com/bremerton/order",
+  "sources": [
+   {
+    "url": "https://happyteriyakisushi.menu11.com/bremerton/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Lin's Teriyaki Fish & Chips",
+  "address": "32 NE Silver Pine Dr #214",
+  "city": "Bremerton",
+  "zip": "98311",
+  "county": "Kitsap",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "tofu teriyaki",
+   "chicken yakisoba",
+   "beef yakisoba",
+   "gyoza",
+   "teriyaki burger"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "East Bremerton shop serving teriyaki plates alongside fish and chips.",
+  "display_note": "East Bremerton shop serving teriyaki plates alongside fish and chips, plus a teriyaki burger.",
+  "website": "https://linsteriyaki.menu11.com/bremerton/order",
+  "sources": [
+   {
+    "url": "https://linsteriyaki.menu11.com/bremerton/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Tom's Teriyaki & Sushi House",
+  "address": "410 Naval Ave",
+  "city": "Bremerton",
+  "zip": "98337",
+  "county": "Kitsap",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "hot spicy chicken teriyaki",
+   "chicken katsu",
+   "chicken & beef",
+   "chicken & yakisoba",
+   "chicken yakisoba",
+   "beef yakisoba",
+   "California roll"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "West Bremerton teriyaki shop with teriyaki combos, some sushi and Chinese dishes; closed Sundays.",
+  "display_note": "West Bremerton teriyaki shop with teriyaki combos, some sushi and Chinese dishes. Closed Sundays.",
+  "website": "https://ordertomsteriyakinsushi.com/",
+  "sources": [
+   {
+    "url": "https://ordertomsteriyakinsushi.com/",
+    "what": "own online-ordering site (SimpleMenu), live menu and current hours (c) 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Teriyaki #4 Lacey",
+  "address": "8205 Martin Way E Ste L",
+  "city": "Lacey",
+  "zip": "98516",
+  "county": "Thurston",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "teriyaki combinations",
+   "teriyaki bowl",
+   "Japanese bento",
+   "chicken katsu",
+   "vegetable yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": true,
+  "kasahara": false,
+  "note": "Lacey location of the Happy Teriyaki group on thehappyteriyaki.com; serves teriyaki and sushi.",
+  "display_note": "Lacey location of the Happy Teriyaki group, serving teriyaki and sushi.",
+  "website": "https://www.happyteriyakilacey.com/",
+  "sources": [
+   {
+    "url": "https://happyteriyaki4lacey.menu11.com/olympia/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://order.chownow.com/order/3318/locations",
+    "what": "group's ChowNow ordering, Lacey location live with 2026-10-05 pickup hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.happyteriyakilacey.com/",
+    "what": "own site with address and ordering links",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Teriyaki #3",
+  "address": "1107 College St SE Ste A",
+  "city": "Lacey",
+  "zip": "98503",
+  "county": "Thurston",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "steak",
+   "pork",
+   "hot chicken",
+   "chicken katsu",
+   "gyoza plate",
+   "bento",
+   "yakisoba",
+   "yaki udon"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Lacey teriyaki counter; offers thin or thick teriyaki sauce, combos, bento and noodle dishes.",
+  "display_note": "Lacey teriyaki counter offering thin or thick teriyaki sauce, plus combos, bento and noodle dishes.",
+  "website": "https://happyteriyaki3.menu11.com/lacey/order",
+  "sources": [
+   {
+    "url": "https://happyteriyaki3.menu11.com/lacey/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "New Sushi and Teriyaki",
+  "address": "5401 Corporate Center Loop SE",
+  "city": "Lacey",
+  "zip": "98503",
+  "county": "Thurston",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki",
+   "teriyaki combo",
+   "teriyaki & Chinese combo",
+   "yakisoba",
+   "bento box combo",
+   "lunch bento",
+   "fried rice"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Lacey teriyaki-and-sushi shop; menu sections include teriyaki, combos, yakisoba, bento and sushi.",
+  "display_note": "Lacey teriyaki-and-sushi shop with teriyaki, combos, yakisoba, bento and sushi.",
+  "website": "https://www.sushiandteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://www.sushiandteriyaki.com/contact-us",
+    "what": "own site (Google Sites) with address and Mon-Sat hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://new-sushi-and-teriyaki.square.site/",
+    "what": "own Square ordering, accepting orders, menu updated 2026-01-07",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Wok & Teriyaki",
+  "address": "2533 Marvin Rd NE Ste A",
+  "city": "Lacey",
+  "zip": "98516",
+  "county": "Thurston",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken breast teriyaki",
+   "chicken teriyaki bowl",
+   "beef teriyaki bowl",
+   "pork teriyaki bowl",
+   "spicy chicken teriyaki bowl",
+   "chicken katsu",
+   "hot and spicy chicken",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Hawks Prairie teriyaki and Chinese wok counter; teriyaki plates come with rice and salad.",
+  "display_note": "Hawks Prairie teriyaki and Chinese wok counter; teriyaki plates come with rice and salad.",
+  "website": "https://orderwoknteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://orderwoknteriyaki.com/",
+    "what": "own online-ordering site (SimpleMenu), live menu and current hours (c) 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Nori Sushi and Teriyaki",
+  "address": "2915 Harrison Ave NW Ste 205",
+  "city": "Olympia",
+  "zip": "98502",
+  "county": "Thurston",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki plate",
+   "chicken teriyaki bowl",
+   "chicken katsu plate",
+   "bento box",
+   "yakisoba",
+   "gyoza",
+   "pho"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "West Olympia shop with teriyaki plates and bowls plus sushi, pho and wok dishes.",
+  "display_note": "West Olympia shop with teriyaki plates and bowls plus sushi, pho and wok dishes.",
+  "website": "https://norisushiandteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://norisushiandteriyaki.com/",
+    "what": "own online-ordering site, live menu with pickup ordering (c) 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Yukio Teriyaki & Vietnamese Cuisine",
+  "address": "3530 Pacific Ave SE #F3",
+  "city": "Olympia",
+  "zip": "98501",
+  "county": "Thurston",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken yakisoba",
+   "beef yakisoba",
+   "shrimp yakisoba",
+   "fried chicken gyoza",
+   "banh mi"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Olympia teriyaki and Vietnamese shop (map data says 3430; its own site gives 3530 Pacific Ave SE #F3).",
+  "display_note": "Olympia teriyaki and Vietnamese shop with chicken teriyaki rice plates, yakisoba and banh mi.",
+  "website": "https://www.yukioolympia.com/",
+  "sources": [
+   {
+    "url": "https://www.yukioolympia.com/",
+    "what": "own site (c) 2026 with Mon-Sat hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.yukioolympia.com/new-page-3",
+    "what": "own menu page with chicken teriyaki rice plate",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.yukioolympia.com/new-page-2",
+    "what": "own yakisoba menu page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Teriyaki #5",
+  "address": "5103 Capitol Blvd SE",
+  "city": "Tumwater",
+  "zip": "98501",
+  "county": "Thurston",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki combination",
+   "chicken katsu",
+   "bento combination",
+   "gyoza",
+   "teriyaki bowls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Tumwater teriyaki counter; offers thick or thin teriyaki sauce, bento and combo plates.",
+  "display_note": "Tumwater teriyaki counter offering thick or thin teriyaki sauce, bento and combo plates.",
+  "website": "https://happyteriyakitumwater.menu11.com/tumwater/order",
+  "sources": [
+   {
+    "url": "https://happyteriyakitumwater.menu11.com/tumwater/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Bonsai Wok Teriyaki",
+  "address": "408 Cleveland Ave SE #107",
+  "city": "Tumwater",
+  "zip": "98501",
+  "county": "Thurston",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki chicken",
+   "teriyaki chicken & gyoza",
+   "chicken yakisoba",
+   "pork gyoza",
+   "teriyaki combo"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Tumwater teriyaki and Chinese wok counter.",
+  "display_note": "Tumwater teriyaki and Chinese wok counter with teriyaki chicken and gyoza, yakisoba and combos.",
+  "website": "https://bonsaiwokteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://bonsaiwokteriyaki.com/",
+    "what": "own online-ordering site, live menu with pickup ordering (c) 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://bonsaiwokteriyaki.com/location/",
+    "what": "own location page with Mon-Sat hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Teriyaki 12",
+  "address": "1632 S Gold St",
+  "city": "Centralia",
+  "zip": "98531",
+  "county": "Lewis",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki entrees",
+   "teriyaki bowls",
+   "combinations",
+   "noodles",
+   "wok fried rice",
+   "poke bowls"
+  ],
+  "opened": null,
+  "brand_founded": 1994,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki grill in the Fairways Shopping Center on Gold St; its site says est. 1994 and also serves poke bowls.",
+  "display_note": "Teriyaki grill in the Fairways Shopping Center on Gold St, established in 1994. Also serves poke bowls.",
+  "website": "https://happyteriyaki12.square.site/",
+  "sources": [
+   {
+    "url": "https://happyteriyaki12.square.site/",
+    "what": "own Square ordering site, accepting orders, menu updated 2026-08-15",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zabdi Teriyaki",
+  "address": "1621 S Gold St",
+  "city": "Centralia",
+  "zip": "98531",
+  "county": "Lewis",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "teriyaki beef",
+   "teriyaki pork",
+   "spicy teriyaki",
+   "beef short ribs",
+   "shrimp yakisoba",
+   "gyoza",
+   "teriyaki family platters"
+  ],
+  "opened": 2019,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-owned Centralia teriyaki shop; the owners say they opened on August 14, 2019.",
+  "display_note": "Family-owned Centralia teriyaki shop, open since August 2019. The menu includes teriyaki family platters and shrimp yakisoba.",
+  "website": "https://zabditeriyaki.com/",
+  "sources": [
+   {
+    "url": "https://zabditeriyaki.com/",
+    "what": "own site with Mon-Sat hours, online ordering and owners' note",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Royal Sushi & Teriyaki",
+  "address": "575 N Market Blvd",
+  "city": "Chehalis",
+  "zip": "98532",
+  "county": "Lewis",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki beef short ribs",
+   "salmon teriyaki",
+   "combo fried rice",
+   "sushi rolls",
+   "wok dishes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Chehalis restaurant serving sushi, teriyaki and wok dishes; its site posts new hours starting 2026-10-05.",
+  "display_note": "Chehalis restaurant serving sushi, teriyaki and wok dishes.",
+  "website": "https://royalchehalis.com/",
+  "sources": [
+   {
+    "url": "https://royalchehalis.com/",
+    "what": "own site (c) 2026 announcing hours that start October 5, 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Teriyaki (Aberdeen)",
+  "address": "1029 E Wishkah St",
+  "city": "Aberdeen",
+  "zip": "98520",
+  "county": "Grays Harbor",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki chicken",
+   "teriyaki beef",
+   "teriyaki pork",
+   "teriyaki beef ribs",
+   "chicken katsu",
+   "gyoza plate",
+   "teriyaki bowl"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Aberdeen teriyaki counter with teriyaki plates, combos and some Chinese dishes.",
+  "display_note": "Aberdeen teriyaki counter with teriyaki plates, combos and some Chinese dishes.",
+  "website": "https://happyteriyaki.menu11.com/aberdeen/order",
+  "sources": [
+   {
+    "url": "https://happyteriyaki.menu11.com/aberdeen/order",
+    "what": "own online-ordering menu (menu11), live with current weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Koto Teriyaki & Sushi",
+  "address": "1252 W Washington St",
+  "city": "Sequim",
+  "zip": "98382",
+  "county": "Clallam",
+  "kinds": [
+   "teriyaki",
+   "sushi"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "tofu teriyaki",
+   "spicy chicken",
+   "chicken katsu",
+   "yakisoba",
+   "bento box",
+   "pho"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Sequim restaurant with a teriyaki section alongside sushi, pho and Chinese dishes.",
+  "display_note": "Sequim restaurant with a teriyaki section alongside sushi, pho and Chinese dishes.",
+  "website": "https://www.kototeriyakisushi.com/",
+  "sources": [
+   {
+    "url": "https://www.kototeriyakisushi.com/",
+    "what": "own ordering site (c) 2026 showing daily hours and full menu",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ichi Teriyaki 16",
+  "address": "9301 NE 5th Ave #112",
+  "city": "Vancouver",
+  "zip": "98665",
+  "county": "Clark",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki plate",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "short rib (kalbi)",
+   "hot spicy chicken",
+   "salmon",
+   "shrimp teriyaki",
+   "teriyaki bowls",
+   "combo plates",
+   "noodle dishes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": true,
+  "kasahara": false,
+  "note": "Hazel Dell location of the Ichi Teriyaki group site (with Ichi 29 and Ichi 30).",
+  "display_note": "Hazel Dell location of the Ichi Teriyaki group, with teriyaki plates, bowls, combos and noodle dishes.",
+  "website": "https://ichi-teriyaki.com/",
+  "sources": [
+   {
+    "url": "https://ichi-teriyaki.com/menu.php",
+    "what": "group site (c) 2026 listing this location with Monday hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.lineskipapp.com/store_front/load_single_location/UWU0UDhHRG5TQ3UwZEg3N0FJcG9tZz09",
+    "what": "online-ordering page linked from the group's site, showing 'Open Now' and today's hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ichi Teriyaki 29",
+  "address": "11500 NE 119th St #112",
+  "city": "Vancouver",
+  "zip": "98662",
+  "county": "Clark",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki plate",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "short rib (kalbi)",
+   "hot spicy chicken",
+   "salmon",
+   "shrimp teriyaki",
+   "teriyaki bowls",
+   "combo plates",
+   "noodle dishes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": true,
+  "kasahara": false,
+  "note": "Brush Prairie-area location of the Ichi Teriyaki group (map data lists it as Ichi Teriyaki).",
+  "display_note": "Brush Prairie-area location of the Ichi Teriyaki group, with teriyaki plates, bowls, combos and noodle dishes.",
+  "website": "https://ichi-teriyaki.com/",
+  "sources": [
+   {
+    "url": "https://ichi-teriyaki.com/menu.php",
+    "what": "group site (c) 2026 listing this location with Monday hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.lineskipapp.com/store_front/load_single_location/NHJjVmMxTGVvRDJIMVRhM01xTVRxZz09",
+    "what": "online-ordering page linked from the group's site, showing 'Open Now' and today's hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ichi Teriyaki 30",
+  "address": "255 S 47th Ave #127",
+  "city": "Ridgefield",
+  "zip": "98642",
+  "county": "Clark",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki plate",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "short rib (kalbi)",
+   "hot spicy chicken",
+   "salmon",
+   "shrimp teriyaki",
+   "teriyaki bowls",
+   "combo plates",
+   "noodle dishes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ridgefield location of the Ichi Teriyaki group.",
+  "display_note": "Ridgefield location of the Ichi Teriyaki group, with teriyaki plates, bowls, combos and noodle dishes.",
+  "website": "https://ichi-teriyaki.com/",
+  "sources": [
+   {
+    "url": "https://ichi-teriyaki.com/menu.php",
+    "what": "group site (c) 2026 listing this location with Monday hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.lineskipapp.com/store_front/load_single_location/Ym9wY2s0UE1sVTRrbFUySzg2ZlloZz09",
+    "what": "online-ordering page linked from the group's site, showing 'Open Now' and today's hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ichi 28 Teriyaki",
+  "address": "4804 NE Thurston Way #F",
+  "city": "Vancouver",
+  "zip": "98662",
+  "county": "Clark",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken breast teriyaki",
+   "teriyaki bowl",
+   "mini bowl",
+   "chicken and gyoza",
+   "chicken yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter on NE Thurston Way; no source here ties it to the other numbered Ichi shops.",
+  "display_note": "Teriyaki counter on NE Thurston Way with teriyaki plates, bowls, yakisoba and gyoza.",
+  "website": "https://ichi28teriyaki.com/",
+  "sources": [
+   {
+    "url": "https://ichi28teriyaki.com/",
+    "what": "own online-ordering site, live menu with pickup ordering (c) 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ichi Teriyaki 19",
+  "address": "155 NE 192nd Ave #103",
+  "city": "Camas",
+  "zip": "98607",
+  "county": "Clark",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "hot spicy chicken teriyaki",
+   "chicken breast teriyaki",
+   "chicken teriyaki bowl",
+   "chicken yakisoba",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter on 192nd Ave (map data says Vancouver; its own site gives Camas 98607).",
+  "display_note": "Camas teriyaki counter on 192nd Ave with chicken teriyaki plates and bowls, yakisoba and gyoza.",
+  "website": "https://ichiteriyaki19.com/",
+  "sources": [
+   {
+    "url": "https://ichiteriyaki19.com/",
+    "what": "own online-ordering site, live menu with pickup ordering (c) 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ichi Teriyaki 27",
+  "address": "585 W 8th St",
+  "city": "Vancouver",
+  "zip": "98660",
+  "county": "Clark",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "white meat chicken teriyaki",
+   "chicken yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Downtown Vancouver teriyaki counter; open weekdays per its site.",
+  "display_note": "Downtown Vancouver teriyaki counter, open weekdays.",
+  "website": "https://ichiteriyaki27wa.com/",
+  "sources": [
+   {
+    "url": "https://ichiteriyaki27wa.com/",
+    "what": "own site with weekday hours (footer says 2023)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://fromtherestaurant.com/ichi-teriyaki-27/",
+    "what": "own online ordering with pickup and delivery, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Joy Teriyaki (Hazel Dell)",
+  "address": "9915 NE Hazel Dell Ave Ste 318-C",
+  "city": "Vancouver",
+  "zip": "98686",
+  "county": "Clark",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "spicy chicken teriyaki",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "salmon teriyaki",
+   "beef short rib teriyaki",
+   "prawn kabob teriyaki",
+   "teriyaki bowls",
+   "gyoza plate",
+   "prawn tempura",
+   "yakisoba"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Hazel Dell teriyaki counter with teriyaki plates, bowls and combinations.",
+  "display_note": "Hazel Dell teriyaki counter with teriyaki plates, bowls and combinations, including salmon and prawn kabob teriyaki.",
+  "website": "https://www.joyteriyaki-vancouver.com/",
+  "sources": [
+   {
+    "url": "https://www.joyteriyaki-vancouver.com/",
+    "what": "own site with daily hours and full menu",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki and Noodles",
+  "address": "2265 NE Andresen Rd Ste 103",
+  "city": "Vancouver",
+  "zip": "98661",
+  "county": "Clark",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken teriyaki",
+   "chicken breast teriyaki",
+   "beef teriyaki",
+   "pork teriyaki",
+   "tofu teriyaki",
+   "spicy chicken teriyaki",
+   "chicken katsu",
+   "chicken yakisoba",
+   "chicken and gyoza",
+   "gyoza"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Vancouver shop on NE Andresen Rd with teriyaki plates and noodle dishes.",
+  "display_note": "Vancouver shop on NE Andresen Rd with teriyaki plates and noodle dishes.",
+  "website": "https://teriyakiandnoodles.com/",
+  "sources": [
+   {
+    "url": "https://teriyakiandnoodles.com/",
+    "what": "own site with address and online-order link",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://orderdindin.com/menu-teriyaki-and-noodles",
+    "what": "own online-ordering menu (dindin), marked open with daily hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Youskyme Teriyaki",
+  "address": "221 NE 104th Ave",
+  "city": "Vancouver",
+  "zip": "98664",
+  "county": "Clark",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki chicken",
+   "teriyaki chicken bowl",
+   "teriyaki beef bowl",
+   "teriyaki beef rib bowl",
+   "hot chicken",
+   "gyoza",
+   "yakisoba",
+   "prawn tempura"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Teriyaki counter on NE 104th Ave; closed Sundays.",
+  "display_note": "Teriyaki counter on NE 104th Ave with plates, bowls, yakisoba and prawn tempura. Closed Sundays.",
+  "website": "https://orderyouskymeteriyaki.com/",
+  "sources": [
+   {
+    "url": "https://orderyouskymeteriyaki.com/",
+    "what": "own online-ordering site (SimpleMenu), live menu and current hours (c) 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teriyaki Thai Etc.",
+  "address": "109 S 65th Ave Ste 103",
+  "city": "Ridgefield",
+  "zip": "98642",
+  "county": "Clark",
+  "kinds": [
+   "teriyaki"
+  ],
+  "open": true,
+  "dishes": [
+   "teriyaki",
+   "curries",
+   "noodles",
+   "stir-fried dishes",
+   "fried rice"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Ridgefield shop serving a teriyaki menu alongside Thai curries and noodles.",
+  "display_note": "Ridgefield shop serving a teriyaki menu alongside Thai curries and noodles.",
+  "website": "https://www.teriyakithai.com/",
+  "sources": [
+   {
+    "url": "https://www.teriyakithai.com/",
+    "what": "own Square ordering site, accepting orders, menu updated 2026-07-07",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ }
+]

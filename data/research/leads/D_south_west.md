@@ -1,0 +1,135 @@
+# Teriyaki leads: South Sound and western Washington (region D)
+
+Checked 2026-10-05. These candidates could not be verified with an acceptable 2025-26 source. One line each: what is missing.
+
+- Express Teriyaki, 401 W Heron St, Aberdeen (Grays Harbor): listed website does not resolve (DNS failure) (expressteriyaki.com); need own menu or 2025-26 news
+- Honey Teriyaki, 511 Oak St, Aberdeen (Grays Harbor): listed 'website' is a Google Drive file; not checked; need own site or 2025-26 news
+- Sushi & Teriyaki, 1801 Simpson Ave, Aberdeen (Grays Harbor): listed website sushiandteriyaki.com belongs to New Sushi and Teriyaki in Lacey, not this Aberdeen address; need a source for 1801 Simpson Ave
+- Ichi Teriyaki, 1414 Lake Tapps Pkwy SE, Auburn (Pierce): listed 'website' is a gift-card page (giftly); need own menu
+- Teriyaki Town, 278 Winslow Way E, Bainbridge Island (Kitsap): listed 'website' is a directory/aggregator page, not acceptable (menuism)
+- Ichi 17 Teriyaki, 720 W Main St, Battle Ground (Clark): listed 'website' is a directory/aggregator page, not acceptable (groupon); search shows only delivery-app listings
+- Rising Sun Teriyaki Grill, 1710 SW 9th Ave Ste 114, Battle Ground (Clark): listed website does not resolve (DNS failure) (risingsunteriyaki.net)
+- Family Wok & Teriyaki, 24090 NE State Route 3 Ste J Ste 2854, Belfair (Mason): familywokandteriyaki.com: own site blocks automated visits (Cloudflare/Vercel check), skipped
+- Haru Sushi Teriyaki and Wok, 23969 WA-3 Ste A, Belfair (Mason): listed 'website' is a directory/aggregator page, not acceptable (menuism)
+- Honto Teriyaki II, 19567 State Route 410 E, Bonney Lake (Pierce): listed site is a Google business.site page (not acceptable, and that service is retired)
+- Okasan Teriyaki, 9805 214th Ave E, Bonney Lake (Pierce): listed website does not resolve (DNS failure) (orderokasanteriyaki.com); okasanteriyaki.com returns 404
+- Joy Teriyaki, 5050 WA-303 Ste 105, Bremerton (Kitsap): joyteriyaki.com shows a Wix 'connect your domain' error; joyteriyakibremerton.com own site blocks automated visits (Cloudflare/Vercel check), skipped
+- Mum's Fish and Chips Teriyaki, 4217 Wheaton Wy, Bremerton (Kitsap): listed website is an aggregator page for Down East (Silverdale), not this Bremerton shop; need own menu
+- Sunny Teriyaki, 1221 Sylvan Way, Bremerton (Kitsap): listed website asianrestaurantbremerton.com does not load
+- Yummi Teriyaki & Pho, 301 Naval Ave, Bremerton (Kitsap): listed 'website' is a Google search URL; aggregator menu only
+- Big Burger and Teriyaki, 760 Main St, Buckley (Pierce): bigburgerteriyaki.wix.com shows a Wix 'connect your domain' error
+- Fuji Teriyaki, 512 W Main St, Centralia (Lewis): listed website fujiteriyakicentralia.com now redirects to a gambling site (ggjudislot777.com); need a real source
+- GGS Teriyaki & Sushi, 2501 Haviland St, Centralia (Lewis): listed 'website' is a directory/aggregator page, not acceptable (hub.biz)
+- Kobo Teriyaki, 1409 NW Louisiana Ave, Chehalis (Lewis): listed website does not resolve (DNS failure) (koboteriyaki.com)
+- Maxi Teriyaki & Sushi, 1033 1st St, Cosmopolis (Grays Harbor): listed 'website' is a directory/aggregator page, not acceptable (mybistro.online menu-and-reviews page)
+- KOKO TERIYAKI, 1520 Wilmington Dr, DuPont (Pierce): listed website kokoteriyaki.com is for sale (HugeDomains)
+- Happy Teriyaki Dupont, 1100 Station Dr, Dupont (Pierce): Dupont location appears on thehappyteriyaki.com with hours, but it is not on the group's live ChowNow ordering and the site has no 2025-26 date; need a dated source
+- I Sushi and Teriyaki, 1225 Center Dr #110, Dupont (Pierce): listed website isushiteriyaki.com is a parked domain
+- Chop Stix Teriyaki & Pho Restaurant, 311 Center St E, Eatonville (Pierce): no website in map data; no own site or ordering page found
+- Think Teriyaki, 2125 SW 356th St, Federal Way (Pierce): only a NetWaiter directory page (with a 2025 user comment); not acceptable; need own menu or news
+- Ichiban Teriyaki and Wok, 4500 Pacific Hwy E, Fife (Pierce): listed 'website' is a directory/aggregator page, not acceptable (menuism)
+- Happy at the Bay Teriyaki, 4040 Orchard St W, Fircrest (Pierce): listed website teriyaki.com is a parked lander
+- Happy At The Bay Teriyaki, 4910 Point Fosdick Dr, Gig Harbor (Pierce): listed website is harbornet.com, not the shop's own site; need own menu or 2025-26 news
+- Kinza Teriyaki and Korean Restaurant, 6820 Kimball Dr, Gig Harbor (Pierce): listed site kinzateriyaki.dinehere.us redirects in a loop; search found only a DoorDash storefront
+- Nagoya Teriyaki, 5500 Olympic Dr, Gig Harbor (Pierce): nagoyateriyaki.com: own site blocks automated visits (Cloudflare/Vercel check), skipped
+- Tokyo Teriyaki, 3111 Judson St, Gig Harbor (Pierce): Gig Harbor Now (May 28, 2025) mentions the Tokyo Teriyaki storefront in Peninsula Shopping Center, but no menu source; listed website copyitmailit.com does not load
+- Yummi Teriyaki and Pho, 5160 Point Fosdick Dr C-101, Gig Harbor (Pierce): ordertogo.com ordering page loads but shows no hours or menu without scripts; need another source
+- Sun's Teriyaki, 9915 224th St E, Graham (Pierce): listed website sunsteriyaki.com is a parked/for-sale domain
+- Sun's Teriyaki, 114 NW 1st Ave, Kelso (Cowlitz): sunsteriyaki.menu-res.com: own site blocks automated visits (Cloudflare/Vercel check), skipped
+- Koibito One Sushi & Teriyaki, 730 Sleater Kinney Rd SE, Lacey (Thurston): Koibito (Lacey) own site sushiolympia.com is live with hours, but the menu and text center on sushi; excluded as not a teriyaki counter (koibitolacey.com own site blocks automated visits (Cloudflare/Vercel check), skipped)
+- Season's Teriyaki and Sushi, 1401 Marvin Rd NE Ste 304, Lacey (Thurston): seasonsteriyakiandsushi.com: own site blocks automated visits (Cloudflare/Vercel check), skipped; listed business.site not acceptable
+- Souru Teriyaki, 4820 Yelm Hwy SE, Lacey (Thurston): no website in map data; no own site or ordering page found (only a tourism-bureau directory entry seen in search)
+- Toto's Teriyaki and Wok, 6020 Pacific Ave SE A, Lacey (Thurston): listed 'website' is a directory/aggregator page, not acceptable (hub.biz); only a tourism-bureau directory entry seen in search
+- Happy Teriyaki, 10509 Bridgeport Way SW, Lakewood (Pierce): listed website happyteriyaki.com is for sale (HugeDomains)
+- House of Teriyaki, 15204 Union Ave SW, Lakewood (Pierce): listed 'website' is a directory/aggregator page, not acceptable (hub.biz)
+- Ichiban Teriyaki, 7801 Bridgeport Way W, Lakewood (Pierce): listed website is subway.com (unrelated)
+- Kin Ja Teriyaki, 8415 87th Ave SW, Lakewood (Pierce): kinjateriyaki8415.wixsite.com returns a Wix 404
+- Koibito Sushi and Teriyaki Restaurant, 15114 Union Ave SW, Lakewood (Pierce): listed website is calendar.theolympian.com (unrelated)
+- Teriyaki House, 14623 Union Ave SW, Lakewood (Pierce): listed website teriyakihouse.info is a Teriyaki House in Boston, MA (unrelated)
+- WAWA TERIYAKI (Hot Teriyaki ; old name), 8013 Steilacoom Blvd SW Ste C, Lakewood (Pierce): listed website does not resolve (DNS failure) (teriyakian.com)
+- Yum Yum Teriyaki, 6111 Lakewood Towne Center Blvd SW, Lakewood (Pierce): listed website is calendar.theolympian.com (unrelated)
+- Ichi 12 Teriyaki, 100 Triangle Shopping Center #180, Longview (Cowlitz): no website in map data; no own site or ordering page found
+- Minami Teriyaki, 1208 15th Ave, Longview (Cowlitz): listed website kcteriyaki.com is for sale; minamiteriyaki.menu11.com is a Woodinville shop, not this one
+- My Teriyaki and Sushi, 902 14th Ave, Longview (Cowlitz): listed website does not resolve (DNS failure) (myteriyakiandsushi.com)
+- Teriyaki Spice, 1140 15th Ave, Longview (Cowlitz): teriyakispice.com: own site blocks automated visits (Cloudflare/Vercel check), skipped; Longview no longer listed on the Spokane Teriyaki Spice site; a search snippet said Longview was not taking online orders. Check status
+- Gikan Teriyaki, 900 Meridian Ave E Ste 8A, Milton (Pierce): listed website teriyakihouse.info is a Boston restaurant (unrelated)
+- Oishi Teriyaki, 112 Pioneer Ave W, Montesano (Grays Harbor): listed website oishionline.com is Oishi Sushi & Grill in Zachary, Louisiana (unrelated)
+- Happy Teriyaki, 106 Legion Way SE, Olympia (Thurston): happy-teriyaki.com: own site blocks automated visits (Cloudflare/Vercel check), skipped
+- Kobo Teriyaki Restaurant, 9323 Martin Way E #110, Olympia (Thurston): listed 'website' is a directory/aggregator page, not acceptable (groupon)
+- WaWa Teriyaki, 101 Calistoga St E, Orting (Pierce): listed website is wawa.com (unrelated convenience-store chain)
+- Kim's Teriyaki, 1894 SE Sedgwick Rd #102, Port Orchard (Kitsap): listed website does not resolve (DNS failure) (orderkimsteriyaki.com); kimsteriyaki.com is a Lynnwood shop; search found only aggregators
+- Mana Sushi and Teriyaki Wok, 435 SW Sedgwick Rd #103, Port Orchard (Kitsap): listed site is a Google business.site page; search found only aggregators
+- Sunnyslope Teriyaki, 6000 SW Old Clifton Rd, Port Orchard (Kitsap): listed 'website' is a gift-card page; search found only aggregators (checkle etc.)
+- Wok & Teriyaki, 1948 SE Lund Ave #100, Port Orchard (Kitsap): listed website is calendar.theolympian.com (unrelated)
+- Chung's Teriyaki, 19438 7th Ave NE, Poulsbo (Kitsap): listed website is an aggregator (mybistro.online); not listed on chungsteriyaki.com (which lists Silverdale and Bremerton only)
+- Wok Teriyaki, 21555 Olhava Way NW #102, Poulsbo (Kitsap): listed website wokteriyaki.lbu.com is a parked lander
+- Apple Teriyaki, 5604 176th St E, Puyallup (Pierce): no website in map data; no own site or ordering page found
+- Happy at the Bay Teriyaki, 13414 Meridian E, Puyallup (Pierce): listed website happyatthebay.com now redirects to a gambling site (octobocas.com); happyatthebayteriyaki.com is a Renton shop
+- Honto Teriyaki Restaurant, 11012 Canyon Rd E #45, Puyallup (Pierce): own site hontoteriyakipuyallup.com is live with hours (dishes named: shrimp tempura, Mongolian beef, tofu yakisoba, fried rice) but no teriyaki item visible; Menufy menu needs scripts
+- I Love Sushi & Teriyaki, 4227 S Meridian Ste A, Puyallup (Pierce): listed website isushiteriyaki.com is a parked domain
+- Kyoto Teriyaki Restaurant, 513 S Meridian, Puyallup (Pierce): listed site is a Google business.site page
+- Modoo Teriyaki Puyallup, 17530 Meridian Avenue East, Puyallup (Pierce): listed 'website' is a directory/aggregator page, not acceptable (allmenus)
+- Nana Wok Teriyaki, 11416 Canyon Rd E, Puyallup (Pierce): nanateriyaki.com returns a Cloudflare DNS error (1001)
+- Sapporo Teriyaki, 3850 S Meridian, Puyallup (Pierce): sapporoteriyaki.com is live but says it moved to 550 106th Ave NE, Bellevue (425 phone); nothing confirms the Puyallup shop
+- Suzy's Pho Teriyaki, 11416 Canyon Rd E, Puyallup (Pierce): listed website does not resolve (DNS failure) (teriyakian.com)
+- Wok & Teriyaki House, 311 River Rd, Puyallup (Pierce): listed website puyallupteriyaki.com is a parked lander
+- Teriyaki To Go, 208 McNaught Rd S, Roy (Pierce): listed 'website' is a directory/aggregator page, not acceptable (hub.biz)
+- Sequim Bento Teriyaki, 1243 W Washington St, Sequim (Clallam): listed website is a Yelp page
+- Happy Teriyaki and Wok, 3101 Olympic Hwy N, Shelton (Mason): listed website teriyaki.com is a parked lander
+- Miako Teriyaki Restaurant, 301 E Wallace Kneeland Blvd #218, Shelton (Mason): listed website sheltonguide.com page returns 404
+- Joy Teriyaki, 9470 Silverdale Way NW, Silverdale (Kitsap): listed site is a Google business.site page
+- Teriyaki Delight, 9989 Silverdale Way NW C113, Silverdale (Kitsap): fujiyamasilverdale.com: own site blocks automated visits (Cloudflare/Vercel check), skipped
+- Kampai Wings & Teriyaki, 17707 Pacific Ave S Ste B1, Spanaway (Pierce): no website in map data; no own site or ordering page found
+- Kinza Teriyaki, 22219 Mountain Hwy E, Spanaway (Pierce): listed website is subway.com (unrelated)
+- Sunny Teriyaki, 17415 Pacific Ave S Unit D, Spanaway (Pierce): listed website sunnyteriyakispanaway.com now redirects to a gambling site (detik288big.com)
+- Teriyaki House, 1012 Wood Ave, Sumner (Pierce): listed website teriyakihouse.us now redirects to a gambling site (lseir.us)
+- 56th Teriyaki House, 5013 S 56th St, Tacoma (Pierce): 56thteriyaki.menu-res.com: own site blocks automated visits (Cloudflare/Vercel check), skipped
+- Best Teriyaki 72nd, 812 72nd St E, Tacoma (Pierce): no website in map data; no own site or ordering page found
+- Browns Point Teriyaki and Sushi, 1000 Town Ctr NE Ste 140, Tacoma (Pierce): listed website brownspointpizza.com is a parked lander
+- Fast Pho Teriyaki, 5604-5608 Portland Ave E, Tacoma (Pierce): listed site is a Google business.site page
+- Good Wok Teriyaki, 10909 Portland Ave E, Tacoma (Pierce): listed 'website' is a directory/aggregator page, not acceptable (groupon)
+- Goofy Goose Burgers & Teriyaki, 3702 6th Ave, Tacoma (Pierce): goofygoose.menu11.com returns 'NO SITE FOUND'
+- H2&j Inc Lucky Teriyaki, 7250 Pacific Ave, Tacoma (Pierce): luckyteriyaki.menu11.com/tacoma/order returns 'NO SITE FOUND' (ordering page removed); only delivery-app listings seen. Check whether still open
+- Hana Teriyaki & Wok, 4505 S 19th St, Tacoma (Pierce): no website in map data; no own site or ordering page found
+- Happy Teriyaki, 12154 Pacific Ave S, Tacoma (Pierce): Parkland location appears on thehappyteriyaki.com with hours, but it is not on the group's ChowNow ordering and its Toast page own site blocks automated visits (Cloudflare/Vercel check), skipped
+- Hot Teriyaki, 1407 E 72nd St, Tacoma (Pierce): listed website (himitsuteriyaki.redmond.bite2go.com) is a parked lander; Hot Teriyaki appears only on an aggregator page
+- Ichiban Teriyaki, 8425 S Hosmer St, Tacoma (Pierce): listed website does not resolve (DNS failure) (ichibanteriyaki.com)
+- JBLM Sushi & Teriyaki, 11566 41st Division Dr, Tacoma (Pierce): listed website is a Yelp business page
+- Jin Za Teriyaki, 9318 S Steele St, Tacoma (Pierce): listed 'website' is a directory/aggregator page, not acceptable (yahoo local)
+- Joy Teriyaki, 3908 6th Ave, Tacoma (Pierce): own site joyteriyaki6ave.com is live (hours, promo valid to Dec 31, 2026) but shows no teriyaki item (only gyoza, musubi, fried rice); Menufy menu needs scripts
+- King's Teriyaki Wok, 1201 S 11th St, Tacoma (Pierce): listed 'website' is a directory/aggregator page, not acceptable (zmenu)
+- Mama's Teriyaki, 3814 Pacific Ave #104, Tacoma (Pierce): listed website does not resolve (DNS failure) (listed koboteriyaki.com)
+- Meadow Teriyaki, 5320 66th St W, Tacoma (Pierce): listed 'website' is a directory/aggregator page, not acceptable (whitepages)
+- Moon And Soon Inc. Dba Wok & Teriyaki House, 3202 S 23rd St Ste 7, Tacoma (Pierce): no website; yakiraki.com shows Yaki Raki (sushi, ramen, teriyaki) at 3202 S 23rd St Suite F7, so this listing may be gone; check
+- Nana Thai And Teriyaki, 430 E 25th St, Tacoma (Pierce): listed site is a Google business.site page
+- Red Dragon Teriyaki, 7034 Pacific Ave, Tacoma (Pierce): no website in map data; no own site or ordering page found
+- Teriyaki Kitchen, 101 S 38th St #107, Tacoma (Pierce): listed site is a Google business.site page; only delivery-app listings seen
+- Uni Teriyaki, 212 Garfield St S Ste 103, Tacoma (Pierce): listed 'website' is a directory/aggregator page, not acceptable (hub.biz)
+- Wok Teriyaki IX, 2941 S 38th St, Tacoma (Pierce): wokteriyakiix.com is an unaffiliated aggregator site (its own terms say it is not affiliated with the restaurant); need a real source
+- Wok V Teriyaki, 1816 S Mildred St, Tacoma (Pierce): listed site is a Google business.site page
+- Yu's Teriyaki & Wok, 601-649 S 4th St, Tacoma (Pierce): listed website hobnob.info is unrelated
+- Niko Teriyaki, 125 Tumwater Blvd SE, Tumwater (Thurston): listed 'website' is a directory/aggregator page, not acceptable (hub.biz)
+- Teriyaki Delight, 855 Trosper Rd SW, Tumwater (Thurston): listed 'website' is a directory/aggregator page, not acceptable (groupon)
+- Ginza Teriyaki, 6828 19th St W, University Place (Pierce): no website in map data; no own site or ordering page found
+- Good Wok & Teriyaki No.2, 4324 Bridgeport Way W, University Place (Pierce): no website in map data; no own site or ordering page found
+- Happy Hana Teriyaki, 3929 Bridgeport Way W, University Place (Pierce): listed website thehappyteriyaki.com does not list a University Place location
+- Joy Teriyaki - University Place, 1905 Bridgeport Way W, University Place (Pierce): 1988seattle.com own site blocks automated visits (Cloudflare/Vercel check), skipped; a search snippet placed '1988 Teriyaki' at this address (1905 Bridgeport Way W), so the Joy Teriyaki listing may be stale
+- Osaka Sushi, Teriyaki, Fried Chicken, 4324 Bridgeport Way W, University Place (Pierce): no website in map data; no own site or ordering page found (low map confidence 0.29)
+- UP Pho & Teriyaki, 2620 Bridgeport Way W, University Place (Pierce): only a DoorDash storefront (order.online), not acceptable
+- Ichi 18 Teriyaki, 925 NE 136th Ave, Vancouver (Clark): listed website does not resolve (DNS failure) (ichi18teriyaki.com); only delivery-app listings seen
+- Ichi 20 Teriyaki, 6700 NE 162nd Ave, Vancouver (Clark): no website in map data; no own site or ordering page found; only delivery-app listings seen
+- Joy Teriyaki, 3425 SE 192nd Ave, Vancouver (Clark): listed website joyteriyaki.com shows a Wix 'connect your domain' error
+- KC Teriyaki, 800 NE Tenney Rd B-207, Vancouver (Clark): listed kcteriyaki.com is for sale; kcteriyakiwa.com is live with hours and ordering but its footer says 2023 and no dishes are visible
+- Kc Sushi & Teriyaki, 16020 SE Mill Plain Blvd, Vancouver (Clark): listed website kirklandsushi.online is Kirkland Sushi at the same address (16020 SE Mill Plain Blvd #115), a sushi restaurant; the KC Sushi & Teriyaki name may be stale
+- Oh My Teriyaki, 6400 NE Hwy 99 R, Vancouver (Clark): ohmyteriyaki.com returns 404
+- Soy Grill Teriyaki, 18919 SE Mill Plain Blvd, Vancouver (Clark): listed 'website' is a directory/aggregator page, not acceptable (hub.biz); soy grill ordering page on kekes.com own site blocks automated visits (Cloudflare/Vercel check), skipped
+- Ichi Teriyaki 26, 3307 Evergreen Way, Washougal (Clark): no website in map data; no own site or ordering page found
+- Teriyaki Spice, 631 Goerig St, Woodland (Cowlitz): teriyakispice.com: own site blocks automated visits (Cloudflare/Vercel check), skipped (Woodland location)
+- Ichiban Teriyaki Yelm, 506 W Yelm Ave, Yelm (Thurston): listed site is a Google business.site page
+- Young's Teriyaki, 1010 E Yelm Ave, Yelm (Thurston): listed 'website' is a directory/aggregator page, not acceptable (hub.biz); youngsteriyaki.com is a California shop
+
+## Not candidates, seen while checking
+
+- Chung's Express, 242 1st St, Bremerton (Kitsap): listed with hours on chungsteriyaki.com; dishes not checked.
+- Wok & Teriyaki Pacific (wokteriyakipacific.menu11.com): Pacific, WA, likely King County; not checked.
+- Yaki Raki, 3202 S 23rd St Suite F7, Tacoma: sushi, ramen and teriyaki; not a teriyaki counter.

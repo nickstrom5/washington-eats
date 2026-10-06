@@ -1,0 +1,3383 @@
+[
+ {
+  "name": "Dick's Drive-In (Wallingford)",
+  "address": "111 NE 45th St",
+  "city": "Seattle",
+  "zip": "98105",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Dick's Deluxe",
+   "Dick's Special",
+   "cheeseburger",
+   "hand-cut fries",
+   "milkshakes"
+  ],
+  "opened": 1954,
+  "brand_founded": "1954, Seattle WA (Wallingford)",
+  "chain": true,
+  "kasahara": false,
+  "note": "The original Dick's (1954); the brand says it keeps its original 1954 look. Open late daily.",
+  "display_note": "The original Dick's, opened in Wallingford in 1954 and still keeping its 1954 look. Open late daily.",
+  "website": "https://ddir.com/locations/wallingford",
+  "sources": [
+   {
+    "url": "https://ddir.com/locations/wallingford",
+    "what": "brand's own location page: address, daily hours 10:30am-2am, opened 1954, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://ddir.com/about/history",
+    "what": "brand's own history page: first Dick's opened in Wallingford on Jan. 28, 1954; Deluxe and Special added 1971, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-09-01"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Dick's Drive-In (Broadway)",
+  "address": "115 Broadway E",
+  "city": "Seattle",
+  "zip": "98102",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Dick's Deluxe",
+   "Dick's Special",
+   "cheeseburger",
+   "hand-cut fries",
+   "milkshakes"
+  ],
+  "opened": 1955,
+  "brand_founded": "1954, Seattle WA (Wallingford)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Second Dick's (1955) on Capitol Hill, across from the light rail station. Open late daily.",
+  "display_note": "The second Dick's, opened in 1955 on Capitol Hill across from the light rail station. Open late daily.",
+  "website": "https://ddir.com/locations/broadway",
+  "sources": [
+   {
+    "url": "https://ddir.com/locations/broadway",
+    "what": "brand's own location page: address, daily hours 10:30am-2am, opened 1955, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://ddir.com/about/history",
+    "what": "brand's own history page: first Dick's opened in Wallingford on Jan. 28, 1954; Deluxe and Special added 1971, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-09-17"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Dick's Drive-In (Holman Road)",
+  "address": "9208 Holman Rd NW",
+  "city": "Seattle",
+  "zip": "98117",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Dick's Deluxe",
+   "Dick's Special",
+   "cheeseburger",
+   "hand-cut fries",
+   "milkshakes"
+  ],
+  "opened": 1960,
+  "brand_founded": "1954, Seattle WA (Wallingford)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Dick's stand on Holman Road NW, opened 1960. Open late daily.",
+  "display_note": "Dick's stand on Holman Road NW, opened in 1960. Open late daily.",
+  "website": "https://ddir.com/locations/holman-road",
+  "sources": [
+   {
+    "url": "https://ddir.com/locations/holman-road",
+    "what": "brand's own location page: address, daily hours 10:30am-2am, opened 1960, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://ddir.com/about/history",
+    "what": "brand's own history page: first Dick's opened in Wallingford on Jan. 28, 1954; Deluxe and Special added 1971, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-02-26"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Dick's Drive-In (Lake City)",
+  "address": "12325 30th Ave NE",
+  "city": "Seattle",
+  "zip": "98125",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Dick's Deluxe",
+   "Dick's Special",
+   "cheeseburger",
+   "hand-cut fries",
+   "milkshakes"
+  ],
+  "opened": 1963,
+  "brand_founded": "1954, Seattle WA (Wallingford)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Dick's fourth stand (1963), in Lake City. Open late daily.",
+  "display_note": "Dick's fourth stand, opened in Lake City in 1963. Open late daily.",
+  "website": "https://ddir.com/locations/lake-city",
+  "sources": [
+   {
+    "url": "https://ddir.com/locations/lake-city",
+    "what": "brand's own location page: address, daily hours 10:30am-2am, opened 1963, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://ddir.com/about/history",
+    "what": "brand's own history page: first Dick's opened in Wallingford on Jan. 28, 1954; Deluxe and Special added 1971, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-01-08"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Dick's Drive-In (Queen Anne)",
+  "address": "500 Queen Anne Ave N",
+  "city": "Seattle",
+  "zip": "98109",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Dick's Deluxe",
+   "Dick's Special",
+   "cheeseburger",
+   "hand-cut fries",
+   "milkshakes"
+  ],
+  "opened": 1974,
+  "brand_founded": "1954, Seattle WA (Wallingford)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Opened 1974 near Seattle Center; the brand says it was the only Dick's with indoor seating when it opened. Open late daily.",
+  "display_note": "Dick's near Seattle Center, opened in 1974 as the only Dick's with indoor seating at the time. Open late daily.",
+  "website": "https://ddir.com/locations/queen-anne",
+  "sources": [
+   {
+    "url": "https://ddir.com/locations/queen-anne",
+    "what": "brand's own location page: address, daily hours 10:30am-2am, opened 1974, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://ddir.com/about/history",
+    "what": "brand's own history page: first Dick's opened in Wallingford on Jan. 28, 1954; Deluxe and Special added 1971, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-06-09"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Dick's Drive-In (Edmonds)",
+  "address": "21910 Hwy 99",
+  "city": "Edmonds",
+  "zip": "98026",
+  "county": "Snohomish",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Dick's Deluxe",
+   "Dick's Special",
+   "cheeseburger",
+   "hand-cut fries",
+   "milkshakes"
+  ],
+  "opened": 2011,
+  "brand_founded": "1954, Seattle WA (Wallingford)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Opened 2011, the first Dick's outside King County. Open late daily.",
+  "display_note": "Opened in 2011 as the first Dick's outside King County. Open late daily.",
+  "website": "https://ddir.com/locations/edmonds",
+  "sources": [
+   {
+    "url": "https://ddir.com/locations/edmonds",
+    "what": "brand's own location page: address, daily hours 10:30am-2am, opened 2011, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://ddir.com/about/history",
+    "what": "brand's own history page: first Dick's opened in Wallingford on Jan. 28, 1954; Deluxe and Special added 1971, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Dick's Drive-In (Kent)",
+  "address": "24220 Pacific Hwy S",
+  "city": "Kent",
+  "zip": "98032",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Dick's Deluxe",
+   "Dick's Special",
+   "cheeseburger",
+   "hand-cut fries",
+   "milkshakes"
+  ],
+  "opened": 2018,
+  "brand_founded": "1954, Seattle WA (Wallingford)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Opened 2018, the first Dick's in South King County. Open late daily.",
+  "display_note": "Opened in 2018 as the first Dick's in South King County. Open late daily.",
+  "website": "https://ddir.com/locations/kent",
+  "sources": [
+   {
+    "url": "https://ddir.com/locations/kent",
+    "what": "brand's own location page: address, daily hours 10:30am-2am, opened 2018, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://ddir.com/about/history",
+    "what": "brand's own history page: first Dick's opened in Wallingford on Jan. 28, 1954; Deluxe and Special added 1971, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-03-24"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Dick's Drive-In (Crossroads)",
+  "address": "15600 NE 8th St Ste O-1",
+  "city": "Bellevue",
+  "zip": "98008",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Dick's Deluxe",
+   "Dick's Special",
+   "cheeseburger",
+   "hand-cut fries",
+   "milkshakes"
+  ],
+  "opened": 2021,
+  "brand_founded": "1954, Seattle WA (Wallingford)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Opened 2021 at Crossroads in Bellevue, between QFC and the Regal cinema. Open late daily.",
+  "display_note": "Opened in 2021 at Crossroads in Bellevue, between QFC and the Regal cinema. Open late daily.",
+  "website": "https://ddir.com/locations/crossroads",
+  "sources": [
+   {
+    "url": "https://ddir.com/locations/crossroads",
+    "what": "brand's own location page: address, daily hours 10:30am-2am, opened 2021, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://ddir.com/about/history",
+    "what": "brand's own history page: first Dick's opened in Wallingford on Jan. 28, 1954; Deluxe and Special added 1971, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-08-20"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Dick's Drive-In (Federal Way)",
+  "address": "32048 Pacific Hwy S",
+  "city": "Federal Way",
+  "zip": "98003",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Dick's Deluxe",
+   "Dick's Special",
+   "cheeseburger",
+   "hand-cut fries",
+   "milkshakes"
+  ],
+  "opened": 2023,
+  "brand_founded": "1954, Seattle WA (Wallingford)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Opened 2023 on Pacific Highway South. Open late daily.",
+  "display_note": "Dick's on Pacific Highway South, opened in 2023. Open late daily.",
+  "website": "https://ddir.com/locations/federal-way",
+  "sources": [
+   {
+    "url": "https://ddir.com/locations/federal-way",
+    "what": "brand's own location page: address, daily hours 10:30am-2am, opened 2023, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://ddir.com/about/history",
+    "what": "brand's own history page: first Dick's opened in Wallingford on Jan. 28, 1954; Deluxe and Special added 1971, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-02-27"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Dick's Drive-In (Everett)",
+  "address": "1629 Center Rd",
+  "city": "Everett",
+  "zip": "98204",
+  "county": "Snohomish",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Dick's Deluxe",
+   "Dick's Special",
+   "cheeseburger",
+   "hand-cut fries",
+   "milkshakes"
+  ],
+  "opened": 2025,
+  "brand_founded": "1954, Seattle WA (Wallingford)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Opened June 2025 near Everett Mall; the brand calls it its tenth and northernmost restaurant. Open late daily.",
+  "display_note": "Opened in June 2025 near Everett Mall as the tenth and northernmost Dick's. Open late daily.",
+  "website": "https://ddir.com/locations/everett",
+  "sources": [
+   {
+    "url": "https://ddir.com/locations/everett",
+    "what": "brand's own location page: address, daily hours 10:30am-2am, opened 2025, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://ddir.com/about/history",
+    "what": "brand's own history page: first Dick's opened in Wallingford on Jan. 28, 1954; Deluxe and Special added 1971, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.heraldnet.com/2026/01/04/everetts-burger-trail-dicks-nicks-mikies-and-rays/",
+    "what": "Everett Herald story: Everett Dick's opened June 2025; burgers, fries, shakes",
+    "date": "2026-01-04"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgermaster (Aurora)",
+  "address": "9820 Aurora Ave N",
+  "city": "Seattle",
+  "zip": "98103",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers (grass-fed beef)",
+   "fries",
+   "milkshakes"
+  ],
+  "opened": null,
+  "brand_founded": "1952, Seattle WA (University District)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Drive-in on Aurora Avenue: the brand describes parking in a stall and having food brought to your car window.",
+  "display_note": "Burgermaster drive-in on Aurora Avenue: park in a stall and your food is brought to your car window. The chain began in the University District in 1952.",
+  "website": "https://burgermaster.com/",
+  "sources": [
+   {
+    "url": "https://burgermaster.com/",
+    "what": "brand's own site (c) 2026: list of 5 current locations with addresses and hours; describes carhop drive-in service in parking stalls, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://burgermaster.com/about-history/",
+    "what": "brand's own history page: Phil Jensen opened the first Burgermaster in the University District in 1952, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-05-26"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgermaster (Bellevue)",
+  "address": "10606 NE Northup Way",
+  "city": "Bellevue",
+  "zip": "98004",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers (grass-fed beef)",
+   "fries",
+   "milkshakes",
+   "breakfast (Bellevue only)"
+  ],
+  "opened": null,
+  "brand_founded": "1952, Seattle WA (University District)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Drive-in on Northup Way with stall service; the brand says this location also serves breakfast (7-10am).",
+  "display_note": "Burgermaster drive-in on Northup Way with stall service; this location also serves breakfast. The chain began in 1952.",
+  "website": "https://burgermaster.com/",
+  "sources": [
+   {
+    "url": "https://burgermaster.com/",
+    "what": "brand's own site (c) 2026: list of 5 current locations with addresses and hours; describes carhop drive-in service in parking stalls, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://burgermaster.com/about-history/",
+    "what": "brand's own history page: Phil Jensen opened the first Burgermaster in the University District in 1952, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-09-04"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgermaster (Issaquah)",
+  "address": "98 NE Gilman Blvd",
+  "city": "Issaquah",
+  "zip": "98027",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers (grass-fed beef)",
+   "fries",
+   "milkshakes",
+   "Grandpa Phil's Root Beer"
+  ],
+  "opened": 2026,
+  "brand_founded": "1952, Seattle WA (University District)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Opened May 2026 in the restored former Triple XXX Rootbeer Drive-In building; serves the brand's own Grandpa Phil's Root Beer.",
+  "display_note": "Opened in May 2026 in the restored former Triple XXX Rootbeer Drive-In building. Serves Burgermaster's own Grandpa Phil's Root Beer.",
+  "website": "https://burgermaster.com/",
+  "sources": [
+   {
+    "url": "https://burgermaster.com/",
+    "what": "brand's own site (c) 2026: list of 5 current locations with addresses and hours; describes carhop drive-in service in parking stalls, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://burgermaster.com/about-history/",
+    "what": "brand's own history page: Phil Jensen opened the first Burgermaster in the University District in 1952, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://burgermaster.com/menus/issaquah/",
+    "what": "brand's own Issaquah page: address and hours, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://mynorthwest.com/lifestyle/burgermaster-issaquah-opening/4241978",
+    "what": "MyNorthwest story: grand opening May 26, 2026 in the former Triple XXX building; burgers, shakes, fries, new root beer",
+    "date": "2026-05-26"
+   },
+   {
+    "url": "https://www.kiro7.com/news/local/triple-xxx-root-beer-burgermaster-issaquahs-iconic-drive-in-spot-gets-new-life/DP6BDKB37FA3BD5QH7MICHYZPM/",
+    "what": "KIRO 7 story on the Issaquah grand opening",
+    "date": "2026-05-27"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-04-07"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgermaster (Mill Creek)",
+  "address": "18626 Bothell Everett Hwy",
+  "city": "Bothell",
+  "zip": "98012",
+  "county": "Snohomish",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers (grass-fed beef)",
+   "fries",
+   "milkshakes"
+  ],
+  "opened": null,
+  "brand_founded": "1952, Seattle WA (University District)",
+  "chain": true,
+  "kasahara": false,
+  "note": "The brand's Mill Creek location (Bothell mailing address); drive-in stall service.",
+  "display_note": "Burgermaster's Mill Creek drive-in with stall service. The chain began in the University District in 1952.",
+  "website": "https://burgermaster.com/",
+  "sources": [
+   {
+    "url": "https://burgermaster.com/",
+    "what": "brand's own site (c) 2026: list of 5 current locations with addresses and hours; describes carhop drive-in service in parking stalls, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://burgermaster.com/about-history/",
+    "what": "brand's own history page: Phil Jensen opened the first Burgermaster in the University District in 1952, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgermaster (Mount Vernon)",
+  "address": "2030 Freeway Dr",
+  "city": "Mount Vernon",
+  "zip": "98273",
+  "county": "Skagit",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers (grass-fed beef)",
+   "fries",
+   "milkshakes"
+  ],
+  "opened": null,
+  "brand_founded": "1952, Seattle WA (University District)",
+  "chain": true,
+  "kasahara": false,
+  "note": "The brand's Mount Vernon drive-in, on Freeway Dr.",
+  "display_note": "Burgermaster drive-in on Freeway Dr. The chain began in the University District in 1952.",
+  "website": "https://burgermaster.com/",
+  "sources": [
+   {
+    "url": "https://burgermaster.com/",
+    "what": "brand's own site (c) 2026: list of 5 current locations with addresses and hours; describes carhop drive-in service in parking stalls, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://burgermaster.com/about-history/",
+    "what": "brand's own history page: Phil Jensen opened the first Burgermaster in the University District in 1952, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Kidd Valley (Green Lake)",
+  "address": "4910 Green Lake Way N",
+  "city": "Seattle",
+  "zip": "98103",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "hamburger",
+   "cheeseburger",
+   "bacon cheeseburger",
+   "mushroom burger",
+   "fish 'n chips",
+   "onion rings",
+   "fries",
+   "milkshakes (incl. boysenberry, pineapple)"
+  ],
+  "opened": null,
+  "brand_founded": "1975, Seattle WA (University District)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger stand by Green Lake. Seattle-area burger chain.",
+  "display_note": "Kidd Valley burger stand by Green Lake, part of a Seattle-area chain started in 1975. The menu includes fish 'n chips, onion rings and boysenberry shakes.",
+  "website": "https://kiddvalley.com/",
+  "sources": [
+   {
+    "url": "https://kiddvalley.com/",
+    "what": "brand's own site: 3 locations with addresses and daily hours (plus stadium stands), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://kiddvalley.com/menu",
+    "what": "brand's own menu page: burgers, fish 'n chips, onion rings, shakes, breakfast, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://kiddvalley.com/history",
+    "what": "brand's own history page: 1975 purchase of the former Dairy Delite burger stand in the University District, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-04-15"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Kidd Valley (Kenmore)",
+  "address": "6434 Bothell Way NE",
+  "city": "Kenmore",
+  "zip": "98028",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "hamburger",
+   "cheeseburger",
+   "bacon cheeseburger",
+   "mushroom burger",
+   "fish 'n chips",
+   "onion rings",
+   "fries",
+   "milkshakes (incl. boysenberry, pineapple)"
+  ],
+  "opened": null,
+  "brand_founded": "1975, Seattle WA (University District)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger stand on Bothell Way. Seattle-area burger chain.",
+  "display_note": "Kidd Valley burger stand on Bothell Way, part of a Seattle-area chain started in 1975. Also serves fish 'n chips and onion rings.",
+  "website": "https://kiddvalley.com/",
+  "sources": [
+   {
+    "url": "https://kiddvalley.com/",
+    "what": "brand's own site: 3 locations with addresses and daily hours (plus stadium stands), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://kiddvalley.com/menu",
+    "what": "brand's own menu page: burgers, fish 'n chips, onion rings, shakes, breakfast, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://kiddvalley.com/history",
+    "what": "brand's own history page: 1975 purchase of the former Dairy Delite burger stand in the University District, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-08-03"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Kidd Valley (Renton)",
+  "address": "1201 Lake Washington Blvd N",
+  "city": "Renton",
+  "zip": "98055",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "hamburger",
+   "cheeseburger",
+   "bacon cheeseburger",
+   "mushroom burger",
+   "fish 'n chips",
+   "onion rings",
+   "fries",
+   "milkshakes (incl. boysenberry, pineapple)"
+  ],
+  "opened": null,
+  "brand_founded": "1975, Seattle WA (University District)",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger stand on Lake Washington Blvd in Renton. Seattle-area burger chain.",
+  "display_note": "Kidd Valley burger stand on Lake Washington Blvd, part of a Seattle-area chain started in 1975. Shakes include boysenberry and pineapple.",
+  "website": "https://kiddvalley.com/",
+  "sources": [
+   {
+    "url": "https://kiddvalley.com/",
+    "what": "brand's own site: 3 locations with addresses and daily hours (plus stadium stands), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://kiddvalley.com/menu",
+    "what": "brand's own menu page: burgers, fish 'n chips, onion rings, shakes, breakfast, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://kiddvalley.com/history",
+    "what": "brand's own history page: 1975 purchase of the former Dairy Delite burger stand in the University District, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-02-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Battle Ground, 217 W. Main St)",
+  "address": "217 W. Main St",
+  "city": "Battle Ground",
+  "zip": "98604",
+  "county": "Clark",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on W Main St in Battle Ground, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-be8dbdf551a0",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-be8dbdf551a0",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Camas, 518 NE Third Ave)",
+  "address": "518 NE Third Ave",
+  "city": "Camas",
+  "zip": "98607",
+  "county": "Clark",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on NE Third Ave in Camas, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-c3309bcad6a2",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-c3309bcad6a2",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Centralia, 818 Harrison Avenue)",
+  "address": "818 Harrison Avenue",
+  "city": "Centralia",
+  "zip": "98531",
+  "county": "Lewis",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on Harrison Avenue in Centralia, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-3e7a349c7fe6",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-3e7a349c7fe6",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Kelso, 600 W. Main St)",
+  "address": "600 W. Main St",
+  "city": "Kelso",
+  "zip": "98626",
+  "county": "Cowlitz",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on W Main St in Kelso, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-4db84fa72333",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-4db84fa72333",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Vancouver, 10903 NE Fourth Plain Blvd)",
+  "address": "10903 NE Fourth Plain Blvd",
+  "city": "Vancouver",
+  "zip": "98662",
+  "county": "Clark",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on NE Fourth Plain Blvd, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-ae60954ce9fc",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-ae60954ce9fc",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Vancouver, 11704 SE Mill Plain Blvd)",
+  "address": "11704 SE Mill Plain Blvd",
+  "city": "Vancouver",
+  "zip": "98684",
+  "county": "Clark",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on SE Mill Plain Blvd, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-d9e2eff811b0",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-d9e2eff811b0",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Vancouver, 13309 NE Hwy 99)",
+  "address": "13309 NE Hwy 99",
+  "city": "Vancouver",
+  "zip": "98686",
+  "county": "Clark",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on NE Hwy 99, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-6ee50d97e2d1",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-6ee50d97e2d1",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Vancouver, 16416 SE McGillivray Blvd)",
+  "address": "16416 SE McGillivray Blvd",
+  "city": "Vancouver",
+  "zip": "98683",
+  "county": "Clark",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on SE McGillivray Blvd, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-3e872d9cbc32",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-3e872d9cbc32",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Vancouver, 2200 E. Fourth Plain Blvd)",
+  "address": "2200 E. Fourth Plain Blvd",
+  "city": "Vancouver",
+  "zip": "98661",
+  "county": "Clark",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on E Fourth Plain Blvd, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-c75b0f222c5d",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-c75b0f222c5d",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Vancouver, 6700 NE 162nd Ave)",
+  "address": "6700 NE 162nd Ave",
+  "city": "Vancouver",
+  "zip": "98682",
+  "county": "Clark",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on NE 162nd Ave, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-924844f42a62",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-924844f42a62",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Vancouver, 7401 E Mill Plain Blvd)",
+  "address": "7401 E Mill Plain Blvd",
+  "city": "Vancouver",
+  "zip": "98664",
+  "county": "Clark",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on E Mill Plain Blvd, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-87af3f544b61",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-87af3f544b61",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours 9am-9:30pm daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Vancouver, 9909 NE Hwy 99)",
+  "address": "9909 NE Hwy 99",
+  "city": "Vancouver",
+  "zip": "98686",
+  "county": "Clark",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on NE Hwy 99, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-42af30234e54",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-42af30234e54",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Burgerville (Woodland, 1120 Lewis River Rd)",
+  "address": "1120 Lewis River Rd",
+  "city": "Woodland",
+  "zip": "98674",
+  "county": "Cowlitz",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Original Cheeseburger",
+   "Northwest Cheeseburger",
+   "Grass-Fed Sweet Onion Burger",
+   "Pacific cod & chips",
+   "fries",
+   "milkshakes (seasonal flavors)"
+  ],
+  "opened": null,
+  "brand_founded": "1961, Vancouver WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Burger chain founded in Vancouver, WA in 1961. The fall 2026 menu includes a pumpkin shake and a pickled pepper cheeseburger.",
+  "display_note": "Burgerville on Lewis River Rd in Woodland, part of the burger chain founded in Vancouver, WA in 1961. The menu includes Pacific cod and chips and seasonal shakes.",
+  "website": "https://locations.burgerville.com/burgerville-cf710c8f50a0",
+  "sources": [
+   {
+    "url": "https://locations.burgerville.com/burgerville-cf710c8f50a0",
+    "what": "brand's own location page in its location directory (sitemap lastmod 2026-09-30): address, posted hours from 9am daily, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/60-years/",
+    "what": "brand's own 60th-anniversary page (2021 uploads): first Burgerville opened March 10 in Vancouver, Washington, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/trivia/",
+    "what": "brand's own 65th-anniversary quiz page, consistent with a 1961 start, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.burgerville.com/menu/",
+    "what": "brand's own menu: burgers, Pacific cod & chips, shakes, seasonal items, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Ritzville)",
+  "address": "1503 S Smittys Blvd",
+  "city": "Ritzville",
+  "zip": "99169",
+  "county": "Adams",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on S Smittys Blvd in Ritzville, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/other-washington-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Airway Heights)",
+  "address": "12421 W Sunset Hwy",
+  "city": "Airway Heights",
+  "zip": "99001",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on W Sunset Hwy in Airway Heights, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/other-washington-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Cheney)",
+  "address": "911 1st St",
+  "city": "Cheney",
+  "zip": "99004",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on 1st St in Cheney, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/other-washington-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Deer Park)",
+  "address": "1005 S Main St",
+  "city": "Deer Park",
+  "zip": "99006",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on S Main St in Deer Park, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/other-washington-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Mead)",
+  "address": "12218 N Market St",
+  "city": "Mead",
+  "zip": "99021",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)",
+   "breakfast"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick; this store is run by the Austin and West families, whose own site ((c) 2026) lists it. Their site says breakfast is served at Mead only.",
+  "display_note": "Zip's on N Market St in Mead, run by the Austin and West families; this store also serves breakfast. Part of the drive-in chain founded in Kennewick in 1953.",
+  "website": "https://zipsburgers.com/mead-location/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/other-washington-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://zipsburgers.com/mead-location/",
+    "what": "own site of this store's operators (Austin and West families), (c) 2026: address and phone, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Colfax)",
+  "address": "902 N Main St",
+  "city": "Colfax",
+  "zip": "99111",
+  "county": "Whitman",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on N Main St in Colfax, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/other-washington-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Colville)",
+  "address": "1265 S Main St",
+  "city": "Colville",
+  "zip": "99114",
+  "county": "Stevens",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on S Main St in Colville, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/other-washington-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Regal)",
+  "address": "2917 S Regal St",
+  "city": "Spokane",
+  "zip": "99223",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on S Regal St in Spokane, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/spokane-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (N Division)",
+  "address": "1320 N Division St",
+  "city": "Spokane",
+  "zip": "99202",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on N Division St in Spokane, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/spokane-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Whitworth)",
+  "address": "10125 N Division St",
+  "city": "Spokane",
+  "zip": "99218",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick; this store is run by the Austin and West families, whose own site ((c) 2026) lists it.",
+  "display_note": "Zip's on N Division St in Spokane, run by the Austin and West families. Part of the Inland Northwest drive-in chain founded in Kennewick in 1953.",
+  "website": "https://zipsburgers.com/whitworth-location/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/spokane-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://zipsburgers.com/whitworth-location/",
+    "what": "own site of this store's operators (Austin and West families), (c) 2026: address and phone, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Lincoln & Third)",
+  "address": "223 S Lincoln St",
+  "city": "Spokane",
+  "zip": "99201",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on S Lincoln St in Spokane, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/other-spokane-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (E Trent)",
+  "address": "13621 E Trent Ave",
+  "city": "Spokane Valley",
+  "zip": "99216",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on E Trent Ave in Spokane Valley, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/spokane-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Trent & Fancher)",
+  "address": "5901 E Trent Ave",
+  "city": "Spokane Valley",
+  "zip": "99212",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on E Trent Ave in Spokane Valley, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/other-spokane-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Bowdish)",
+  "address": "11222 E Sprague Ave",
+  "city": "Spokane Valley",
+  "zip": "99206",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick; this store is run by the Austin and West families, whose own site ((c) 2026) lists it.",
+  "display_note": "Zip's on E Sprague Ave in Spokane Valley, run by the Austin and West families. Part of the Inland Northwest drive-in chain founded in Kennewick in 1953.",
+  "website": "https://zipsburgers.com/bowdish-location/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/spokane-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://zipsburgers.com/bowdish-location/",
+    "what": "own site of this store's operators (Austin and West families), (c) 2026: address and phone, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Zip's Drive-In (Veradale)",
+  "address": "15808 E Sprague Ave",
+  "city": "Spokane Valley",
+  "zip": "99037",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Papa Joe",
+   "Big Buster",
+   "Super Deluxe",
+   "Bacon Burger",
+   "fish and chicken baskets",
+   "fries",
+   "milkshakes (incl. cream pie shakes)"
+  ],
+  "opened": null,
+  "brand_founded": "1953, Kennewick WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Inland Northwest drive-in chain founded in Kennewick. Listed on the brand's location map and in current map listings.",
+  "display_note": "Zip's on E Sprague Ave in Spokane Valley, part of the Inland Northwest drive-in chain founded in Kennewick in 1953. The menu includes the Papa Joe and Big Buster burgers.",
+  "website": "https://www.zipsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.zipsdrivein.com/locations/spokane-locations/",
+    "what": "brand's own location map (map markers via the site's map plugin; marker data undated), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/history/",
+    "what": "brand's own history page: Robert 'Zip' Zuber built the first Zip's in Kennewick in 1953; stores are run by the founding families and former managers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/menu/classics/",
+    "what": "brand's own menu: Papa Joe, Big Buster, Super Deluxe and other burgers, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.zipsdrivein.com/specials/weekly-specials/",
+    "what": "brand's own weekly-specials page listing Sept-Nov 2026 specials, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Frugals (Port Angeles)",
+  "address": "1520 E Front St",
+  "city": "Port Angeles",
+  "zip": "98363",
+  "county": "Clallam",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "The Frugal Burger",
+   "cheeseburger",
+   "bacon cheeseburger",
+   "mushroom Swiss burger",
+   "halibut sandwich",
+   "fries",
+   "milkshakes"
+  ],
+  "opened": null,
+  "brand_founded": "1988, Port Angeles WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Double drive-through burger chain founded in Port Angeles in 1988.",
+  "display_note": "Frugals on E Front St in Port Angeles, the town where the double drive-through burger chain began in 1988. The menu includes the Frugal Burger and a halibut sandwich.",
+  "website": "https://www.frugalburger.com/",
+  "sources": [
+   {
+    "url": "https://www.frugalburger.com/locations",
+    "what": "brand's own locations page: 4 WA stores with addresses and hours (plus Montana), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.frugalburger.com/our-story",
+    "what": "brand's own story page: Peter and Sheila Stewart opened the first Frugals in Port Angeles in June 1988 with a double drive-through design, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.frugalburger.com/menu",
+    "what": "brand's own menu page, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Frugals (Tacoma)",
+  "address": "10727 Pacific Ave S",
+  "city": "Tacoma",
+  "zip": "98444",
+  "county": "Pierce",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "The Frugal Burger",
+   "cheeseburger",
+   "bacon cheeseburger",
+   "mushroom Swiss burger",
+   "halibut sandwich",
+   "fries",
+   "milkshakes"
+  ],
+  "opened": null,
+  "brand_founded": "1988, Port Angeles WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Double drive-through burger chain founded in Port Angeles in 1988.",
+  "display_note": "Frugals on Pacific Ave S in Tacoma, part of the double drive-through burger chain founded in Port Angeles in 1988. The menu includes the Frugal Burger and a halibut sandwich.",
+  "website": "https://www.frugalburger.com/",
+  "sources": [
+   {
+    "url": "https://www.frugalburger.com/locations",
+    "what": "brand's own locations page: 4 WA stores with addresses and hours (plus Montana), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.frugalburger.com/our-story",
+    "what": "brand's own story page: Peter and Sheila Stewart opened the first Frugals in Port Angeles in June 1988 with a double drive-through design, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.frugalburger.com/menu",
+    "what": "brand's own menu page, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Frugals (Auburn)",
+  "address": "1817 Howard Rd",
+  "city": "Auburn",
+  "zip": "98002",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "The Frugal Burger",
+   "cheeseburger",
+   "bacon cheeseburger",
+   "mushroom Swiss burger",
+   "halibut sandwich",
+   "fries",
+   "milkshakes"
+  ],
+  "opened": null,
+  "brand_founded": "1988, Port Angeles WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Double drive-through burger chain founded in Port Angeles in 1988.",
+  "display_note": "Frugals on Howard Rd in Auburn, part of the double drive-through burger chain founded in Port Angeles in 1988. The menu includes the Frugal Burger and a halibut sandwich.",
+  "website": "https://www.frugalburger.com/",
+  "sources": [
+   {
+    "url": "https://www.frugalburger.com/locations",
+    "what": "brand's own locations page: 4 WA stores with addresses and hours (plus Montana), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.frugalburger.com/our-story",
+    "what": "brand's own story page: Peter and Sheila Stewart opened the first Frugals in Port Angeles in June 1988 with a double drive-through design, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.frugalburger.com/menu",
+    "what": "brand's own menu page, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Frugals (Spokane)",
+  "address": "1229 N Hamilton St",
+  "city": "Spokane",
+  "zip": "99202",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "The Frugal Burger",
+   "cheeseburger",
+   "bacon cheeseburger",
+   "mushroom Swiss burger",
+   "halibut sandwich",
+   "fries",
+   "milkshakes"
+  ],
+  "opened": null,
+  "brand_founded": "1988, Port Angeles WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "Double drive-through burger chain founded in Port Angeles in 1988.",
+  "display_note": "Frugals on N Hamilton St in Spokane, part of the double drive-through burger chain founded in Port Angeles in 1988. The menu includes the Frugal Burger and a halibut sandwich.",
+  "website": "https://www.frugalburger.com/",
+  "sources": [
+   {
+    "url": "https://www.frugalburger.com/locations",
+    "what": "brand's own locations page: 4 WA stores with addresses and hours (plus Montana), live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.frugalburger.com/our-story",
+    "what": "brand's own story page: Peter and Sheila Stewart opened the first Frugals in Port Angeles in June 1988 with a double drive-through design, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.frugalburger.com/menu",
+    "what": "brand's own menu page, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "PICK-QUICK Drive In (Fife)",
+  "address": "4306 Pacific Hwy E",
+  "city": "Fife",
+  "zip": "98424",
+  "county": "Pierce",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "classic, deluxe and original burgers (single/double/triple)",
+   "hot dogs",
+   "fries",
+   "chili fries",
+   "milkshakes and malts",
+   "floats and sundaes"
+  ],
+  "opened": 1949,
+  "brand_founded": "1949, Fife WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "The original PICK-QUICK (1949) on Pacific Highway East; order-window drive-in. Family-run three-store local chain.",
+  "display_note": "The original PICK-QUICK, opened in 1949 on Pacific Highway East: an order-window drive-in from a family-run local chain of three stores.",
+  "website": "https://pick-quick.com/",
+  "sources": [
+   {
+    "url": "https://pick-quick.com/fife",
+    "what": "own Fife location page: hours (Mon-Sat 10-8, Sun 11-8), order-window drive-in, menu, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://pick-quick.com/",
+    "what": "own site: 3 locations with addresses, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://pick-quick.com/about-us",
+    "what": "own about page: Jay Adolph and Henriette Olsen opened the original in Fife in 1949; Auburn 2011; SoDo 2016, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "PICK-QUICK Drive In (Auburn)",
+  "address": "1132 Auburn Way N",
+  "city": "Auburn",
+  "zip": "98002",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "classic, deluxe and original burgers (single/double/triple)",
+   "hot dogs",
+   "fries",
+   "chili fries",
+   "milkshakes and malts",
+   "floats and sundaes"
+  ],
+  "opened": 2011,
+  "brand_founded": "1949, Fife WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "PICK-QUICK No. 2, opened 2011. Family-run three-store local chain.",
+  "display_note": "PICK-QUICK No. 2, opened in 2011, from the family-run local chain that began in Fife in 1949. Burgers, chili fries, malts and floats.",
+  "website": "https://pick-quick.com/",
+  "sources": [
+   {
+    "url": "https://pick-quick.com/",
+    "what": "own site: 3 locations with addresses, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://pick-quick.com/about-us",
+    "what": "own about page: Jay Adolph and Henriette Olsen opened the original in Fife in 1949; Auburn 2011; SoDo 2016, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-01-30"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "PICK-QUICK Drive In (SoDo)",
+  "address": "2990 4th Ave S",
+  "city": "Seattle",
+  "zip": "98134",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "classic, deluxe and original burgers (single/double/triple)",
+   "hot dogs",
+   "fries",
+   "chili fries",
+   "milkshakes and malts",
+   "floats and sundaes"
+  ],
+  "opened": 2016,
+  "brand_founded": "1949, Fife WA",
+  "chain": true,
+  "kasahara": false,
+  "note": "PICK-QUICK No. 3, opened 2016 in Seattle's SoDo. Family-run three-store local chain.",
+  "display_note": "PICK-QUICK No. 3, opened in 2016 in Seattle's SoDo, from the family-run local chain that began in Fife in 1949.",
+  "website": "https://pick-quick.com/",
+  "sources": [
+   {
+    "url": "https://pick-quick.com/",
+    "what": "own site: 3 locations with addresses, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://pick-quick.com/about-us",
+    "what": "own about page: Jay Adolph and Henriette Olsen opened the original in Fife in 1949; Auburn 2011; SoDo 2016, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-02-03"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Lakeview Drive In",
+  "address": "323 W Manson Hwy",
+  "city": "Chelan",
+  "zip": "98816",
+  "county": "Chelan",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "French fries (incl. buckets)",
+   "milkshakes",
+   "hand-dipped and soft-serve ice cream",
+   "homemade tartar sauce"
+  ],
+  "opened": 1957,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Seasonal drive-in run by the Mack family; the 2026 season ended Sept. 27, so it is closed until next season. Also runs an Outpost stand at Don Morse Memorial Park.",
+  "display_note": "Seasonal drive-in open since 1957 and run by the Mack family; closed for the season after Sept. 27. Also runs an Outpost stand at Don Morse Memorial Park.",
+  "website": "https://www.lakeviewdrivein.com",
+  "sources": [
+   {
+    "url": "https://www.lakeviewdrivein.com",
+    "what": "own site (c) 2026: address, 'open since 1957', 2026 season end date, menu highlights, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Heidleburger Drive In",
+  "address": "12708 US-2",
+  "city": "Leavenworth",
+  "zip": "98826",
+  "county": "Chelan",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "single/double/triple burgers",
+   "Kodiak Burger",
+   "milkshakes (8 flavors incl. blackberry)",
+   "fries",
+   "tater tots",
+   "onion rings"
+  ],
+  "opened": 1970,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Drive-in on US 2 near Leavenworth, established 1970.",
+  "display_note": "Drive-in on US 2 near Leavenworth, established in 1970. The menu includes the Kodiak Burger and eight shake flavors, including blackberry.",
+  "website": "http://heidleburger.com/",
+  "sources": [
+   {
+    "url": "http://heidleburger.com/",
+    "what": "own site: address, current hours, menu, 'established in 1970'; sitemap lastmod 2025-12-14, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Don & Jo's Drive-In",
+  "address": "21903 NE 10th Ave",
+  "city": "Ridgefield",
+  "zip": "98642",
+  "county": "Clark",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "fries",
+   "chicken strips",
+   "milkshakes",
+   "soft serve"
+  ],
+  "opened": 1968,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Drive-in established in 1968, with indoor dining and outdoor picnic tables. Closed Sundays.",
+  "display_note": "Drive-in established in 1968, with indoor dining and outdoor picnic tables. Closed Sundays.",
+  "website": "http://www.donandjosdrivein.com/",
+  "sources": [
+   {
+    "url": "http://www.donandjosdrivein.com/",
+    "what": "own site: 'Est. 1968', menu summary; sitemap lastmod 2026-07-22, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.donandjosdrivein.com/location",
+    "what": "own location page: address, phone, hours Mon-Sat 10am-8pm, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Teepee Drive-In",
+  "address": "211 Midway Ave",
+  "city": "Grand Coulee",
+  "zip": "99133",
+  "county": "Grant",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Grand Tee Pee Burger",
+   "cheeseburger",
+   "bacon cheeseburger",
+   "mushroom Swiss burger",
+   "Hawaiian burger",
+   "jalapeno popper burger"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Grand Coulee drive-in that its site says has served the community since the 1930s. Open Tue-Sat.",
+  "display_note": "Grand Coulee drive-in that has served the community since the 1930s, home of the Grand Tee Pee Burger. Open Tuesday to Saturday.",
+  "website": "https://www.teepee-drive-in.com/",
+  "sources": [
+   {
+    "url": "https://www.teepee-drive-in.com/",
+    "what": "own site (c) 2026: address, hours, burger menu; sitemap lastmod 2026-01-28, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Crow's Nest Drive-In",
+  "address": "441 S Main St",
+  "city": "Montesano",
+  "zip": "98563",
+  "county": "Grays Harbor",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers (incl. half-pound Philabuster)",
+   "hand-breaded fish",
+   "chicken",
+   "Garden Burger",
+   "salads",
+   "Cascade Glacier ice cream"
+  ],
+  "opened": 1981,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Montesano drive-in operating since 1981; open daily 11am-8pm.",
+  "display_note": "Montesano drive-in operating since 1981, with the half-pound Philabuster burger, hand-breaded fish and Cascade Glacier ice cream. Open daily.",
+  "website": "http://www.crowsnestburgers.com/",
+  "sources": [
+   {
+    "url": "http://www.crowsnestburgers.com/",
+    "what": "own site: address, daily hours, 'SINCE 1981', menu; sitemap lastmod 2026-09-15, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ranch Drive-In",
+  "address": "18218 Bothell Way NE",
+  "city": "Bothell",
+  "zip": "98011",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Ranch Burger"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Bothell drive-in on Bothell Way known for its Ranch Burger.",
+  "display_note": "Bothell drive-in on Bothell Way, home of the Ranch Burger.",
+  "website": "https://www.ranchdrivein.com/",
+  "sources": [
+   {
+    "url": "https://www.ranchdrivein.com/",
+    "what": "own site: address and summer hours, Ranch Burger, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-05-26"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Boss Drive-In",
+  "address": "9061 Delridge Way SW",
+  "city": "Seattle",
+  "zip": "98106",
+  "county": "King",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Dub-C burger",
+   "Boss Hog burger",
+   "turkey burger",
+   "chicken sandwiches",
+   "fries",
+   "onion rings",
+   "milkshakes",
+   "soft serve and hand-dipped cones"
+  ],
+  "opened": 2014,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "24-hour drive-in at Delridge Way and Barton in White Center; opened June 2014.",
+  "display_note": "24-hour drive-in at Delridge Way and Barton in White Center, opened in June 2014. The menu includes the Dub-C and Boss Hog burgers.",
+  "website": "http://www.bossdrivein.com/",
+  "sources": [
+   {
+    "url": "http://www.bossdrivein.com/",
+    "what": "own site: address, open 24/7, menu, opened early June 2014; sitemap lastmod 2026-09-29, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-03-31"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Twin Pines Drive In",
+  "address": "1901 WA-970",
+  "city": "Cle Elum",
+  "zip": "98922",
+  "county": "Kittitas",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers (plain, deluxe, double, triple, mushroom Swiss, BBQ)",
+   "fish & chips",
+   "chicken strips",
+   "shoestring fries",
+   "onion rings",
+   "shakes and malts"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Drive-in on SR 970 near Cle Elum; its site says locally owned since 1958. Closed Tue-Wed; the site says hours can change with weather and staffing.",
+  "display_note": "Drive-in on SR 970 near Cle Elum, locally owned since 1958. Closed Tuesdays and Wednesdays, and hours can change with weather and staffing.",
+  "website": "http://www.twinpinesdrivein.com/",
+  "sources": [
+   {
+    "url": "http://www.twinpinesdrivein.com/",
+    "what": "own site: address and current weekly hours, live (sitemap lastmod 2024-11-23)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.twinpinesdrivein.com/menu",
+    "what": "own menu page, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ritz Drive-In",
+  "address": "325 S 1st St",
+  "city": "Shelton",
+  "zip": "98584",
+  "county": "Mason",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Shelton drive-in that its site says dates to the 1970s.",
+  "display_note": "Shelton burger drive-in dating to the 1970s.",
+  "website": "https://ritzdrivein.wixsite.com/ritzdrivein",
+  "sources": [
+   {
+    "url": "https://ritzdrivein.wixsite.com/ritzdrivein",
+    "what": "own site: address, phone, burgers, posted menu image named 'Ritz menu Sep 2025', live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Frisko Freeze",
+  "address": "1201 Division Ave",
+  "city": "Tacoma",
+  "zip": "98403",
+  "county": "Pierce",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers"
+  ],
+  "opened": 1950,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Tacoma walk-up burger stand on Division Ave dating to July 27, 1950; open late (to midnight, 1am Fri-Sat). Full menu is on its Toast ordering page.",
+  "display_note": "Tacoma walk-up burger stand on Division Ave, open since July 27, 1950. Open late.",
+  "website": "https://www.friskofreeze.com/",
+  "sources": [
+   {
+    "url": "https://www.friskofreeze.com/",
+    "what": "own site: address, hours, 'since July 27, 1950', 'over 76 years'; sitemap lastmod 2026-08-27, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Lucky's Drive-In",
+  "address": "13502 Pacific Ave S",
+  "city": "Tacoma",
+  "zip": "98444",
+  "county": "Pierce",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "The Lucky (quarter-pound cheeseburger)",
+   "Double Lucky",
+   "milkshakes",
+   "hot dogs",
+   "chili",
+   "homemade lemonades"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Parkland drive-in on Pacific Ave with a 1955 vintage bus for indoor seating; in-person orders only. Open daily 11am-8pm.",
+  "display_note": "Parkland drive-in on Pacific Ave with a 1955 vintage bus for indoor seating; orders are taken in person only. Open daily.",
+  "website": "https://tacomaburgers.com/",
+  "sources": [
+   {
+    "url": "https://tacomaburgers.com/",
+    "what": "own site (old luckysparkland.com redirects here) (c) 2026: address, hours, menu, page updated 2025-07-14, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Vic's Drive In",
+  "address": "25 Second St S",
+  "city": "Friday Harbor",
+  "zip": "98250",
+  "county": "San Juan",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "fries",
+   "onion rings",
+   "tater tots",
+   "chicken and fish baskets",
+   "hand-spun milkshakes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Friday Harbor drive-in that its site says has served made-to-order food since 1958; open daily 11am-7pm.",
+  "display_note": "Friday Harbor drive-in serving made-to-order food since 1958, including hand-spun milkshakes. Open daily.",
+  "website": "https://vicsdrivein.com/",
+  "sources": [
+   {
+    "url": "https://vicsdrivein.com/",
+    "what": "own site (c) 2016-2026: hours, menu, 'since 1958'; sitemap lastmod 2026-05-07, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Spartan Drive-In",
+  "address": "9902 270th St NW",
+  "city": "Stanwood",
+  "zip": "98292",
+  "county": "Snohomish",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Spartan Cheeseburger",
+   "Camano Cowboy Burger",
+   "Bacon Buster",
+   "fish & chips",
+   "jumbo prawns & chips",
+   "waffle fries",
+   "onion rings",
+   "milkshakes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Stanwood drive-in with an espresso menu; open daily from 8am.",
+  "display_note": "Stanwood drive-in with an espresso menu, plus burgers, fish and chips and jumbo prawns. Open daily.",
+  "website": "https://spartandrivein.squarespace.com/home",
+  "sources": [
+   {
+    "url": "https://spartandrivein.squarespace.com/home",
+    "what": "own site: address, hours; sitemap lastmod 2026-07-04, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://spartandrivein.squarespace.com/drive-in-menu",
+    "what": "own drive-in menu page, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Thrifty Scotsman Drive In",
+  "address": "12024 E Sprague Ave",
+  "city": "Spokane Valley",
+  "zip": "99206",
+  "county": "Spokane",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Big Papa",
+   "Scotsman Burger",
+   "Super Bacon",
+   "fish and fries",
+   "shrimp and fries",
+   "chicken and fries"
+  ],
+  "opened": 1980,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Spokane Valley drive-in established in 1980.",
+  "display_note": "Spokane Valley drive-in established in 1980, with the Big Papa and Scotsman burgers and fish, shrimp or chicken with fries.",
+  "website": "http://thethriftyscotsman.com/",
+  "sources": [
+   {
+    "url": "http://thethriftyscotsman.com/",
+    "what": "own site: address, weekly hours, 'EST 1980', menu; sitemap lastmod 2026-05-21, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Cougar Country Drive In",
+  "address": "760 N Grand Ave",
+  "city": "Pullman",
+  "zip": "99163",
+  "county": "Whitman",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "hand-cut fries",
+   "hand-spun milkshakes",
+   "ice cream"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Pullman drive-in on Grand Ave; its site says family-owned and managed since 1973. Open daily.",
+  "display_note": "Pullman drive-in on Grand Ave, family-owned and managed since 1973. Open daily.",
+  "website": "http://cougarcountrydrivein.com/",
+  "sources": [
+   {
+    "url": "http://cougarcountrydrivein.com/",
+    "what": "own site: address, daily hours, menu highlights; sitemap lastmod 2026-06-11, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Bob's Drive In",
+  "address": "108 E Yakima Valley Hwy",
+  "city": "Sunnyside",
+  "zip": "98944",
+  "county": "Yakima",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "The Special (double patty with cheese)",
+   "burgers",
+   "fries",
+   "onion rings",
+   "taco salad"
+  ],
+  "opened": 1960,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Lower Yakima Valley drive-in; its site says 'A Lower Valley Tradition Since 1960'.",
+  "display_note": "Drive-in in Sunnyside, a Lower Yakima Valley tradition since 1960. The menu includes The Special, a double patty with cheese.",
+  "website": "http://bobsdriveinwa.com/",
+  "sources": [
+   {
+    "url": "http://bobsdriveinwa.com/",
+    "what": "own site: address, weekly hours, menu, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Peppermint Stick Drive-In",
+  "address": "4002 Main St",
+  "city": "Union Gap",
+  "zip": "98903",
+  "county": "Yakima",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Beast Burger",
+   "Texas Hold'em burger",
+   "chili burger",
+   "Philly cheesesteak",
+   "waffle, curly and sweet potato fries",
+   "milkshakes (incl. peppermint stick, huckleberry)"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Union Gap drive-in with a long shake list; online ordering on its site.",
+  "display_note": "Union Gap drive-in with a long shake list, including peppermint stick and huckleberry, plus the Beast Burger and curly fries.",
+  "website": "https://peppermintstickdrivein.com",
+  "sources": [
+   {
+    "url": "https://peppermintstickdrivein.com",
+    "what": "own site (c) 2026: address, hours, menu, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Stop and Go Drive Inn",
+  "address": "2820 Fruitvale Blvd",
+  "city": "Yakima",
+  "zip": "98902",
+  "county": "Yakima",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "deluxe burgers",
+   "fries",
+   "milkshakes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Yakima burger drive-in on Fruitvale Blvd; its site says it has served Yakima for over 75 years.",
+  "display_note": "Yakima burger drive-in on Fruitvale Blvd, serving Yakima for over 75 years.",
+  "website": "https://www.stop-and-go-burgers.com/",
+  "sources": [
+   {
+    "url": "https://www.stop-and-go-burgers.com/",
+    "what": "own site: address, hours, menu highlights; sitemap lastmod 2026-06-16, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Boomer's Drive-In",
+  "address": "310 N Samish Way",
+  "city": "Bellingham",
+  "zip": "98225",
+  "county": "Whatcom",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "fries",
+   "milkshakes",
+   "ice cream"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Carhop drive-in: park, turn on your headlights and a carhop brings the food. Its site says family-owned since 1989.",
+  "display_note": "Carhop drive-in: park, turn on your headlights and a carhop brings the food. Family-owned since 1989.",
+  "website": "https://boomersdrivein.com/",
+  "sources": [
+   {
+    "url": "https://boomersdrivein.com/location",
+    "what": "own location page: address, hours, carhop service description, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://boomersdrivein.com/",
+    "what": "own site with SpotOn online-ordering link (page assets dated 2025-2026), live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ronnie D's Drive-In",
+  "address": "505 N Lincoln St",
+  "city": "Colville",
+  "zip": "99114",
+  "county": "Stevens",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "hamburgers",
+   "chicken",
+   "hot dogs",
+   "fish sandwiches",
+   "breakfast sandwiches",
+   "milkshakes",
+   "sundaes and banana splits"
+  ],
+  "opened": 1991,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Colville drive-in established in 1991 as a family restaurant; its history also mentions an earlier A&W (1971-1979).",
+  "display_note": "Colville drive-in established in 1991 as a family restaurant, with burgers, breakfast sandwiches, shakes and banana splits.",
+  "website": "http://www.ronnieds.com/",
+  "sources": [
+   {
+    "url": "http://www.ronnieds.com/",
+    "what": "own site (c) 2026: address, phone, fall hours, menu, history; sitemap lastmod 2026-09-30, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Wally's Drive-In",
+  "address": "282 WA-410",
+  "city": "Buckley",
+  "zip": "98321",
+  "county": "Pierce",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "hot dogs",
+   "shakes",
+   "fish 'n chips",
+   "hand-cut fries",
+   "clam chowder"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "1950s-style roadside drive-in on SR 410 in Buckley, run by Hold Fast Hospitality; open daily 10am-10pm.",
+  "display_note": "1950s-style roadside drive-in on SR 410 in Buckley, serving burgers, fish 'n chips and clam chowder. Open daily.",
+  "website": "https://wallysdrivein.com/",
+  "sources": [
+   {
+    "url": "https://wallysdrivein.com/",
+    "what": "own site: address, daily hours, menu summary; sitemap lastmod 2026-09-01, live",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "http://www.holdfasthospitality.com/",
+    "what": "operator's site describing Wally's (shakes, fries, chowder, fish and chips), live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ray's Drive-In",
+  "address": "1401 Broadway",
+  "city": "Everett",
+  "zip": "98201",
+  "county": "Snohomish",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Ray's Burger",
+   "Jr. Deluxe",
+   "Swiss & mushroom burger",
+   "Gardenburger",
+   "fish & chips",
+   "fishwich",
+   "popcorn shrimp",
+   "fried mushrooms",
+   "milkshakes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Everett walk-up and drive-thru burger stand; the Herald says it has been family-run since 1962.",
+  "display_note": "Everett walk-up and drive-thru burger stand, family-run since 1962. The menu includes a fishwich, popcorn shrimp and fried mushrooms.",
+  "website": null,
+  "sources": [
+   {
+    "url": "https://www.heraldnet.com/2026/01/04/everetts-burger-trail-dicks-nicks-mikies-and-rays/",
+    "what": "Everett Herald story: address, walk-up and drive-thru, menu items",
+    "date": "2026-01-04"
+   },
+   {
+    "url": "https://www.heraldnet.com/2026/03/09/snohomish-countys-ultimate-burger-bragging-rights/",
+    "what": "Everett Herald story naming Ray's Drive In, Everett",
+    "date": "2026-03-09"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Mikie's",
+  "address": "4532 Evergreen Way",
+  "city": "Everett",
+  "zip": null,
+  "county": "Snohomish",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Grampa Triple burger",
+   "Mushroom Melt",
+   "grilled chicken burger",
+   "hot dogs",
+   "clam chowder",
+   "onion rings",
+   "shakes, malts and floats"
+  ],
+  "opened": 2002,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Drive-in in a former A&W on Evergreen Way; operating as Mikie's since 2002 per the Herald.",
+  "display_note": "Drive-in in a former A&W on Evergreen Way, operating as Mikie's since 2002. The menu includes the Grampa Triple burger and clam chowder.",
+  "website": null,
+  "sources": [
+   {
+    "url": "https://www.heraldnet.com/2026/01/04/everetts-burger-trail-dicks-nicks-mikies-and-rays/",
+    "what": "Everett Herald story: address, drive-in (former A&W), 'Mikie's since 2002', menu items",
+    "date": "2026-01-04"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Nick's Jr.",
+  "address": "5821 Evergreen Way",
+  "city": "Everett",
+  "zip": null,
+  "county": "Snohomish",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "Mexican burger",
+   "California burger",
+   "Banzai burger",
+   "Big Texan",
+   "gyros",
+   "nacho fries",
+   "Greek fries"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Everett burger stand on Evergreen Way; the Herald says it has operated since the 1980s.",
+  "display_note": "Everett burger stand on Evergreen Way, operating since the 1980s. Burgers include the Mexican, Banzai and Big Texan, plus gyros and Greek fries.",
+  "website": null,
+  "sources": [
+   {
+    "url": "https://www.heraldnet.com/2026/01/04/everetts-burger-trail-dicks-nicks-mikies-and-rays/",
+    "what": "Everett Herald story: address, burger stand, menu items",
+    "date": "2026-01-04"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Fidalgo Drive-In",
+  "address": "2908 Commercial Ave",
+  "city": "Anacortes",
+  "zip": "98221",
+  "county": "Skagit",
+  "kinds": [
+   "drive-in"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "fries",
+   "seafood",
+   "chicken",
+   "Ivar's chowder",
+   "breakfast",
+   "ice cream"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Anacortes drive-in on Commercial Ave; menu sections read from its own online-ordering site.",
+  "display_note": "Anacortes drive-in on Commercial Ave with burgers, seafood, Ivar's chowder, breakfast and ice cream.",
+  "website": "http://www.fidalgodrivein.com",
+  "sources": [
+   {
+    "url": "http://www.fidalgodrivein.com",
+    "what": "own Square online-ordering site: address, phone, menu sections (Burgers, Fries, Seafood, Ivar's Chowder, Breakfast, Ice Cream) updated 2026-09-17, live",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ }
+]

@@ -1,0 +1,18 @@
+[
+ {
+  "name": "Sapporo Teriyaki",
+  "address": "2560 152nd Ave NE",
+  "city": "Redmond",
+  "source_url": "http://sapporoteriyaki.com/location.htm",
+  "source_date": "2026-10-05",
+  "why": "Moved, not at this address: the website this listing links to (sapporoteriyaki.com) says 'We are now at a new location' and gives only 550 106th Ave NE Ste 220, Bellevue (checked open separately, 2026 county inspection). No 2025-26 King County inspection for this address in the candidate data."
+ },
+ {
+  "name": "Sapporo Teriyaki",
+  "address": "512 Auburn Way N",
+  "city": "Auburn",
+  "source_url": "http://sapporoteriyaki.com/location.htm",
+  "source_date": "2026-10-05",
+  "why": "Moved, not at this address: the website this listing links to (sapporoteriyaki.com) gives only the new Bellevue location (550 106th Ave NE Ste 220). No 2025-26 King County inspection for this address. Less certain than the Redmond row: the Auburn link to sapporoteriyaki.com comes only from Foursquare map data."
+ }
+]

@@ -1,0 +1,154 @@
+{
+ "generated": "2026-10-05",
+ "records_through": "2026-09-25",
+ "restaurants": 20247,
+ "towns": 406,
+ "teriyaki": 179,
+ "teriyaki_outside_king": 103,
+ "teriyaki_spicy": 106,
+ "teriyaki_katsu": 124,
+ "teriyaki_gyoza": 132,
+ "pho": 51,
+ "drive_ins": 76,
+ "drive_in_independents": 26,
+ "seafood": 91,
+ "oyster_places": 75,
+ "seafood_outside_king": 51,
+ "kc_rated": 7310,
+ "kc_ratings": {
+  "Excellent": 4411,
+  "Okay": 695,
+  "Good": 2163,
+  "Needs to Improve": 41
+ },
+ "cities": {
+  "Seattle": {
+   "restaurants": 4136,
+   "teriyaki_near": 26,
+   "pho_near": 14,
+   "drivein_near": 8,
+   "seafood_near": 26,
+   "kc_rated": 3502
+  },
+  "Spokane": {
+   "restaurants": 747,
+   "teriyaki_near": 4,
+   "pho_near": 2,
+   "drivein_near": 12,
+   "seafood_near": 3,
+   "kc_rated": 0
+  },
+  "Tacoma": {
+   "restaurants": 674,
+   "teriyaki_near": 23,
+   "pho_near": 8,
+   "drivein_near": 5,
+   "seafood_near": 10,
+   "kc_rated": 0
+  },
+  "Vancouver": {
+   "restaurants": 688,
+   "teriyaki_near": 5,
+   "pho_near": 2,
+   "drivein_near": 10,
+   "seafood_near": 1,
+   "kc_rated": 0
+  },
+  "Bellevue": {
+   "restaurants": 640,
+   "teriyaki_near": 53,
+   "pho_near": 20,
+   "drivein_near": 14,
+   "seafood_near": 36,
+   "kc_rated": 529
+  },
+  "Everett": {
+   "restaurants": 392,
+   "teriyaki_near": 28,
+   "pho_near": 6,
+   "drivein_near": 7,
+   "seafood_near": 10,
+   "kc_rated": 0
+  },
+  "Kent": {
+   "restaurants": 444,
+   "teriyaki_near": 31,
+   "pho_near": 8,
+   "drivein_near": 7,
+   "seafood_near": 8,
+   "kc_rated": 357
+  },
+  "Renton": {
+   "restaurants": 403,
+   "teriyaki_near": 44,
+   "pho_near": 16,
+   "drivein_near": 9,
+   "seafood_near": 25,
+   "kc_rated": 337
+  },
+  "Federal Way": {
+   "restaurants": 322,
+   "teriyaki_near": 36,
+   "pho_near": 12,
+   "drivein_near": 6,
+   "seafood_near": 9,
+   "kc_rated": 282
+  },
+  "Kirkland": {
+   "restaurants": 337,
+   "teriyaki_near": 54,
+   "pho_near": 18,
+   "drivein_near": 13,
+   "seafood_near": 35,
+   "kc_rated": 300
+  },
+  "Olympia": {
+   "restaurants": 301,
+   "teriyaki_near": 8,
+   "pho_near": 3,
+   "drivein_near": 0,
+   "seafood_near": 7,
+   "kc_rated": 0
+  },
+  "Bellingham": {
+   "restaurants": 369,
+   "teriyaki_near": 2,
+   "pho_near": 0,
+   "drivein_near": 1,
+   "seafood_near": 5,
+   "kc_rated": 0
+  },
+  "Yakima": {
+   "restaurants": 322,
+   "teriyaki_near": 5,
+   "pho_near": 0,
+   "drivein_near": 2,
+   "seafood_near": 1,
+   "kc_rated": 0
+  },
+  "Kennewick": {
+   "restaurants": 258,
+   "teriyaki_near": 3,
+   "pho_near": 1,
+   "drivein_near": 0,
+   "seafood_near": 1,
+   "kc_rated": 0
+  },
+  "Walla Walla": {
+   "restaurants": 103,
+   "teriyaki_near": 1,
+   "pho_near": 0,
+   "drivein_near": 0,
+   "seafood_near": 0,
+   "kc_rated": 0
+  },
+  "Wenatchee": {
+   "restaurants": 142,
+   "teriyaki_near": 0,
+   "pho_near": 0,
+   "drivein_near": 0,
+   "seafood_near": 0,
+   "kc_rated": 0
+  }
+ }
+}

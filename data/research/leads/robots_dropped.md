@@ -1,0 +1,15 @@
+- Dragon Sushi and Teriyaki, 1801 S 1st St, Yakima (app/teriyaki_E_east.json): its only 2025-26 source was on a site whose robots.txt blocks AI crawlers
+- Manna Teriyaki, 11064 Lake City Way NE, Seattle (app/teriyaki_A_seattle.json): open per 2026 King County inspection, but the menu source was robots-blocked; needs its own menu or other 2025-26 source
+- Midori Teriyaki, 1120 Howell St, Seattle (app/teriyaki_A_seattle.json): open per 2026 King County inspection, but the menu source was robots-blocked; needs its own menu or other 2025-26 source
+- I Love Teriyaki, 3409 Stone Way N, Seattle (app/teriyaki_A_seattle.json): open per 2026 King County inspection, but the menu source was robots-blocked; needs its own menu or other 2025-26 source
+- Teriyaki Madness (Wallingford), 2320 N 45th St, Seattle (app/teriyaki_A_seattle.json): open per 2026 King County inspection, but the menu source was robots-blocked; needs its own menu or other 2025-26 source
+- Teriyaki Madness (Capitol Hill), 111 15th Ave E, Seattle (app/teriyaki_A_seattle.json): open per 2026 King County inspection, but the menu source was robots-blocked; needs its own menu or other 2025-26 source
+- Nasai Teriyaki, 4305 University Way NE, Seattle (app/teriyaki_A_seattle.json): open per 2026 King County inspection, but the menu source was robots-blocked; needs its own menu or other 2025-26 source
+- Yoshino Teriyaki, 1010 Madison St, Seattle (app/teriyaki_A_seattle.json): open per 2026 King County inspection, but the menu source was robots-blocked; needs its own menu or other 2025-26 source
+- Yak's Teriyaki, 3401 4th Ave S, Seattle (app/teriyaki_A_seattle.json): open per 2026 King County inspection, but the menu source was robots-blocked; needs its own menu or other 2025-26 source
+- Starla's (Bellingham): reported closed, but only by a robots-blocked source; verify
+- The Willows Inn (Lummi Island): reported closed, but only by a robots-blocked source; verify
+- Sawyer (Seattle): reported closed, but only by a robots-blocked source; verify
+- Sante Restaurant & Charcuterie (Spokane): reported closed, but only by a robots-blocked source; verify
+- The Wandering Table (Spokane): reported closed, but only by a robots-blocked source; verify
+- Zona Blanca (Spokane): reported closed, but only by a robots-blocked source; verify

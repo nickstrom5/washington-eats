@@ -1,0 +1,370 @@
+{
+ "claims": [
+  {
+   "claim": "Toshihiro 'Toshi' Kasahara opened his teriyaki shop, Toshi's Teriyaki (Seattle Weekly calls it Toshi's Teriyaki Restaurant), in Seattle in March 1976. Seattle Weekly and Kasahara's own site give the date as March 2, 1976.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    },
+    {
+     "url": "https://www.toshisgrill.com/story",
+     "title": "Our Story / Seattle's Tale of Teriyaki",
+     "publisher": "Toshi's Teriyaki Grill (Kasahara's own business site)",
+     "date": "accessed 2026-10-05"
+    }
+   ],
+   "confidence": "high",
+   "wording_note": "HistoryLink says 'March 1976' without a day; the exact day (March 2) comes from Seattle Weekly (2007) and Kasahara's own site. Seattle Met (2008) labels the shop '1977-2003' in a header, which conflicts; use 1976."
+  },
+  {
+   "claim": "The first shop was on Roy Street in Lower Queen Anne, Seattle (near the Space Needle), on the ground floor of an old white house.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    },
+    {
+     "url": "https://www.seattlemet.com/eat-and-drink/2008/12/1108-feat-restchange",
+     "title": "The Restaurants that Changed the Way We Eat (by Kathryn Robinson)",
+     "publisher": "Seattle Met",
+     "date": "2008-12-17"
+    },
+    {
+     "url": "https://www.toshisgrill.com/seattle-teriyaki",
+     "title": "Seattle Style Teriyaki - Origins, Sauce & Recipes",
+     "publisher": "Toshi's Teriyaki Grill (Kasahara's own business site)",
+     "date": "accessed 2026-10-05"
+    }
+   ],
+   "confidence": "high",
+   "wording_note": "'Lower Queen Anne' and 'Roy Street' are in several sources; HistoryLink adds the old-white-house detail."
+  },
+  {
+   "claim": "Street address of the original shop: 372 Roy St.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    }
+   ],
+   "confidence": "medium",
+   "wording_note": "Only Seattle Weekly (2007) gives the house number; HistoryLink and Seattle Met say only 'Roy Street'."
+  },
+  {
+   "claim": "The shop opened with 30 seats and a short menu: chicken teriyaki, beef teriyaki and tori udon all day, plus teriyaki steak and Japanese-style chicken curry at dinner. A chicken teriyaki plate came with rice and salad.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    },
+    {
+     "url": "https://www.toshisgrill.com/story",
+     "title": "Our Story / Seattle's Tale of Teriyaki",
+     "publisher": "Toshi's Teriyaki Grill (Kasahara's own business site)",
+     "date": "accessed 2026-10-05"
+    }
+   ],
+   "confidence": "high",
+   "wording_note": "HistoryLink lists chicken teriyaki, beef teriyaki and udon; the five-item list is from Seattle Weekly. Historic price (chicken plate $1.85) is in all three if wanted."
+  },
+  {
+   "claim": "The original plate: grilled teriyaki chicken, molded white rice (HistoryLink: CalRose medium-grain), and a small cabbage/greens salad dressed with rice vinegar and sesame oil.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    }
+   ],
+   "confidence": "high",
+   "wording_note": "Sources say cabbage salad (Seattle Weekly) or a small bed of greens (HistoryLink). No source we read says 'iceberg'; avoid that word unless another source is found."
+  },
+  {
+   "claim": "Seattle Times critic John Hinterberger reviewed Toshi's in July 1976 (HistoryLink's bibliography: July 30, 1976), and the review sharply increased business.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    }
+   ],
+   "confidence": "high",
+   "wording_note": "Fine to say the review 'boosted' or 'made' the business; HistoryLink says it tripled or quadrupled business."
+  },
+  {
+   "claim": "Kasahara's 1976 shop is widely credited as the start of Seattle-style teriyaki: the cheap, fast plate of grilled, sauced chicken with rice and salad that spread to hundreds of shops.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    },
+    {
+     "url": "https://www.seattlemet.com/eat-and-drink/2008/12/1108-feat-restchange",
+     "title": "The Restaurants that Changed the Way We Eat (by Kathryn Robinson)",
+     "publisher": "Seattle Met",
+     "date": "2008-12-17"
+    },
+    {
+     "url": "https://www.toshisgrill.com/seattle-teriyaki",
+     "title": "Seattle Style Teriyaki - Origins, Sauce & Recipes",
+     "publisher": "Toshi's Teriyaki Grill (Kasahara's own business site)",
+     "date": "accessed 2026-10-05"
+    }
+   ],
+   "confidence": "high",
+   "wording_note": "Keep it to 'credited with' / 'traced to' / 'widely regarded as the godfather'. HistoryLink says his arrival 'marked the beginning' of teriyaki as a fast, hot meal and does not use the word 'first'. 'Seattle's first teriyaki shop' is Kasahara's own claim (his site) and Seattle Refined's phrasing; Seattle Weekly calls it the 'ur-teriyaki'. Do not say he invented teriyaki itself (a Japanese technique)."
+  },
+  {
+   "claim": "Kasahara was born in 1949 in Ashikaga, Japan, came to Portland, Oregon, in 1967 to study (Portland State per Seattle Weekly), and moved to Seattle in 1976.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    }
+   ],
+   "confidence": "high",
+   "wording_note": "Birth year from HistoryLink."
+  },
+  {
+   "claim": "He expanded: a second, takeout-only Toshi's opened on a side street in Green Lake in 1980, followed by Ballard, Aurora, Lynnwood, Bellevue, Kirkland and others; he estimated he opened about 30 Toshi's over the years, selling and franchising many.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    },
+    {
+     "url": "https://www.seattlemet.com/eat-and-drink/2008/12/1108-feat-restchange",
+     "title": "The Restaurants that Changed the Way We Eat (by Kathryn Robinson)",
+     "publisher": "Seattle Met",
+     "date": "2008-12-17"
+    }
+   ],
+   "confidence": "medium",
+   "wording_note": "The ~30 figure is Kasahara's own estimate as reported by Seattle Weekly. HistoryLink says he opened, sold and reopened multiple small restaurants. Seattle Met mentions 'expansion and franchising'."
+  },
+  {
+   "claim": "The original Lower Queen Anne store was sold to a former manager; sources we could read do not say what became of it later.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    }
+   ],
+   "confidence": "medium",
+   "wording_note": "Do NOT give a closing year for the Roy Street shop, and do not say it is still open. Search-engine summaries wrongly mixed this up with Yasuko's Teriyaki (see next claim)."
+  },
+  {
+   "claim": "The Green Lake store (Toshi's Two) was bought by former employee Yasuko Conner, who renamed it Yasuko's Teriyaki and later ran several Yasuko's shops.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    }
+   ],
+   "confidence": "medium",
+   "wording_note": "Yasuko's came from the Green Lake store, not the Roy Street original. HistoryLink separately notes a Yasuko's on Broadway closed in 2016 after 20 years; don't tie that to Roy Street."
+  },
+  {
+   "claim": "Kasahara left the teriyaki business around 2003; Seattle Weekly says his last 'official' Toshi's opened in Duvall as the Iraq war began (2003).",
+   "sources": [
+    {
+     "url": "https://www.seattlemet.com/eat-and-drink/2008/12/1108-feat-restchange",
+     "title": "The Restaurants that Changed the Way We Eat (by Kathryn Robinson)",
+     "publisher": "Seattle Met",
+     "date": "2008-12-17"
+    },
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    }
+   ],
+   "confidence": "medium",
+   "wording_note": "Seattle Met: 'got out of the business, in 2003'. Seattle Weekly (2007) says he was then flipping houses."
+  },
+  {
+   "claim": "Kasahara returned with Toshi's Teriyaki Grill in Mill Creek (Snohomish County), opened in 2013, a small takeout-only shop with a short menu of chicken and beef teriyaki plus a few spicy options.",
+   "sources": [
+    {
+     "url": "https://www.toshisgrill.com/location",
+     "title": "Toshi's Teriyaki Grill - Mill Creek location page",
+     "publisher": "Toshi's Teriyaki Grill (Kasahara's own business site)",
+     "date": "accessed 2026-10-05"
+    }
+   ],
+   "confidence": "high",
+   "wording_note": "Opening year 2013 is from his own site. Seattle Refined (2019) says it is the one location owned and operated by Kasahara himself; KUOW (2024) says he still serves teriyaki there."
+  },
+  {
+   "claim": "The Mill Creek shop was operating in 2025-26: HistoryLink (March 2026) runs a photo captioned 'Toshi Kasahara, Toshi's Teriyaki Grill, Mill Creek, November 21, 2025', and Kasahara's site (live 2026-10-05) lists the shop at 16212 Bothell Everett Hwy with Tuesday-Saturday 4-8 pm hours.",
+   "sources": [
+    {
+     "url": "https://www.toshisgrill.com/location",
+     "title": "Toshi's Teriyaki Grill - Mill Creek location page",
+     "publisher": "Toshi's Teriyaki Grill (Kasahara's own business site)",
+     "date": "accessed 2026-10-05"
+    }
+   ],
+   "confidence": "high",
+   "wording_note": "Hours are short and the site showed a temporary closure banner for a July break (year not stated); tell users to check before going. The site's 'Order Online' section says it is under construction."
+  },
+  {
+   "claim": "The brand also runs a 'Toshi's' food truck at San Francisco Bay Area farmers markets (Brentwood, Walnut Creek, San Leandro, Antioch, Pittsburg) and sells bottled teriyaki sauce, per its own site.",
+   "sources": [
+    {
+     "url": "https://www.toshisgrill.com/",
+     "title": "Home of Seattle Style Teriyaki",
+     "publisher": "Toshi's Teriyaki Grill (Kasahara's own business site)",
+     "date": "accessed 2026-10-05"
+    }
+   ],
+   "confidence": "medium",
+   "wording_note": "Own-site claim only; outside Washington. The site doesn't say Kasahara staffs the truck himself."
+  },
+  {
+   "claim": "Many unrelated shops use the Toshi's Teriyaki name. Seattle Met (2008) says imitators kept the Toshi's name after Kasahara left; Seattle Weekly (2007) says a buyer of the Aurora store opened five or six more Toshi's because his contract didn't bar the name; Kasahara's own site has pages for 12 Toshi's locations (Laurelhurst, Westwood Village, Burien, Lynnwood, Renton Highlands, Mercer Island, Kirkland, Kenmore, Issaquah, Edmonds, Factoria, downtown Bellevue) each saying the location is 'no longer affiliated with us'.",
+   "sources": [
+    {
+     "url": "https://www.seattlemet.com/eat-and-drink/2008/12/1108-feat-restchange",
+     "title": "The Restaurants that Changed the Way We Eat (by Kathryn Robinson)",
+     "publisher": "Seattle Met",
+     "date": "2008-12-17"
+    },
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    },
+    {
+     "url": "https://www.toshisgrill.com/toshis-teriyaki-seattle-laurelhurst",
+     "title": "Toshi's Teriyaki Seattle Laurelhurst ('no longer affiliated with us'); same notice on 11 other location pages",
+     "publisher": "Toshi's Teriyaki Grill (Kasahara's own business site)",
+     "date": "accessed 2026-10-05"
+    }
+   ],
+   "confidence": "high",
+   "wording_note": "Seattle Refined (2019) adds that Mill Creek is the only one owned and operated by Kasahara. Never imply a Toshi's is his unless a source says so."
+  },
+  {
+   "claim": "Shop counts: Seattle Weekly (2007) counted more than 100 teriyaki shops inside Seattle city limits and 519 Washington listings with 'teriyaki' in the name (Washington Restaurant Association database). HistoryLink (2026) says Seattle went from more than 80 teriyaki restaurants in 2010 to about 67 in 2025, and that in the late 1990s teriyaki shops outnumbered McDonald's in Seattle.",
+   "sources": [
+    {
+     "url": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+     "title": "How Teriyaki Became Seattle's Own Fast-Food Phenomenon (by Jonathan Kauffman)",
+     "publisher": "Seattle Weekly",
+     "date": "2007-08-14"
+    }
+   ],
+   "confidence": "medium",
+   "wording_note": "Attribute each number to its source and year. HistoryLink's text doesn't name who made the 2010/2025 counts or the McDonald's comparison."
+  },
+  {
+   "claim": "A typical modern Seattle teriyaki plate is sliced, grilled chicken thigh with a sticky-sweet teriyaki sauce and molded white rice, usually with a small salad; Seattle style marinates the meat (soy, sugar, ginger, garlic), grills it, then adds sauce.",
+   "sources": [
+    {
+     "url": "https://www.toshisgrill.com/seattle-teriyaki",
+     "title": "Seattle Style Teriyaki - Origins, Sauce & Recipes",
+     "publisher": "Toshi's Teriyaki Grill (Kasahara's own business site)",
+     "date": "accessed 2026-10-05"
+    }
+   ],
+   "confidence": "medium",
+   "wording_note": "Chicken thigh is from KUOW (2024). The marinade description is from Kasahara's own site. Salad: say 'small salad' or 'cabbage salad', not 'iceberg'."
+  }
+ ],
+ "kasahara_shops": [
+  {
+   "name": "Toshi's Teriyaki (Toshi's Teriyaki Restaurant), the original",
+   "address": "372 Roy St (house number from Seattle Weekly only)",
+   "city": "Seattle (Lower Queen Anne)",
+   "status": "Sold to a former manager (date not stated); later fate not documented in sources read. Not run by Kasahara today.",
+   "status_source": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+   "years": "opened March 2, 1976"
+  },
+  {
+   "name": "Toshi's Teriyaki Two (Green Lake)",
+   "address": "side street in Green Lake (no address in source)",
+   "city": "Seattle",
+   "status": "Bought by former employee Yasuko Conner and renamed Yasuko's Teriyaki.",
+   "status_source": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+   "years": "opened 1980"
+  },
+  {
+   "name": "Other Toshi's he opened (Ballard, Aurora, Lynnwood, Bellevue, Kirkland and more; about 30 by his estimate)",
+   "address": "various",
+   "city": "Seattle area",
+   "status": "Sold or franchised over time. Kasahara's site says 12 named Toshi's locations are 'no longer affiliated'.",
+   "status_source": "https://www.toshisgrill.com/toshis-teriyaki-seattle-laurelhurst",
+   "years": "1980s-2003"
+  },
+  {
+   "name": "Toshi's (Everett)",
+   "address": "not stated",
+   "city": "Everett",
+   "status": "Unknown; HistoryLink mentions an Everett location around 2001 (trademark sample menu).",
+   "status_source": "https://www.historylink.org/File/23482",
+   "years": "c. 2001"
+  },
+  {
+   "name": "Toshi's (Duvall), 'last official Toshi's'",
+   "address": "not stated",
+   "city": "Duvall",
+   "status": "Unknown",
+   "status_source": "https://www.seattleweekly.com/food/how-teriyaki-became-seattles-own-fast-food-phenomenon/",
+   "years": "opened c. 2003"
+  },
+  {
+   "name": "Toshi's Teriyaki Grill",
+   "address": "16212 Bothell Everett Hwy",
+   "city": "Mill Creek",
+   "status": "Open in 2025-26: HistoryLink photo of Kasahara at the shop dated 2025-11-21; own site live 2026-10-05 lists Tue-Sat 4-8 pm, takeout only.",
+   "status_source": "https://www.toshisgrill.com/location ; https://www.historylink.org/File/23482",
+   "years": "opened 2013"
+  },
+  {
+   "name": "Toshi's food truck (Toshi's Teriyaki Grill brand)",
+   "address": "farmers markets (Brentwood, Walnut Creek, San Leandro, Antioch, Pittsburg)",
+   "city": "San Francisco Bay Area, California",
+   "status": "Listed as active on the brand's own site (accessed 2026-10-05); out of state.",
+   "status_source": "https://www.toshisgrill.com/",
+   "years": "not stated"
+  }
+ ],
+ "cautions": [
+  "Many unrelated shops are named Toshi's Teriyaki. Only Toshi's Teriyaki Grill in Mill Creek is documented as Kasahara's own (Seattle Refined 2019; his site). His site says 12 named Toshi's locations are 'no longer affiliated'.",
+  "Toshio's Teriyaki is a different business with a similar name; HistoryLink lists Toshi's and Toshio's separately. Don't link it to Kasahara.",
+  "Don't say the original Roy Street shop 'closed in year X' or is 'still open': the sources we read only say it was sold to a former manager.",
+  "Yasuko's Teriyaki came from the 1980 Green Lake store, not the 1976 Roy Street original; search-engine summaries mixed these up.",
+  "Use 'credited with' / 'traced to' / 'widely regarded' for the origin claim. HistoryLink, the most careful source, doesn't call it the first teriyaki shop; 'first' comes from Kasahara's own site and Seattle Refined.",
+  "Seattle Met (2008) labels the shop '1977-2003', which conflicts with 1976 in HistoryLink, Seattle Weekly and Kasahara's site. Use 1976.",
+  "Shop counts depend on the year and who counted (Seattle Weekly 2007: 100+ in Seattle; HistoryLink: 80+ in 2010, about 67 in 2025). Always give the year and the source.",
+  "'Iceberg salad' wasn't in any source we read; sources say cabbage salad or a small bed of greens with a rice-vinegar and sesame-oil dressing.",
+  "Mill Creek hours are short (Tue-Sat 4-8 pm per its site), and the site showed a July closure banner without a year. Re-check before publishing hours.",
+  "No source states Kasahara's current age or says 'he is alive' in 2026. The latest dated evidence is a HistoryLink photo of him at the shop dated November 21, 2025.",
+  "The Seattle Times 'Seattle restaurant classics' teriyaki piece (seattletimes.com, 403) and the Inlander teriyaki roundup returned 403/429 and were not used."
+ ],
+ "robots_note": "HistoryLink, KUOW and Seattle Refined disallow AI crawlers in robots.txt (checked 2026-10-05); claims resting only on them were removed."
+}

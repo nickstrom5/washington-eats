@@ -1,0 +1,3288 @@
+[
+ {
+  "name": "The Windmill",
+  "address": "1501 N Wenatchee Ave",
+  "city": "Wenatchee",
+  "zip": "98801",
+  "county": "Chelan",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "slow roasted prime rib",
+   "hand-cut steaks",
+   "fresh seafood",
+   "raspberry cream pie"
+  ],
+  "opened": null,
+  "brand_founded": 1931,
+  "chain": false,
+  "kasahara": false,
+  "note": "Do not use thewindmillrestaurant.com. It is hijacked and serves a gambling page. Source says: 'Since its establishment in 1931, The Windmill Restaurant has been a beacon of culinary excellence'. Site gives no owner history and does not say whether it was always at this address.",
+  "display_note": "Wenatchee restaurant established in 1931. The menu includes slow-roasted prime rib, hand-cut steaks, seafood and raspberry cream pie.",
+  "website": "https://www.windmillwenatchee.com",
+  "sources": [
+   {
+    "url": "https://www.windmillwenatchee.com/contact",
+    "what": "Own site: address and hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.windmillwenatchee.com/",
+    "what": "Own site live: hours Mon-Sat 4:30-9pm (closed Sun), menu highlights, footer (c) 2026.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Elbow Room (at Paul's Restaurant)",
+  "address": "1800 Broadway St",
+  "city": "Vancouver",
+  "zip": "98663",
+  "county": "Clark",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2026 Semifinalist - Best New Bar [as 'The Elbow Room']. Address from own site https://www.paulselbowroom.com/ (live; Paul's hours Mon-Tue 7am-2pm, Wed-Sun 7am-9pm; Elbow Room operates daily). It is a bar attached to Paul's Restaurant, not a standalone business.",
+  "display_note": "A bar attached to Paul's Restaurant in Vancouver.",
+  "website": null,
+  "sources": [
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Toby's Tavern",
+  "address": "8 NW Front St",
+  "city": "Coupeville",
+  "zip": "98239",
+  "county": "Island",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "Penn Cove mussels",
+   "fresh local seafood",
+   "steaks",
+   "prime rib",
+   "burgers"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Use the early 1960s, not 1890, as the business date. Source says: 'Originally a mercantile built in approximately 1890 ... has been a Tavern/restaurant since the early sixties.'. Building is about 1890. Tavern/restaurant only since the early 1960s; exact year not given. The back bar came from the Fort Worden officers club by way of Fort Casey and the Central Hotel.",
+  "display_note": "Housed in a former mercantile built around 1890; it has been a tavern and restaurant since the early 1960s. The back bar came from the Fort Worden officers club by way of Fort Casey and the Central Hotel.",
+  "website": "https://www.tobysuds.com",
+  "sources": [
+   {
+    "url": "https://www.tobysuds.com/",
+    "what": "Own site: ~1890 building; tavern since early sixties",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.tobysuds.com/menu",
+    "what": "Own site live: hours (Sun-Thu 11am-8pm, Fri-Sat 11am-9pm); menu folder shows main menu PDF updated May 2025 and wine menu June 2025. Footer still says (c) 2020.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Takai by Kashiba",
+  "address": "180 Bellevue Way NE",
+  "city": "Bellevue",
+  "zip": "98004",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2025 Semifinalist - Best Chef: Northwest & Pacific (Jun Takai). Address from own contact-and-location page; phone 425-502-7259.",
+  "display_note": "Offers lunch boxes and an omakase dinner box.",
+  "website": "https://www.takaibykashiba.com/",
+  "sources": [
+   {
+    "url": "https://www.takaibykashiba.com/",
+    "what": "own site live: 'Now Open Tuesdays', lunch box Tue-Fri, omakase dinner box Tue-Sat; '2025 James Beard Award Nominee - Chef Jun Takai', '2025 Business of the Year - Visit Bellevue', copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'TAKAI BY KASHIBA' last inspected 2025-04-02 (routine inspection; shows the business operates, not its menu)",
+    "date": "2025-04-02"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Cafe Juanita",
+  "address": "9702 NE 120th Pl",
+  "city": "Kirkland",
+  "zip": "98034",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2015 Semifinalist - Outstanding Chef (Holly Smith); 2016 Semifinalist - Outstanding Pastry Chef (Junko Mine); 2016 Semifinalist - Outstanding Service; 2017 Semifinalist - Outstanding Restaurant; 2018 Semifinalist - Outstanding Chef (Holly Smith); 2019 Semifinalist - Outstanding Pastry Chef (Junko Mine); 2019 Semifinalist - Outstanding Restaurant; 2020 Semifinalist - Outstanding Chef (Holly Smith). Own site shows no street address; address from Kirkland Reporter 2017-08-30 (https://www.kirklandreporter.com/2017/08/30/public-health-investigates-foodborne-illness-link-to-cafe-juanita-in-kirkland/). Zip not stated by any source fetched (likely 98034, unconfirmed). Kirkland Reporter 2010-03-19 says Holly Smith opened it April 2000.",
+  "display_note": "Holly Smith opened Cafe Juanita in April 2000. Dinner is served as prix-fixe tasting menus.",
+  "website": "https://www.cafejuanita.com/",
+  "sources": [
+   {
+    "url": "https://www.cafejuanita.com/",
+    "what": "own site live: current hours Tue-Wed 5-9pm, Fri-Sat 5-9:45pm, OpenTable reservations, prix-fixe tasting menus; no closure notice",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'CAFE JUANITA' last inspected 2026-09-04 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-09-04"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Kathakali, An Indian Eatery",
+  "address": "11451 98th Ave NE",
+  "city": "Kirkland",
+  "zip": "98033",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2025 Semifinalist - Best Chef: Northwest & Pacific (Ajay Panicker). No own website found; open status from King County inspection 2026-08-25. Could not confirm. Tried kathakalikirkland.com, kathakalirestaurant.com, kathakalieatery.com and other variants - none resolve. Address and status missing.",
+  "display_note": null,
+  "website": null,
+  "sources": [
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'KATHAKALI' last inspected 2026-08-25 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-08-25"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "5 Point Cafe",
+  "address": "415 Cedar St",
+  "city": "Seattle",
+  "zip": "98121",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": 1929,
+  "chain": false,
+  "kasahara": false,
+  "note": "Belltown diner and bar at the Tilikum Place five-way intersection; own site lists it as open 24 hours. 1929 founding per Wikipedia (citing a 1979 article and a 2009 Seattle Times story on its 80th year); own site gives no year.",
+  "display_note": "Belltown diner and bar at the five-way Tilikum Place intersection. C. Preston Smith opened it in 1929.",
+  "website": "https://www.the5pointcafe.com/",
+  "sources": [
+   {
+    "url": "https://www.the5pointcafe.com/",
+    "what": "own site live: 415 Cedar Street, 'OPEN 24 hours', Sept. 26 (2026) pancake-day event",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/5_Point_Cafe",
+    "what": "secondary: C. Preston Smith opened the cafe in 1929; Seattle Times 2009-12-01 '5 Point Cafe celebrates 80 years with new owners'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'FIVE POINT CAFE' last inspected 2026-06-09 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-06-09"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Alki Spud Fish & Chips",
+  "address": "2666 Alki Ave SW",
+  "city": "Seattle",
+  "zip": "98116",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "fish and chips"
+  ],
+  "opened": null,
+  "brand_founded": 1935,
+  "chain": false,
+  "kasahara": false,
+  "note": "Fish-and-chips counter on Alki Beach. Own site: 'Serving Fish 'n Chips Since 1935'; it began in 'a modest wood-clad garage' on the Alki waterfront (site doesn't say it's the same building). Separate Spud shops in Kirkland (Juanita), Edmonds and Green Lake use the name.",
+  "display_note": "Fish-and-chips counter on Alki Beach, serving since 1935; it began in a wood-clad garage on the Alki waterfront. Spud shops in Kirkland, Edmonds and Green Lake are separate.",
+  "website": "https://www.alkispud.com/",
+  "sources": [
+   {
+    "url": "https://www.alkispud.com/",
+    "what": "own site live: 'Serving Fish 'n Chips Since 1935', 2666 Alki Ave SW, daily 11am-9pm",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'ALKI SPUD FISH & CHIPS' last inspected 2026-05-06 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-05-06"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Altura",
+  "address": "617 Broadway E",
+  "city": "Seattle",
+  "zip": "98102",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2015 Semifinalist - Best Chef: Northwest (Nathan Lockwood); 2016 Semifinalist - Best Chef: Northwest (Nathan Lockwood); 2017 Semifinalist - Best Chef: Northwest (Nathan Lockwood). Sibling Carrello (622 Broadway E) linked from site.",
+  "display_note": "Sibling restaurant Carrello is at 622 Broadway E.",
+  "website": "https://www.alturarestaurant.com/faqs-4",
+  "sources": [
+   {
+    "url": "https://www.alturarestaurant.com/faqs-4",
+    "what": "Own site live: seatings Tue-Thu 6pm, Fri-Sat 5pm & 8:30pm, Sun 5pm; SevenRooms booking link",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Athenian Seafood Restaurant and Bar",
+  "address": "1517 Pike Pl",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "salmon",
+   "halibut",
+   "mussels",
+   "clams",
+   "oysters",
+   "cioppino"
+  ],
+  "opened": null,
+  "brand_founded": 1909,
+  "chain": false,
+  "kasahara": false,
+  "note": "Pike Place Market restaurant. Own site: 'established by three Greek brothers in 1909. Originally a bakery and a luncheonette'; among the first in Seattle with a beer license in 1933. The site does not say it has always been at this exact stall.",
+  "display_note": "Pike Place Market restaurant established in 1909 by three Greek brothers, first as a bakery and luncheonette. In 1933 it was among the first in Seattle to get a beer license.",
+  "website": "https://www.athenianseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.athenianseattle.com/",
+    "what": "own site live: 'ESTABLISHED 1909', address 1517 Pike Place Market, current hours (closed Wednesday), (c) 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'ATHENIAN INN' last inspected 2026-08-06 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-08-06"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Atoma",
+  "address": "1411 N 45th St",
+  "city": "Seattle",
+  "zip": "98103",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2025 Finalist - Best New Restaurant; 2026 Finalist - Best Chef: Northwest & Pacific (Johnny Courtney). Wallingford. Seattle Met Restaurant of the Year 2024.",
+  "display_note": "In Seattle's Wallingford neighborhood.",
+  "website": "https://www.atomaseattle.com/location/atoma/",
+  "sources": [
+   {
+    "url": "https://www.atomaseattle.com/location/atoma/",
+    "what": "own site live with hours (Tue-Sat), OpenTable reservations, Toast gift cards",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/2025-james-beard-awards-restaurant-and-chef-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Bar del Corso",
+  "address": "3057 Beacon Ave S",
+  "city": "Seattle",
+  "zip": "98144",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2022 Semifinalist - Outstanding Hospitality. Beacon Hill.",
+  "display_note": "In Seattle's Beacon Hill neighborhood.",
+  "website": "https://www.bardelcorso.com/",
+  "sources": [
+   {
+    "url": "https://www.bardelcorso.com/",
+    "what": "own site live with hours (Tue-Sat 4-9pm) and Tock reservations; summer-break notice (Sept 6-14, year not shown)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Beast & Cleaver",
+  "address": "2362 NW 80th St",
+  "city": "Seattle",
+  "zip": "98117",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2023 Semifinalist - Emerging Chef (Kevin Smith). RELOCATED: now at 2362 NW 80th St (Ballard/Crown Hill area), not the old 5525 Ballard Ave NW. Sister pub Little Beast is at 5107 Ballard Ave NW.",
+  "display_note": "Butcher shop that also hosts The Peasant dinners. It moved from 5525 Ballard Ave NW to NW 80th St; sister pub Little Beast is at 5107 Ballard Ave NW.",
+  "website": "https://www.beastandcleaver.com/",
+  "sources": [
+   {
+    "url": "https://www.beastandcleaver.com/",
+    "what": "own site live with butcher-shop hours (Tue-Sun), The Peasant dinners, SevenRooms booking; Toast gift-card slug 'beast-cleaver-2362-nw-80th-st'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ben's Bread Co.",
+  "address": "216 N 70th St",
+  "city": "Seattle",
+  "zip": "98103",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2024 Semifinalist - Outstanding Pastry Chef or Baker (Ben Campbell). Official domain is bensbread.com (bensbreadco.com refused connections). Phinney Ridge.",
+  "display_note": "In Seattle's Phinney Ridge neighborhood, with pizza nights on Wednesdays.",
+  "website": "https://bensbread.com/",
+  "sources": [
+   {
+    "url": "https://bensbread.com/",
+    "what": "own site live with hours (daily 8am-3pm, Wed pizza nights) and menu document dated March 25, 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Cafe Suliman",
+  "address": "1531 Melrose Ave",
+  "city": "Seattle",
+  "zip": "98122",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2026 Semifinalist - Emerging Chef (Ahmed Suliman). LOCATION MISMATCH: now inside Melrose Market on Capitol Hill, not Rainier Ave S/Columbia City (Seattle Met 2024-09-05 also places it at Melrose Market). The site shows zip 98122 on the homepage and 98102 on the info page; 98122 used.",
+  "display_note": "Inside Melrose Market on Capitol Hill.",
+  "website": "https://www.cafesuliman.com/info",
+  "sources": [
+   {
+    "url": "https://www.cafesuliman.com/info",
+    "what": "own site live with dinner hours (closed Tue), reservations, inside Melrose Market",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Canlis",
+  "address": "2576 Aurora Ave N",
+  "city": "Seattle",
+  "zip": "98109",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2015 Semifinalist - Outstanding Restaurant; 2016 Finalist - Outstanding Wine Program; 2017 Winner - Outstanding Wine Program; 2017 Finalist - Rising Star Chef of the Year (Brady Williams); 2018 Finalist - Outstanding Restaurant; 2019 Finalist - Outstanding Service; 2019 Winner - Best Chef: Northwest (Brady Williams); 2020 Finalist - Outstanding Hospitality; 2025 Semifinalist - Outstanding Professional in Beverage Service (Linda Milagros Violago); 2025 Semifinalist - Best Chef: Northwest & Pacific (Aisha Ibrahim); 2019 Winner - Design Icon. Opening year (1950) left out: the only source read for it (HistoryLink) disallows AI crawlers.",
+  "display_note": null,
+  "website": "https://canlis.com",
+  "sources": [
+   {
+    "url": "https://canlis.com",
+    "what": "Own site live with active reservation system; cites 2025 Food & Wine ranking; no closure notice",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-winners",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2017-james-beard-award-winners",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Canon",
+  "address": "928 12th Ave",
+  "city": "Seattle",
+  "zip": "98122",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2015 Semifinalist - Outstanding Bar Program; 2016 Semifinalist - Outstanding Bar Program; 2017 Semifinalist - Outstanding Bar Program; 2018 Semifinalist - Outstanding Bar Program. Whiskey bar, Capitol Hill. Apex canonseattle.com has a cert mismatch; www works.",
+  "display_note": "Whiskey bar on Capitol Hill.",
+  "website": "https://www.canonseattle.com",
+  "sources": [
+   {
+    "url": "https://www.canonseattle.com",
+    "what": "Own site live: Wed-Sun 5pm to late, current menus/reservations, references 2026 press; closed only on major holidays",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Cloudburst Brewing",
+  "address": "2116 Western Ave",
+  "city": "Seattle",
+  "zip": "98121",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2020 Semifinalist - Outstanding Wine, Spirits, or Beer Producer (Steve Luke). Two taprooms: Belltown 2116 Western Ave (21+) and Ballard 5456 Shilshole Ave NW, 98107 (all-ages beer garden).",
+  "display_note": "Belltown taproom for ages 21 and over. A second taproom, with an all-ages beer garden, is in Ballard at 5456 Shilshole Ave NW.",
+  "website": "https://www.cloudburstbrew.com/",
+  "sources": [
+   {
+    "url": "https://www.cloudburstbrew.com/",
+    "what": "own site live with hours for both taprooms; fresh-hop release dated 'Wednesday September 23rd' (weekday matches 2026)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Columbia City Bakery",
+  "address": "4865 Rainier Ave S",
+  "city": "Seattle",
+  "zip": "98118",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2015 Semifinalist - Outstanding Baker (Evan Andres); 2016 Semifinalist - Outstanding Baker (Evan Andres); 2017 Semifinalist - Outstanding Baker (Evan Andres); 2018 Semifinalist - Outstanding Baker (Evan Andres). Site is JS-rendered; read from raw page HTML. Street address NOT shown anywhere on own site (template placeholder only). Believed 4865 Rainier Ave S, 98118 - UNVERIFIED, confirm before use. Street address from King County inspection records (own site shows none).",
+  "display_note": null,
+  "website": "https://columbiacitybakery.com/",
+  "sources": [
+   {
+    "url": "https://columbiacitybakery.com/",
+    "what": "Own Square Online site live: banner 'Cafe Now Open Wednesday through Saturday, 8am - 3pm!'; online menu catalog updated 2026-01-15 (incl. Valentine's Day specials), catalog cache version 2026-03-25",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'COLUMBIA CITY BAKERY' last inspected 2026-08-27 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-08-27"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Communion",
+  "address": "2350 E Union St",
+  "city": "Seattle",
+  "zip": "98122",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2022 Semifinalist - Emerging Chef (Kristi Brown); 2024 Finalist - Best Chef: Northwest and Pacific (Kristi Brown). Central District.",
+  "display_note": "In Seattle's Central District.",
+  "website": "https://www.communionseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.communionseattle.com/",
+    "what": "own site live with current hours (Wed-Sun) and OpenTable; mentions chef Kristi Brown's 2026 James Beard Best Chef NW nomination; 'Sunday brunch is back'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Delancey",
+  "address": "1415 NW 70th St",
+  "city": "Seattle",
+  "zip": "98117",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2022 Semifinalist - Best Chef: Northwest and Pacific (Brandon Pettit). Ballard. Mostly walk-in.",
+  "display_note": "Ballard restaurant where seating is mostly walk-in.",
+  "website": "https://www.delanceyseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.delanceyseattle.com/",
+    "what": "own site live with hours (Tue-Sun) and Tock large-party booking; copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Dick's Drive-In (Wallingford)",
+  "address": "111 NE 45th St",
+  "city": "Seattle",
+  "zip": "98105",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "fries",
+   "shakes"
+  ],
+  "opened": 1954,
+  "brand_founded": 1954,
+  "chain": true,
+  "kasahara": false,
+  "note": "The first Dick's Drive-In; its own location page says it 'Opened in 1954'. Burgers, fries and shakes.",
+  "display_note": "The first Dick's Drive-In, opened in 1954. Burgers, fries and shakes.",
+  "website": "https://ddir.com/locations/wallingford/",
+  "sources": [
+   {
+    "url": "https://ddir.com/locations/wallingford/",
+    "what": "own location page live: 111 NE 45th St, open daily 10:30am-2am, 'Opened in 1954'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'DICK'S DRIVE IN' last inspected 2026-09-01 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-09-01"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Emmett Watson's Oyster Bar",
+  "address": "1916 Pike Pl",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "icon",
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": 1978,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 1998 America's Classics - America's Classics. Own site: opened 1978 in Pike Place Market, 'the city's first oyster bar', named for Seattle columnist Emmett Watson. Site does not say whether it has always been at 1916 Pike Pl. Pike Place Market vendor URL guessed for it returned 404. Own site: opened 1978 in Pike Place Market (does not say it was always at this spot).",
+  "display_note": "Oyster bar that opened in Pike Place Market in 1978. It is named for Seattle columnist Emmett Watson.",
+  "website": "https://www.emmettwatsonsoysterbar.com/",
+  "sources": [
+   {
+    "url": "https://www.emmettwatsonsoysterbar.com/",
+    "what": "own site live: hours Mon 11-2, Wed/Thu/Sun 11-7, Fri/Sat 11-8, plus a current notice 'THE WEEKEND CLEANED US OUT! WE ARE CLOSED TODAY TO REGROUP AND PREP FOR THE WEEK.'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'EMMETT WATSON'S OYSTER BAR' last inspected 2026-06-25 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-06-25"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Girin Steakhouse & Ssam Bar",
+  "address": "501 Stadium Pl S",
+  "city": "Seattle",
+  "zip": "98104",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2016 Semifinalist - Best New Restaurant. Own site and Toast page returned 403 (skipped); King County inspected 'GIRIN RESTAURANT' at 501 Stadium Pl S on 2026-09-24. UNKNOWN. Believed 501 Stadium Pl S, 98104 (unverified). Needs a manual check.",
+  "display_note": null,
+  "website": null,
+  "sources": [
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'GIRIN RESTAURANT' last inspected 2026-09-24 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-09-24"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Homer",
+  "address": "3013 Beacon Ave S",
+  "city": "Seattle",
+  "zip": "98144",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2019 Semifinalist - Best Chef: Northwest (Logan Cox); 2020 Semifinalist - Best Chef: Northwest & Pacific (Logan Cox); 2025 Semifinalist - Best Chef: Northwest & Pacific (Logan Cox); 2026 Semifinalist - Best Chef: Northwest & Pacific (Logan Cox). Closed about 2 months in June-July 2025 after a fire (Seattle Met 2025-06-06); reopened Aug 1, 2025 (Seattle Met https://www.seattlemet.com/eat-and-drink/2025/07/seattle-restaurant-openings-homer-gordo).",
+  "display_note": "Reopened on Aug. 1, 2025, after a June 2025 fire closed it for about two months.",
+  "website": "https://www.restauranthomer.com/",
+  "sources": [
+   {
+    "url": "https://www.restauranthomer.com/",
+    "what": "own site live with hours (Tue-Sun 5-10pm) and SevenRooms reservations; Seattle Met 2025-07-25 reported reopening Aug 1, 2025 after a June 2025 fire",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Hood Famous Cafe + Bar",
+  "address": "504 5th Ave S",
+  "city": "Seattle",
+  "zip": "98104",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2020 Semifinalist - Best Chef: Northwest & Pacific (Chera Amlag). Chinatown-International District. Ballard bakeshop facility (2325 1/2 NW Market St) is wholesale only, closed to the public.",
+  "display_note": "Cafe and bar in the Chinatown-International District. The Ballard bakeshop on NW Market St is wholesale only and not open to the public.",
+  "website": "https://www.hoodfamousbakeshop.com/contactus",
+  "sources": [
+   {
+    "url": "https://www.hoodfamousbakeshop.com/contactus",
+    "what": "own site live: Cafe + Bar address with hours (Tue-Fri 8am-4pm, Sat-Sun 9am-4pm, closed Mon), active Toast ordering links; homepage photo dated Feb 12 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Il Nido",
+  "address": "2717 61st Ave SW",
+  "city": "Seattle",
+  "zip": "98116",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2020 Semifinalist - Best New Restaurant. Alki, in the Alki Homestead building.",
+  "display_note": "On Alki, in the Alki Homestead building.",
+  "website": "https://www.ilnidoseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.ilnidoseattle.com/",
+    "what": "own site live with hours (Tue-Sat 4-9pm), Resy booking; notice closed Saturday Sept 19 for private event, reopening Tuesday Sept 22 (weekdays match 2026)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ivar's Acres of Clams",
+  "address": "1001 Alaskan Way, Pier 54",
+  "city": "Seattle",
+  "zip": "98104",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "fish and chips",
+   "clam chowder",
+   "seafood"
+  ],
+  "opened": null,
+  "brand_founded": 1938,
+  "chain": true,
+  "kasahara": false,
+  "note": "Ivar's flagship on Pier 54; own site: 'On Pier 54 of Seattle's historic waterfront, where it all began in 1938' (Ivar Haglund's start). The site does not give the year the Acres of Clams restaurant itself opened; remodeled 2015.",
+  "display_note": "Ivar's flagship on Pier 54, where Ivar Haglund started the business in 1938. This restaurant was remodeled in 2015.",
+  "website": "https://www.ivars.com/acres",
+  "sources": [
+   {
+    "url": "https://www.ivars.com/acres",
+    "what": "own page live: 1001 Alaskan Way, Pier 54; Sun-Thu 11am-8pm, Fri-Sat 11am-9pm",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.ivars.com/locations",
+    "what": "own site: 'On Pier 54 ... where it all began in 1938'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'IVAR'S ACRES OF CLAMS' last inspected 2026-06-10 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-06-10"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Joule",
+  "address": "3506 Stone Way N",
+  "city": "Seattle",
+  "zip": "98103",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2015 Finalist - Best Chef: Northwest (Rachel Yang and Seif Chirchi); 2016 Finalist - Best Chef: Northwest (Rachel Yang and Seif Chirchi); 2017 Finalist - Best Chef: Northwest (Rachel Yang and Seif Chirchi); 2018 Finalist - Best Chef: Northwest (Rachel Yang and Seif Chirchi); 2019 Finalist - Best Chef: Northwest (Rachel Yang and Seif Chirchi); 2020 Finalist - Best Chef: Northwest & Pacific (Rachel Yang and Seif Chirchi); 2022 Finalist - Outstanding Chef (Rachel Yang and Seif Chirchi). Same building as the now-closed Whale Wins.",
+  "display_note": "From Relay Restaurant Group. It is in the same building as the now-closed Whale Wins.",
+  "website": "http://www.relayrestaurantgroup.com/restaurants/joule/",
+  "sources": [
+   {
+    "url": "http://www.relayrestaurantgroup.com/restaurants/joule/",
+    "what": "Owner Relay Restaurant Group site (joulerestaurant.com 301-redirects here): 'Open for dinner 7 days', Sun-Thu 5-9pm, Fri-Sat 5-10pm; site copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-restaurant-and-chef-awards-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Jules Maes Saloon",
+  "address": "5919 Airport Way S",
+  "city": "Seattle",
+  "zip": "98108",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": 1888,
+  "chain": false,
+  "kasahara": false,
+  "note": "Georgetown bar; its own site calls it 'the oldest bar in Seattle' but gives no year. Per Wikipedia (citing Eater Seattle, Seattle Times, The Stranger) the bar opened in 1888 under a different name at 5953 Airport Way S and was later moved by Jules Maes to the 5919 building (The Brick Store). Closed during the pandemic; reopened January 2021 under new owner.",
+  "display_note": "Georgetown bar that opened in 1888 under another name at 5953 Airport Way S. Jules Maes later moved it into this building, The Brick Store; it reopened under a new owner in January 2021.",
+  "website": "https://www.julesmaessaloon.com/",
+  "sources": [
+   {
+    "url": "https://www.julesmaessaloon.com/location/jules-maes-saloon/",
+    "what": "own site live: 5919 Airport Way South, hours Mon-Wed 3pm-midnight, Thu-Sun 3pm-2am; online ordering link",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.julesmaessaloon.com/about",
+    "what": "own site: 'Jules Maes is the oldest bar in Seattle'; current owner since 2020",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Jules_Maes_Saloon",
+    "what": "secondary: 'first opened in a building at 5953 Airport Way South' in 1888 'under a different name'; later moved to the 5919 building",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'Jules Maes Saloon' last inspected 2026-08-05 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-08-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Kamonegi",
+  "address": "1054 N 39th St",
+  "city": "Seattle",
+  "zip": "98103",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2018 Semifinalist - Best Chef: Northwest (Mutsuko Soma); 2019 Semifinalist - Best Chef: Northwest (Mutsuko Soma); 2020 Semifinalist - Best Chef: Northwest & Pacific (Mutsuko Soma); 2022 Finalist - Best Chef: Northwest and Pacific (Mutsuko Soma); 2023 Semifinalist - Best Chef: Northwest and Pacific (Mutsuko Soma). Fremont.",
+  "display_note": "In Seattle's Fremont neighborhood.",
+  "website": "https://www.kamonegiseattle.com/hours-and-location",
+  "sources": [
+   {
+    "url": "https://www.kamonegiseattle.com/hours-and-location",
+    "what": "Own site live: Tue-Sat 4:00pm-9:30pm last seating; no closure notice",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-restaurant-and-chef-awards-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "L'Oursin",
+  "address": "1315 E Jefferson St",
+  "city": "Seattle",
+  "zip": "98122",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2019 Semifinalist - Outstanding Wine Program; 2020 Semifinalist - Outstanding Wine Program. Central District, between 13th and 14th Aves.",
+  "display_note": "In the Central District, on E Jefferson St between 13th and 14th Avenues.",
+  "website": "https://www.loursinseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.loursinseattle.com/",
+    "what": "own site live with current hours (Sun-Thu 5-9pm, Fri-Sat 5-9:30pm), Resy reservations; page timestamp Aug 8, 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Lark",
+  "address": "952 E Seneca St",
+  "city": "Seattle",
+  "zip": "98122",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2016 Semifinalist - Outstanding Restaurant; 2023 Semifinalist - Outstanding Hospitality. Capitol Hill.",
+  "display_note": "In Seattle's Capitol Hill neighborhood.",
+  "website": "https://www.larkseattle.com",
+  "sources": [
+   {
+    "url": "https://www.larkseattle.com",
+    "what": "Own site live: 5-9pm Mon-Sat; no closure notice",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2016-jbf-restaurant-and-chef-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Le Caviste",
+  "address": "1919 7th Ave",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2026 Semifinalist - Outstanding Wine and Other Beverages Program. Own site lecavisteseattle.com has an expired TLS certificate; open status from King County inspection 2026-06-10. Could not confirm. Its site lecavisteseattle.com has an EXPIRED TLS certificate and shows only a title/keyword shell with no hours or dates. lecaviste.com is a for-sale domain. Not mentioned in Seattle Met's 2024 or 2025 closures roundups. Unverified candidate address from Overture: 1919 7th Ave, 98101. Needs a dated news story or a working official page.",
+  "display_note": null,
+  "website": null,
+  "sources": [
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'LE CAVISTE' last inspected 2026-06-10 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-06-10"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Lil Red's Takeout and Catering",
+  "address": "4225 Rainier Ave S",
+  "city": "Seattle",
+  "zip": "98118",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2022 Semifinalist - Best Chef: Northwest and Pacific (Erasto Jackson). No own website found; open status from King County inspection 2026-07-02. Could not confirm. No official site found: lilredstakeout.com, lilredstakeoutandcatering.com, lilredsseattle.com and lilredtakeout.com do not resolve. The ordering short link in its Overture listing (rebrand.ly/orderlilreds) returned 403, so it was skipped. Unverified candidate address from Overture: 4225 Rainier Ave S, 98118 (Columbia City).",
+  "display_note": null,
+  "website": null,
+  "sources": [
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'LIL RED'S TAKEOUT & CATERING' last inspected 2026-07-02 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-07-02"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Little Beast Ballard",
+  "address": "5107 Ballard Ave NW",
+  "city": "Seattle",
+  "zip": "98107",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2026 Semifinalist - Best New Restaurant. English pub from Beast & Cleaver; soft-opened around July 2025 (Seattle Met 2025-06-27).",
+  "display_note": "English pub from Beast & Cleaver. It soft-opened around July 2025.",
+  "website": null,
+  "sources": [
+   {
+    "url": "https://beastandcleaver.com/the-little-beast/",
+    "what": "Beast & Cleaver site live with Little Beast hours (Thu-Sat 4-9pm, Sun 11am-3:30pm) and reservations; Seattle Met named it Restaurant of the Year 2025 (Oct 2025)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Lowell's",
+  "address": "1519 Pike Pl",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "seafood",
+   "breakfast",
+   "Dungeness crab omelet",
+   "sandwiches"
+  ],
+  "opened": null,
+  "brand_founded": 1957,
+  "chain": false,
+  "kasahara": false,
+  "note": "Three-floor Pike Place Market restaurant; own site: 'A Seattle Original Since 1957'.",
+  "display_note": "Pike Place Market restaurant on three floors, in business since 1957. The menu includes breakfast, seafood, sandwiches and a Dungeness crab omelet.",
+  "website": "https://www.eatatlowells.com/",
+  "sources": [
+   {
+    "url": "https://www.eatatlowells.com/",
+    "what": "own site live: 'A Seattle Original Since 1957', (c) 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'LOWELL'S' last inspected 2026-08-26 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-08-26"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ltd Edition Sushi",
+  "address": "1641 Nagle Pl, Suite 006",
+  "city": "Seattle",
+  "zip": "98122",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2025 Semifinalist - Outstanding Wine and Other Beverages Program. Capitol Hill. Omakase only.",
+  "display_note": "Capitol Hill sushi restaurant serving omakase only.",
+  "website": "https://www.ltdeditionsushi.com/",
+  "sources": [
+   {
+    "url": "https://www.ltdeditionsushi.com/",
+    "what": "own site live with hours (Mon-Fri 5-9:30pm) and Tock booking",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Maneki",
+  "address": "304 6th Ave S",
+  "city": "Seattle",
+  "zip": "98104",
+  "county": "King",
+  "kinds": [
+   "oldest",
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": 1904,
+  "chain": false,
+  "kasahara": false,
+  "note": "Japanese restaurant in the Chinatown-International District. Opened 1904 in a castle-style building at 6th Ave and Washington St in Japantown; after WWII incarceration it reopened a block south at 6th and Main (current site). James Beard America's Classics honoree (2008). manekirestaurant.com showed a parked 'This domain is coming soon' page on 2026-10-05. James Beard Foundation: 2008 America's Classics - America's Classics (Jean Nakayama (owner)).",
+  "display_note": "Japanese restaurant founded in 1904 (some accounts say 1911) in a castle-style building at 6th and Washington in Japantown. After World War II incarceration, it reopened a block south at 6th and Main.",
+  "website": "https://manekiseattle.com/",
+  "sources": [
+   {
+    "url": "https://revisitwa.org/waypoint/maneki/",
+    "what": "Washington Trust for Historic Preservation: 'Opened in 1904' at 6th Avenue and Washington Street; reopened 'just a block south at 6th and Main' after WWII; America's Classics 2008",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://archive.jamesbeard.org/blog/americas-classics-maneki",
+    "what": "JBF archive post naming Maneki an America's Classic: 'Some believe it was founded in 1904. Others claim a date of 1911'",
+    "date": "2010-02-17"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'MANEKI RESTAURANT' last inspected 2026-05-26 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-05-26"
+   },
+   {
+    "url": "https://manekiseattle.com/",
+    "what": "live site (WordPress) with text-message reservations, gift certificates and a GoFundMe link; no address or hours shown",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "http://manekirestaurant.com/",
+    "what": "old domain shows a parked 'manekirestaurant.com - Coming Soon' page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "MariPili Tapas Bar",
+  "address": "1117 12th Ave",
+  "city": "Seattle",
+  "zip": "98122",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2024 Semifinalist - Best Chef: Northwest and Pacific (Grayson Corrales). Capitol Hill. Also runs MariPili at Cafe Frieda in the Frye Art Museum (704 Terry Ave).",
+  "display_note": "Capitol Hill tapas bar. It also runs MariPili at Cafe Frieda inside the Frye Art Museum, 704 Terry Ave.",
+  "website": "https://www.maripili-tapas-bar.com/",
+  "sources": [
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Mecca Cafe",
+  "address": "526 Queen Anne Ave N",
+  "city": "Seattle",
+  "zip": "98109",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "breakfast",
+   "burgers",
+   "sandwiches",
+   "fried chicken",
+   "pancakes"
+  ],
+  "opened": null,
+  "brand_founded": 1930,
+  "chain": false,
+  "kasahara": false,
+  "note": "Lower Queen Anne diner and bar, open 6am-2am. Founding year 1930 per Wikipedia (citing Eater Seattle 2019; C. Preston and Frances Smith opened it; family-owned until 2001). Own site gives no year; sources don't confirm it has always been at this address.",
+  "display_note": "Lower Queen Anne diner and bar opened in 1930 by C. Preston and Frances Smith. Their family owned it until 2001.",
+  "website": "https://www.mecca-cafe.com/",
+  "sources": [
+   {
+    "url": "https://www.mecca-cafe.com/",
+    "what": "own site live: 'OPEN 6AM - 2AM DAILY', menu of American comfort food, Sept. 26 (2026) pancake-day event",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Mecca_Cafe",
+    "what": "secondary: 'C. Preston and Frances Smith opened the restaurant in 1930'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'MECCA CAFE' last inspected 2026-04-07 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-04-07"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Mike's Chili Parlor",
+  "address": "1447 NW Ballard Way",
+  "city": "Seattle",
+  "zip": "98107",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "chili"
+  ],
+  "opened": 1939,
+  "brand_founded": 1922,
+  "chain": false,
+  "kasahara": false,
+  "note": "Ballard chili parlor run by the founding Greek family's fourth generation. My Ballard (2022): 'opened as a small chili cart back in 1922' and 'moved to its current location in 1939'.",
+  "display_note": "Started as a small chili cart in 1922 and moved to this Ballard location in 1939. The founding Greek family's fourth generation runs it.",
+  "website": null,
+  "sources": [
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'MIKES CHILI PARLOR' last inspected 2026-02-10 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-02-10"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Musang",
+  "address": "2524 Beacon Ave S",
+  "city": "Seattle",
+  "zip": "98144",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2022 Semifinalist - Best Chef: Northwest and Pacific (Melissa Miranda); 2023 Semifinalist - Best Chef: Northwest and Pacific (Melissa Miranda); 2024 Finalist - Best Chef: Northwest and Pacific (Melissa Miranda); 2026 Semifinalist - Best Chef: Northwest & Pacific (Melissa Miranda). Beacon Hill.",
+  "display_note": "In Seattle's Beacon Hill neighborhood.",
+  "website": "https://www.musangseattle.com/info-hours",
+  "sources": [
+   {
+    "url": "https://www.musangseattle.com/info-hours",
+    "what": "own site live with hours (dinner Wed-Mon 5-10pm, closed Tue) and OpenTable reservations",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Off Alley",
+  "address": "4903 1/2 Rainier Ave S",
+  "city": "Seattle",
+  "zip": "98118",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2024 Semifinalist - Best Chef: Northwest and Pacific (Evan Leichtling). Columbia City. Closed Tue-Wed.",
+  "display_note": "In Seattle's Columbia City neighborhood.",
+  "website": "https://www.offalleyseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.offalleyseattle.com/",
+    "what": "own site live with hours and SevenRooms reservations; links a New York Times review dated 2026-04-07",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Oriental Mart",
+  "address": "1506 Pike Pl",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "icon",
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": 1971,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2020 America's Classics - America's Classics (Mila Apostol and Joy Apostol (owners)). SOURCE CAVEAT: this is the Market's official (PDA) vendor page, not the business's own site or a news story - caller may treat as null under strict rules. No own website found (orientalmart.com refused connection; orientalmartseattle.com does not resolve). Market page: 'a mainstay of the Market since the 1970s', three-generation family-owned; Instagram handle @omart1973 hints at 1973 but no source states the year. No source says whether it has always been at 1506 Pike Pl. JBF 2020 America's Classics page: Mila Apostol opened it in 1971 in Pike Place Market.",
+  "display_note": "Filipino lunch counter with 18 seats in Pike Place Market. Mila Apostol opened it in 1971, and it has been family-owned for three generations.",
+  "website": null,
+  "sources": [
+   {
+    "url": "https://www.pikeplacemarket.org/vendor/oriental-mart",
+    "what": "Pike Place Market official vendor directory: current vendor, hours 11am-3pm daily, 18-seat Filipino lunch counter",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'ORIENTAL MARKET (1506 Pike Pl)' last inspected 2026-06-11 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-06-11"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/announcing-the-2020-americas-classics-winners",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pancita",
+  "address": "5501 30th Ave NE",
+  "city": "Seattle",
+  "zip": "98105",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2024 Finalist - Emerging Chef (Janet Becerra); 2025 Semifinalist - Best Chef: Northwest & Pacific (Janet Becerra); 2026 Semifinalist - Best Chef: Northwest & Pacific (Janet Becerra). LOCATION MISMATCH: Pancita is in Ravenna (the former Pair space, 5501 30th Ave NE), not White Center. Seattle Met (2023-11-29) gives this address. Remove it from White Center.",
+  "display_note": "In Ravenna, in the former Pair space.",
+  "website": "https://www.pancitaseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.pancitaseattle.com/",
+    "what": "own site live with hours (Tue-Sat), reservations, dinner and drink menus dated September 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Bac Sup Shop",
+  "address": "1240 S Jackson St",
+  "city": "Seattle",
+  "zip": "98144",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2023 Finalist - Outstanding Restaurateur (Yenvy and Quynh Pham); 2024 Finalist - Outstanding Restaurateur (Quynh-Vy and Yenvy Pham); 2025 Semifinalist - Outstanding Restaurateur (Quynh Pham and Yenvy Pham). Little Saigon. The family also runs Pho Bac Downtown (1923 7th Ave) and Pho Bac Rainier Valley (3300 Rainier Ave S).",
+  "display_note": "In Little Saigon. The same family runs Pho Bac Downtown at 1923 7th Ave and Pho Bac Rainier Valley at 3300 Rainier Ave S.",
+  "website": null,
+  "sources": [
+   {
+    "url": "https://www.thephobac.com/",
+    "what": "Pho Bac group site live listing Sup Shop address, hours (10am-9pm) and active Clover online ordering",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ramie",
+  "address": "1529 14th Ave",
+  "city": "Seattle",
+  "zip": "98122",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2026 Semifinalist - Best Chef: Northwest & Pacific (Thai Nguyen and Trinh Nguyen). Capitol Hill. Opened May 2024.",
+  "display_note": "Capitol Hill restaurant that opened in May 2024.",
+  "website": "https://www.ramieseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.ramieseattle.com/",
+    "what": "own site live with hours (Wed-Sun, happy hour 5-8pm, dinner 5-10pm) and OpenTable",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ray's Boathouse",
+  "address": "6049 Seaview Ave NW",
+  "city": "Seattle",
+  "zip": "98107",
+  "county": "King",
+  "kinds": [
+   "oldest",
+   "icon"
+  ],
+  "open": true,
+  "dishes": [
+   "seafood"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Shilshole waterfront seafood restaurant and upstairs cafe. Own history: Ray Lichtenberger moved his boat rental and bait house to this site in 1939 and opened a coffee house in 1945; new owners made it a seafood restaurant in 1973; rebuilt after fires in 1987 (reopened April 1988) and 1997 (reopened July 1997). James Beard America's Classics 2002 (year per Seattle Met; not confirmed on a jamesbeard.org page). James Beard Foundation: 2002 America's Classics - America's Classics.",
+  "display_note": "Ray Lichtenberger moved his boat rental and bait house to this Shilshole site in 1939 and opened a coffee house in 1945. New owners made it a seafood restaurant in 1973; it was rebuilt after fires in 1987 and 1997.",
+  "website": "https://www.rays.com/",
+  "sources": [
+   {
+    "url": "https://www.rays.com/about",
+    "what": "own site history and hours: 6049 Seaview Avenue NW; Boathouse daily 5-9pm, Cafe daily 11:30am-9pm",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'RAY'S BOAT HOUSE RESTAURANT' last inspected 2026-03-13 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-03-13"
+   },
+   {
+    "url": "https://www.seattlemet.com/eat-and-drink/seattle-s-james-beard-winning-restaurants",
+    "what": "Seattle Met list (dated 2026-08-24): Ray's Boathouse and Cafe, America's Classic, 2002",
+    "date": "2026-08-24"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Rob Roy",
+  "address": "2332 2nd Ave",
+  "city": "Seattle",
+  "zip": "98121",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2023 Finalist - Outstanding Bar; 2025 Semifinalist - Outstanding Professional in Cocktail Service (Anu Apte); 2026 Semifinalist - Outstanding Professional in Cocktail Service (Anu Apte). Belltown. The site does not print a zip (2nd Ave in Belltown is normally 98121). No regular hours on the homepage.",
+  "display_note": "In Seattle's Belltown neighborhood.",
+  "website": "https://www.robroyseattle.com/event-calendar",
+  "sources": [
+   {
+    "url": "https://www.robroyseattle.com/event-calendar",
+    "what": "own site event calendar with 2026 events: Rob Roy XVII Anniversary Aug 17-18, 2026; Black Lagoon Oct 1 - Nov 7, 2026 (4pm-midnight)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "RockCreek",
+  "address": "4300 Fremont Ave N",
+  "city": "Seattle",
+  "zip": "98103",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2015 Semifinalist - Best Chef: Northwest (Eric Donnelly); 2016 Semifinalist - Best Chef: Northwest (Eric Donnelly); 2017 Semifinalist - Best Chef: Northwest (Eric Donnelly); 2018 Semifinalist - Best Chef: Northwest (Eric Donnelly); 2019 Semifinalist - Best Chef: Northwest (Eric Donnelly). Now branded 'RockCreek Seafood & Spirits'. Zip not shown on site. Second location in Kirkland (89 Kirkland Ave, opened 2024). Hours not on homepage.",
+  "display_note": "Now called RockCreek Seafood & Spirits. A second location opened at 89 Kirkland Ave in Kirkland in 2024.",
+  "website": "https://rockcreekseafood.com/",
+  "sources": [
+   {
+    "url": "https://rockcreekseafood.com/",
+    "what": "Own site live (rockcreekseattle.com 301-redirects here): Seattle and Kirkland locations listed, no closure notice, current operational-fee notice",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Roquette",
+  "address": "2232 1st Ave",
+  "city": "Seattle",
+  "zip": "98121",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2025 Semifinalist - Outstanding Bar; 2026 Semifinalist - Outstanding Bar. Official domain is roquettesea.com (roquetteseattle.com does not resolve). Belltown.",
+  "display_note": "In Seattle's Belltown neighborhood.",
+  "website": "https://roquettesea.com/",
+  "sources": [
+   {
+    "url": "https://roquettesea.com/",
+    "what": "own site live with hours (Wed-Sat 5pm-2am, Sun-Tue 5pm-1am)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Rupee Bar",
+  "address": "6307 24th Ave NW",
+  "city": "Seattle",
+  "zip": "98107",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2020 Semifinalist - Rising Star Chef of the Year (Liz Kenyon); 2022 Semifinalist - Best Chef: Northwest and Pacific (Liz Kenyon); 2020 Winner - Outstanding Restaurant Design, 75 Seats and Under (Heliotrope Architects (designer)). Walk-ins only, 21+.",
+  "display_note": "Walk-ins only, ages 21 and over.",
+  "website": "https://www.rupeebar.com/",
+  "sources": [
+   {
+    "url": "https://www.rupeebar.com/",
+    "what": "own site live with current hours (Mon-Thu 4-9pm, Fri-Sat 4-10pm) and happy hour; no dated content",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2020-james-beard-award-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Saint Bread",
+  "address": "1421 NE Boat St",
+  "city": "Seattle",
+  "zip": "98105",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2025 Semifinalist - Outstanding Bakery. Portage Bay/University District waterfront.",
+  "display_note": "On the Portage Bay waterfront, by the University District.",
+  "website": "https://www.saintbread.com/",
+  "sources": [
+   {
+    "url": "https://www.saintbread.com/",
+    "what": "own site live with daily hours and Toast ordering; Seattle Met 2026-03-30 describes Saint Bread as open (NYT best bakeries, JBF longlist)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Sea Wolf Bakers",
+  "address": "3617 Stone Way N, Ste 101",
+  "city": "Seattle",
+  "zip": "98103",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2019 Semifinalist - Outstanding Baker (Kit Schumann and Jesse Schumann). Fremont/Wallingford.",
+  "display_note": "Bakery in the Fremont and Wallingford area.",
+  "website": "https://www.seawolfbakers.com",
+  "sources": [
+   {
+    "url": "https://www.seawolfbakers.com",
+    "what": "Own site live: open daily 7am-6pm, pre-order system active",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Spinasse",
+  "address": "1531 14th Ave",
+  "city": "Seattle",
+  "zip": "98122",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2015 Semifinalist - Best Chef: Northwest (Jason Stratton). Capitol Hill. Note www.spinasse.com has an expired TLS cert; apex domain works.",
+  "display_note": "In Seattle's Capitol Hill neighborhood.",
+  "website": "https://spinasse.com",
+  "sources": [
+   {
+    "url": "https://spinasse.com",
+    "what": "Own site live: open Sun-Thu 5-10pm, Fri-Sat 5-11pm; no closure notice",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2015-restaurant-and-chef-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Surrell",
+  "address": "2319 E Madison St",
+  "city": "Seattle",
+  "zip": "98112",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2026 Finalist - Best Chef: Northwest & Pacific (Aaron Tekulve). Madison Valley.",
+  "display_note": "Tasting-menu restaurant in Madison Valley.",
+  "website": "https://www.surrellseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.surrellseattle.com/",
+    "what": "own site live with Wed-Sat tasting-menu schedule, Tock booking; mentions 2026 James Beard Best Chef Northwest & Pacific finalist",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-awards-restaurant-and-chef-nominees-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Sushi Kappo Tamura",
+  "address": "2968 Eastlake Ave E",
+  "city": "Seattle",
+  "zip": "98102",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2018 Semifinalist - Best Chef: Northwest (Taichi Kitamura); 2019 Semifinalist - Best Chef: Northwest (Taichi Kitamura). Eastlake.",
+  "display_note": "Sushi restaurant in Seattle's Eastlake neighborhood.",
+  "website": "https://www.sushikappotamura.com/locations",
+  "sources": [
+   {
+    "url": "https://www.sushikappotamura.com/locations",
+    "what": "Own site live: Tue-Thu dinner 5-9:30pm, Fri-Sat 5-10pm, lunch Tue-Sat 11:30am-2pm; closed Sun-Mon",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Sushi Kashiba",
+  "address": "86 Pine St, Suite 1",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2019 Semifinalist - Outstanding Chef (Shiro Kashiba). Pike Place Market.",
+  "display_note": "Sushi restaurant in Pike Place Market.",
+  "website": "https://sushikashiba.com/reservations",
+  "sources": [
+   {
+    "url": "https://sushikashiba.com/reservations",
+    "what": "Own site live: 'Open Wednesday - Monday beginning at 5:00 PM', seatings 5/7/9pm; surcharge policy update",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Tai Tung",
+  "address": "655 S King St",
+  "city": "Seattle",
+  "zip": "98104",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "Chinese dishes"
+  ],
+  "opened": null,
+  "brand_founded": 1935,
+  "chain": false,
+  "kasahara": false,
+  "note": "Chinatown-International District Chinese restaurant; own site: 'Established in 1935 by Grandpa Quan' and still family-run; calls itself Seattle's oldest Chinese restaurant (own claim). The site does not say whether it has always been at this address.",
+  "display_note": "Chinese restaurant in the Chinatown-International District, established in 1935 by Grandpa Quan. It is still family-run.",
+  "website": "https://www.taitungrestaurant.com/",
+  "sources": [
+   {
+    "url": "https://www.taitungrestaurant.com/",
+    "what": "own site live: 'Established in 1935', 655 South King Street, open daily 11am-7:30pm",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'TAI TUNG RESTAURANT' last inspected 2026-09-15 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-09-15"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Temple Pastries",
+  "address": "2524 S Jackson St",
+  "city": "Seattle",
+  "zip": "98144",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2026 Semifinalist - Outstanding Pastry Chef or Baker (Christina Wood). Central District. Sister evening pizzeria Sacro Bosco shares the space (Seattle Met 2025-08-20).",
+  "display_note": "Central District bakery. Its sister pizzeria, Sacro Bosco, uses the same space in the evening.",
+  "website": "https://orders.templepastries.com/",
+  "sources": [
+   {
+    "url": "https://orders.templepastries.com/",
+    "what": "own site live (open 7 days 7am-3pm) with active pre-order system; Seattle Met 2025-08-20 places it at 2524 S Jackson St",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Boat",
+  "address": "1314 S Jackson St",
+  "city": "Seattle",
+  "zip": "98144",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2023 Finalist - Outstanding Restaurateur (Yenvy and Quynh Pham); 2024 Finalist - Outstanding Restaurateur (Quynh-Vy and Yenvy Pham); 2025 Semifinalist - Outstanding Restaurateur (Quynh Pham and Yenvy Pham). Concept changed: the original boat-shaped Pho Bac building now runs as 'The Boat: Chicken Rice Shop' (Seattle Met covered the change in 2023). Only open Thu-Sat.",
+  "display_note": "The original boat-shaped Pho Bac building, now run as The Boat: Chicken Rice Shop.",
+  "website": null,
+  "sources": [
+   {
+    "url": "https://www.thephobac.com/",
+    "what": "Pho Bac group site live listing 'The Boat: Chicken Rice Shop' with address, hours (Thu-Sat 11am-9pm; closed Sun-Wed) and Clover ordering",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Flour Box",
+  "address": "5520 Rainier Ave S",
+  "city": "Seattle",
+  "zip": "98118",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2022 Semifinalist - Outstanding Baker (Pamela Vuong). Official domain is theflourboxseattle.com (theflourbox.com did not respond). Hillman City.",
+  "display_note": "In Seattle's Hillman City neighborhood.",
+  "website": "https://www.theflourboxseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.theflourboxseattle.com/",
+    "what": "own site live with hours (Thu-Sun 10am-12:30pm, open until sellout); Seattle Met 2025-06-06 reported a temporary break with reopening June 26, 2025",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Walrus and the Carpenter",
+  "address": "4743 Ballard Ave NW",
+  "city": "Seattle",
+  "zip": "98107",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2022 Finalist - Outstanding Restaurant; 2023 Semifinalist - Outstanding Chef (Renee Erickson); 2024 Semifinalist - Outstanding Restaurant. Walk-in only (first come, first served). WebFetch output was truncated, so this was read from the raw HTML of the same page.",
+  "display_note": "Walk-in only, first come, first served.",
+  "website": "https://thewalrusbar.com/",
+  "sources": [
+   {
+    "url": "https://thewalrusbar.com/",
+    "what": "own site live with hours (Sun-Thu 4-9pm, Fri-Sat 4-10pm), $3 oyster happy hour, 'We are open for indoor and outdoor patio dining'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-restaurant-and-chef-awards-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Wayland Mill",
+  "address": "3800 Latona Ave NE, Ste 112",
+  "city": "Seattle",
+  "zip": "98105",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2026 Semifinalist - Best New Restaurant. NEIGHBORHOOD MISMATCH: it is on North Lake Union/Wallingford (Northlake Commons, 3800 Latona Ave NE), not Fremont. Opened May 2025.",
+  "display_note": "In Northlake Commons, in the North Lake Union and Wallingford area. Opened in May 2025.",
+  "website": "https://www.thewaylandmill.com/",
+  "sources": [
+   {
+    "url": "https://www.thewaylandmill.com/",
+    "what": "own site live with hours (daily 8am; to 3pm Sun-Tue, to 9pm Wed-Sat) and Toast ordering; Seattle Met 2026-03-30: James Beard Best New Restaurant nominee",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/james-beard-award-semifinalists-2026",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Tomo",
+  "address": "9811 16th Ave SW",
+  "city": "Seattle",
+  "zip": "98106",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2022 Semifinalist - Outstanding Wine Program. White Center, next to Taboo Video.",
+  "display_note": "In White Center, next to Taboo Video.",
+  "website": "https://www.tomoseattle.com/contact",
+  "sources": [
+   {
+    "url": "https://www.tomoseattle.com/contact",
+    "what": "own site live: contact page with address and hours (Wed-Sun from 5pm); homepage notice 'closed Wednesday, September 23 - Wednesday, September 30 for private events, see you Thursday, October 1' (weekdays match 2026)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Virginia Inn",
+  "address": "1937 1st Ave",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "fish and chips",
+   "pub fare"
+  ],
+  "opened": null,
+  "brand_founded": 1903,
+  "chain": false,
+  "kasahara": false,
+  "note": "Bar and restaurant at the northeast corner of Pike Place Market. Own site: 'It first opened in 1903, predating the Market itself'; it does not say whether that was in this building.",
+  "display_note": "Bar and restaurant at the northeast corner of Pike Place Market. It first opened in 1903, before the Market itself opened.",
+  "website": "https://www.virginiainnseattle.com/",
+  "sources": [
+   {
+    "url": "https://www.virginiainnseattle.com/",
+    "what": "own site live: 'first opened in 1903', 1937 1st Ave, daily hours and weekend brunch",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'VIRGINIA INN' last inspected 2026-06-08 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-06-08"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Wataru",
+  "address": "2400 NE 65th St",
+  "city": "Seattle",
+  "zip": "98115",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2017 Semifinalist - Best Chef: Northwest (Kotaro Kumita). Ravenna.",
+  "display_note": "In Seattle's Ravenna neighborhood.",
+  "website": "https://www.wataruseattle.com",
+  "sources": [
+   {
+    "url": "https://www.wataruseattle.com",
+    "what": "Own site live: seatings Wed-Thu 7:30pm, Fri-Sun 4:30 & 7:30pm, closed Mon-Tue; takeout Thu 5-7pm; reservations open monthly",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'WATARU' last inspected 2025-09-25 (routine inspection; shows the business operates, not its menu)",
+    "date": "2025-09-25"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Wild Ginger",
+  "address": "1401 3rd Ave",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2015 Semifinalist - Outstanding Wine Program; 2016 Semifinalist - Outstanding Wine Program; 2017 Semifinalist - Outstanding Wine Program; 2018 Semifinalist - Outstanding Wine Program. Downtown location. Other locations listed: McKenzie (2202B 8th Ave, 98121) and Bellevue (508 Bellevue Way NE, 98004).",
+  "display_note": "The downtown location. Other Wild Ginger locations are McKenzie at 2202B 8th Ave and Bellevue at 508 Bellevue Way NE.",
+  "website": "https://wildginger.net",
+  "sources": [
+   {
+    "url": "https://wildginger.net",
+    "what": "Own site live: Downtown hours Mon 4-9pm, Tue-Thu 11:30am-9pm (lunch Tue-Thu 11:30-2), Fri-Sun 4-9pm; copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/meet-the-2017-restaurant-and-chef-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Willmott's Ghost",
+  "address": "2100 6th Ave",
+  "city": "Seattle",
+  "zip": "98121",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2019 Finalist - Outstanding Restaurant Design, 75 Seats and Under (Heliotrope Architects and Price Erickson Interior Design (designers)). Inside the Amazon Spheres, downtown. Sea Creatures (Renee Erickson) group.",
+  "display_note": "Inside the Amazon Spheres downtown. Part of Renee Erickson's Sea Creatures restaurant group.",
+  "website": "https://www.willmottsghost.com/",
+  "sources": [
+   {
+    "url": "https://www.willmottsghost.com/",
+    "what": "own site live with hours (lunch Tue-Fri, dinner Tue-Sat), OpenTable + Toast links; notice of dinner closure 'Tuesday 9/22 - Thursday 9/24' for private events (weekdays match 2026)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2019-james-beard-award-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "familyfriend",
+  "address": "3315 Beacon Ave S",
+  "city": "Seattle",
+  "zip": "98144",
+  "county": "King",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2025 Semifinalist - Best New Restaurant. No own website found; open status from King County inspection (2025-12-15). Could not confirm. No official site found: familyfriendseattle.com, familyfriend.co, familyfriendsea.com, familyfriendrestaurant.com, familyfriend.restaurant and eatfamilyfriend.com do not resolve. Tock returned 403 and OpenTable timed out, so both were skipped. Unverified candidate address from Overture: 3315 Beacon Ave S, 98144.",
+  "display_note": null,
+  "website": null,
+  "sources": [
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'FAMILYFRIEND' last inspected 2025-12-15 (routine inspection; shows the business operates, not its menu)",
+    "date": "2025-12-15"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2025-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Salish Lodge & Spa (The Restaurant)",
+  "address": "6501 Railroad Ave SE",
+  "city": "Snoqualmie",
+  "zip": "98065",
+  "county": "King",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "Country Breakfast",
+   "Pacific Northwest dinners"
+  ],
+  "opened": null,
+  "brand_founded": 1916,
+  "chain": false,
+  "kasahara": false,
+  "note": "Lodge restaurant above Snoqualmie Falls. Own site: 'Originally The Snoqualmie Falls Lodge, it began as an eight-room inn built in 1916'; 'In 1988 The Salish Lodge reopened' (rebuilt). Known for its Country Breakfast, formerly the Farm Breakfast.",
+  "display_note": "Lodge restaurant above Snoqualmie Falls. The lodge began as the Snoqualmie Falls Lodge, an eight-room inn built in 1916, and was rebuilt and reopened as Salish Lodge in 1988.",
+  "website": "https://www.salishlodge.com/",
+  "sources": [
+   {
+    "url": "https://www.salishlodge.com/lodge",
+    "what": "own site history: inn built 1916; reopened as Salish Lodge in 1988",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.salishlodge.com/",
+    "what": "own site live: 6501 Railroad Ave SE, restaurant brunch/lunch/dinner hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/d/r878-4sxa",
+    "what": "Public Health - Seattle & King County food inspection data: 'SALISH LODGE & SPA' last inspected 2026-07-28 (routine inspection; shows the business operates, not its menu)",
+    "date": "2026-07-28"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Brick Saloon",
+  "address": "100 W Pennsylvania Ave",
+  "city": "Roslyn",
+  "zip": "98941",
+  "county": "Kittitas",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "baskets",
+   "sandwiches",
+   "salads and soups",
+   "vegetarian and vegan bites"
+  ],
+  "opened": 1889,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Oldest-bar title is contested: Bluebird Tavern in Bickleton says its building became a saloon in fall 1887. Source says: 'Established in 1889, the legendary Brick Saloon is Washington's oldest continuously operating bar.'. Own site: 'John Buffo and Peter Giovanni opened a tavern in this location' in 1889; 'rebuilt in 1898 using 45,000 bricks and took the name The Brick'. So the name dates from 1898, not 1889. Site does not address Prohibition-era operation.",
+  "display_note": "John Buffo and Peter Giovanni opened a tavern on this spot in 1889. It was rebuilt in 1898 with 45,000 bricks and took the name The Brick.",
+  "website": "https://www.bricksaloon.com",
+  "sources": [
+   {
+    "url": "https://www.bricksaloon.com/about",
+    "what": "Own site: 1889 tavern opened in this location by Buffo and Giovanni; rebuilt 1898 and renamed The Brick",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.bricksaloon.com/events",
+    "what": "Own site live with menus page (food menu PDF labeled May 2025), online ordering link, and an events calendar (Wed Sept 16 ... Fri Oct 16); those weekday/date pairs match 2026 (also 2020/2015), no year printed.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Olympic Club (McMenamins Olympic Club Hotel & Theater)",
+  "address": "112 N Tower Ave",
+  "city": "Centralia",
+  "zip": "98531",
+  "county": "Lewis",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "pub fare",
+   "cheeseburger"
+  ],
+  "opened": null,
+  "brand_founded": 1908,
+  "chain": false,
+  "kasahara": false,
+  "note": "The site gives both 1905 and 1908. Use 1908, the saloon date, and flag the conflict. Source says: 'next door to the hotel is the stunning 1908 Olympic Club saloon, pool room and cafe'. Same site also says 'Opened over the course of several years beginning in 1905 and virtually unchanged since 1913'. The hotel was built in 1913 as the Oxford Hotel. McMenamins since 1997. Continuous operation not stated.",
+  "display_note": "Saloon, pool room and cafe dating to 1908; the hotel next door was built in 1913 as the Oxford Hotel. Part of McMenamins since 1997.",
+  "website": "https://www.mcmenamins.com/olympic-club",
+  "sources": [
+   {
+    "url": "https://www.mcmenamins.com/olympic-club",
+    "what": "Own site: 1908 saloon; 1905 start / 1913 remodel wording; McMenamins since 1997",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.mcmenamins.com/olympic-club",
+    "what": "Own site live: game hall hours (Sun-Thu 7am-11pm, Fri-Sat 7am-midnight) and dated events incl. October 2026 ghost tours.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Tides Tavern",
+  "address": "2925 Harborview Dr",
+  "city": "Gig Harbor",
+  "zip": "98335",
+  "county": "Pierce",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "fish and chips",
+   "clam chowder",
+   "pizza",
+   "burgers",
+   "lobster roll"
+  ],
+  "opened": 1973,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "1910 is the building date only. The tavern dates from 1973. 21+ only. Source says: 'In 1973, Peter Stanley transformed the space into the Tides Tavern.'. Building dates from 1910 ('Built in 1910 as the West Side Mercantile'). The tavern opened in 1973 and the Stanley family ran it for 50+ years. 'In 2026, the Tides begins a new chapter as part of the Anthony's family.'",
+  "display_note": "Built in 1910 as the West Side Mercantile; Peter Stanley turned it into the Tides Tavern in 1973, and the Stanley family ran it for over 50 years. It became part of Anthony's in 2026.",
+  "website": "https://www.tidestavern.com",
+  "sources": [
+   {
+    "url": "https://www.tidestavern.com/",
+    "what": "Own site: 1910 building; 1973 tavern; 2026 Anthony's",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.tidestavern.com/",
+    "what": "Own site live: daily hours 11am-9pm, full menu incl. fall specials, 2026 Anthony's ownership note.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Bob's Java Jive",
+  "address": "2102 S Tacoma Way",
+  "city": "Tacoma",
+  "zip": "98409",
+  "county": "Pierce",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "fries and tots",
+   "chicken wings",
+   "Philly cheesesteak",
+   "grilled cheese and tomato soup"
+  ],
+  "opened": null,
+  "brand_founded": 1927,
+  "chain": false,
+  "kasahara": false,
+  "note": "Under the Bob's Java Jive name only since 1955. Now a bar (21+ hours to 2am). Source says: 'Long before karaoke nights and punk shows, Bob's Java Jive began as the Coffee Pot Restaurant.'. Opened 1927 as the Coffee Pot Restaurant on South Tacoma Way. Several owners, then Harold Elrod by 1940. Bob and Lylabell Radonich bought it in 1955 and renamed it Bob's Java Jive. Fire in 1996 damaged the back rooms. Richard Walden bought it from the Radonich family in 2022. Site does not say whether the structure was ever moved.",
+  "display_note": "Opened in 1927 as the Coffee Pot Restaurant; Bob and Lylabell Radonich bought it in 1955 and renamed it Bob's Java Jive. Now a bar with nightly karaoke, owned by Richard Walden since 2022.",
+  "website": "https://bobsjavajive.com",
+  "sources": [
+   {
+    "url": "https://bobsjavajive.com/about",
+    "what": "Own site timeline: 1927 Coffee Pot, 1955 rename, 1996 fire, 2022 sale",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://bobsjavajive.com/",
+    "what": "Own site live today: hours (Mon-Fri 4pm-2am, Sat-Sun 12pm-2am), full food and cocktail menu, nightly karaoke. No dated item seen.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Frisko Freeze",
+  "address": "1201 Division Ave",
+  "city": "Tacoma",
+  "zip": "98403",
+  "county": "Pierce",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers"
+  ],
+  "opened": null,
+  "brand_founded": 1950,
+  "chain": false,
+  "kasahara": false,
+  "note": "Burgers only, from the site's 'Burger Magik' reference. Full menu is on Toast; not read. Source says: 'We are proud to be a part of Tacoma's history since July 27, 1950.'. Own site says it is on the Tacoma Register of Historic Places. It does not say whether the business was always at 1201 Division or ever closed.",
+  "display_note": "Burger spot dating to July 27, 1950. It is listed on the Tacoma Register of Historic Places.",
+  "website": "https://www.friskofreeze.com",
+  "sources": [
+   {
+    "url": "https://www.friskofreeze.com/",
+    "what": "Own site: July 27, 1950; Tacoma Register of Historic Places",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.friskofreeze.com/",
+    "what": "Own site live: hours (Sun-Thu 10am-12am, Fri-Sat 10am-1am), 'Thank you to our loyal customers for over 76 years!' (a 2026 count), and its own Toast ordering link (order page itself returned 403, not fetched).",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Parkway Tavern",
+  "address": "313 N I St #1",
+  "city": "Tacoma",
+  "zip": "98403",
+  "county": "Pierce",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "appetizers",
+   "soups",
+   "salads",
+   "sandwiches",
+   "burgers"
+  ],
+  "opened": null,
+  "brand_founded": 1935,
+  "chain": false,
+  "kasahara": false,
+  "note": "Weakest open evidence of this set. Re-check before publishing. Source says: 'ESTABLISHED 1935'. Site gives no location, name or owner history. It is in a group with Cole's Ruston, Terry's Office Tavern, Hanks and West End.",
+  "display_note": "Tacoma tavern established in 1935. Part of the same group as Cole's Ruston, Terry's Office Tavern, Hanks and West End.",
+  "website": "https://www.parkwaytavern.com",
+  "sources": [
+   {
+    "url": "https://www.parkwaytavern.com/",
+    "what": "Own site: 'ESTABLISHED 1935'",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.parkwaytavern.com/",
+    "what": "Own site live: daily hours 11am-midnight, menu and beverages pages. Footer is stale ((c) 2016-2023) and no dated 2025-26 item was seen.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Matia Kitchen & Bar",
+  "address": "382 Prune Alley",
+  "city": "Eastsound",
+  "zip": "98245",
+  "county": "San Juan",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2022 Semifinalist - Best New Restaurant; 2024 Finalist - Best Chef: Northwest and Pacific (Avery Adams) [as 'Matia Kitchen']. No dated (2025/2026) content seen on the site; hours have no year attached.",
+  "display_note": null,
+  "website": "https://www.matiakitchen.com/",
+  "sources": [
+   {
+    "url": "https://www.matiakitchen.com/",
+    "what": "own site live: hours Wednesday-Sunday 5-9pm, active reservation links, phone 360.375.4350; no closure notice",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2024-restaurant-and-chef-award-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Ursa Minor",
+  "address": "210 Lopez Rd",
+  "city": "Lopez Island",
+  "zip": "98261",
+  "county": "San Juan",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2022 Semifinalist - Best Chef: Northwest and Pacific (Nick Coffey). Also runs a daytime pantry with grab-and-go sandwiches.",
+  "display_note": "Run by chef Nick Coffey and co-owner Nova Askue. A daytime pantry sells grab-and-go sandwiches.",
+  "website": "https://www.ursaminorlopez.com/",
+  "sources": [
+   {
+    "url": "https://www.ursaminorlopez.com/",
+    "what": "own site live: current fall schedule - dinner Fri-Sun 5-8pm, pantry Thu-Mon 12-2pm; chef Nick Coffey, co-owner Nova Askue",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2022-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Brown Lantern Ale House",
+  "address": "412 Commercial Ave",
+  "city": "Anacortes",
+  "zip": "98221",
+  "county": "Skagit",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "BBQ pork sandwich",
+   "clam chowder",
+   "gumbo",
+   "breakfast scrambles"
+  ],
+  "opened": null,
+  "brand_founded": 1933,
+  "chain": false,
+  "kasahara": false,
+  "note": "Old domain brownlantern.com redirects here. Source says: 'Established in 1933, just after Prohibition, we've been serving Anacortes local and visitors for 90 years!'. Site calls it 'Anacortes' longest-running bar'. It does not say whether it was always at 412 Commercial or always under this name.",
+  "display_note": "Anacortes ale house established in 1933, just after Prohibition. The menu includes burgers, a BBQ pork sandwich, clam chowder, gumbo and breakfast scrambles.",
+  "website": "https://thebrownlanternalehouse.com",
+  "sources": [
+   {
+    "url": "https://thebrownlanternalehouse.com/",
+    "what": "Own site: established 1933",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://thebrownlanternalehouse.com/",
+    "what": "Own site live: hours (Mon-Sat 7am-12am, Sun 9am-12am), full menu, weekly trivia, footer (c) 2026.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Cathay Inn",
+  "address": "3714 N Division St",
+  "city": "Spokane",
+  "zip": "99207",
+  "county": "Spokane",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "Kung Pao chicken",
+   "sweet and sour pork",
+   "egg foo young",
+   "Mongolian beef",
+   "burgers and steaks"
+  ],
+  "opened": null,
+  "brand_founded": 1950,
+  "chain": false,
+  "kasahara": false,
+  "note": "Chinese-American restaurant. Source says: 'Family-owned and operated since 1950, our quaint surroundings and inviting atmosphere provide the perfect setting'. Own site does not say whether it was always at 3714 N Division. A community site (SpokaneTalk, 2025) says Tom F. Eng opened it on Division Street. That is a lead only.",
+  "display_note": "Chinese-American restaurant, family-owned and operated since 1950. Dishes include Kung Pao chicken, egg foo young and Mongolian beef, plus burgers and steaks.",
+  "website": "https://www.cathayinn.com",
+  "sources": [
+   {
+    "url": "https://www.cathayinn.com/",
+    "what": "Own site: family-owned since 1950",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.cathayinn.com/",
+    "what": "Own site live: hours Mon-Sun 12-9pm, full Chinese-American menu.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Frank's Diner (downtown)",
+  "address": "1516 W 2nd Ave",
+  "city": "Spokane",
+  "zip": "99201",
+  "county": "Spokane",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken fried steak and eggs",
+   "Joe's Special",
+   "Belgian waffles",
+   "eggs Benedict",
+   "fish and chips",
+   "Reuben"
+  ],
+  "opened": null,
+  "brand_founded": 1931,
+  "chain": false,
+  "kasahara": false,
+  "note": "In Spokane only since 1991. The 1931 date belongs to the Seattle diner. Source says: 'Frank and his heirs operated the Diner on 4th Avenue South in Seattle from 1931 until 1991 ... the car was moved to Spokane.'. Railcar No. 1787 was built in 1906 as an observation car. It was a diner in Seattle (King County) 1931-1991 and moved to Spokane in 1991. Second location: 10929 N Newport Hwy, Spokane 99218, in a different car (1913 Great Northern car 'Laketon', found in Ballard).",
+  "display_note": "Housed in railcar No. 1787, built in 1906 as an observation car. Frank and his heirs ran it as a diner on 4th Avenue South in Seattle from 1931 to 1991, when the car was moved to Spokane.",
+  "website": "https://www.franksdiners.com",
+  "sources": [
+   {
+    "url": "https://www.franksdiners.com/",
+    "what": "Own site: railcar history (1906 car; Seattle diner 1931-1991; moved to Spokane 1991)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.franksdiners.com/",
+    "what": "Own site live: both locations, 'Daily 6:00 AM to 9:00 PM', menu, online-ordering links for both locations, and a 2026 badge.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Italia Trattoria",
+  "address": "144 S Cannon St",
+  "city": "Spokane",
+  "zip": null,
+  "county": "Spokane",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2018 Semifinalist - Best Chef: Northwest (Anna Vogel). Zip not shown on own site. Founding year not stated.",
+  "display_note": null,
+  "website": "https://www.italiatrattoriaspokane.com/",
+  "sources": [
+   {
+    "url": "https://www.italiatrattoriaspokane.com/",
+    "what": "own site live: 'Open today 05:00 pm - 08:00 pm', dinner Wed-Sat plus Sunday brunch, copyright 2026, no closure notice",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2018-james-beard-award-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Jack & Dan's Tavern",
+  "address": "1226 N Hamilton St",
+  "city": "Spokane",
+  "zip": "99202",
+  "county": "Spokane",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "sliders",
+   "tavern menu",
+   "soups",
+   "daily lunch specials"
+  ],
+  "opened": null,
+  "brand_founded": 1941,
+  "chain": false,
+  "kasahara": false,
+  "note": "Has a family dining room as well as the tavern. Source says: 'Established in 1941, Jack & Dan's Tavern prides itself on a comfortable, laid-back atmosphere'. Site gives no owner or location history.",
+  "display_note": "Tavern established in 1941, with a separate family dining room. The menu includes sliders, soups and daily lunch specials.",
+  "website": "https://www.jackanddans.com",
+  "sources": [
+   {
+    "url": "https://www.jackanddans.com/",
+    "what": "Own site: established 1941",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jackanddans.com/",
+    "what": "Own site live: hours (Mon-Sat 10am-2am, Sun 11am-midnight; family dining room 10am-9pm), menu PDF, events and banquets pages. No dated item seen.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Park Inn Bar & Grill",
+  "address": "103 W 9th Ave",
+  "city": "Spokane",
+  "zip": "99204",
+  "county": "Spokane",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "burgers",
+   "pizza",
+   "deli sandwiches",
+   "soups",
+   "salads"
+  ],
+  "opened": 1932,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Same-address support is the 'half of its current footprint' line. No relocation found. Source says: 'The Park Inn has remained an enduring feature of Spokane's community, entertaining guests since it first opened in 1932.'. Spokesman-Review: the original structure 'only occupied half of its current footprint' (expanded in place). Owners include Gordy and Mary Lou Olsen (1960s era) and Marcus Schmick (since Sept 28, 2015).",
+  "display_note": "First opened in 1932; the original building covered half of today's footprint and was later expanded in place. Owners have included Gordy and Mary Lou Olsen in the 1960s and Marcus Schmick since 2015.",
+  "website": "https://www.parkinnspokane.com",
+  "sources": [
+   {
+    "url": "https://www.parkinnspokane.com/hours/",
+    "what": "Own site live: tavern hours daily 7am-2am, restaurant hours, menu, footer (c) 2026, October sports-viewing events.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Onion Taphouse & Grill (Downtown)",
+  "address": "302 W Riverside Ave",
+  "city": "Spokane",
+  "zip": "99201",
+  "county": "Spokane",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "hand-pattied burgers",
+   "French onion soup",
+   "fish and chips",
+   "pizza",
+   "steaks"
+  ],
+  "opened": null,
+  "brand_founded": 1978,
+  "chain": false,
+  "kasahara": false,
+  "note": "Founded 1978. Much newer than the others here. Source says: 'Great food has been part of this local story since 1978, with Spokane's introduction to a gourmet burger concept'. Second location: Northgate, 7522 N Division St, 99208. Own site does not say the downtown store is the 1978 original. SpokaneTalk (community site) says it is in the 1904 St. Regis Hotel building; that is a building date only and a lead.",
+  "display_note": "The Onion dates to 1978. This downtown taphouse serves burgers, French onion soup, fish and chips, pizza and steaks; a second location is in Northgate at 7522 N Division St.",
+  "website": "https://www.theonion.biz",
+  "sources": [
+   {
+    "url": "https://www.theonion.biz/",
+    "what": "Own site: since 1978; Downtown and Northgate",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.theonion.biz/",
+    "what": "Own site live: hours for both locations (Mon-Thu 11am-10pm, Fri-Sat 11am-11pm, Sun 11am-9pm), menu.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Eastside Club Tavern",
+  "address": "410 E 4th Ave",
+  "city": "Olympia",
+  "zip": "98501",
+  "county": "Thurston",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "craft beer (42 taps, cask and nitro)",
+   "free popcorn"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Bar first. Food is popcorn plus 'Food from Our Table'. Branded 'est. 1942'. Source says: '11/11/1942 Eastside acquired by Babe Haumann from Pop Bert.'. 1942 is when the current lineage acquired it (from 'Pop Bert'), so the tavern is older than 1942. Partly destroyed 3/13/1959 when a train crashed into the front. New brick facade after the 2001 Nisqually quake. Site does not say whether it was always at 410 E 4th.",
+  "display_note": "Babe Haumann bought the tavern from Pop Bert on Nov. 11, 1942, so it is older than that. A train crashed into the front in 1959, and a new brick facade went up after the 2001 Nisqually quake.",
+  "website": "http://www.theeastsideclub.com",
+  "sources": [
+   {
+    "url": "http://www.theeastsideclub.com/history/",
+    "what": "Own timeline: 1942 acquisition, 1959 train crash, 2001 quake",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "http://www.theeastsideclub.com/",
+    "what": "Own site live (http only): hours (Mon-Fri noon-2am, Sat-Sun 1pm-2am), 42 taps, live check-in feed listing 2026 beers, footer (c)1942 - 2026.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Spar Cafe (McMenamins)",
+  "address": "114 4th Ave E",
+  "city": "Olympia",
+  "zip": "98501",
+  "county": "Thurston",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "pancakes",
+   "burgers",
+   "pizza",
+   "house-made soups",
+   "salads"
+  ],
+  "opened": null,
+  "brand_founded": 1935,
+  "chain": false,
+  "kasahara": false,
+  "note": "Ownership changed from the founding family to McMenamins. Source says: 'At five o'clock on Friday afternoon, June 28, 1935, the creators of The Spar extended a genial invitation to all residents'. Own site: 'family-owned for 60 of its 70 years of existence', then sold to McMenamins (year not stated on page). The site says this spot held saloons, beer halls and stores 'since at least 1880' (site history, not restaurant history).",
+  "display_note": "Opened on June 28, 1935, and was owned by its founding family for 60 years before McMenamins bought it. Saloons, beer halls and stores stood on this spot from at least 1880.",
+  "website": "https://www.mcmenamins.com/spar-cafe",
+  "sources": [
+   {
+    "url": "https://www.mcmenamins.com/spar-cafe/history",
+    "what": "Own history page: June 28, 1935 opening; family-owned 60 of 70 years",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.mcmenamins.com/spar-cafe",
+    "what": "Own site live: daily hours (Sun-Thu 7am-10pm, Fri-Sat 7am-midnight), menu, upcoming events 'Thursday, November 5' (a Thursday in 2026), footer (c) 2017-2026.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Horseshoe Cafe & Bar",
+  "address": "113 E Holly St",
+  "city": "Bellingham",
+  "zip": "98225",
+  "county": "Whatcom",
+  "kinds": [
+   "oldest"
+  ],
+  "open": true,
+  "dishes": [
+   "waffles",
+   "breakfast served all day",
+   "smash burgers",
+   "pie",
+   "fries and tots"
+  ],
+  "opened": null,
+  "brand_founded": 1886,
+  "chain": false,
+  "kasahara": false,
+  "note": "Own site headline: 'Visit Washington's oldest diner'. Open 2026; no evidence of a closure or reopening found. Source says: 'The eatery, which opened in 1886, is widely regarded as the oldest restaurant in Washington state.'. No source I read says whether it was always at 113 E Holly St, or whether it ever closed. Own site says 'For more than 136 years', which is the 2022 count (stale). CDN 2022 names co-owner Kate Groen, who kept it going through the pandemic on takeout.",
+  "display_note": "Opened in 1886 and serves breakfast all day. During the pandemic, co-owner Kate Groen kept it going on takeout.",
+  "website": "https://www.horseshoecafe.com",
+  "sources": [
+   {
+    "url": "https://www.horseshoecafe.com/",
+    "what": "Own site live today: hours (Sun-Thu 9am-1:30am, Fri-Sat 9am-2:30am) and a linked 'September 2026 Menu' PDF.",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Black Cypress",
+  "address": "215 E Main St, Ste B",
+  "city": "Pullman",
+  "zip": "99163",
+  "county": "Whitman",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2023 Finalist - Outstanding Hospitality. Owner Nick Pitsilionis (Spokesman-Review 2023-01-25, James Beard Outstanding Hospitality semifinalist). Suite B from own site's gift-card link. Founding year not stated.",
+  "display_note": "Pullman restaurant owned by Nick Pitsilionis.",
+  "website": "https://www.theblackcypress.com/location-hours",
+  "sources": [
+   {
+    "url": "https://www.theblackcypress.com/location-hours",
+    "what": "own site live: hours Mon-Thu 5-9pm, Fri-Sat 5-10pm, Sun closed; copyright 2026; reservations active",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2023-james-beard-restaurant-and-chef-awards-nominees",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Los Hernandez Tamales",
+  "address": "3706 Main St",
+  "city": "Union Gap",
+  "zip": "98903",
+  "county": "Yakima",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": 1990,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2018 America's Classics - America's Classics (Felipe Hernandez (owner)) [as 'Los Hernandez']. Own site: 'a Yakima Valley tradition since 1990', founded 1990 by Felipe Hernandez; James Beard America's Classic 2018. Site does NOT say whether 3706 Main St is the original 1990 address. Second location: 6411 W Nob Hill Blvd, Yakima (509-367-6480; Mon-Thu 11-6, Fri-Sat 11-7); opening date not given. Own site and JBF 2018 page: founded 1990 by Felipe Hernandez; second location at 6411 W Nob Hill Blvd, Yakima.",
+  "display_note": "Tamale shop founded by Felipe Hernandez in 1990. A second location is at 6411 W Nob Hill Blvd in Yakima.",
+  "website": "https://www.loshernandeztamales.com/",
+  "sources": [
+   {
+    "url": "https://www.loshernandeztamales.com/",
+    "what": "own site live: hours for both locations (Union Gap Sun-Fri 11-6, Sat 10-7), copyright 2026, no closure notice",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/introducing-the-2018-americas-classics-winners",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Crafted",
+  "address": "22 N 1st St",
+  "city": "Yakima",
+  "zip": "98901",
+  "county": "Yakima",
+  "kinds": [
+   "icon"
+  ],
+  "open": true,
+  "dishes": [],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "James Beard Foundation: 2023 Semifinalist - Best Chef: Northwest and Pacific (Dan Koommoo); 2024 Semifinalist - Best Chef: Northwest and Pacific (Dan Koommoo). Own site says founded 2017; chef Dan Koommoo and Mollie Koommoo.",
+  "display_note": "Opened in 2017. Run by chef Dan Koommoo and Mollie Koommoo.",
+  "website": "https://www.craftedyakima.com/",
+  "sources": [
+   {
+    "url": "https://www.craftedyakima.com/",
+    "what": "own site live: hours Thu-Mon 5-9pm; sample dinner menu PDF dated 6.20.26",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2024-james-beard-awards-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.jamesbeard.org/stories/the-2023-james-beard-awards-semifinalists",
+    "what": "jamesbeard.org announcement page listing this honor",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ }
+]

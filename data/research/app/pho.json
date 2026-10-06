@@ -1,0 +1,1848 @@
+[
+ {
+  "name": "Pho Bac Sup Shop",
+  "address": "1240 S Jackson St",
+  "city": "Seattle",
+  "zip": "98144",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho with rare strip loin and brisket",
+   "pho with a giant beef rib",
+   "snacks",
+   "Vietnamese and classic cocktails"
+  ],
+  "opened": 2018,
+  "brand_founded": 1982,
+  "chain": true,
+  "kasahara": false,
+  "note": "Little Saigon pho shop and bar from the Pham family behind Pho Bac, which the family and the International Examiner call Seattle's first pho shop (1982). Sup Shop opened on New Year's Day 2018 across the lot from the original boat-shaped shop, which now serves chicken rice instead of pho.",
+  "display_note": "Little Saigon pho shop and bar from the Pham family, who started Pho Bac in 1982. Opened in 2018 across the lot from the original boat-shaped shop; the menu includes pho with a giant beef rib.",
+  "website": "https://www.thephobac.com/pho-bac-sup-shop/",
+  "sources": [
+   {
+    "url": "https://www.thephobac.com/pho-bac-sup-shop/",
+    "what": "own website location page, live: 1240 S Jackson St, daily hours 10am-9pm, online-order link",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.thephobac.com/story/",
+    "what": "own website story page, live: broth simmered from beef bone marrow; rare strip loin and slow-cooked brisket; Cat's Submarine became Pho Bac in 1982",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://iexaminer.org/all-in-the-pham-ly-sisters-quyen-vy-and-yenvy-pham-carry-on-the-pho-bac-familys-legacy-of-stellar-vietnamese-cuisine-and-community-involvement/",
+    "what": "International Examiner profile of the Pham family (Aug 12, 2026): Cat's Submarine opened 1982 and became Pho Bac, Seattle's first pho shop; Sup Shop debuted New Year's Day 2018 with a wide pho menu incl. a giant beef-rib bowl; the original boat-shaped shop now serves only chicken rice; Minor Ave store closed and a bigger Pho Bac opened on Seventh Avenue with the PST bar upstairs",
+    "date": "2026-08-12"
+   },
+   {
+    "url": "https://iexaminer.org/vietnamese-opera-drag-bingo-pho-eating-contest-celebrate-little-saigon-nurtures-community-throughout-the-neighborhood-in-its-15th-year/",
+    "what": "International Examiner (Aug 24, 2026): pho for the Celebrate Little Saigon pho-eating contest (Aug 15, 2026) was sponsored by Pho Bac",
+    "date": "2026-08-24"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-03-25"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Bac (Rainier Valley)",
+  "address": "3300 Rainier Ave S",
+  "city": "Seattle",
+  "zip": "98144",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho with rare strip loin and brisket"
+  ],
+  "opened": null,
+  "brand_founded": 1982,
+  "chain": true,
+  "kasahara": false,
+  "note": "Rainier Valley location of the Pham family's Pho Bac; opens at 8am per its site.",
+  "display_note": "Rainier Valley location of the Pham family's Pho Bac, founded in 1982. Pho comes with rare strip loin and slow-cooked brisket in a beef bone marrow broth.",
+  "website": "https://www.thephobac.com/pho-bac-rainier-valley/",
+  "sources": [
+   {
+    "url": "https://www.thephobac.com/pho-bac-rainier-valley/",
+    "what": "own website location page, live: 3300 Rainier Ave S, daily hours 8am-9pm, online-order link",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.thephobac.com/story/",
+    "what": "own website story page, live: broth simmered from beef bone marrow; rare strip loin and slow-cooked brisket; Cat's Submarine became Pho Bac in 1982",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-09-14"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Bac (Downtown, 7th Ave)",
+  "address": "1923 7th AVE",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho with rare strip loin and brisket"
+  ],
+  "opened": null,
+  "brand_founded": 1982,
+  "chain": true,
+  "kasahara": false,
+  "note": "Larger Pho Bac on Seventh Avenue that replaced the family's Minor Avenue shop; the Phocific Standard Time cocktail bar is in the loft upstairs. Closed Sundays.",
+  "display_note": "Larger Pho Bac on Seventh Avenue that replaced the family's Minor Avenue shop, with the Phocific Standard Time cocktail bar in the loft upstairs. Closed Sundays.",
+  "website": "https://www.thephobac.com/pho-bac-downtown/",
+  "sources": [
+   {
+    "url": "https://www.thephobac.com/pho-bac-downtown/",
+    "what": "own website location page, live: 1923 7th Ave, Mon-Sat 10am-9pm, closed Sundays, online-order link",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.thephobac.com/story/",
+    "what": "own website story page, live: broth simmered from beef bone marrow; rare strip loin and slow-cooked brisket; Cat's Submarine became Pho Bac in 1982",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://iexaminer.org/all-in-the-pham-ly-sisters-quyen-vy-and-yenvy-pham-carry-on-the-pho-bac-familys-legacy-of-stellar-vietnamese-cuisine-and-community-involvement/",
+    "what": "International Examiner profile of the Pham family (Aug 12, 2026): Cat's Submarine opened 1982 and became Pho Bac, Seattle's first pho shop; Sup Shop debuted New Year's Day 2018 with a wide pho menu incl. a giant beef-rib bowl; the original boat-shaped shop now serves only chicken rice; Minor Ave store closed and a bigger Pho Bac opened on Seventh Avenue with the PST bar upstairs",
+    "date": "2026-08-12"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-06-10"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho 25",
+  "address": "1525 3rd Ave",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "banh mi",
+   "wonton noodle soup",
+   "vegetarian dishes"
+  ],
+  "opened": null,
+  "brand_founded": 2002,
+  "chain": false,
+  "kasahara": false,
+  "note": "Downtown Vietnamese and Chinese noodle shop on 3rd Ave; its site says Loc and his wife Mui founded it in 2002 (it was previously named Pho Mililani). Closed Sundays.",
+  "display_note": "Downtown Vietnamese and Chinese noodle shop on 3rd Ave, founded in 2002 by Loc and his wife Mui (formerly Pho Mililani). Closed Sundays.",
+  "website": "https://www.pho25.net/",
+  "sources": [
+   {
+    "url": "https://www.pho25.net/",
+    "what": "own website, live: 1525 3rd Ave, Mon-Sat hours, about page (founded 2002, formerly Pho Mililani), copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-05-11"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Miss Pho",
+  "address": "10023 Holman Rd NW",
+  "city": "Seattle",
+  "zip": "98177",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "classic pho (tai, chin, bo vien, gan, sach)",
+   "house pho (dac biet)",
+   "pho ga",
+   "pho Ha Noi",
+   "pho sa te",
+   "Miss Pho Special with beef rib",
+   "bun (vermicelli bowls)"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Pho restaurant on Holman Rd NW near Greenwood with a regional 'signature pho' section (Hanoi style, sa te) alongside the classic bowls.",
+  "display_note": "Pho restaurant on Holman Rd NW near Greenwood with a regional signature pho section (Hanoi style, sa te) alongside the classic bowls.",
+  "website": "https://missphowa.com/",
+  "sources": [
+   {
+    "url": "https://missphowa.com/menu",
+    "what": "own website menu, live: classic, house, chicken, shrimp and tofu pho plus signature pho Ha Noi and pho sa te; homepage shows address, today's hours, copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-05-11"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Market Pho",
+  "address": "2021 NW Market St",
+  "city": "Seattle",
+  "zip": "98107",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "banh mi",
+   "Vietnamese coffee"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Small Ballard pho shop on NW Market St; open daily.",
+  "display_note": "Small Ballard pho shop on NW Market St, also serving banh mi and Vietnamese coffee. Open daily.",
+  "website": "https://marketpho.wixsite.com/ballard",
+  "sources": [
+   {
+    "url": "https://marketpho.wixsite.com/ballard",
+    "what": "own website (Wix), live: 2021 NW Market St Ste A, daily hours, pho, banh mi and Vietnamese coffee; no date on page",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-04-28"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Than Brothers (Wallingford)",
+  "address": "2309 N 45th St",
+  "city": "Seattle",
+  "zip": "98103",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho tai chin",
+   "pho tai nam",
+   "pho chin nam",
+   "pho dac biet-style combinations (tai chin nam gau gan sach)",
+   "pho ga",
+   "pho bo vien",
+   "pho chay"
+  ],
+  "opened": null,
+  "brand_founded": 1996,
+  "chain": true,
+  "kasahara": false,
+  "note": "Pho-only menu in four bowl sizes from the Than Brothers group, which says it has served the Seattle area since 1996. One of four Seattle shops on its site.",
+  "display_note": "Pho-only menu in four bowl sizes from the Than Brothers group, serving the Seattle area since 1996. One of four Seattle shops.",
+  "website": "https://thanbrothers.com/",
+  "sources": [
+   {
+    "url": "https://thanbrothers.com/",
+    "what": "own website (single-page app), live: menu lists pho bo combinations (tai, chin, nam, gan, sach), pho ga, pho bo vien, pho chay in four bowl sizes; locations list includes this address; says serving Seattle since 1996; copyright 2020",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-01-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Than Brothers (University District)",
+  "address": "4207 University Way NE",
+  "city": "Seattle",
+  "zip": "98105",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho tai chin",
+   "pho tai nam",
+   "pho chin nam",
+   "pho dac biet-style combinations (tai chin nam gau gan sach)",
+   "pho ga",
+   "pho bo vien",
+   "pho chay"
+  ],
+  "opened": null,
+  "brand_founded": 1996,
+  "chain": true,
+  "kasahara": false,
+  "note": "U District shop of the Than Brothers pho group (since 1996 per its site); pho-only menu.",
+  "display_note": "U District shop of the Than Brothers pho group, serving Seattle since 1996. Pho-only menu in four bowl sizes.",
+  "website": "https://thanbrothers.com/",
+  "sources": [
+   {
+    "url": "https://thanbrothers.com/",
+    "what": "own website (single-page app), live: menu lists pho bo combinations (tai, chin, nam, gan, sach), pho ga, pho bo vien, pho chay in four bowl sizes; locations list includes this address; says serving Seattle since 1996; copyright 2020",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-08-26"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Than Brothers (Fremont)",
+  "address": "626 N 34th St",
+  "city": "Seattle",
+  "zip": "98103",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho tai chin",
+   "pho tai nam",
+   "pho chin nam",
+   "pho dac biet-style combinations (tai chin nam gau gan sach)",
+   "pho ga",
+   "pho bo vien",
+   "pho chay"
+  ],
+  "opened": null,
+  "brand_founded": 1996,
+  "chain": true,
+  "kasahara": false,
+  "note": "Fremont shop of the Than Brothers pho group (since 1996 per its site); pho-only menu.",
+  "display_note": "Fremont shop of the Than Brothers pho group, serving Seattle since 1996. Pho-only menu in four bowl sizes.",
+  "website": "https://thanbrothers.com/",
+  "sources": [
+   {
+    "url": "https://thanbrothers.com/",
+    "what": "own website (single-page app), live: menu lists pho bo combinations (tai, chin, nam, gan, sach), pho ga, pho bo vien, pho chay in four bowl sizes; locations list includes this address; says serving Seattle since 1996; copyright 2020",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-02-25"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Than Brothers (Aurora Ave)",
+  "address": "7800 Aurora Ave N",
+  "city": "Seattle",
+  "zip": "98103",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho tai chin",
+   "pho tai nam",
+   "pho chin nam",
+   "pho dac biet-style combinations (tai chin nam gau gan sach)",
+   "pho ga",
+   "pho bo vien",
+   "pho chay"
+  ],
+  "opened": null,
+  "brand_founded": 1996,
+  "chain": true,
+  "kasahara": false,
+  "note": "Aurora Ave N shop of the Than Brothers pho group (since 1996 per its site); pho-only menu.",
+  "display_note": "Aurora Ave N shop of the Than Brothers pho group, serving Seattle since 1996. Pho-only menu in four bowl sizes.",
+  "website": "https://thanbrothers.com/",
+  "sources": [
+   {
+    "url": "https://thanbrothers.com/",
+    "what": "own website (single-page app), live: menu lists pho bo combinations (tai, chin, nam, gan, sach), pho ga, pho bo vien, pho chay in four bowl sizes; locations list includes this address; says serving Seattle since 1996; copyright 2020",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-07-27"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Viet Anh",
+  "address": "2621 5th Ave",
+  "city": "Seattle",
+  "zip": "98121",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "rice plates",
+   "vermicelli noodle salads",
+   "small eats"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Belltown pho and grill shop under the monorail on 5th Ave; small menu, and its site notes no banh mi. The site says it has been in business 21 years.",
+  "display_note": "Belltown pho and grill shop under the monorail on 5th Ave, in business for over 20 years. Small menu of pho, rice plates and vermicelli salads; no banh mi.",
+  "website": "https://phovietanh.com/",
+  "sources": [
+   {
+    "url": "https://phovietanh.com/",
+    "what": "own website (Canva), live: 2621 5th Ave, daily hours, says it serves pho, rice plates and vermicelli salads; no date on page",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2025-06-25"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho 4U Restaurant (Pine St)",
+  "address": "1202 Pine St",
+  "city": "Seattle",
+  "zip": "98101",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "fresh spring rolls",
+   "vegetarian options",
+   "Vietnamese iced coffee"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-run pho shop on Pine St on Capitol Hill; online carryout ordering.",
+  "display_note": "Family-run pho shop on Pine St on Capitol Hill, with fresh spring rolls, vegetarian options and Vietnamese iced coffee.",
+  "website": "https://www.pho4useattle.com/",
+  "sources": [
+   {
+    "url": "https://www.pho4useattle.com/",
+    "what": "own website, live: 1202 Pine St, daily hours 11am-9pm, pho-focused description, online-order page",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-03-11"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Spring House Thai Kitchen & Pho",
+  "address": "2223 California Ave SW",
+  "city": "Seattle",
+  "zip": "98116",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "pad see ew",
+   "papaya salad",
+   "green curry",
+   "crispy garlic chicken"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Mixed menu: West Seattle Thai kitchen that also makes pho a headline (it's in the name); family-run, on California Ave SW.",
+  "display_note": "Family-run Thai kitchen on California Ave SW in West Seattle that also makes pho. Dishes include pad see ew, papaya salad and green curry.",
+  "website": "https://www.springhousethaikitchenandpho.com/",
+  "sources": [
+   {
+    "url": "https://www.springhousethaikitchenandpho.com/",
+    "what": "own website, live: 2223 California Ave SW, weekly hours, says it offers Thai food and pho; no date on page",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-09-22"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Date Cafe",
+  "address": "16743 Aurora Ave N",
+  "city": "Shoreline",
+  "zip": "98133",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho dac biet",
+   "bun bo Hue",
+   "banh mi chao",
+   "banh mi",
+   "Vietnamese coffee",
+   "boba tea"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Shoreline pho, banh mi, coffee and bubble-tea cafe on Aurora Ave N. Map data also lists 'Yomi Pho Restaurant' at this address.",
+  "display_note": "Pho, banh mi, coffee and bubble-tea cafe on Aurora Ave N, with bun bo Hue and banh mi chao.",
+  "website": "https://pos.chowbus.com/online-ordering/store/date-cafe/22002",
+  "sources": [
+   {
+    "url": "https://pos.chowbus.com/online-ordering/store/date-cafe/22002",
+    "what": "own online-ordering menu (Chowbus POS), live and accepting orders on 2026-10-05: pho, bun bo Hue, banh mi, daily hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Emerald Pho",
+  "address": "1525 A St NE #106",
+  "city": "Auburn",
+  "zip": "98002",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho dac biet",
+   "pho tai",
+   "pho nam",
+   "pho bo vien",
+   "oxtail pho",
+   "pho ga",
+   "bun bo Hue",
+   "bun rieu",
+   "banh canh cua",
+   "banh mi"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Auburn pho shop presenting northern (Nam Dinh) style pho, with noodle soups, rice plates and sandwiches.",
+  "display_note": "Auburn pho shop serving northern (Nam Dinh) style pho, plus noodle soups such as bun bo Hue and bun rieu, rice plates and banh mi.",
+  "website": "https://emeraldpho.com/",
+  "sources": [
+   {
+    "url": "https://emeraldpho.com/",
+    "what": "own website, live: full menu (signature pho, noodle soups, rice dishes), address 1525 A St NE",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://emeraldauburn.com/",
+    "what": "own online-ordering site, live (ordering paused outside hours), copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-07-17"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Ever (Bellevue)",
+  "address": "12015 NE 8th St",
+  "city": "Bellevue",
+  "zip": "98005",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "egg noodle soup",
+   "bun (vermicelli)",
+   "rice plates",
+   "banh mi",
+   "bubble tea"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Bellevue Vietnamese restaurant on NE 8th St with pho as its noodle-soup centerpiece; open daily.",
+  "display_note": "Vietnamese restaurant on NE 8th St with pho as its noodle-soup centerpiece, plus rice plates, banh mi and bubble tea. Open daily.",
+  "website": "https://pho-ever-bellevue.com/",
+  "sources": [
+   {
+    "url": "https://pho-ever-bellevue.com/contact",
+    "what": "own website, live: 12015 NE 8th St Ste 6, daily hours, menu sections led by pho, copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-09-17"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Vina (Burien)",
+  "address": "15623 1st Ave S",
+  "city": "Burien",
+  "zip": "98148",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "vegetarian pho and vegetarian menu",
+   "Vietnamese dishes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-owned Burien pho restaurant with a separate vegetarian menu inspired by the owner's mother.",
+  "display_note": "Family-owned Burien pho restaurant with a separate vegetarian menu inspired by the owner's mother.",
+  "website": "https://www.phovinaburien.com/",
+  "sources": [
+   {
+    "url": "https://order.phovinaburien.com",
+    "what": "own online-ordering site, live: open now on 2026-10-05, pickup available, copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.phovinaburien.com/our-restaurant",
+    "what": "own website, live: 15623 1st Ave S, hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-08-25"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Quynh",
+  "address": "31434 Pacific Hwy S",
+  "city": "Federal Way",
+  "zip": "98003",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho dac biet",
+   "pho tai",
+   "pho chin bo vien",
+   "tomahawk (beef bone) pho",
+   "com tam (broken rice plates)",
+   "bun",
+   "banh mi",
+   "banh khot"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-owned pho shop on Pacific Hwy S in Federal Way; menu includes a tomahawk-bone pho.",
+  "display_note": "Family-owned pho shop on Pacific Hwy S with a tomahawk-bone pho, plus broken rice plates, banh mi and banh khot.",
+  "website": "https://phoquynh.vercel.app/",
+  "sources": [
+   {
+    "url": "https://phoquynh.vercel.app/",
+    "what": "own website, live: full menu, 31434 Pacific Hwy S, daily hours; no date on page",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-08-31"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Asia Noodle House (Renton)",
+  "address": "801 S 3rd St",
+  "city": "Renton",
+  "zip": "98057",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho tai chin",
+   "pho chin",
+   "pho ga",
+   "pho bo vien",
+   "pho chay",
+   "house special pho",
+   "boba drinks"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Downtown Renton pho shop open late (to midnight) per its site; sister of the Everett Pho Asia Noodle House.",
+  "display_note": "Downtown Renton pho shop open late, sister to Pho Asia Noodle House in Everett. Also serves boba drinks.",
+  "website": "https://www.phoasiarenton.com/",
+  "sources": [
+   {
+    "url": "https://www.phoasiarenton.com/menus",
+    "what": "own website menu, live: full pho list, 801 S 3rd St, daily 9am-midnight; no date on page",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2025-12-09"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Box",
+  "address": "364 Renton Center Way SW #56",
+  "city": "Renton",
+  "zip": "98057",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Renton pho shop on Renton Center Way SW; closed Sundays. Its 2025 menu is posted as an image.",
+  "display_note": "Renton pho shop on Renton Center Way SW. Closed Sundays.",
+  "website": "https://phobox1.com/",
+  "sources": [
+   {
+    "url": "https://phobox1.com/",
+    "what": "own website, live: 364 Renton Center Way SW #56, Mon-Sat hours, ChowNow ordering link, menu labeled 2025, copyright 2025",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-09-10"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Rolls",
+  "address": "17236 140th Ave SE",
+  "city": "Renton",
+  "zip": "98058",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho chin",
+   "pho tai chin",
+   "goi cuon (spring rolls)",
+   "bun ga nuong",
+   "com heo nuong"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Pho and spring-roll shop on 140th Ave SE in Renton; closed Tuesdays.",
+  "display_note": "Pho and spring-roll shop on 140th Ave SE in Renton, with bun ga nuong and com heo nuong. Closed Tuesdays.",
+  "website": "https://orderphorolls.com",
+  "sources": [
+   {
+    "url": "https://orderphorolls.com",
+    "what": "own online-ordering site, live: menu, 17236 140th Ave SE, weekly hours, copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-01-22"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "The Best Pho & Thai",
+  "address": "739 Rainier Ave S",
+  "city": "Renton",
+  "zip": "98057",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "pho with beef ribs (pho suon bo)",
+   "seafood pho",
+   "banh canh",
+   "banh xeo",
+   "bo la lot",
+   "banh mi",
+   "pad thai",
+   "curry"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Mixed menu: Vietnamese and Thai restaurant on Rainier Ave S in Renton.",
+  "display_note": "Vietnamese and Thai restaurant on Rainier Ave S, with beef rib pho, seafood pho, banh xeo, pad thai and curry.",
+  "website": "https://www.thebestphoandthai.com/",
+  "sources": [
+   {
+    "url": "https://www.thebestphoandthai.com/",
+    "what": "own website, live: featured dishes, 739 Rainier Ave S, daily hours, online ordering",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-08-03"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho 175",
+  "address": "13317 NE 175th St",
+  "city": "Woodinville",
+  "zip": "98072",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho with flank, brisket or chicken",
+   "tofu pho",
+   "Vietnamese specialties"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Woodinville pho shop on NE 175th St run by owner Heidi Hieu Huynh, per its site.",
+  "display_note": "Woodinville pho shop on NE 175th St run by owner Heidi Hieu Huynh, with flank, brisket, chicken and tofu pho.",
+  "website": "https://www.pho175.com/",
+  "sources": [
+   {
+    "url": "https://www.pho175.com/",
+    "what": "own website, live: 13317 NE 175th St Ste M, weekly hours, pho description, copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2026-05-20"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Happy Pho Teriyaki",
+  "address": "16929 SE 270th Pl #114",
+  "city": "Covington",
+  "zip": "98042",
+  "county": "King",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "steak pho",
+   "steak and brisket pho",
+   "special combo pho",
+   "chicken pho",
+   "seafood pho",
+   "chicken teriyaki"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Mixed menu: Covington shop with a long pho list (26 bowls) plus teriyaki plates. Map data also lists 'Happy Pho Time' at this address.",
+  "display_note": "Covington shop with a long list of 26 pho bowls plus teriyaki plates.",
+  "website": "https://orderphos.com/",
+  "sources": [
+   {
+    "url": "https://orderphos.com/food-menu",
+    "what": "own website menu, live: pho P1-P26 and teriyaki T1-T10, 16929 SE 270th Pl, hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://data.kingcounty.gov/",
+    "what": "Public Health - Seattle & King County food-inspection open data (via candidate file): inspected at this address; shows it operates, not what it serves",
+    "date": "2025-04-18"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Golden",
+  "address": "417 SW Sedgwick Rd",
+  "city": "Port Orchard",
+  "zip": "98367",
+  "county": "Kitsap",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho tai nam",
+   "pho ga",
+   "pho dac biet",
+   "seafood pho",
+   "bun",
+   "banh xeo",
+   "rice plates"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Port Orchard pho restaurant at Sedgwick Landing.",
+  "display_note": "Port Orchard pho restaurant at Sedgwick Landing, also serving bun, banh xeo and rice plates.",
+  "website": "https://phogolden.us/",
+  "sources": [
+   {
+    "url": "https://phogolden.us/",
+    "what": "own online-ordering site, live on 2026-10-05 (reopening at 4pm that day): full menu, 417 SW Sedgwick Rd",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho T&N",
+  "address": "19689 7th Ave NE",
+  "city": "Poulsbo",
+  "zip": "98370",
+  "county": "Kitsap",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho (steak, brisket, meatball, chicken)",
+   "special pho",
+   "vegan pho",
+   "Hue noodle soup (bun bo Hue)",
+   "hu tieu Nam Vang",
+   "banh mi"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family pho shop in Poulsbo now run by the founders' children; the founders retired in 2018, per its site. Closed Sundays.",
+  "display_note": "Family pho shop in Poulsbo, now run by the founders' children after the founders retired in 2018. Closed Sundays.",
+  "website": "https://www.photnpoulsbo.com/",
+  "sources": [
+   {
+    "url": "https://www.photnpoulsbo.com/menu",
+    "what": "own website menu, live: noodle soups led by pho; contact page with address and weekly hours; no 2025-26 date on page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Green Garden Pho",
+  "address": "10516 Silverdale Way NW",
+  "city": "Silverdale",
+  "zip": "98383",
+  "county": "Kitsap",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "vermicelli",
+   "rice dishes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Silverdale pho restaurant; the Tacoma restaurant Saigon House says it is part of the Green Garden Pho family. The newest date on its own site is 2021, so recheck.",
+  "display_note": "Silverdale pho restaurant with pho, vermicelli and rice dishes. Saigon House in Tacoma is part of the same Green Garden Pho family.",
+  "website": "https://www.greengardenpho.com/",
+  "sources": [
+   {
+    "url": "https://www.greengardenpho.com/",
+    "what": "own website, live: 10516 Silverdale Way NW, weekly hours, online-ordering link; copyright 2021 (no newer date)",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.phosaigonhouse.com/",
+    "what": "sister restaurant website (Tacoma), live: says it is part of the Green Garden Pho family from Silverdale Way NW; copyright 2023",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho & More",
+  "address": "5315 Point Fosdick Dr",
+  "city": "Gig Harbor",
+  "zip": "98335",
+  "county": "Pierce",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho (rare beef, brisket, flank, meatball, chicken)",
+   "combo pho",
+   "seafood pho",
+   "vegan pho",
+   "banh mi",
+   "rice noodle bowls",
+   "teriyaki"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Gig Harbor Vietnamese comfort-food spot billed 'A Taste of Danang'; closed Saturdays.",
+  "display_note": "Gig Harbor Vietnamese comfort-food spot billed 'A Taste of Danang', with pho, banh mi and rice noodle bowls. Closed Saturdays.",
+  "website": "http://phoandmoregigharbor.com/",
+  "sources": [
+   {
+    "url": "http://phoandmoregigharbor.com/soup.html",
+    "what": "own website pho menu, live: P1-P13 pho bowls; homepage with address 5315-A Point Fosdick Dr and hours, copyright 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Tastic & Seafood House",
+  "address": "12314 Meridian E",
+  "city": "Puyallup",
+  "zip": "98373",
+  "county": "Pierce",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "seafood dishes",
+   "weekly seafood specials"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Mixed menu: Puyallup Vietnamese restaurant pairing pho with a seafood house menu.",
+  "display_note": "Puyallup Vietnamese restaurant pairing pho with a seafood house menu and weekly seafood specials.",
+  "website": "http://photastic-seafoodhousepuyallup.com/",
+  "sources": [
+   {
+    "url": "http://photastic-seafoodhousepuyallup.com/",
+    "what": "own website, live: 12314 Meridian Ave E Unit E, daily hours, pho and seafood specials, copyright 2025",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Family Pho",
+  "address": "5015 Tacoma Mall Blvd A103",
+  "city": "Tacoma",
+  "zip": "98409",
+  "county": "Pierce",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho tai nam",
+   "chicken pho",
+   "pad thai",
+   "curries",
+   "bubble tea"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Mixed menu: Vietnamese and Thai restaurant on Tacoma Mall Blvd; pho bowls are among its listed best sellers.",
+  "display_note": "Vietnamese and Thai restaurant on Tacoma Mall Blvd, with pho, pad thai, curries and bubble tea.",
+  "website": "https://familypho.com",
+  "sources": [
+   {
+    "url": "https://familypho.com",
+    "what": "own online-ordering site, live: menu categories led by pho, 5015 Tacoma Mall Blvd A103, copyright 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Lunar's Pho",
+  "address": "757 S 38th St",
+  "city": "Tacoma",
+  "zip": "98418",
+  "county": "Pierce",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai chin",
+   "pho Hanoi (steak and ginger)",
+   "pho dac biet",
+   "pho with beef back ribs (suon bo)",
+   "oxtail and steak pho",
+   "pho ga",
+   "vegetarian pho",
+   "bun bo Hue",
+   "hu tieu Nam Vang",
+   "bun rieu"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Tacoma pho shop on S 38th St; closed Mondays.",
+  "display_note": "Tacoma pho shop on S 38th St with pho Hanoi, oxtail pho and beef rib pho, plus bun bo Hue and bun rieu. Closed Mondays.",
+  "website": "https://www.lunarspho.com/",
+  "sources": [
+   {
+    "url": "https://www.lunarspho.com/menu",
+    "what": "own website menu, live: pho, soup specials and vermicelli; contact page with address and hours; page says last updated 5/9/2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Saigon House",
+  "address": "2505 S 38th St Ste A101",
+  "city": "Tacoma",
+  "zip": "98409",
+  "county": "Pierce",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "Vietnamese dishes"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Tacoma Vietnamese restaurant on S 38th St (also called Saigon House Vietnamese Cuisine); says it is part of the Green Garden Pho family from Silverdale.",
+  "display_note": "Tacoma Vietnamese restaurant on S 38th St, also called Saigon House Vietnamese Cuisine. Part of the Green Garden Pho family from Silverdale.",
+  "website": "https://www.phosaigonhouse.com/",
+  "sources": [
+   {
+    "url": "https://www.phosaigonhouse.com/",
+    "what": "own website, live: 2505 S 38th St Ste A101, weekly hours, dine-in and online ordering; copyright 2023 (no newer date)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho V & V",
+  "address": "5434 S Tacoma Way",
+  "city": "Tacoma",
+  "zip": "98409",
+  "county": "Pierce",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "banh mi",
+   "desserts"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Mom-and-pop pho shop at 56th and S Tacoma Way; its site says it cooks without MSG.",
+  "display_note": "Mom-and-pop pho shop at 56th and S Tacoma Way that cooks without MSG.",
+  "website": "https://www.phovandv.com/",
+  "sources": [
+   {
+    "url": "https://www.phovandv.com/",
+    "what": "own website, live: 5434 S Tacoma Way, weekly hours, dine-in and takeout; copyright 2023 (no newer date)",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Garden",
+  "address": "3202 S 23rd St Ste F2",
+  "city": "Tacoma",
+  "zip": "98405",
+  "county": "Pierce",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "banh mi",
+   "vermicelli",
+   "rice plates",
+   "curries",
+   "goi cuon (spring rolls)"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Tacoma pho and banh mi restaurant on S 23rd St; open daily.",
+  "display_note": "Tacoma pho and banh mi restaurant on S 23rd St, also serving vermicelli, rice plates and curries. Open daily.",
+  "website": "https://phogardentacomawa.com/",
+  "sources": [
+   {
+    "url": "https://phogardentacomawa.com/menu",
+    "what": "own website, live: menu sections led by Vietnamese pho, 3202 S 23rd St Ste F2, daily hours, copyright 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Asia Noodle House (Everett)",
+  "address": "607 SE Everett Mall Way",
+  "city": "Everett",
+  "zip": "98208",
+  "county": "Snohomish",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho with beef rib",
+   "com tam dac biet"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Everett Mall Way pho shop; sister of Pho Asia Noodle House in Renton. Open daily.",
+  "display_note": "Everett Mall Way pho shop, sister to Pho Asia Noodle House in Renton. Open daily.",
+  "website": "https://phoasianoodlehouseeverett.com/",
+  "sources": [
+   {
+    "url": "https://phoasianoodlehouseeverett.com/",
+    "what": "own website, live: 607 SE Everett Mall Way #11, daily hours, featured pho dishes, copyright 2026",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://www.phoasiarenton.com/about",
+    "what": "sister restaurant website, live: mentions the Everett location",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Nguyen's House",
+  "address": "18920 28th Ave W Ste h",
+  "city": "Lynnwood",
+  "zip": "98036",
+  "county": "Snohomish",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho tai chin",
+   "pho chin nam",
+   "combo pho",
+   "pho bo vien",
+   "chicken pho",
+   "seafood pho",
+   "veggie pho",
+   "banh mi",
+   "goi cuon"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Lynnwood pho and banh mi shop on 28th Ave W; closed Mondays per its ordering page.",
+  "display_note": "Lynnwood pho and banh mi shop on 28th Ave W. Closed Mondays.",
+  "website": "https://phonguyenshouse.com/",
+  "sources": [
+   {
+    "url": "https://pos.chowbus.com/online-ordering/store/Pho-Nguyens-House/50989",
+    "what": "own online-ordering menu (Chowbus POS), live: full pho list, address, weekly hours",
+    "date": "2026-10-05"
+   },
+   {
+    "url": "https://phonguyenshouse.com/",
+    "what": "own website, live: address, today's hours, copyright 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Lynnwood Pho",
+  "address": "14007 Hwy 99",
+  "city": "Lynnwood",
+  "zip": "98087",
+  "county": "Snohomish",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho tai nam",
+   "pho dac biet",
+   "pho ga",
+   "seafood pho",
+   "pho chay",
+   "bun bo Hue",
+   "banh mi",
+   "com tam"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Hwy 99 pho shop in Lynnwood (map data lists it as 'Pho & Chill'; its old site lynnwoodpho.com is suspended). Closed Mondays.",
+  "display_note": "Hwy 99 pho shop in Lynnwood, also serving bun bo Hue, banh mi and com tam. Closed Mondays.",
+  "website": "https://pos.chowbus.com/online-ordering/store/Lynnwood-Pho/22847",
+  "sources": [
+   {
+    "url": "https://pos.chowbus.com/online-ordering/store/Lynnwood-Pho/22847",
+    "what": "own online-ordering menu (Chowbus POS), live: 14007 Hwy 99, full pho list, weekly hours",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Saigon Pho & Grill (Monroe)",
+  "address": "19959 US-2 Unit D02",
+  "city": "Monroe",
+  "zip": "98272",
+  "county": "Snohomish",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho",
+   "banh mi",
+   "spring rolls",
+   "stir-fried noodles",
+   "grilled meats"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-owned Vietnamese restaurant on US 2 in Monroe; open daily.",
+  "display_note": "Family-owned Vietnamese restaurant on US 2 in Monroe, with pho, banh mi and grilled meats. Open daily.",
+  "website": "https://saigon-pho-grill-1b72f5.webflow.io",
+  "sources": [
+   {
+    "url": "https://saigon-pho-grill-1b72f5.webflow.io",
+    "what": "own website (Webflow), live: 19959 State Rte 2 Unit D02, daily hours, pho and banh mi; no date on page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Tran",
+  "address": "21919 66th Ave W",
+  "city": "Mountlake Terrace",
+  "zip": "98043",
+  "county": "Snohomish",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "beef pho",
+   "chicken pho",
+   "vegetarian pho",
+   "vermicelli",
+   "Vietnamese coffee"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Pho shop in Mountlake Terrace (site calls it Pho Tran Edmonds) that reopened under new management.",
+  "display_note": "Pho shop in Mountlake Terrace, also called Pho Tran Edmonds, that reopened under new management.",
+  "website": "https://www.photranedmonds.com/",
+  "sources": [
+   {
+    "url": "https://www.photranedmonds.com/",
+    "what": "own website, live: 21919 66th Ave W Ste D, weekly hours, grand-opening and new-management notice, online ordering",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Cafe",
+  "address": "8410 Mukilteo Speedway Ste g",
+  "city": "Mukilteo",
+  "zip": "98275",
+  "county": "Snohomish",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "southern-style pho",
+   "banh mi",
+   "bun (vermicelli)",
+   "com dia (rice plates)",
+   "weekend bun bo Hue",
+   "bo kho"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Mukilteo Speedway pho cafe from first-generation Vietnamese-American owners, with rotating weekend specials.",
+  "display_note": "Mukilteo Speedway pho cafe from first-generation Vietnamese-American owners, serving southern-style pho with rotating weekend specials.",
+  "website": "https://phocafewa.wixsite.com/phocafe",
+  "sources": [
+   {
+    "url": "https://phocafewa.wixsite.com/phocafe",
+    "what": "own website (Wix), live: 8410 Mukilteo Speedway Ste G, menu sections led by pho, weekend specials, copyright 2025",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Laday",
+  "address": "11811 Mukilteo Speedway",
+  "city": "Mukilteo",
+  "zip": "98275",
+  "county": "Snohomish",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "Pho Laday (pho served in a hot stone bowl)",
+   "vermicelli",
+   "rice dishes",
+   "vegetarian dishes",
+   "Vietnamese coffee"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Mukilteo pho shop whose house bowl comes in a hot stone bowl; its site banner references 2025.",
+  "display_note": "Mukilteo pho shop whose house bowl, Pho Laday, comes in a hot stone bowl.",
+  "website": "https://pholaday.com/",
+  "sources": [
+   {
+    "url": "https://pholaday.com/",
+    "what": "own website, live: 11811 Mukilteo Speedway Ste 109, daily hours, menu, online pickup link",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Van",
+  "address": "2909 N Division St",
+  "city": "Spokane",
+  "zip": "99207",
+  "county": "Spokane",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho tai nam",
+   "pho bo vien",
+   "pho dac biet",
+   "pho ga",
+   "pho tom",
+   "bun bo Hue",
+   "egg noodle soup"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Locally owned pho restaurant on N Division St in Spokane; open daily.",
+  "display_note": "Locally owned pho restaurant on N Division St in Spokane. Open daily.",
+  "website": "https://phovanwa.com/",
+  "sources": [
+   {
+    "url": "https://phovanwa.com/vietnamese-food-order-online/",
+    "what": "own website menu, live: pho 1-10 and Vietnamese soups, 2909 N Division St, daily hours, copyright 2025",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Hot Pot & Pho",
+  "address": "11110 E Sprague Ave",
+  "city": "Spokane Valley",
+  "zip": "99206",
+  "county": "Spokane",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho tai",
+   "pho nam bo vien",
+   "pho dac biet",
+   "pho ga",
+   "pho tom",
+   "bun bo Hue",
+   "banh mi",
+   "hot pot"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Mixed menu: Spokane Valley hot-pot restaurant with a full pho section; its site also links a Mongolian BBQ page.",
+  "display_note": "Spokane Valley hot-pot restaurant with a full pho section, plus bun bo Hue and banh mi.",
+  "website": "https://hotpotandphospokane.com/",
+  "sources": [
+   {
+    "url": "https://hotpotandphospokane.com/spokane-valley-spokane-county-hot-pot-and-pho-food-menu",
+    "what": "own website menu, live: pho #13-#19, noodle soups, banh mi, hot pot; address 11110 E Sprague Ave",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Thuy's Pho Olympia",
+  "address": "1001 Cooper Point Rd SW #175",
+  "city": "Olympia",
+  "zip": "98502",
+  "county": "Thurston",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Westside Olympia pho shop on Cooper Point Rd; closed Mondays. Its full menu is a PDF we could not read.",
+  "display_note": "Westside Olympia pho shop on Cooper Point Rd. Closed Mondays.",
+  "website": "https://thuysphoolympia.com/",
+  "sources": [
+   {
+    "url": "https://thuysphoolympia.com/",
+    "what": "own website, live: 1001 Cooper Point Rd SW #175, weekly hours, menu PDF link, copyright 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Yelm",
+  "address": "201 E Yelm Ave",
+  "city": "Yelm",
+  "zip": "98597",
+  "county": "Thurston",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "chicken pho",
+   "eye-round steak pho",
+   "flank and brisket pho",
+   "meatball pho",
+   "special combination pho",
+   "seafood pho",
+   "tofu vegetable pho",
+   "banh mi",
+   "hu tieu"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Yelm pho shop on Yelm Ave; closed Tuesdays.",
+  "display_note": "Pho shop on Yelm Ave with 13 kinds of pho, banh mi and hu tieu. Closed Tuesdays.",
+  "website": "https://www.phoyelm.com/",
+  "sources": [
+   {
+    "url": "https://www.phoyelm.com/menu",
+    "what": "own website menu, live: pho 01-13, banh mi, hu tieu; homepage with 201 E Yelm Ave Suite C and hours; no date on page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Hoa (Olympia)",
+  "address": "2615 Capital Mall Dr SW",
+  "city": "Olympia",
+  "zip": "98502",
+  "county": "Thurston",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho dac biet (steak, flank, tendon, tripe)",
+   "pho chin bo vien",
+   "pho ga",
+   "pho chay",
+   "seafood pho"
+  ],
+  "opened": null,
+  "brand_founded": 1983,
+  "chain": true,
+  "kasahara": false,
+  "note": "Olympia location of the Pho Hoa pho chain near Capital Mall (brand began in 1983, per its site).",
+  "display_note": "Olympia location of the Pho Hoa pho chain near Capital Mall. The brand began in 1983.",
+  "website": "https://phohoa.com/",
+  "sources": [
+   {
+    "url": "https://phohoa.com/locations/",
+    "what": "Pho Hoa brand website, live: locations page lists this Washington location with hours; pho menu page; home page says the brand began in 1983, copyright 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Hoa (Lacey)",
+  "address": "1120 Galaxy Dr NE Ste A",
+  "city": "Lacey",
+  "zip": "98516",
+  "county": "Thurston",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "pho dac biet (steak, flank, tendon, tripe)",
+   "pho chin bo vien",
+   "pho ga",
+   "pho chay",
+   "seafood pho"
+  ],
+  "opened": null,
+  "brand_founded": 1983,
+  "chain": true,
+  "kasahara": false,
+  "note": "Lacey location of the Pho Hoa pho chain at The Landing at Hawks Prairie (brand began in 1983, per its site).",
+  "display_note": "Lacey location of the Pho Hoa pho chain at The Landing at Hawks Prairie. The brand began in 1983.",
+  "website": "https://phohoa.com/",
+  "sources": [
+   {
+    "url": "https://phohoa.com/locations/",
+    "what": "Pho Hoa brand website, live: locations page lists this Washington location with hours; pho menu page; home page says the brand began in 1983, copyright 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "BG Pho",
+  "address": "1505 W Main St",
+  "city": "Battle Ground",
+  "zip": "98604",
+  "county": "Clark",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "special combo beef noodle soup (pho)",
+   "brisket and flank pho",
+   "eye-round pho",
+   "meatball pho",
+   "chicken pho",
+   "shrimp pho"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Battle Ground pho restaurant on W Main St; the menu also has a few pan-Asian noodle plates (pad thai, yakisoba). Open daily.",
+  "display_note": "Battle Ground pho restaurant on W Main St, with a few pan-Asian noodle plates such as pad thai and yakisoba. Open daily.",
+  "website": "https://bgpho.com/",
+  "sources": [
+   {
+    "url": "https://bgpho.com/food-menu",
+    "what": "own website menu, live: beef noodle soup list plus specials; homepage with 1505 W Main St and daily hours; no date on page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Pho Green Papaya",
+  "address": "13215 SE Mill Plain Blvd",
+  "city": "Vancouver",
+  "zip": "98684",
+  "county": "Clark",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "specialty pho",
+   "vermicelli with grilled meat",
+   "noodle soups",
+   "stir-fry"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Family-owned Vietnamese restaurant on SE Mill Plain Blvd in east Vancouver.",
+  "display_note": "Family-owned Vietnamese restaurant on SE Mill Plain Blvd in east Vancouver.",
+  "website": "https://phogreenpapaya.com/",
+  "sources": [
+   {
+    "url": "https://phogreenpapaya.com/contact-us.html",
+    "what": "own website, live: 13215 SE Mill Plain Blvd C2, weekly hours, pho-led menu description; no date on page",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ },
+ {
+  "name": "Mongolian & Pho",
+  "address": "2607 W Kennewick Ave",
+  "city": "Kennewick",
+  "zip": "99336",
+  "county": "Benton",
+  "kinds": [
+   "pho"
+  ],
+  "open": true,
+  "dishes": [
+   "regular pho",
+   "'Crazy Pho'",
+   "build-your-own Mongolian grill bowls"
+  ],
+  "opened": null,
+  "brand_founded": null,
+  "chain": false,
+  "kasahara": false,
+  "note": "Mixed menu: Kennewick family restaurant combining a self-serve Mongolian grill with a pho menu. Address from map data; the site's phone matches.",
+  "display_note": "Kennewick family restaurant combining a self-serve Mongolian grill with a pho menu, including 'Crazy Pho'.",
+  "website": "https://mongolianpho.com/",
+  "sources": [
+   {
+    "url": "https://mongolianpho.com/about/",
+    "what": "own website, live: pho and Mongolian grill menu, weekly hours, phone 509-582-5844, copyright 2026",
+    "date": "2026-10-05"
+   }
+  ],
+  "checked": "2026-10-05"
+ }
+]

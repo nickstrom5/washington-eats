@@ -1,0 +1,96 @@
+# Drive-in burgers: unverified leads (checked 2026-10-05)
+
+None of these are in `app/drivein.json`. Each one still needs a 2025-26 source (its own live site or ordering page, or a dated local news story) showing it's open and what it serves.
+
+## Chain locations not confirmed
+- Dick's Drive-In Tulalip, 6410 33rd Ave NE, Tulalip: still under construction. Ground was broken June 8, 2026 and the topping-out was Oct 2, 2026 (ddir.com/locations/tulalip). Add it once it opens.
+- Zip's stores on the brand's own map that aren't in current map data. The map data is undated, and the location pages were last modified in 2020.
+  - 725 E Francis Ave, Spokane
+  - 3212 N Market St, Spokane
+  - "NW Blvd & Monroe", 1018 W Northwest Blvd, Spokane. The brand map says "Hours: TBD".
+  - "5 Mile Shopping Ctr", Francis & Maple, Spokane. The brand map says "Hours: TBD".
+  - Nine Mile Falls, 5919 SR 291
+  - Chewelah, 516 N Park St
+  - Richland, 1123 Lee Blvd
+  - Richland, 1756 Fowler St
+  - Kennewick, 400 E Columbia Dr. Kennewick is where Zip's started.
+- Zip's stores in the candidate map data but not on the brand's map:
+  - 3204 N Monroe St, Spokane. It may be the "NW Blvd & Monroe" store.
+  - 1604 W Francis Ave, Spokane. It may be the Five Mile store.
+  - 2125 E Sprague Ave, Spokane
+  - 6505 E Sprague Ave, Spokane Valley
+- Kidd Valley stadium stands (T-Mobile Park, Lumen Field, Husky Stadium, Cheney Stadium): open only for games and events, so I left them out.
+- Eagan's Drive-In, 6400 Capitol Blvd SE, Tumwater, and Eagan's Big Tom Drive Inn, 303 Cleveland Ave SE, Tumwater: both own sites (tumwatereagans.com, eastsidebigtom.com) returned 403. The only other sources are ThurstonTalk features from 2011 and 2017, which also mention a related Eastside Big Tom at 2023 4th Ave E, Olympia. Need a 2025-26 source.
+
+## Candidates left out because they aren't burger drive-ins
+- Spud Fish & Chips: Green Lake (6860 E Green Lake Way N), Alki (2666 Alki Ave SW), Juanita/Kirkland (9702 NE Juanita Dr, listed twice in the candidates) and Edmonds (174 Sunset Ave). Its own site (spudfishandchips.com) shows a fish-and-chips menu and no burgers. These belong in the seafood guide.
+- Spudnut Shop, 228 Williams Blvd, Richland: a donut shop.
+- Willie Dicks First Street Tap House, 135 N 1st St, Kalama: a tap house, not a drive-in.
+- Duplicates in the candidate file:
+  - "Dick's Drive-In, 1115 Broadway E" is the Broadway store at 115 Broadway E.
+  - Burgermaster Bellevue and Kidd Valley Renton and Green Lake each appear twice.
+
+## Independents not verified (by county)
+- Benton: Wolfie's Drive In, 1002 Grace Ave, Benton City. The listed Wix site is gone (404) and I found no other source.
+- Chelan: Rusty's Drive In, 700 Cotlets Way, Cashmere. Only Groupon and aggregator listings.
+- Clallam: Sully's Drive-In, 220 N Forks Ave, Forks.
+  - Only aggregators (Yelp, Zmenu and similar). sullysdrivein.com is blank.
+  - sullysburgers.com is a "Sully's GastroBurgers" coming-soon page, not clearly the same business.
+- Clark: K&M Drive In, 3414 NE 3rd Ave, Camas.
+  - Its own site is live, with hours, a sitemap last modified 2026-09-03 and a menu image named "K&M Menu 2026".
+  - But the menu image can't be read as text, and the ordering page (kmdrivein.netlify.app) loads only via JavaScript. The site text names only an occasional smoked brisket sandwich.
+  - Probably fine. Confirm burgers from a readable menu.
+- Clark: Top Burger Drive In, 1436 NE Everett St, Camas. Only a Google business.site page.
+- Cowlitz: Cap'n Yoby's Drive-In, 315 Allen St, Kelso. Only a food83 aggregator page, and that site's robots.txt disallows AI crawlers.
+- Douglas: Larry's Drive In, 120 Rock Island Rd, East Wenatchee. The listed site returns 404. A Visit Wenatchee directory listing exists but doesn't count.
+- Grant: D K's Drive In, 805 Basin St NW, Ephrata. dksdrivein.com returns an empty page.
+- Grant: Woody's Drive-In, 423 W Broadway Ave, Moses Lake.
+  - The listed woodys.com belongs to an unrelated Florida barbecue chain.
+  - woodysdrivein.com is a live Square ordering site (Burgers, Chicken & Fish, Ice Cream sections; 2026 dates), but it shows no address, so I can't tie it to Moses Lake.
+- Grant: Harrington's Drive In, 901 Central Ave S, Quincy. No website; the listed URL is a generic guide.
+- Grays Harbor: Lighthouse Drive-In, 2121 Simpson Ave, Aberdeen. Its own site returned 403, so I skipped it.
+- Grays Harbor: Totem Drive Inn, 2411 N Nyhus St, Westport. No site, and a targeted Daily World search found nothing.
+- King: Family Drive-In, 1124 W Meeker St, Kent. King County inspected it on 2026-05-06, but the only menu is on menu11, an aggregator. Needs a menu or news source.
+- Kitsap: Crazy Eric's Drive-In, 701 S National Ave, Bremerton. The listed domain (crazytownband.net) is for sale. Status unknown.
+- Kitsap: My Girl Drive-In & Museum, Kingston. Its site's security certificate has expired, so I couldn't open it.
+- Kittitas: Red Arrow Drive In, 1011 E 1st St, Cle Elum.
+  - Its own site is live, but it's marked (c) 2022 and shows no hours.
+  - The Heartland/Genius ordering page loads only via JavaScript.
+  - The site says "since 1953" and mentions burgers on French bread, fish, fries and shakes. Needs a dated source.
+- Kittitas: Johnny Spuds, 406 W 1st St, Cle Elum. The domain doesn't resolve.
+- Lewis: Dairy Dan Drive-In, 1582 S Market Blvd, Chehalis.
+  - Chronicle headlines read "Dairy Dan Set to Close" and "Dairy Dan Gets New Owner". I don't know their dates, and chronline.com returned 403 when I tried to open them.
+  - Status is unclear. Check before listing it or moving it to closed.
+- Lewis: Spiffy Dine In Drive In, 104 Westlake Ave, Morton. The edan.io page returned 403.
+  - A Chronicle item says a different Spiffy's (restaurant and bakery at I-5 exit 68) closed in 2021. Don't mix them up.
+- Lincoln: Viking Drive-In, 209 E 4th St, Sprague. The domain is dead.
+- Lincoln: Billy Burgers Drive Inn, 804 SE Main St, Wilbur. Only a road-trip blog photo page.
+- Pacific: Corral Drive In, 2506 Pacific Ave N, Long Beach. Its site's security certificate has expired.
+- Pend Oreille: American Pie Drive In and Catering, 12419 WA-31, Metaline. The domain is dead.
+- Pierce: Dexter's Drive-In, 6701 Tyee Dr NW, Gig Harbor. The site returns HTTP 530.
+- Pierce: Don's Drive-In, 925 S Meridian, Puyallup. donsdrivein.net is dead, and donsdrivein.com is a Chicago restaurant.
+- Pierce: Frisko Freeze (included in the guide). Search snippets said it is serving from a food truck in its lot during construction. I couldn't open its Toast ordering page (403) to confirm, so the guide entry doesn't mention it. Recheck.
+- Skagit: Hals Drive In, 321 E State St (candidate file: "E St Street"), Sedro-Woolley. halsdrivein.com redirects to halsdrivein.org, which returned 403.
+- Skagit: Chuck Wagon Drive-In, 800 N 4th St, Mount Vernon. Only an aggregator page, and the menu it shows (tacos, BBQ pork, rice plates) suggests the concept may have changed.
+- Skagit: The Net Drive-In, 18037 WA-536, Mount Vernon. No site.
+- Skagit: Eatery Restaurant-Drive In, 58468 Clark Cabin Rd, Rockport. Only a hub.biz aggregator page.
+- Snohomish: Fountain Drive-In, 127 E Division St, Arlington. Only a hub.biz aggregator page.
+- Snohomish: Zeke's Drive In, 43918 US-2, Gold Bar.
+  - Only a Google business.site page.
+  - A 2023 Everett Herald piece says it opened in 1968 and names its Honeymoon Special burger. Needs a 2025-26 source.
+- Snohomish: Pilchuck Drive In, 205 Maple Ave, Snohomish. The only source is a 2023 Herald mention.
+- Snohomish: King Charley's Drive In. Not a candidate. A 2023 Herald mention gives no location.
+- Snohomish: Chicken Drive-In, 1920 Main St, Lake Stevens. The listed site is a junk domain.
+- Snohomish: Alpen Drive-In, 36023 SR 2, Sultan. The domain is dead.
+- Spokane: Ron's Drive-In, 12502 E Sprague Ave, Spokane Valley. Its own blog was last updated in 2011 and says "since 1958".
+- Spokane: The Ram Drive-In, 34608 N Newport Hwy, Chattaroy. Only a Twitter link.
+- Spokane: Dick's Hamburgers (the Spokane one, not on the candidate list and unrelated to Seattle's Dick's).
+  - dickshamburgersspokane.com loads only via JavaScript.
+  - The Inlander and the Spokesman-Review both block AI crawlers.
+- Stevens: Clayton Drive-In Restaurant, 4535 Railroad Ave, Clayton. Only Groupon.
+- Stevens: Sandy's Drive Inn, 1045 US-395, Kettle Falls. No site.
+- Thurston: Highway 12 Drive In, 10220 US-12, Rochester. No site.
+- Walla Walla: Ice-Burg Drive-In, 616 W Birch St. Its Clover ordering page loads only via JavaScript and shows no menu or address.
+- Yakima: King's Row Drive In, 210 S 1st St, Selah. kingsrowselah.com now redirects to a parked "/lander" page.
+- Yakima: Miner's Drive-In, 2415 S 1st St, Yakima. Only aggregators plus a 2023 radio-station piece (newstalk870.am, 2023-04-11) saying it has operated since 1948.
+- Yakima: Laredo Drive In, 9921 US-12, Naches. The listed URL belongs to a Texas college.
