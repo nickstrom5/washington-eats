@@ -1,19 +1,23 @@
 # Launch checklist (Washington Eats)
 
-Everything below is outward-facing: each step needs Nick's explicit yes at the time. Nothing has been created, pushed or uploaded yet.
+Everything below is outward-facing: each step needs Nick's explicit yes at the time.
+
+Status 2026-10-06: website steps 1, 2 and 5 are done (repo public, Pages live with all 32 URLs returning 200, Washington on the
+eatsranked.com hub, commit 44ff2f5 there). App Store Connect has no bundle ID and no app record for `com.washingtoneats.ios` yet, so
+nothing is archived or uploaded.
 
 ## Website
-1. **Create the public repo** `nickstrom5/washington-eats` (empty, no README). Then, with Nick's yes, push `main` with only site and app
+1. **Done 2026-10-06.** **Create the public repo** `nickstrom5/washington-eats` (empty, no README). Then, with Nick's yes, push `main` with only site and app
    files (`.gitignore` keeps `site/*.json`, `data/raw`, `data/wa`, Google data and build products out). Author email:
    `329204362+nickstrom5@users.noreply.github.com`.
-2. **Enable GitHub Pages** from `main` / `docs`. Check every page returns 200 at https://nickstrom5.github.io/washington-eats/ (privacy
+2. **Done 2026-10-06.** **Enable GitHub Pages** from `main` / `docs`. Check every page returns 200 at https://nickstrom5.github.io/washington-eats/ (privacy
    and support URLs must load before App Review).
 3. **Cloudflare DNS (Nick):** `washington` CNAME → `nickstrom5.github.io`, **DNS only** (grey cloud).
 4. When `dig washington.eatsranked.com` shows the CNAME: set `CUSTOM_DOMAIN = "washington.eatsranked.com"` in `scripts/make-site.py`,
    re-run it (writes `docs/CNAME`), push, wait for the Pages certificate, then
    `gh api -X PUT repos/nickstrom5/washington-eats/pages -F https_enforced=true`, set the repo's Website field, and switch
    `WashingtonEats/App/Links.swift` and the App Store Connect URLs to the new domain in the next build.
-5. **Hub:** add `playbook/hub-entry.json` to `eatsranked/tools/site-data.json` and `playbook/hub-icon-washington.png` as
+5. **Done 2026-10-06.** **Hub:** add `playbook/hub-entry.json` to `eatsranked/tools/site-data.json` and `playbook/hub-icon-washington.png` as
    `eatsranked/docs/icons/washington.png`, rebuild the hub, push (with Nick's OK; the hub is shared and public).
 
 ## App Store
