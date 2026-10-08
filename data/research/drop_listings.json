@@ -1,5 +1,51 @@
 [
- {"name": "Dick's Drive-In", "town": "Seattle", "street": "1115 Broadway E",
+ {
+  "name": "Dick's Drive-In",
+  "town": "Seattle",
+  "street": "1115 Broadway E",
   "why": "Map listing with a mistyped street number: Dick's own location list has the Capitol Hill store at 115 Broadway E, which is listed separately.",
-  "source": "https://ddir.com/locations/broadway (checked 2026-10-05 by the drive-in research)"}
+  "source": "https://ddir.com/locations/broadway (checked 2026-10-05 by the drive-in research)"
+ },
+ {
+  "name": "Framesbymasby",
+  "town": "Seattle",
+  "street": "1002 1st Ave",
+  "why": "Not a restaurant: a photographer's map listing (Frames by Masby) whose only contact is a personal overseas mobile number.",
+  "source": "security and data review 2026-10-07 (map listing data)"
+ },
+ {
+  "name": "Coca-Cola Refreshments",
+  "town": "Renton",
+  "street": "300 SW 27th St",
+  "why": "Not a restaurant: the Coca-Cola bottling and distribution plant; its listing and site are the bottler's.",
+  "source": "link review 2026-10-08 (map listing and its own website)"
+ },
+ {
+  "name": "E&E Foods Employment",
+  "town": "Renton",
+  "street": "900 Powell Ave SW",
+  "why": "Not a restaurant: a seafood processor's job listing (its link is a recruitment page).",
+  "source": "link review 2026-10-08 (map listing and its own website)"
+ },
+ {
+  "name": "Pike Place Parcels",
+  "town": "Seattle",
+  "street": "1916 Pike Pl",
+  "why": "Not a restaurant: a parcel shipping shop at Pike Place Market (its link is a mail service).",
+  "source": "link review 2026-10-08 (map listing and its own website)"
+ },
+ {
+  "name": "Lake Washington Cars and Coffee",
+  "town": "Seattle",
+  "street": "5900 Lake Washington Blvd",
+  "why": "Not a restaurant: a car-enthusiast meetup listed as a café (its link is a car club's merchandise page).",
+  "source": "link review 2026-10-08 (map listing and its link)"
+ },
+ {
+  "name": "King & Prince Seafood",
+  "town": "Redmond",
+  "street": "15110 NE 90th St",
+  "why": "Not a restaurant: a seafood processor's office (King & Prince Seafood makes frozen seafood; its link is the company site).",
+  "source": "link review 2026-10-08 (map listing and its own website)"
+ }
 ]

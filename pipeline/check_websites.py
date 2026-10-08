@@ -38,7 +38,7 @@ GENERIC = set("""the and of a an at on in restaurant restaurants bar bars grill 
 supper club inn lounge kitchen bistro eatery diner bakery deli market express food foods co company inc llc ltd corp wa washington
 seattle tacoma spokane teriyaki pho espresso family original new old north south east west st saint mt sports place spot shop shoppe taproom brewing brewery
 tap taps bbq barbecue burger burgers chicken subs sub sandwich sandwiches tacos taco mexican chinese thai sushi asian italian
-american cuisine catering events""".split())
+american cuisine catering events city downtown village""".split())
 # Hijacked domains carry Indonesian slot and lottery spam, Turkish betting pages or porn links: any of these marks a page.
 SPAM = re.compile(r"slot ?gacor|situs (?:slot|judi|togel)|slot online|\bslot ?88\b|\btogel\b|judi (?:online|bola|slot|qq|poker)|perjudian|"
                   r"bandar ?(?:slot|qq|togel)|\bmaxwin\b|\brtp slot|\bsbobet\b|\bbahis|casino siteleri|\b1win\b|watch porn|free porn|"
@@ -48,6 +48,9 @@ BLOBS = re.compile(r"[A-Za-z0-9+/=_-]{100,}")   # base64 images and tokens: rand
 # or repeated in the body, and never on a casino's own page.
 BETTING = re.compile(r"online casino|casino online|deposit bonus|sportsbook|\bbaccarat\b|bet365|no deposit", re.I)
 HEAD = re.compile(r"<title[^>]*>(.*?)</title>|<meta[^>]+name=.description.[^>]+content=\"([^\"]*)", re.S)
+# what a page calls itself: its title and its og:title / og:site_name
+TITLE = re.compile(r"<title[^>]*>(.*?)</title>|<meta[^>]+property=.og:(?:title|site_name).[^>]+content=\"([^\"]*)", re.S | re.I)
+LOGIN = re.compile(r"/(?:login|log-in|signin|sign-in|accounts/login)(?:[/.?]|$)", re.I)
 CASINO_PLACE = re.compile(r"casino|gaming|tulalip|muckleshoot|snoqualmie|emerald queen|puyallup tribe|swinomish|little creek|northern quest|"
                           r"kalispel|ilani|cowlitz tribe|suquamish|clearwater|7 cedars|seven cedars|jamestown s.klallam|lucky eagle|red wind|"
                           r"nisqually|angel of the winds|stillaguamish|quil ceda|legends casino|yakama|coulee|12 tribes|mill bay|chewelah|"
@@ -66,7 +69,14 @@ BAD_HOSTS = ("business.site", "negocio.site", "google.com", "goo.gl", "g.co/", "
              "gastrobars.com", "indulgery.com", "clubplanet.com", "restaurant.com", "groupon.com", "seatgeek.com", "opentable.com",
              "menuism.com", "barfinder.com", "friendseat.com", "local.com", "usplaces.com", "foodeist.com", "jmaps.net", "kwickmenu.com",
              "tinyurl.com", "bit.ly", "forms.gle", "gofund.me", "gofundme.com", "cash.app", "tiktok.com", "reverbnation.com",
-             "resy.com", "exploretock.com", "sevenrooms.com")   # booking widgets are not a place's own page
+             "resy.com", "exploretock.com", "sevenrooms.com",   # booking widgets are not a place's own page
+             # 2026-10-07 review: redirect wrappers, payment, fundraising, event, video and job pages, and ad-feed/parking hosts
+             "l.facebook.com", "lm.facebook.com", "l.instagram.com", "paypal.com", "paypal.me", "venmo.com", "fundrazr.com",
+             "eventbrite.", "ticketmaster.", "youtube.com", "youtu.be", "spotify.com", "linkedin.com", "indeed.com", "bnsf.com",
+             "searchesinteractive.com", "site17.com", "zipweb.com", "seahawks.com", "airbnb.com", "discord.com", "discord.gg",
+             "paperlesspost.com", "zip-codes.com", "facebook.com/permalink.php", "facebook.com/story.php", "facebook.com/groups/",
+             "facebook.com/events/", "://foe.com", "www.foe.com",
+             "wa.me/", "whatsapp.com", "squareup.com/gift/", "book.squareup.com")   # chat links, gift-card and booking pages   # foe.com is the Eagles' national site, not a local aerie's
 SHADY = re.compile(r"(?:^|\.)food\d+\.com$|\.top$")   # food73.com-style listing farms, .top redirect farms
 # a brand that moved its stores to a short domain
 ALIASES = {"burgerking.com": "bk.com"}
@@ -89,8 +99,66 @@ def bad_host(url):
     return any(b in url.lower() for b in BAD_HOSTS) or bool(SHADY.search(regdom(urllib.parse.urlparse(url).netloc)))
 
 
+def _towns():
+    """Washington town names: "Joy's Sedro Woolley Bakery" is told apart by "joys", not by a town a history journal also names."""
+    try:
+        return {w for c in json.load(open(f"{ROOT}/data/app/places.json"))["cities"] for w in norm(c).split()}
+    except (OSError, KeyError, ValueError):
+        return set()
+
+
+TOWNS = _towns()
+
+
 def words(name):
-    return [w for w in norm(name).split() if len(w) >= 4 and w not in GENERIC]
+    return [w for w in norm(name).split() if len(w) >= 4 and w not in GENERIC and w not in TOWNS]
+
+
+STOP = {"the", "and", "of", "a", "an", "at", "on", "in", "by", "to", "for", "co", "inc", "llc"}
+
+
+def name_words(name):
+    """The distinctive words, or for a name made only of common words ("The Fan Club Sports Bar") all its words of 3+ letters."""
+    return words(name) or [w for w in norm(name).split() if len(w) >= 3 and w not in STOP]
+
+
+def ad_feed(url):
+    """Parking and ad-feed pages carry the domain they were reached from in the query (searchesinteractive.com?dn=...)."""
+    return bool(re.search(r"(?:^|&)(?:dn|domain|domainname|kw)=", urllib.parse.urlsplit(url).query, re.I))
+
+
+def host_path(url):
+    s = urllib.parse.urlsplit(url)
+    return norm(s.netloc + " " + s.path)
+
+
+def compact(s):
+    return re.sub(r"[^a-z0-9]", "", norm(s))
+
+
+def lead(name):
+    """The name's first two words run together ("Aki Sushi & Ramen" -> "akisushi"): domains are usually spelled from the start of the name."""
+    return compact(" ".join(norm(name).replace(" and ", " ").split()[:2]))
+
+
+def head(name):
+    """The name's first distinctive word: "happy" in Happy Time Bar and Grill. Matching any word let tacotime.com pass on "time"."""
+    ws = name_words(name)
+    return ws[0] if ws else ""
+
+
+def own_address(name, url):
+    """The link's address carries the place's name: its first distinctive word in the host or path, or a domain spelled from the
+    name's start."""
+    if head(name) and head(name) in host_path(url):
+        return True
+    host = compact(urllib.parse.urlsplit(url).netloc.lower().removeprefix("www.").rsplit(".", 1)[0])
+    lw = lead(name)
+    return (len(lw) >= 5 and lw in host) or (len(host) >= 6 and host in compact(name))
+
+
+def own_title(name, title):
+    return bool(head(name)) and head(name) in norm(title) or (len(lead(name)) >= 5 and lead(name) in compact(title))
 
 
 host_locks = collections.defaultdict(threading.Lock)
@@ -126,14 +194,23 @@ def check(url, name):
         return {"ok": False, "why": "page says it isn't the place's own", "final": final}
     if bad_host(final):
         return {"ok": False, "why": "redirects to a directory", "final": final}
-    ws = words(name)
-    page = norm(re.sub(r"<script.*?</script>|<style.*?</style>", " ", body, flags=re.S)) + " " + norm(final)
-    mentions = not ws or any(w in page for w in ws)
+    if ad_feed(final):
+        return {"ok": False, "why": "parked, expired or coming soon", "final": final}
+    if LOGIN.search(urllib.parse.urlsplit(final).path):
+        return {"ok": False, "why": "a login page", "final": final}
+    # the page text and the site's own host and path, never the query: an ad feed's ?dn=thetwindragon.com isn't the place mentioning itself
+    ws = name_words(name)
+    page = norm(re.sub(r"<script.*?</script>|<style.*?</style>", " ", body, flags=re.S)) + " " + host_path(final)
+    mentions = bool(ws) and any(w in page for w in ws)
     same = regdom(urllib.parse.urlparse(final).netloc) in (regdom(host), ALIASES.get(regdom(host)))
     if not mentions:
         return {"ok": False, "why": "page doesn't mention the place", "final": final}
     if not same and not any(w in norm(urllib.parse.urlparse(final).netloc) for w in ws):
         return {"ok": False, "why": "moved to another domain", "final": final}
+    # When the address doesn't carry the name, the page has to call itself by it: a directory, a news story, a bank branch or a chain's
+    # site that merely mentions the place in its text isn't the place's own page (2026-10-07 review: Japan Teriyaki -> burgerking.com).
+    if not own_address(name, final) and not own_title(name, " ".join(a or b for a, b in TITLE.findall(body[:200_000]))):
+        return {"ok": False, "why": "name only in the page text, not its title", "final": final}
     return {"ok": True, "why": "ok", "final": final}
 
 
@@ -152,15 +229,26 @@ def main():
     for dom, items in jobs.items():
         uniq = list(dict.fromkeys(items))
         top, n = collections.Counter(name for _, name in uniq).most_common(1)[0]
-        if len(uniq) >= 5 and n >= 0.8 * len(uniq):   # a chain's own domain: three samples stand for all
-            chain_hosts[dom] = [u for u, _ in uniq]
+        if len(uniq) >= 5 and n >= 0.8 * len(uniq):   # a chain's own domain: three samples stand for all of that brand's links
+            mine = [(u, nm) for u, nm in uniq if nm == top]
+            chain_hosts[dom] = [u for u, _ in mine]
             brand_of[dom] = top
-            todo += uniq[:3]
+            # other names on the chain's domain (a teriyaki shop whose listing points at subway.com) are checked one by one
+            todo += mine[:3] + [(u, nm) for u, nm in uniq if nm != top]
         else:
             todo += uniq
     for u, v in prev.items():   # host rules apply to cached pages too, no request needed
         if v["ok"] and (bad_host(u) or bad_host(v["final"])):
             prev[u] = {"ok": False, "why": "redirects to a directory", "final": v["final"]}
+        elif v["ok"] and ad_feed(v["final"]):
+            prev[u] = {"ok": False, "why": "parked, expired or coming soon", "final": v["final"]}
+    # Rule change 2026-10-07: a name word in the URL's query no longer counts as the page mentioning the place, and a name without a
+    # distinctive word needs one of its words on the page. Passes cached before then whose host and path don't carry a name word are
+    # fetched again (the cache keeps verdicts, not pages).
+    for u, v in list(prev.items()):
+        if u in cands and v.get("rule", 1) < 5 and (v["ok"] and not own_address(cands[u], v["final"])
+                                                    or v["why"] == "name only in the page text, not its title"):
+            del prev[u]   # rules 3-4 (2026-10-07/08): such a page must call itself by the name; town words don't count
     todo = [(u, n) for u, n in todo if u not in prev]
     print(f"{sum(len(v) for v in jobs.values())} links, {len(jobs)} domains, {len(chain_hosts)} chain domains; checking {len(todo)}")
     results, done = dict(prev), 0
@@ -168,7 +256,7 @@ def main():
 
     def run(item):
         nonlocal done
-        res = check(*item)
+        res = {**check(*item), "rule": 5, "for": item[1]}   # the name the verdict was earned for
         with lock:
             results[item[0]] = res
             done += 1
@@ -188,7 +276,7 @@ def main():
             for u in urls[:3]:
                 results[u] = {**results[u], "ok": True, "why": why}
         for u in urls[3:]:
-            results[u] = {"ok": verdict, "why": why, "final": u}
+            results[u] = {"ok": verdict, "why": why, "final": u, "for": brand_of[dom]}
     json.dump(results, open(OUT, "w"), indent=0)
     c = collections.Counter(v["why"] if not v["ok"] else "ok" for v in results.values())
     print("results:", c.most_common())

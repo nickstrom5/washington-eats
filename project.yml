@@ -41,7 +41,6 @@ targets:
         UIUserInterfaceStyle: Light      # the palette is light-only (Design/Theme.swift); Wisconsin's lists were unreadable in dark mode
         NSLocationWhenInUseUsageDescription: "Your location sorts teriyaki shops and restaurants by distance and shows where you are on the map. It stays on your device."
         ITSAppUsesNonExemptEncryption: false
-        LSApplicationQueriesSchemes: [maps]
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.washingtoneats.ios

@@ -34,6 +34,14 @@ Read `README.md` and `playbook/12-sources.md` first. Never modify `../chi-eats/`
   ("Washington" in MICHELIN, App Store and map data often means D.C.: filter by state code and polygon).
 - Website links: `pipeline/check_websites.py` fetches every link politely; the export drops any that isn't plainly the place's own live
   page (spam, parked, directory, moved, dead, blocked, or a page saying it isn't the place's own). Re-run it before each submission.
+  Since 2026-10-07: links are http(s) only (`clean_url` refuses other schemes, unwraps l.facebook.com / l.instagram.com, strips tracking
+  such as utm_*, igsh, ref=google), become https when the check found the same site on https, and a name word only in the URL's query
+  never counts as the page mentioning the place (ad feeds like `?dn=thetwindragon.com`). A page whose address doesn't carry the name
+  (`own_address`) must call itself by it in its title (`own_title`); both match on the name's first distinctive word (`head`: "happy",
+  not "time", so tacotime.com isn't Happy Time Bar and Grill's) or its first two words run together; town names don't count. A chain's sampled verdict
+  covers only that chain's own listings, and a checked link ships only for the place it was checked for (`"for"` in website_check.json,
+  `link_fits` in the export): a listing gave Japan Teriyaki burgerking.com. Phones ship only as valid US numbers (`+1` and
+  ten digits, `us_phone`). The app's `calibration` carries only the app's own groups: the artifact's Google-matched groups never ship.
 - Places the research finds closed go in `data/research/closed_*.json` (permanent closures only; seasonal ones in `seasonal.json` stay).
 
 ## Rebuild
@@ -68,9 +76,11 @@ cd .. && cp data/app/places.json WashingtonEats/Resources/ && .venv/bin/python s
   `CUSTOM_DOMAIN` is empty until the `washington` CNAME resolves (`dig washington.eatsranked.com`), then set it, re-run, push.
 - Web app at `docs/explore/` (source `scripts/explore.js`, a port of the app's guides and `Search.swift`).
 - QA: `.venv/bin/python scripts/qa-site.py` (serves under `/washington-eats/`, headless Chrome at 375 and 1280 px).
-- No analytics, no third-party scripts, no `aggregateRating`, no reviews in JSON-LD.
+- No analytics, no third-party scripts, no `aggregateRating`, no reviews in JSON-LD. Every page carries a Content-Security-Policy meta tag
+  that allows only its own inline scripts and styles by hash (`csp()` in make-site.py): no inline `on…=` handlers or `style=` attributes.
 
 ## Public vs private / outward actions
 Everything outward-facing needs Nick's explicit yes each time: creating the repo (planned `nickstrom5/washington-eats`), pushing, Pages,
 App Store Connect, uploads, emails, records requests. Never submit for review or accept agreements. Public commits use
-`329204362+nickstrom5@users.noreply.github.com`. Never publish Google or scraped data files (`site/*.json`, `data/`) in a public repo.
+`329204362+nickstrom5@users.noreply.github.com`. Never publish Google or scraped data files (`site/*.json`, `data/wa`, `data/raw`, `data/app`) in a public repo;
+`data/research/` (our own sourced facts) is public.

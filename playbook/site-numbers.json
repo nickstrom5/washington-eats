@@ -1,8 +1,8 @@
 {
  "generated": "2026-10-05",
  "records_through": "2026-09-25",
- "restaurants": 20247,
- "towns": 406,
+ "restaurants": 20240,
+ "towns": 405,
  "teriyaki": 179,
  "teriyaki_outside_king": 103,
  "teriyaki_spicy": 106,
@@ -23,7 +23,7 @@
  },
  "cities": {
   "Seattle": {
-   "restaurants": 4136,
+   "restaurants": 4133,
    "teriyaki_near": 26,
    "pho_near": 14,
    "drivein_near": 8,
@@ -79,7 +79,7 @@
    "kc_rated": 357
   },
   "Renton": {
-   "restaurants": 403,
+   "restaurants": 401,
    "teriyaki_near": 44,
    "pho_near": 16,
    "drivein_near": 9,

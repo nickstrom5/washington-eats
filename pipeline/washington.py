@@ -11,7 +11,7 @@ safety rating (Excellent / Good / Okay / Needs to Improve) is shown as published
 Hand-checked guides (teriyaki, honors, oldest places) come from data/research/app/*.json and data/research/jbf_wa.json: each entry has a
 2025-26 source. Places the research found closed are removed (data/research/closed*.json).
 """
-import os, re, sys, json, math, glob, hashlib, unicodedata, collections
+import os, re, sys, json, math, glob, hashlib, unicodedata, collections, urllib.parse
 import numpy as np, pandas as pd
 from shapely.geometry import shape, Point
 from shapely.prepared import prep
@@ -862,8 +862,16 @@ def r(x, n=0):
 
 
 # map listings the research found to be bad copies of a listed place (a mistyped street number), each with a source
+# Washington's northern border is the 49th parallel (Point Roberts and Blaine sit just south of it); the county outlines are buffered
+# for waterfront places, which let a Surrey, B.C. listing in 35 m over the line
+north = o.lat > 49.0003
+print("dropped north of the border:", int(north.sum()), o.loc[north, "name_out"].tolist()[:5])
+o = o[~north]
 for dl in (json.load(open(f"{DATA}/research/drop_listings.json")) if os.path.exists(f"{DATA}/research/drop_listings.json") else []):
-    hit = (o.name_out.str.upper() == dl["name"].upper()) & (o.city == dl["town"]) & (o.street.fillna("").str.upper() == dl["street"].upper())
+    # the street as the source has it or as the app shows it ("15110 Northeast 90th Street" is "15110 NE 90th St")
+    st_ = o.street.fillna("")
+    hit = (o.name_out.str.upper() == dl["name"].upper()) & (o.city == dl["town"]) & (
+        (st_.str.upper() == dl["street"].upper()) | (st_.map(lambda v: nice(v, addr=True) if v else "").str.upper() == dl["street"].upper()))
     print("dropped listing:", dl["name"], dl["street"], int(hit.sum()))
     o = o[~hit]
 # hand-checked places that still have no spot: the US Census geocoder's match for the verified street address (geocode_research.py)
@@ -941,11 +949,56 @@ if APP:
     print("smoke/vape/cannabis shops hidden with non-restaurants:", int(smoke.sum()))
 
 
+TRACKING = re.compile(r"(?:rwg_token|utm_[a-z]+|utm-[a-z]+|fbclid|gclid|msclkid|y_source|igsh|igshid|mibextid|olonwp|_gl)(?:=|$)"
+                      r"|(?:ref|referrer|src|source)=(?:google|gmb|gbp|yext|maps)\w*$|cid=RF:", re.I)
+WRAPPERS = ("l.facebook.com", "lm.facebook.com", "l.instagram.com")
+
+
 def clean_url(u):
-    """Website links without tracking parameters (Reserve with Google tokens, utm_*, click ids)."""
+    """A website link as a plain http(s) URL, or None: no other schemes (javascript:, mailto:, app links), a bare host gets https://,
+    Facebook's and Instagram's outbound wrappers give up the link inside, and tracking parameters go (Reserve with Google tokens,
+    utm_*, click ids, listing referrers like ref=google)."""
+    u = (u or "").strip()
+    if re.match(r"(?i)^https?://", u):
+        u = u[:u.index(":")].lower() + u[u.index(":"):]
+    elif re.match(r"(?i)^[a-z0-9-]+(?:\.[a-z0-9-]+)+(?:[/?#]|$)", u):
+        u = "https://" + u
+    else:
+        return None
+    parts = urllib.parse.urlsplit(u)
+    if parts.netloc.lower() in WRAPPERS:
+        inner = urllib.parse.parse_qs(parts.query).get("u")
+        return clean_url(inner[0]) if inner and not re.search(r"(?i)//(?:l|lm)\.(?:facebook|instagram)\.com", inner[0]) else None
     base, _, q = u.partition("?")
-    keep_ = [kv for kv in q.split("&") if kv and not re.match(r"(rwg_token|utm_[a-z]+|fbclid|gclid|y_source)=", kv)]
+    keep_ = [kv for kv in q.split("&") if kv and not TRACKING.match(kv)]
     return base + ("?" + "&".join(keep_) if keep_ else "")
+
+
+def bad_host(url):
+    from check_websites import bad_host as bh
+    return bh(url)
+
+
+def link_fits(v, key):
+    """A checked link belongs to this place when the place's name is in the link's address, or the check was done for this place or
+    one sharing a distinctive name word (listings share URLs: a teriyaki shop's listing gave subway.com, which passed for Subway)."""
+    from check_websites import name_words, own_address, head
+    return own_address(key, v.get("final") or "") or head(key) in name_words(v.get("for") or "")
+
+
+def https_link(url, final):
+    """The https form of an http link when the check found the same site serving https (most http links redirect there)."""
+    a, b = urllib.parse.urlsplit(url), urllib.parse.urlsplit(final or "")
+    if a.scheme == "http" and b.scheme == "https" and a.netloc.lower().removeprefix("www.") == b.netloc.lower().removeprefix("www."):
+        return urllib.parse.urlunsplit(("https", b.netloc, a.path, a.query, a.fragment))
+    return url
+
+
+def us_phone(ph):
+    """+1 and ten digits for a valid US/Canada number; None for anything else (overseas numbers, 555-0000 placeholders, short ones)."""
+    d = re.sub(r"\D", "", ph or "")
+    d = d[1:] if len(d) == 11 and d[0] == "1" else d
+    return "+1" + d if re.fullmatch(r"[2-9]\d{2}[2-9]\d{6}", d) and not re.fullmatch(r"(\d)\1{9}", d) else None
 
 
 RCODE = {"Excellent": 4, "Good": 3, "Okay": 2, "Needs To Improve": 1}
@@ -959,7 +1012,7 @@ if APP:
     SRCS = ["official", "meta", "AllThePlaces", "DAC", "research", "BrightQuery", "Foursquare", "Microsoft"]
     places, seen_ids = [], set()
     LINKS = json.load(open(f"{WA}/website_check.json")) if os.path.exists(f"{WA}/website_check.json") else None
-    link_drops, link_cands = collections.Counter(), {}
+    link_drops, link_cands, phone_drops = collections.Counter(), {}, 0
     for i, x in o.iterrows():
         idsrc = f"{norm_name(x.name_out)}|{round(float(x.lat), 3)}|{round(float(x.lon), 3)}" if x.lat == x.lat else f"{norm_name(x.name_out)}|{x.get('lic') or x.get('id')}"
         p = {"id": hashlib.md5(idsrc.encode()).hexdigest()[:12], "n": x.name_out, "c": ci.get(x.city) if isinstance(x.city, str) else None,
@@ -992,18 +1045,27 @@ if APP:
             if isinstance(x[col], str) and x[col]: p[k] = x[col]
         if x.kasahara is True: p["ks"] = 1
         web = x.rsite if isinstance(x.rsite, str) else (x.web if isinstance(x.get("web"), str) else None)
-        if web:
-            w_ = clean_url(web)
-            link_cands[w_] = x.brand_n if isinstance(x.brand_n, str) else x.name_out
+        w_ = clean_url(web) if web else None
+        if web and not w_:
+            link_drops["not a web link"] += 1
+        if w_:
+            key_ = x.brand_n if isinstance(x.brand_n, str) else x.name_out
+            link_cands.setdefault(w_, collections.Counter())[key_] += 1
             if re.search(r"(^|\.|//)(?:widgets\.)?(?:resy|exploretock|sevenrooms|opentable)\.com", w_):
                 link_drops["booking widget, not the place's own page"] += 1
             elif re.search(r"(^|\.|//)toshisgrill\.com", w_) and x.kasahara is not True:
                 link_drops["Kasahara's own site, not this shop's"] += 1   # toshisgrill.com is Toshi's Teriyaki Grill (Mill Creek) only
+            elif LINKS is not None and LINKS.get(w_, {}).get("ok") and (bad_host(w_) or bad_host(LINKS[w_].get("final") or "")):
+                link_drops["directory or Google link"] += 1   # host rules added since the page was checked
+            elif LINKS is not None and LINKS.get(w_, {}).get("ok") and not link_fits(LINKS[w_], key_):
+                link_drops["checked for another place"] += 1
             elif LINKS is not None and LINKS.get(w_, {}).get("ok"):
-                p["w"] = w_
+                p["w"] = https_link(w_, LINKS[w_].get("final"))
             else:
                 link_drops[(LINKS or {}).get(w_, {}).get("why", "not checked yet")] += 1
-        if isinstance(x.get("phone"), str) and x.phone: p["ph"] = x.phone
+        ph_ = us_phone(x.get("phone")) if isinstance(x.get("phone"), str) else None
+        if ph_: p["ph"] = ph_
+        elif isinstance(x.get("phone"), str) and x.phone: phone_drops += 1
         if isinstance(x.kc_rating, str) or isinstance(x.kc_lr_date, str):
             kcd = {"r": RCODE.get(x.kc_rating), "d": x.kc_lr_date if isinstance(x.kc_lr_date, str) else None, "res": RESCODE.get(x.kc_lr_result), "red": r(x.kc_lr_red), "n": r(x.kc_n),
                    "u": r(x.kc_unsat), "rt": r(x.kc_return), "cl": x.kc_closure if isinstance(x.kc_closure, str) else None, "risk": r(x.kc_risk)}
@@ -1013,10 +1075,18 @@ if APP:
         seen_ids.add(p["id"])
         places.append(p)
     print("website links dropped:", sum(link_drops.values()), link_drops.most_common(8))
-    json.dump(link_cands, open(f"{WA}/website_candidates.json", "w"), indent=0, ensure_ascii=False)
+    print("phone numbers dropped (not a valid US number):", phone_drops)
+    # a URL several listings share is checked for the name most of them carry (subway.com for Subway, not for one stray teriyaki shop)
+    json.dump({u: c.most_common(1)[0][0] for u, c in link_cands.items()}, open(f"{WA}/website_candidates.json", "w"), indent=0, ensure_ascii=False)
+    # only the app's own calibration (Overture source and confidence groups): the artifact's groups and all-listings coverage
+    # come from matching Google Local 2021, which never ships in the app or on the site
+    app_calib = {area: {"app": {g: {"n": v["n"], "official": v["official"]} for g, v in c["app"].items()},
+                        "coverage_app_listings": c["coverage_app_listings"], "official_restaurants": c["official_restaurants"]}
+                 for area, c in calib.items()}
+    assert "google" not in json.dumps(app_calib).lower()
     out = {"v": 1, "generated": GENERATED, "records_through": OFFICIAL.RECORDS_THROUGH.strftime("%Y-%m-%d"), "king_fetched": OFFICIAL.KING_FETCHED,
            "cities": CITIES, "cuisines": CUIS, "brands": BRANDS, "counties": COUNTIES, "tags": TAGS, "sources": SRCS,
-           "count": len(places), "count_restaurants": int(len(nv)), "calibration": calib, "places": places}
+           "count": len(places), "count_restaurants": int(len(nv)), "calibration": app_calib, "places": places}
     os.makedirs(SITE, exist_ok=True)
     json.dump(out, open(f"{SITE}/places.json", "w"), separators=(",", ":"), ensure_ascii=False, allow_nan=False, default=str)
     json.dump(json.load(open(f"{WA}/wa_shapes.json")), open(f"{SITE}/wa_shapes.json", "w"), separators=(",", ":"))

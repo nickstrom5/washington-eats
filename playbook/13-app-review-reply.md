@@ -26,7 +26,7 @@ Thank you. Here is the information requested. A screen recording from an iPhone 
 
 1. Screen recording: attached. There is no account, login, user-generated content or paid content.
 
-2. Purpose and audience: Washington Eats is a free guide to restaurants in Washington State (not Washington, D.C.). Its focus is the state's food traditions: 179 Seattle-style teriyaki shops (with what each serves), 51 phở shops, 76 drive-in burger stands and 91 oyster bars and seafood places. Each was checked by hand in October 2026 against a 2025 or 2026 source: the restaurant's own website, menu or ordering page, or dated local news. It also lists 20,247 restaurants, cafés, espresso stands and bars statewide. It is for Washington residents and visitors deciding where to eat. Unlike general restaurant apps, it is built from sourced facts, with no ads, account or tracking.
+2. Purpose and audience: Washington Eats is a free guide to restaurants in Washington State (not Washington, D.C.). Its focus is the state's food traditions: 179 Seattle-style teriyaki shops (with what each serves), 51 phở shops, 76 drive-in burger stands and 91 oyster bars and seafood places. Each was checked by hand in October 2026 against a 2025 or 2026 source: the restaurant's own website, menu or ordering page, or dated local news. It also lists 20,240 restaurants, cafés, espresso stands and bars statewide. It is for Washington residents and visitors deciding where to eat. Unlike general restaurant apps, it is built from sourced facts, with no ads, account or tracking.
 
 3. How to use it (no login, no setup, no sample files needed):
 - Home → Seattle Teriyaki (or Phở, Drive-In Burgers, Oysters & Seafood, Honors & History, Oldest Places, Food Safety, Near Me, All Restaurants) → tap any place.

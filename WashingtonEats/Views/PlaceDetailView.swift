@@ -88,7 +88,7 @@ struct PlaceDetailView: View {
 
             HStack(spacing: 10) {
                 actionButton("Directions", "arrow.triangle.turn.up.right.diamond") { AppleMaps.openInMaps(place, directions: true) }
-                if let phone = place.phone, let url = URL(string: "tel:\(phone.filter { $0.isNumber || $0 == "+" })") {
+                if let phone = place.phone, let url = URL(string: "tel:\(phone.filter { ($0.isASCII && $0.isNumber) || $0 == "+" })") {
                     actionButton("Call", "phone") { UIApplication.shared.open(url) }
                 }
                 if let web = place.website {

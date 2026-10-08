@@ -217,14 +217,20 @@ struct Place: Identifiable, Hashable {
         brandFounded = r.bf
         dishes = r.di
         note = r.note
-        sourceURL = r.src.flatMap { URL(string: $0) }
+        sourceURL = r.src.flatMap(Place.webURL)
         isKasahara = r.ks == 1
-        website = r.w.flatMap { URL(string: $0.hasPrefix("http") ? $0 : "https://" + $0) }
+        website = r.w.flatMap { Place.webURL($0.range(of: "://") == nil ? "https://" + $0 : $0) }
         phone = r.ph
         kingCounty = r.kc
         // what a place serves is searchable too: "spicy chicken kent", "bun bo hue"
         searchText = " " + Search.normalize([r.n, city, county, r.z, cuisine, brand, r.di].compactMap { $0 }.joined(separator: " ")) + " "
             + Search.normalizeAddress(r.a ?? "") + " "
         nameText = " " + Search.normalize([r.n, brand].compactMap { $0 }.joined(separator: " ")) + " "
+    }
+
+    /// Only http(s) links open from a place (the export allows nothing else; this guards the app if that ever changes).
+    static func webURL(_ s: String) -> URL? {
+        guard let url = URL(string: s), let scheme = url.scheme?.lowercased(), scheme == "https" || scheme == "http", url.host != nil else { return nil }
+        return url
     }
 }

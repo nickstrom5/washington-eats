@@ -155,5 +155,35 @@ final class WashingtonEatsTests: XCTestCase {
                        "directory links were checked out")
         XCTAssertFalse(m.places.contains { $0.website?.host() == "toshisgrill.com" && !$0.isKasahara },
                        "toshisgrill.com says the other Toshi's shops are no longer affiliated")
+        // 2026-10-07 review: links are plain http(s), not wrappers, payment, event or ad-feed pages; phones are US numbers
+        let links = m.places.flatMap { [$0.website, $0.sourceURL].compactMap { $0 } }
+        XCTAssertFalse(links.contains { !["http", "https"].contains($0.scheme ?? "") }, "only web links")
+        XCTAssertFalse(m.places.contains { ($0.website?.absoluteString ?? "").range(
+            of: #"l\.facebook\.com|l\.instagram\.com|paypal\.|eventbrite\.|fundrazr\.|youtube\.com|[?&](dn|domain)=|[?&]utm_|ref=google"#,
+            options: [.regularExpression, .caseInsensitive]) != nil }, "redirect wrappers, payment, event and ad-feed pages aren't a place's site")
+        XCTAssertFalse(m.places.contains { $0.phone.map { $0.range(of: #"^\+1[2-9]\d{2}[2-9]\d{6}$"#, options: .regularExpression) == nil } ?? false },
+                       "phones are valid US numbers")
+        XCTAssertFalse(m.places.contains { $0.name == "Framesbymasby" }, "a photographer's listing, not a restaurant")
+        // a chain's site belongs to that chain's own places (listings gave Japan Teriyaki burgerking.com, Kinza Teriyaki subway.com)
+        let chainSites = ["subway.com": "subway", "burgerking.com": "burger king", "mcdonalds.com": "mcdonald", "quiznos.com": "quiznos",
+                          "crumblcookies.com": "crumbl", "tacotime.com": "taco time"]
+        for p in m.places {
+            guard let host = p.website?.host()?.lowercased() else { continue }
+            for (site, word) in chainSites where host == site || host.hasSuffix("." + site) {
+                XCTAssertTrue(p.name.lowercased().contains(word) || (p.brand ?? "").lowercased().contains(word), "\(p.name) links to \(site)")
+            }
+        }
+        // the bundle carries no Google-derived numbers (the private leaderboard's calibration groups stay out of the app)
+        let raw = try String(contentsOf: XCTUnwrap(Bundle(for: AppModel.self).url(forResource: "places", withExtension: "json")), encoding: .utf8)
+        XCTAssertNil(raw.range(of: "google 2021", options: .caseInsensitive), "no Google-derived calibration in the app")
+    }
+
+    func testOnlyWebLinksOpen() {
+        XCTAssertNotNil(Place.webURL("https://example.com/menu"))
+        XCTAssertNotNil(Place.webURL("HTTP://example.com"))
+        XCTAssertNil(Place.webURL("javascript:alert(1)"))
+        XCTAssertNil(Place.webURL("mailto:a@b.com"))
+        XCTAssertNil(Place.webURL("maps://?q=x"))
+        XCTAssertNil(Place.webURL("https://"))
     }
 }

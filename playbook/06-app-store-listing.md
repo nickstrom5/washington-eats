@@ -1,7 +1,7 @@
 # App Store listing (ASO)
 
-Numbers here must match `site-numbers.json`, which `scripts/make-site.py` rewrites from the data on every run. Current (2026-10-05 build):
-179 teriyaki shops, 51 phở shops, 76 drive-ins, 91 oyster bars and seafood places, 20,247 restaurants in 406 towns, King County ratings on
+Numbers here must match `site-numbers.json`, which `scripts/make-site.py` rewrites from the data on every run. Current (2026-10-08 build):
+179 teriyaki shops, 51 phở shops, 76 drive-ins, 91 oyster bars and seafood places, 20,240 restaurants in 405 towns, King County ratings on
 7,310 places. Re-check after every data refresh (the final link check and display notes can move them slightly).
 
 ## Name (30 max)
@@ -30,7 +30,7 @@ The first lines show before "more", so they carry the pitch and say "Washington 
 ```
 Washington State's restaurants, and the teriyaki Seattle made its own.
 
-Washington Eats is a free guide to eating in Washington State: 179 teriyaki shops, 51 phở shops, 76 drive-ins and 91 oyster bars and seafood places we checked by hand, plus 20,247 restaurants, cafés, espresso stands and bars in 406 towns, from Seattle and Spokane to Tacoma, Vancouver, the Tri-Cities, Yakima, Bellingham and Olympia. No account, no ads.
+Washington Eats is a free guide to eating in Washington State: 179 teriyaki shops, 51 phở shops, 76 drive-ins and 91 oyster bars and seafood places we checked by hand, plus 20,240 restaurants, cafés, espresso stands and bars in 405 towns, from Seattle and Spokane to Tacoma, Vancouver, the Tri-Cities, Yakima, Bellingham and Olympia. No account, no ads.
 
 WASHINGTON GUIDES
 • Seattle Teriyaki: teriyaki counters statewide, with what each one serves. Seattle-style teriyaki is traced to Toshi Kasahara's shop of 1976; the app says which Toshi's is his.

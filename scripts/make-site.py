@@ -8,6 +8,8 @@ any ratings site, and nothing is ranked by ratings. Adapted from wi-eats/scripts
 Usage (from the repo root): .venv/bin/python scripts/make-site.py
 Re-run it after every data rebuild, then check the pages: .venv/bin/python scripts/qa-site.py
 """
+import base64
+import hashlib
 import html
 import json
 import math
@@ -241,8 +243,24 @@ RIDGE = ('<svg class="ridge" viewBox="0 0 760 26" preserveAspectRatio="none" ari
 
 def jsonld(obj):
     big = obj.get("@type") == "ItemList"
-    return ('<script type="application/ld+json">\n' + json.dumps(obj, ensure_ascii=False, indent=None if big else 1, separators=(",", ":") if big else None)
-            + "\n</script>")
+    # < > & escaped as JSON unicode escapes, so no value from open data can close the <script> element early
+    js = json.dumps(obj, ensure_ascii=False, indent=None if big else 1, separators=(",", ":") if big else None)
+    return '<script type="application/ld+json">\n' + js.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026") + "\n</script>"
+
+
+def web_link(u):
+    """Only http(s) links become hrefs (the export allows nothing else; this guards the page if that ever changes)."""
+    return u if re.match(r"(?i)^https?://", u or "") else ""
+
+
+def csp(doc):
+    """Content-Security-Policy for one page (GitHub Pages can't send headers, so it's a meta tag): this page's own inline scripts and
+    styles by hash, same-origin data, images and manifest, nothing from anywhere else."""
+    h = lambda t: "'sha256-" + base64.b64encode(hashlib.sha256(t.encode()).digest()).decode() + "'"
+    scripts = " ".join(h(t) for t in re.findall(r"<script>(.*?)</script>", doc, re.S)) or "'none'"
+    styles = " ".join(h(t) for t in re.findall(r"<style>(.*?)</style>", doc, re.S)) or "'none'"
+    return (f"default-src 'none'; script-src {scripts}; style-src {styles}; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; "
+            "base-uri 'none'; form-action 'none'; object-src 'none'")
 
 
 def crumbs(trail):
@@ -348,6 +366,9 @@ def page(path, title, desc, body, lds=(), robots="index,follow,max-image-preview
 """
     if BASE:   # served under /washington-eats/: every root-relative link and asset gets the prefix
         doc = re.sub(r'(href|src|srcset)="/', rf'\1="{BASE}/', doc)
+    doc = doc.replace('<meta charset="utf-8">\n', '<meta charset="utf-8">\n'
+                      f'<meta http-equiv="Content-Security-Policy" content="{csp(doc)}">\n'
+                      '<meta name="referrer" content="strict-origin-when-cross-origin">\n', 1)
     os.makedirs(os.path.dirname(f"{DOCS}/{path}"), exist_ok=True)
     open(f"{DOCS}/{path}", "w").write(doc)
     return path
@@ -375,8 +396,8 @@ def place_item(p, show_town=True, extra=None):
         out.append('<p class="facts">' + "".join(f'<span class="tag{cls}">{e(k)}</span>' for k, cls in kinds) + (" " + " · ".join(facts) if facts else "") + "</p>")
     if p.note:
         out.append(f'<p class="note">{e(p.note)}</p>')
-    if p.site:
-        host = re.sub(r"^https?://(www\.)?", "", p.site).split("/")[0]
+    if web_link(p.site):
+        host = re.sub(r"^https?://(www\.)?", "", p.site, flags=re.I).split("/")[0]
         out.append(f'<p class="link"><a href="{e(p.site)}" rel="noopener nofollow">{e(host)}</a></p>')
     out.append("</li>")
     return "".join(out)
@@ -387,7 +408,7 @@ def restaurant_ld(p):
          "address": {"@type": "PostalAddress", "streetAddress": p.addr, "addressLocality": p.city, "addressRegion": "WA", "addressCountry": "US"}}
     if p.zip:
         x["address"]["postalCode"] = p.zip
-    if p.site:
+    if web_link(p.site):
         x["url"] = p.site
     if p.founded:
         x["foundingDate"] = str(p.founded)
@@ -703,6 +724,8 @@ EXPLORE_CSS = """
   #ex-count { margin: 8px 0 0; font-size: 14px; color: var(--muted); }
   #ex-sub { margin: 4px 0 0; font-size: 14px; color: var(--ink2); }
   #ex-locmsg { font-size: 13px; color: var(--muted); margin: 4px 0 0; }
+  /* holds the app's place while the data loads, so the footer starts below the fold instead of jumping down */
+  #ex-loading { min-height: 100vh; }
   .ex-list { list-style: none; padding: 0; margin: 10px 0; }
   .ex-list li + li { border-top: 1px solid var(--rule); }
   .ex-row { width: 100%; display: flex; gap: 12px; align-items: center; text-align: left; background: none; border: 0; padding: 12px 4px; cursor: pointer; color: var(--ink); font: inherit; }
@@ -792,7 +815,7 @@ body = f"""{nav}
     </div>
     <div id="ex-listwrap"><ol id="ex-list" class="ex-list"></ol><button type="button" id="ex-more" class="ex-small" hidden></button></div>
     <div id="ex-mapwrap" hidden>
-      <canvas id="ex-map" aria-label="Map of Washington with a dot for each place in the list. The list view has the same places."></canvas>
+      <canvas id="ex-map" role="img" aria-label="Map of Washington with a dot for each place in the list. The list view has the same places."></canvas>
       <div class="ex-zoom"><button type="button" id="ex-zin" aria-label="Zoom in">+</button><button type="button" id="ex-zout" aria-label="Zoom out">−</button></div>
       <p id="ex-maphint"></p>
     </div>
@@ -865,10 +888,10 @@ desc = fit([f"Free iPhone and iPad guide to {N_REST:,} Washington State restaura
 city_cards = "".join(f'<li><a href="{city_url(c)}">{e(c)}</a></li>' for c in CITY_PAGES)
 body = f"""  <main id="main">
   <section class="hero">
-    <h1><span class="kicker">{BRAND}: the {TAGLINE.lower().replace("washington", "Washington")} for iPhone and iPad</span>Washington's restaurants, and the teriyaki Seattle made its own</h1>
+    <h1><span class="kicker">{BRAND}: the {e(TAGLINE.lower().replace("washington", "Washington"))} for iPhone and iPad</span>Washington's restaurants, and the teriyaki Seattle made its own</h1>
     <p class="lede">{BRAND} is a free Washington State restaurant guide. Find a teriyaki shop near you, a bowl of phở, a drive-in burger or an oyster bar, from lists we checked by hand, plus {N_REST:,} restaurants, cafés, espresso stands and bars in {N_TOWNS:,} towns.</p>
     <div class="cta-row">{store_button()}<a class="btn btn-ghost" href="/explore/">Search on the web</a><span class="pill store-note">Free. No ads, no account. Coming to the App Store.</span></div>
-    <ul class="stats" aria-label="What's in the app">
+    <ul class="stats" role="list" aria-label="What's in the app">
       <li><b>{len(TERI)}</b><span>teriyaki shops</span></li>
       <li><b>{len(PHOS)}</b><span>phở shops</span></li>
       <li><b>{len(DRIVE)}</b><span>drive-ins</span></li>
@@ -944,13 +967,13 @@ body = f"""{nav}
       <li><b>No account, no analytics, no ads.</b> The app has no sign-in, no advertising and no analytics or crash-reporting code. We receive no data from it.</li>
       <li><b>Location.</b> If you allow it, your location is used on your device to sort places by distance and show where you are on the map. It is never sent to us. You can turn it off in Settings at any time.</li>
       <li><b>Saved places and filters</b> are stored only on your device and are deleted when you delete the app.</li>
-      <li><b>Apple Maps.</b> When you open a place's ratings, hours and photos, or ask for directions, the app asks Apple Maps for that place. Apple handles that request under <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's privacy policy</a>, as it does for any app that shows a map.</li>
+      <li><b>Apple Maps.</b> The maps in the app are Apple's, loaded from Apple as you look around them. When you open a place's ratings, hours and photos, or ask for directions, the app asks Apple Maps for that place. Apple handles those requests under <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's privacy policy</a>, as it does for any app that shows a map.</li>
       <li><b>Spotlight.</b> The app adds its hand-checked teriyaki shops, phở shops, drive-ins and seafood places to your device's search index so you can find them from Spotlight. That index stays on your device.</li>
       <li><b>Calls, websites and email</b> you start from a place open in the Phone app, your browser or Mail, and are handled by them.</li>
     </ul>
     <p>On the App Store, the app's privacy label is "Data Not Collected".</p>
     <h2>This website</h2>
-    <p>The site is static pages hosted on GitHub Pages. It sets no cookies and loads no analytics, fonts or scripts from anyone else. The web app's saved places stay in your browser's local storage. GitHub may keep standard server logs, such as IP addresses, for security; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub's privacy statement</a>.</p>
+    <p>The site is static pages hosted on GitHub Pages. It sets no cookies and loads no analytics, fonts or scripts from anyone else. The web app's saved places stay in your browser's local storage. Its "Near me" button asks your browser for your location only when you press it; the location is used in the page to sort by distance and is never sent anywhere. GitHub may keep standard server logs, such as IP addresses, for security; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub's privacy statement</a>.</p>
     <h2>Email</h2>
     <p>If you email us, we use your message and address only to reply and to fix the listing you told us about. We don't add you to a mailing list or share your address.</p>
     <h2>Children</h2>

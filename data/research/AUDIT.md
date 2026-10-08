@@ -77,3 +77,24 @@ Hosts whose robots.txt disallows ClaudeBot or anthropic-ai, dropped as sources: 
 - closed claim for The Wandering Table rests on a robots-blocked host (www.spokesman.com); not used, listed in leads
 - closed claim for Zona Blanca rests on a robots-blocked host (www.spokesman.com); not used, listed in leads
 - Archipelago (Seattle): temporarily closed for renovation since Aug 3, 2026 per its own site -> seasonal.json (kept in the directory, not in a guide)
+
+## 2026-10-07 security and data review
+- Dropped the map listing "Framesbymasby" (1002 1st Ave, Seattle): a photographer's listing whose only contact is a personal overseas
+  mobile number, not a restaurant (`drop_listings.json`).
+- Phones: only valid US numbers ship (`us_phone`); overseas numbers (Rojo's Mexican Food, Reya's), the `+10000000000` placeholder and
+  short numbers are dropped, and the rest are normalized to `+1` and ten digits.
+- Website links: the link check no longer counts a name word in the URL's query (an ad feed carried `?dn=thetwindragon.com`), names
+  without a distinctive word need a word on the page, and redirect wrappers (l.facebook.com, l.instagram.com), payment, fundraising,
+  event, video, job and ad-feed hosts are refused. Cached passes that relied on the URL alone were fetched again.
+- The app's and site's data no longer carry the private leaderboard's Google-matched calibration groups.
+- 2026-10-08 link review, second pass: a chain's sampled verdict no longer covers other names on its domain (Japan Teriyaki ->
+  burgerking.com, Kinza Teriyaki -> subway.com, Hana Two Teriyaki & Sushi -> quiznos.com were passing as Burger King, Subway and Quiznos);
+  a URL several listings share is checked for the name most of them carry, and a link ships only for that place or one sharing a
+  distinctive name word or named in the address. A page whose address doesn't carry the name must call itself by it in its title
+  (directories, news stories, a bank branch, a city homepage and a history journal were passing on a mention in the body); town names
+  no longer count as distinctive. Refused: login pages, Facebook posts, groups and events, WhatsApp chats, Square gift-card and booking
+  pages, the Eagles' national homepage for local aeries. Dropped as not restaurants: Coca-Cola Refreshments (Renton bottling plant),
+  E&E Foods Employment (job listing), Pike Place Parcels (shipping shop), Lake Washington Cars and Coffee (car meetup).
+- 2026-10-08: Krishna's Dosa Family (Surrey, B.C.) was in the data 35 m north of the border: places north of the 49th parallel are now
+  dropped (the outlines are buffered for waterfront places). King & Prince Seafood (Redmond) dropped: a seafood processor's office.
+  Happy Time Bar and Grill had passed with tacotime.com ("time"); links now match on a name's first distinctive word.

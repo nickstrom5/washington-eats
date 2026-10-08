@@ -49,9 +49,11 @@ final class AppModel {
 
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
+        #if DEBUG
         if ProcessInfo.processInfo.arguments.contains("-resetState") {
             defaults.removeObject(forKey: "saved"); defaults.removeObject(forKey: "filters")
         }
+        #endif
         saved = Set(defaults.stringArray(forKey: "saved") ?? [])
         if let data = defaults.data(forKey: "filters"), let f = try? JSONDecoder().decode(Filters.self, from: data) { filters = f }
     }

@@ -16,6 +16,8 @@
     parkway: "pkwy", highway: "hwy", lane: "ln", trail: "trl", circle: "cir", terrace: "ter" };
   const syn = { ...typeSyn, north: "n", south: "s", east: "e", west: "w", northeast: "ne", northwest: "nw", southeast: "se", southwest: "sw",
     saint: "st", mount: "mt", fort: "ft" };
+  // looked up with words people type: no prototype, so "constructor" or "__proto__" is just a word
+  Object.setPrototypeOf(typeSyn, null); Object.setPrototypeOf(syn, null);
   const abbrs = new Set(Object.values(syn)), typeAbbrs = new Set(Object.values(typeSyn));
   const TERIYAKI = 1, PHO = 2, SEAFOOD = 4, DRIVEIN = 8, ESPRESSO = 16;
   const tagPhrases = [["teriyaki", TERIYAKI], ["pho", PHO], ["oysters", SEAFOOD], ["oyster", SEAFOOD], ["drive ins", DRIVEIN], ["drive in", DRIVEIN],
@@ -89,7 +91,7 @@
   const SORT_LABEL = { nearest: "Nearest", oldest: "Oldest first", name: "A to Z", iconic: "Most iconic", best: "Best rating first", lowest: "Lowest rating first" };
 
   // ---------------------------------------------------------------- state
-  let P = [], D = null, CAL = {}, TOWN_KEYS = {}, TOWN_KEYS_BY_LENGTH = [], GENERATED = "", THROUGH = "";
+  let P = [], D = null, CAL = {}, TOWNS = new Set(), KINDS = new Set(), TOWN_KEYS = {}, TOWN_KEYS_BY_LENGTH = [], GENERATED = "", THROUGH = "";
   let here = null, shown = 100, current = [], view = "list";
   const saved = new Set(store.get("saved", []));
   const st = { g: "teriyaki", q: "", sort: "", town: "", cuisine: "", chains: false, p: "" };
@@ -118,6 +120,7 @@
   function list() {
     const g = GUIDES[st.g], q = parse(st.q), o = order();
     if (qEmpty(q) && st.q.trim()) return [];   // typed something, but nothing searchable ("🍜", "!!!")
+    if (!qEmpty(q)) indexAll();
     let out = P.filter((p) => g.inc(p) && allows(p) && (qEmpty(q) || matches(p, q)));
     const byName = (a, b) => a.n.localeCompare(b.n, "en", { sensitivity: "base" });
     const dist = (p) => (here && p.la != null ? miles(here, p) : Infinity);
@@ -233,7 +236,7 @@
       ? `https://maps.apple.com/?q=${encodeURIComponent(p.n)}&ll=${p.la},${p.lo}`
       : `https://maps.apple.com/?q=${encodeURIComponent(p.n + ", " + addr)}`;
     const dirs = p.la != null ? `https://maps.apple.com/?daddr=${p.la},${p.lo}&dirflg=d` : apple;
-    const site = d.w ? (/^https?:/.test(d.w) ? d.w : "https://" + d.w) : null;
+    const site = d.w ? (/^https?:\/\//i.test(d.w) ? d.w : "https://" + d.w) : null;
     let html = `<button class="ex-close" id="ex-close" aria-label="Close">×</button>
       <p class="ex-kicker">${esc((p.c || "Washington").toUpperCase())}</p>
       <h2 id="ex-pname">${esc(p.n)}</h2>
@@ -253,7 +256,7 @@
       const kinds = [p.hc & TERIYAKI && "teriyaki", p.hc & PHO && "phở", p.hc & DRIVEIN && "drive-in burgers", p.hc & SEAFOOD && "oysters & seafood"].filter(Boolean);
       html += section("Hand-checked", (d.note ? `<p>${esc(d.note)}</p>` : "") + (p.di ? `<p><b>Serves</b><br>${esc(p.di)}</p>` : "")
         + (p.ks ? `<p><b>History</b><br>Toshi Kasahara opened Toshi's Teriyaki on Roy Street in Seattle in 1976, the shop Seattle-style teriyaki is traced to. This Mill Creek shop is his; the many other shops named Toshi's are not.</p>` : "")
-        + (d.src ? `<p><a href="${esc(d.src)}" rel="noopener nofollow" target="_blank">Source: ${esc(d.src.replace(/^https?:\/\/(www\.)?/, "").split("/")[0])}</a></p>` : "")
+        + (d.src && /^https?:\/\//i.test(d.src) ? `<p><a href="${esc(d.src)}" rel="noopener nofollow" target="_blank">Source: ${esc(d.src.replace(/^https?:\/\/(www\.)?/, "").split("/")[0])}</a></p>` : "")
         + `<p class="ex-fine">${kinds.length ? `Hand-checked for our ${kinds.join(", ")} guide in Oct 2026 against a 2025 or 2026 source: the place's own site, menu or ordering page, or dated local news.` : "Checked in Oct 2026 against a 2025 or 2026 source."} Menus and hours change, so check before you go.</p>`);
     }
     if (p.h || p.f || d.bf) {
@@ -403,6 +406,20 @@
 
   // ---------------------------------------------------------------- data, URL state, controls
   let SOURCES = [];
+  // Search text for every place. Building it for 20,000 places blocks the page for over half a second on a phone, and the first
+  // screen (a guide) doesn't need it: it's built in small slices after the first paint, and finished at once if a search comes first.
+  let indexed = 0;
+  function indexPlace(p) {
+    p.search = " " + normalize([p.n, p.c, p.co, p.z, p.cu, p.b, p.di].filter(Boolean).join(" ")) + " " + normAddr(p.a || "") + " ";
+    p.nameText = " " + normalize([p.n, p.b].filter(Boolean).join(" ")) + " ";
+  }
+  function indexAll() { while (indexed < P.length) indexPlace(P[indexed++]); }
+  const idle = (f) => ("requestIdleCallback" in window ? requestIdleCallback(f, { timeout: 2000 }) : setTimeout(f, 50));
+  function indexSome(deadline) {
+    const until = performance.now() + Math.min(deadline && !deadline.didTimeout ? deadline.timeRemaining() : 12, 12);
+    while (indexed < P.length && performance.now() < until) indexPlace(P[indexed++]);
+    if (indexed < P.length) idle(indexSome);
+  }
   async function fetchJSON(url) { const r = await fetch(url); if (!r.ok) throw new Error(r.status + " " + url); return r.json(); }
   let detailPromise = null;
   function loadDetail() {
@@ -420,25 +437,25 @@
       const co = C.co[i] == null ? null : d.counties[C.co[i]];
       const p = { i, id: C.id[i], n: C.n[i], c: city, co, cu, t: C.t[i], s: C.s[i], a: C.a[i], z: C.z[i], la: C.la[i], lo: C.lo[i],
         ch: C.ch[i] || 1, v: C.v[i] === 1, g: C.g[i] || 0, hc: C.hc[i] || 0, ip: C.ip[i], f: C.f[i], h: C.h[i] || 0, ks: C.ks[i] === 1,
-        di: C.di[i], kr: C.kr[i], kd: C.kd[i], kq: C.kq[i] };
-      p.search = " " + normalize([p.n, city, co, p.z, cu, brand, p.di].filter(Boolean).join(" ")) + " " + normAddr(p.a || "") + " ";
-      p.nameText = " " + normalize([p.n, brand].filter(Boolean).join(" ")) + " ";
+        di: C.di[i], kr: C.kr[i], kd: C.kd[i], kq: C.kq[i], b: brand };
       P[i] = p;
       if (city && !p.v) towns.set(city, (towns.get(city) || 0) + 1);
     }
     const byCount = [...towns.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
     for (const [name] of byCount) { const k = normAddr(name); if (!(k in TOWN_KEYS)) TOWN_KEYS[k] = name; }
     TOWN_KEYS_BY_LENGTH = Object.keys(TOWN_KEYS).sort((a, b) => b.length - a.length);
+    TOWNS = new Set(towns.keys());
     $("#ex-town").innerHTML = '<option value="">All towns</option>' + [...towns.keys()].sort((a, b) => a.localeCompare(b)).map((t) => `<option>${esc(t)}</option>`).join("");
     const cuis = new Map();
     for (const p of P) if (!p.v) cuis.set(p.cu, (cuis.get(p.cu) || 0) + 1);
+    KINDS = new Set(cuis.keys());
     $("#ex-cuisine").innerHTML = '<option value="">All kinds</option>' + [...cuis.entries()].sort((a, b) => b[1] - a[1]).map(([c, k]) => `<option value="${esc(c)}">${esc(c)} (${k.toLocaleString()})</option>`).join("");
   }
 
   function readHash() {
     const h = new URLSearchParams(location.hash.slice(1));
-    st.g = GUIDES[h.get("g")] ? h.get("g") : store.get("guide", "teriyaki");
-    if (!GUIDES[st.g]) st.g = "teriyaki";
+    st.g = Object.hasOwn(GUIDES, h.get("g") || "") ? h.get("g") : store.get("guide", "teriyaki");
+    if (!Object.hasOwn(GUIDES, String(st.g))) st.g = "teriyaki";
     st.q = h.get("q") || ""; st.town = h.get("town") || ""; st.cuisine = h.get("kind") || ""; st.chains = h.get("chains") === "1";
     st.sort = h.get("sort") || ""; st.p = h.get("p") || "";
   }
@@ -490,11 +507,15 @@
     document.addEventListener("keydown", (e) => { if (e.key === "Escape" && st.p) closePlace(); });
     // a link or an edited address bar changing the hash (our own updates use replaceState, which doesn't fire this)
     window.addEventListener("hashchange", () => {
-      readHash(); syncInputs(); shown = 100; render();
+      readHash(); checkState(); syncInputs(); shown = 100; render();
       const p = st.p && P.find((x) => x.id === st.p);
       if (p) openPlace(p, false); else if (!$("#ex-panel").hidden) closePlace();
     });
     mapEvents();
+  }
+  function checkState() {
+    if (st.town && !TOWNS.has(st.town)) st.town = "";
+    if (st.cuisine && !KINDS.has(st.cuisine)) st.cuisine = "";
   }
   function syncInputs() {
     $("#ex-q").value = st.q; $("#ex-town").value = st.town; $("#ex-cuisine").value = st.cuisine; $("#ex-chains").checked = st.chains;
@@ -502,13 +523,15 @@
 
   (async () => {
     readHash();
-    try { await load(); } catch (e) { $("#ex-count").textContent = "The restaurant list couldn't load. Refresh to try again."; return; }
-    syncInputs(); controls();
+    // #ex-count is inside the hidden app, so a failed load is reported where "Loading…" was
+    try { await load(); } catch (e) { $("#ex-loading").textContent = "The restaurant list couldn't load. Refresh to try again."; return; }
+    checkState(); syncInputs(); controls();
     $("#ex-app").hidden = false;
     $("#ex-loading").hidden = true;
     render();
     const open = st.p && P.find((p) => p.id === st.p);
     if (open) { await loadDetail(); openPlace(open, false); }
-    ("requestIdleCallback" in window ? requestIdleCallback : setTimeout)(() => loadDetail());
+    idle(() => loadDetail());
+    idle(indexSome);
   })();
 })();
