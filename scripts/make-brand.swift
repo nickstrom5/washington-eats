@@ -1,5 +1,6 @@
-// Regenerates the brand images: the app icon (a pair of Rainier cherries on evergreen, Nick's pick 2026-10-05), docs/brand/, and the
-// site's og.png, favicons and manifest icons. Palette: evergreen #1F4D3A, Puget Sound blue #1B5E7A, apple red #B3262E.
+// Regenerates the brand images: the app icon (a pair of Rainier cherries on evergreen, Nick's pick 2026-10-05; redrawn 2026-10-09 in
+// the shared Eats Ranked style Nick approved, state-prompts/ICON-STYLE.md), docs/brand/, and the site's og.png, favicons and manifest
+// icons. Palette: evergreen #1F4D3A, Puget Sound blue #1B5E7A, apple red #B3262E.
 // Usage: swift scripts/make-brand.swift   (run from the repo root)
 import AppKit
 import CoreGraphics
@@ -23,37 +24,72 @@ func save(_ img: CGImage, _ path: String) {
     try! NSBitmapImageRep(cgImage: img).representation(using: .png, properties: [:])!.write(to: url)
     print("wrote", path)
 }
-func leaf(_ c: CGContext, base: CGPoint, tip: CGPoint, width: CGFloat, color: CGColor, vein: CGColor) {
-    let dx = tip.x - base.x, dy = tip.y - base.y, len = hypot(dx, dy), nx = -dy / len * width, ny = dx / len * width
-    let p = CGMutablePath()
-    p.move(to: base)
-    p.addQuadCurve(to: tip, control: CGPoint(x: base.x + dx * 0.5 + nx, y: base.y + dy * 0.5 + ny))
-    p.addQuadCurve(to: base, control: CGPoint(x: base.x + dx * 0.5 - nx, y: base.y + dy * 0.5 - ny))
-    c.setFillColor(color); c.addPath(p); c.fillPath()
-    c.setStrokeColor(vein); c.setLineWidth(width * 0.09); c.setLineCap(.round)
-    c.move(to: base); c.addLine(to: CGPoint(x: base.x + dx * 0.85, y: base.y + dy * 0.85)); c.strokePath()
-}
-
-// 3. A pair of Rainier cherries (yellow with a red blush) on evergreen. Matte (Nick, 2026-10-06: "less glossy"): flat yellow, one
-// soft-edged blush on the lower right, no highlight; a thin evergreen gap cut into the back cherry keeps the two apart at 60 px.
+// 3. A pair of Rainier cherries on evergreen, in the shared Eats Ranked icon style (Nick, 2026-10-09; drawn flat like the Chicago hot dog
+// and the Wisconsin wedge): flat fills only, no gradients, alpha, shadows or highlight. Matte since Nick's 2026-10-06 "less glossy"; the
+// blush is now one hard-edged flat red disc on each cherry's lower right, and the leaf has no vein. The first fill is the evergreen
+// background; everything after it is the subject (it also reads correctly on og.png's evergreen card).
 func cherries(_ c: CGContext, _ s: CGFloat) {
+    let yellow = rgb(0xF7C948)      // Rainier cherry yellow
+    let blush = rgb(0xE0574A)       // red blush, one hard-edged flat disc (matte, no highlight)
+    let stem = rgb(0x7A9A3A)
+    let leafGreen = rgb(0x5DAE4B)
+
+    // Background, edge to edge.
     c.setFillColor(evergreen); c.fill(CGRect(x: 0, y: 0, width: s, height: s))
-    let r = s * 0.18
-    let a = CGPoint(x: s * 0.34, y: s * 0.32), b = CGPoint(x: s * 0.64, y: s * 0.28), top = CGPoint(x: s * 0.56, y: s * 0.80)
-    c.setStrokeColor(rgb(0x7A9A3A)); c.setLineWidth(s * 0.022); c.setLineCap(.round)
-    c.move(to: CGPoint(x: a.x + r * 0.15, y: a.y + r * 0.9)); c.addQuadCurve(to: top, control: CGPoint(x: s * 0.38, y: s * 0.66)); c.strokePath()
-    c.move(to: CGPoint(x: b.x, y: b.y + r * 0.9)); c.addQuadCurve(to: top, control: CGPoint(x: s * 0.64, y: s * 0.58)); c.strokePath()
-    leaf(c, base: top, tip: CGPoint(x: s * 0.84, y: s * 0.86), width: s * 0.07, color: rgb(0x5DAE4B), vein: rgb(0x2F7A2A))
-    let ba = CGRect(x: a.x - r, y: a.y - r, width: r * 2, height: r * 2), bb = CGRect(x: b.x - r, y: b.y - r, width: r * 2, height: r * 2)
-    let blush = CGGradient(colorsSpace: CGColorSpace(name: CGColorSpace.sRGB)!, colors: [rgb(0xE0574A), rgb(0xE0574A), rgb(0xE0574A, 0)] as CFArray, locations: [0, 0.62, 1])!
-    for body in [ba, bb] {
-        c.saveGState(); c.addEllipse(in: body); c.clip()
-        c.setFillColor(rgb(0xF7C948)); c.fill(body)
-        let ctr = CGPoint(x: body.midX + r * 0.7, y: body.midY - r * 0.6)
-        c.drawRadialGradient(blush, startCenter: ctr, startRadius: 0, endCenter: ctr, endRadius: r * 1.45, options: [])
-        if body == ba { c.setFillColor(evergreen); c.fillEllipse(in: bb.insetBy(dx: -s * 0.014, dy: -s * 0.014)) }
+
+    // Geometry, as fractions of the canvas (y-up). The painted box is 0.70 x 0.73, centred left-right and sitting 30 px above centre,
+    // so the hanging cherries, which carry most of the mass, sit only a little low, as on the Chicago and Wisconsin icons.
+    let r = s * 0.190                                   // cherry radius (195 px at 1024)
+    let back = CGPoint(x: s * 0.339, y: s * 0.404)      // left cherry, a little higher, behind
+    let front = CGPoint(x: s * 0.661, y: s * 0.354)     // right cherry, lower, in front
+    let join = CGPoint(x: s * 0.560, y: s * 0.822)      // where the two stems meet
+    let gap = s * 0.0137                                // 14 px evergreen gap where the front cherry overlaps the back one
+    let bleed = s * 0.0015                              // 1.5 px: the blush runs this far past the yellow edge, so the silhouette
+                                                        // has one clean anti-aliased edge (no yellow fringe)
+    c.setLineCap(.round); c.setLineJoin(.round)
+
+    // Each cherry is flat yellow with one flat red blush disc kept inside it (radius 0.88 r, centre 0.56 r right and 0.47 r down): a red
+    // cheek on the lower right under a yellow upper left, about 45% red, so the fruit reads yellow-first (Rainier), lighter facing up.
+    func cherry(_ p: CGPoint) {
+        let body = CGRect(x: p.x - r, y: p.y - r, width: 2 * r, height: 2 * r)
+        c.setFillColor(yellow); c.fillEllipse(in: body)
+        c.saveGState()
+        c.addEllipse(in: body.insetBy(dx: -bleed, dy: -bleed)); c.clip()
+        let br = r * 0.88, bc = CGPoint(x: p.x + r * 0.56, y: p.y - r * 0.47)
+        c.setFillColor(blush); c.fillEllipse(in: CGRect(x: bc.x - br, y: bc.y - br, width: 2 * br, height: 2 * br))
         c.restoreGState()
     }
+    // A 36 px round-cap stem from inside a cherry's top up to the joint.
+    func stemTo(from p: CGPoint, control: CGPoint) {
+        c.setStrokeColor(stem); c.setLineWidth(s * 0.035)
+        c.move(to: p); c.addQuadCurve(to: join, control: control); c.strokePath()
+    }
+
+    // 1. Back (left) cherry, over its own stem.
+    stemTo(from: CGPoint(x: back.x + r * 0.10, y: back.y + r * 0.70), control: CGPoint(x: s * 0.384, y: s * 0.724))
+    cherry(back)
+
+    // 2. The front cherry's separation ring: a 14 px band in the background colour, stroked under the front cherry, which cuts a clean
+    //    gap into the back cherry where they overlap. It adds no colour.
+    c.setStrokeColor(evergreen); c.setLineWidth(gap * 2)
+    c.strokeEllipse(in: CGRect(x: front.x - r, y: front.y - r, width: 2 * r, height: 2 * r))
+
+    // 3. Front stem, then the leaf: one flat lens from the stem joint, rising to the right. No vein.
+    stemTo(from: CGPoint(x: front.x - r * 0.05, y: front.y + r * 0.70), control: CGPoint(x: s * 0.656, y: s * 0.684))
+    let tip = CGPoint(x: s * 0.810, y: s * 0.866)
+    let dx = tip.x - join.x, dy = tip.y - join.y, len = hypot(dx, dy)
+    let half = s * 0.100                                // control offset; the lens is half this thick on each side
+    let nx = -dy / len * half, ny = dx / len * half
+    let mid = CGPoint(x: join.x + dx * 0.5, y: join.y + dy * 0.5)
+    let leaf = CGMutablePath()
+    leaf.move(to: join)
+    leaf.addQuadCurve(to: tip, control: CGPoint(x: mid.x + nx, y: mid.y + ny))
+    leaf.addQuadCurve(to: join, control: CGPoint(x: mid.x - nx, y: mid.y - ny))
+    leaf.closeSubpath()
+    c.setFillColor(leafGreen); c.addPath(leaf); c.fillPath()
+
+    // 4. Front (right) cherry, on top.
+    cherry(front)
 }
 
 

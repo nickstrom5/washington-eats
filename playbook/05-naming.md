@@ -36,6 +36,8 @@ Trademark: not checked. Search USPTO (tmsearch.uspto.gov) for "Washington Eats" 
 ## Icon (Nick picked the Rainier cherries)
 Concepts at 512/180/60 px: `playbook/icon-concepts/contact-sheet.png` (apple, salmon on cedar plank, Rainier cherries, teriyaki plate).
 The icon is drawn in code by `scripts/make-brand.swift`: two yellow-and-red Rainier cherries with a leaf on evergreen. No text or marks.
+Redrawn 2026-10-09 in the shared Eats Ranked style Nick approved (`../state-prompts/ICON-STYLE.md`), matching Chicago and Wisconsin: same
+cherries and colours, flat and level, each blush one hard-edged red disc, no leaf vein, no gradient or gloss.
 
 ## Palette (Nick picked "landscape")
 Evergreen #1F4D3A (9.6:1 on white), Puget Sound blue #1B5E7A (7.2:1), apple red #B3262E (6.5:1), and Rainier cherry yellow #F7C948 as a

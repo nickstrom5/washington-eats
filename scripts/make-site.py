@@ -115,15 +115,16 @@ def png_size(path):
 
 
 APPLE = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.1 2.5-1.8 3.1-.5 7.6 1.3 10.1.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.3.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.9-4zM14 5.2c.7-.8 1.2-2 1-3.2-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1.1 3.1 1.1.1 2.3-.6 3-1.4z"/></svg>'
-# the app icon in miniature: two matte Rainier cherries on evergreen (yellow, a red blush on the lower right; the evergreen ring
-# behind the front cherry is the icon's gap between the two)
+# the app icon in miniature, same geometry as cherries() in make-brand.swift (redrawn 2026-10-09 in the shared Eats Ranked style):
+# two matte Rainier cherries on evergreen, yellow with one hard-edged red blush on the lower right; the evergreen ring behind the
+# front cherry is the icon's gap between the two
 LOGO = ('<svg viewBox="0 0 64 64" width="30" height="30" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#1F4D3A"/>'
-        '<path d="M22 40 Q24 26 36 14" stroke="#7A9A3A" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
-        '<circle cx="21" cy="44" r="10" fill="#F7C948"/><path d="M18.6 53.7A10 10 0 0 0 30.0 39.7A10 10 0 0 0 18.6 53.7Z" fill="#E0574A"/>'
-        '<circle cx="41" cy="45" r="11.2" fill="#1F4D3A"/>'
-        '<path d="M40 41 Q40 26 36 14" stroke="#7A9A3A" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
-        '<circle cx="41" cy="45" r="10" fill="#F7C948"/><path d="M38.6 54.7A10 10 0 0 0 50.0 40.7A10 10 0 0 0 38.6 54.7Z" fill="#E0574A"/>'
-        '<path d="M36 14 Q46 8 54 12 Q46 18 36 14 Z" fill="#5DAE4B"/></svg>')
+        '<path d="M22.91 29.63 Q24.58 17.66 35.84 11.39" stroke="#7A9A3A" stroke-width="2.24" fill="none" stroke-linecap="round"/>'
+        '<circle cx="21.7" cy="38.14" r="12.16" fill="#F7C948"/><path d="M19.86 50.16A10.7 10.7 0 0 1 33.22 34.25A12.16 12.16 0 0 1 19.86 50.16Z" fill="#E0574A"/>'
+        '<circle cx="42.3" cy="41.34" r="13.04" fill="#1F4D3A"/>'
+        '<path d="M41.7 32.83 Q41.98 20.22 35.84 11.39" stroke="#7A9A3A" stroke-width="2.24" fill="none" stroke-linecap="round"/>'
+        '<path d="M35.84 11.39Q42.73 3.68 51.84 8.58Q44.95 16.29 35.84 11.39Z" fill="#5DAE4B"/>'
+        '<circle cx="42.3" cy="41.34" r="12.16" fill="#F7C948"/><path d="M40.47 53.36A10.7 10.7 0 0 1 53.82 37.45A12.16 12.16 0 0 1 40.47 53.36Z" fill="#E0574A"/></svg>')
 FAVICON = "data:image/svg+xml," + LOGO.replace('width="30" height="30" ', "").replace(' aria-hidden="true"', "").replace("<svg ", "<svg xmlns='http://www.w3.org/2000/svg' ").replace('"', "'").replace("#", "%23").replace("<", "%3C").replace(">", "%3E")
 
 CSS = """
