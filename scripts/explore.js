@@ -1,6 +1,6 @@
 // Washington Eats web app: the iPhone app's guides, search, filters, map and place details, in the browser.
 // Same data file as the app (split into core + detail by scripts/make-site.py). No cookies, no trackers;
-// saved places and the last guide live in this browser's localStorage only. Adapted from wi-eats/scripts/explore.js.
+// saved places and the last guide live in this browser's localStorage only.
 (() => {
   "use strict";
   const BASE = document.documentElement.dataset.base || "";
@@ -81,19 +81,23 @@
     pho: { title: "Phở", sub: "Hand-checked phở shops, from Little Saigon to Spokane", inc: (p) => p.hc & PHO, sorts: ["nearest", "oldest", "name"] },
     drivein: { title: "Drive-In Burgers", sub: "Hand-checked burger stands and drive-ins, Dick's to Zip's", inc: (p) => p.hc & DRIVEIN, sorts: ["nearest", "oldest", "name"] },
     seafood: { title: "Oysters & Seafood", sub: "Hand-checked oyster bars, chowder and fish and chips", inc: (p) => p.hc & SEAFOOD, sorts: ["nearest", "oldest", "name"] },
-    honors: { title: "Honors & History", sub: "James Beard finalists and long-running institutions", inc: (p) => p.ip != null, sorts: ["iconic", "oldest", "nearest"], ranked: true },
+    honors: { title: "Honors & History", sub: "James Beard finalists and long-running institutions. The order comes from honors and years at the address; it isn't a rating.", inc: (p) => p.ip != null, sorts: ["iconic", "oldest", "nearest"], ranked: true },
     oldest: { title: "Oldest Places", sub: "Opening years we could verify, oldest first", inc: (p) => p.f != null, sorts: ["oldest"], ranked: true },
-    safety: { title: "Food Safety", sub: "King County only: Public Health – Seattle & King County's official food safety rating, as published. Other counties don't publish ratings in bulk.",
+    safety: { title: "Food Safety", sub: "King County only: Public Health – Seattle & King County's official food safety rating, as published. No other county's ratings are shown.",
       inc: (p) => p.kr != null, sorts: ["best", "lowest", "nearest"] },
     all: { title: "All Restaurants", sub: "Restaurants, cafés, espresso stands and bars statewide", inc: () => true, sorts: ["name", "nearest"] },
     saved: { title: "Saved", sub: "Places you saved in this browser", inc: (p) => saved.has(p.id), sorts: ["name", "nearest"] },
   };
   const SORT_LABEL = { nearest: "Nearest", oldest: "Oldest first", name: "A to Z", iconic: "Most iconic", best: "Best rating first", lowest: "Lowest rating first" };
+  // what the list is actually in: "Nearest" needs a location; without one the order is honors, then oldest, then name
+  const orderLabel = (o) => (o === "nearest" && !here ? "Honors and oldest first (press Near me to sort by distance)" : SORT_LABEL[o]);
 
   // ---------------------------------------------------------------- state
   let P = [], D = null, CAL = {}, TOWNS = new Set(), KINDS = new Set(), TOWN_KEYS = {}, TOWN_KEYS_BY_LENGTH = [], GENERATED = "", THROUGH = "";
   let here = null, shown = 100, current = [], view = "list";
-  const saved = new Set(store.get("saved", []));
+  // the github.io origin is shared with other sites, so a stored value can be anything: keep only place ids (strings), never fail on it
+  const savedRaw = store.get("saved", []);
+  const saved = new Set(Array.isArray(savedRaw) ? savedRaw.filter((x) => typeof x === "string" && x) : []);
   const st = { g: "teriyaki", q: "", sort: "", town: "", cuisine: "", chains: false, p: "" };
 
   const miles = (a, b) => {
@@ -159,7 +163,7 @@
   function metric(p, o) {
     if (o === "nearest" && here && p.la != null) return [milesText(miles(here, p)), "away"];
     if ((o === "best" || o === "lowest") && p.kr) return [KCR[p.kr], "King County"];
-    if (o === "iconic" && p.ip != null) return [String(Math.round(p.ip)), "iconic pts"];
+    if (o === "iconic") return p.f ? [String(p.f), "since"] : null;   // what earns the place its spot (a year, a James Beard chip), never points
     if (p.f && st.g !== "all") return [String(p.f), "since"];
     return null;
   }
@@ -173,9 +177,8 @@
     sortSel.innerHTML = g.sorts.map((s) => `<option value="${s}"${s === o ? " selected" : ""}>${SORT_LABEL[s]}</option>`).join("");
     sortSel.disabled = g.sorts.length < 2;
     const filters = [st.town && `in ${st.town}`, st.cuisine && st.cuisine, st.chains && "no chains"].filter(Boolean);
-    $("#ex-count").textContent = `${current.length.toLocaleString()} ${current.length === 1 ? "place" : "places"} · ${SORT_LABEL[o]}` + (filters.length ? ` · ${filters.join(", ")}` : "");
+    $("#ex-count").textContent = `${current.length.toLocaleString()} ${current.length === 1 ? "place" : "places"} · ${orderLabel(o)}` + (filters.length ? ` · ${filters.join(", ")}` : "");
     $("#ex-clear").hidden = !filters.length;
-    $("#ex-locate").hidden = Boolean(here);
     if (view === "list") renderList(o); else drawMap();
     saveHash();
   }
@@ -190,7 +193,7 @@
     }
     ol.innerHTML = current.slice(0, shown).map((p, i) => {
       const m = metric(p, o);
-      const rank = g.ranked ? `<span class="ex-rank${i < 3 ? " top" : ""}" aria-label="Rank ${i + 1}">${i + 1}</span>` : "";
+      const rank = g.ranked ? `<span class="ex-rank${i < 3 ? " top" : ""}"><span class="vh">Rank </span>${i + 1}</span>` : "";
       const second = st.g === "safety" ? [p.a, p.kd && "inspected " + p.kd].filter(Boolean).join(" · ") : (["teriyaki", "pho", "drivein", "seafood"].includes(st.g) ? p.di : "");
       const metricHtml = m ? (m[1] === "King County" ? `<span class="ex-metric"><span class="ex-kc ex-kc-${p.kr}">${esc(m[0])}</span><small>official</small></span>`
         : `<span class="ex-metric"><b>${esc(m[0])}</b><small>${m[1]}</small></span>`) : "";
@@ -202,7 +205,8 @@
   }
 
   // ---------------------------------------------------------------- place panel
-  const TIER = { 2: "Inspected by King County", 1: "Confirmed listing", 0: "Listing only" };
+  // "High-confidence", not "confirmed": King County matched 81% of these listings to an inspected business, not all of them
+  const TIER = { 2: "Inspected by King County", 1: "High-confidence listing", 0: "Listing only" };
   const RES = { 1: "Satisfactory: no red critical violations", 2: "Unsatisfactory: at least one red critical violation", 3: "Complete" };
 
   function rate(p) {
@@ -226,6 +230,10 @@
   }
 
   const kv = (k, v) => (v == null || v === "" ? "" : `<div class="ex-kv"><span>${esc(k)}</span><b>${esc(v)}</b></div>`);
+  // the place panel is a modal dialog (role and aria-modal are in the page): while it's open, the rest of the page is inert,
+  // so Tab and screen readers stay in it. Opening a place adds a history entry, so the browser's Back button closes it.
+  const outside = () => [...document.body.children].filter((el) => el.id !== "ex-panel" && el.id !== "ex-scrim" && el.tagName !== "SCRIPT");
+  let pushed = false, closingBack = false, beforePush = "", lastHash = "";
   const section = (t, body) => `<section class="ex-sec"><h3>${esc(t)}</h3>${body}</section>`;
 
   function openPlace(p, push = true) {
@@ -256,7 +264,7 @@
       const kinds = [p.hc & TERIYAKI && "teriyaki", p.hc & PHO && "phở", p.hc & DRIVEIN && "drive-in burgers", p.hc & SEAFOOD && "oysters & seafood"].filter(Boolean);
       html += section("Hand-checked", (d.note ? `<p>${esc(d.note)}</p>` : "") + (p.di ? `<p><b>Serves</b><br>${esc(p.di)}</p>` : "")
         + (p.ks ? `<p><b>History</b><br>Toshi Kasahara opened Toshi's Teriyaki on Roy Street in Seattle in 1976, the shop Seattle-style teriyaki is traced to. This Mill Creek shop is his; the many other shops named Toshi's are not.</p>` : "")
-        + (d.src && /^https?:\/\//i.test(d.src) ? `<p><a href="${esc(d.src)}" rel="noopener nofollow" target="_blank">Source: ${esc(d.src.replace(/^https?:\/\/(www\.)?/, "").split("/")[0])}</a></p>` : "")
+        + (d.src && /^https?:\/\//i.test(d.src) ? `<p class="ex-srcl"><a href="${esc(d.src)}" rel="noopener nofollow" target="_blank">Source: ${esc(d.src.replace(/^https?:\/\/(www\.)?/, "").split("/")[0])}</a></p>` : "")
         + `<p class="ex-fine">${kinds.length ? `Hand-checked for our ${kinds.join(", ")} guide in Oct 2026 against a 2025 or 2026 source: the place's own site, menu or ordering page, or dated local news.` : "Checked in Oct 2026 against a 2025 or 2026 source."} Menus and hours change, so check before you go.</p>`);
     }
     if (p.h || p.f || d.bf) {
@@ -279,6 +287,8 @@
     const panel = $("#ex-panel");
     panel.innerHTML = html;
     panel.hidden = false;
+    $("#ex-scrim").hidden = false;
+    outside().forEach((el) => { el.inert = true; });
     document.body.classList.add("ex-open");
     $("#ex-close").onclick = closePlace;
     $("#ex-save").onclick = (e) => {
@@ -290,16 +300,20 @@
     };
     panel.scrollTop = 0;
     $("#ex-close").focus();
-    if (push) saveHash();
-    if (!D) loadDetail().then(() => { if (st.p === p.id) openPlace(p, false); });
+    if (push && !pushed) { beforePush = location.hash; saveHash(true); pushed = true; } else if (push) saveHash();
+    if (!D) loadDetail().then(() => { if (st.p === p.id && !$("#ex-panel").hidden) openPlace(p, false); });
   }
 
-  function closePlace() {
+  // fromHistory: Back (or Forward) already moved the history, so only the panel closes
+  function closePlace(fromHistory = false) {
     const was = st.p;
     st.p = "";
     $("#ex-panel").hidden = true;
+    $("#ex-scrim").hidden = true;
+    outside().forEach((el) => { el.inert = false; });
     document.body.classList.remove("ex-open");
-    saveHash();
+    if (!fromHistory && pushed) { pushed = false; closingBack = true; history.back(); }
+    else { pushed = false; saveHash(); }
     const row = was && document.querySelector(`.ex-row[data-i="${P.findIndex((p) => p.id === was)}"]`);
     if (row) row.focus();
   }
@@ -459,12 +473,15 @@
     st.q = h.get("q") || ""; st.town = h.get("town") || ""; st.cuisine = h.get("kind") || ""; st.chains = h.get("chains") === "1";
     st.sort = h.get("sort") || ""; st.p = h.get("p") || "";
   }
-  function saveHash() {
+  function saveHash(push = false) {
     const h = new URLSearchParams();
     h.set("g", st.g);
     if (st.q) h.set("q", st.q); if (st.town) h.set("town", st.town); if (st.cuisine) h.set("kind", st.cuisine);
     if (st.chains) h.set("chains", "1"); if (st.sort) h.set("sort", st.sort); if (st.p) h.set("p", st.p);
-    history.replaceState(null, "", "#" + h.toString());
+    // filters and searches replace the entry (Back leaves the page); opening a place adds one (Back closes it)
+    if (push) history.pushState({ place: true }, "", "#" + h.toString());
+    else history.replaceState(history.state, "", "#" + h.toString());
+    lastHash = location.hash;
     store.set("guide", st.g);
   }
 
@@ -479,8 +496,11 @@
       st.sort = GUIDES[st.g].sorts.includes("nearest") ? "nearest" : st.sort;
       if (view === "map" && !outside) centerOn(here);
       shown = 100; render();
-    }, () => { $("#ex-locmsg").textContent = "Location is off for this site. Allow it in your browser settings to sort by distance."; },
-    { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 });
+    }, (err) => {
+      $("#ex-locmsg").textContent = err.code === 1 ? "Location is off for this site. Allow it in your browser settings to sort by distance."
+        : "Couldn't get a fix on your location. Try again.";
+      render();
+    }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 0 });   // a fresh fix on every press (a fix from earlier can be miles off)
   }
 
   function setView(v) {
@@ -505,13 +525,21 @@
     document.querySelectorAll(".ex-view button").forEach((b) => b.onclick = () => setView(b.dataset.v));
     $("#ex-list").addEventListener("click", (e) => { const b = e.target.closest(".ex-row"); if (b) openPlace(P[+b.dataset.i]); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape" && st.p) closePlace(); });
-    // a link or an edited address bar changing the hash (our own updates use replaceState, which doesn't fire this)
-    window.addEventListener("hashchange", () => {
-      readHash(); checkState(); syncInputs(); shown = 100; render();
-      const p = st.p && P.find((x) => x.id === st.p);
-      if (p) openPlace(p, false); else if (!$("#ex-panel").hidden) closePlace();
-    });
+    $("#ex-scrim").onclick = () => closePlace();
+    window.addEventListener("popstate", onHistory);
+    window.addEventListener("hashchange", onHistory);
     mapEvents();
+  }
+  // a link, the address bar, Back or Forward changed the hash (our own updates set lastHash, so they're skipped)
+  function onHistory() {
+    if (closingBack) { closingBack = false; saveHash(); return; }   // the Back that closed a place: keep the current filters
+    if (location.hash === lastHash) return;                         // also the hashchange that follows a handled popstate
+    if (location.hash && !location.hash.includes("=")) return;      // "#main" from the skip link isn't app state
+    if (pushed && location.hash === beforePush) { closePlace(true); return; }   // Back from an open place: close it, keep the filters
+    pushed = false;
+    readHash(); checkState(); syncInputs(); shown = 100; render();
+    const p = st.p && P.find((x) => x.id === st.p);
+    if (p) openPlace(p, false); else if (!$("#ex-panel").hidden) closePlace(true);
   }
   function checkState() {
     if (st.town && !TOWNS.has(st.town)) st.town = "";

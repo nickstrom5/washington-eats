@@ -1,0 +1,3 @@
+[
+ {"domain": "cahoots-london.com", "match": "domain", "place": "Cahoots (Colville)", "reason": "wrong business: links a London 1940s-themed cocktail bar chain (cahoots-london.com redirects to cahoots.co.uk), not the Colville, WA place", "severity": "P2", "evidence": "$SP/work/link-scan/evidence/wa/wrong-cahoots-london_com.html (page title 'London's 1940s Inspired & Themed Cocktail Bars | Cahoots'; no mention of Colville)", "found": "2026-10-12"}
+]

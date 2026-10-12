@@ -1,12 +1,13 @@
 {
- "generated": "2026-10-05",
+ "generated": "2026-10-12",
  "records_through": "2026-09-25",
  "restaurants": 20240,
  "towns": 405,
  "teriyaki": 179,
  "teriyaki_outside_king": 103,
- "teriyaki_spicy": 106,
- "teriyaki_katsu": 124,
+ "teriyaki_chicken": 164,
+ "teriyaki_spicy": 101,
+ "teriyaki_katsu": 114,
  "teriyaki_gyoza": 132,
  "pho": 51,
  "drive_ins": 76,
@@ -56,10 +57,10 @@
   },
   "Bellevue": {
    "restaurants": 640,
-   "teriyaki_near": 53,
-   "pho_near": 20,
-   "drivein_near": 14,
-   "seafood_near": 36,
+   "teriyaki_near": 10,
+   "pho_near": 1,
+   "drivein_near": 2,
+   "seafood_near": 6,
    "kc_rated": 529
   },
   "Everett": {
@@ -72,34 +73,34 @@
   },
   "Kent": {
    "restaurants": 444,
-   "teriyaki_near": 31,
-   "pho_near": 8,
-   "drivein_near": 7,
-   "seafood_near": 8,
+   "teriyaki_near": 18,
+   "pho_near": 4,
+   "drivein_near": 2,
+   "seafood_near": 4,
    "kc_rated": 357
   },
   "Renton": {
    "restaurants": 401,
-   "teriyaki_near": 44,
-   "pho_near": 16,
-   "drivein_near": 9,
-   "seafood_near": 25,
+   "teriyaki_near": 12,
+   "pho_near": 4,
+   "drivein_near": 1,
+   "seafood_near": 2,
    "kc_rated": 337
   },
   "Federal Way": {
    "restaurants": 322,
-   "teriyaki_near": 36,
-   "pho_near": 12,
-   "drivein_near": 6,
-   "seafood_near": 9,
+   "teriyaki_near": 11,
+   "pho_near": 2,
+   "drivein_near": 5,
+   "seafood_near": 3,
    "kc_rated": 282
   },
   "Kirkland": {
    "restaurants": 337,
-   "teriyaki_near": 54,
-   "pho_near": 18,
-   "drivein_near": 13,
-   "seafood_near": 35,
+   "teriyaki_near": 12,
+   "pho_near": 1,
+   "drivein_near": 4,
+   "seafood_near": 8,
    "kc_rated": 300
   },
   "Olympia": {

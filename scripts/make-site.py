@@ -28,11 +28,43 @@ DOMAIN = f"https://{CUSTOM_DOMAIN}" if CUSTOM_DOMAIN else "https://nickstrom5.gi
 BASE = "" if CUSTOM_DOMAIN else "/washington-eats"     # path prefix for root-relative links
 BRAND = "Washington Eats"
 TAGLINE = "Teriyaki & Washington State food guide"
-EMAIL = "work-with-nick@gmail.com"
-TODAY = "2026-10-05"
+EMAIL = "nick@eatsranked.com"   # the site's contact address (Nick, 2026-10-12: Cloudflare Email Routing); the app's Links.swift follows in its next build
+PUBLISHED = "2026-10-05"         # first published: the guides' datePublished
+UPDATED = "2026-10-12"           # last content change: sitemap lastmod, dateModified, and "Last updated" on privacy and terms.
+                                 # Bump it whenever the pages' words change (a new date with unchanged policy text would be wrong too).
 CHECKED = "October 2026"
 
 D = json.load(open(f"{ROOT}/data/app/places.json"))
+# Hacked, expired or wrong-business websites found after the data's link check (pipeline/website_blocklist.json; more entries can be
+# added there without code changes). Only the link is dropped, everywhere the site publishes it; the place stays.
+# "domain" covers the registered domain and every subdomain, "url" that exact address.
+BLOCKLIST = json.load(open(f"{ROOT}/pipeline/website_blocklist.json"))
+assert all(b.get("match") in ("domain", "url") and b.get("domain") for b in BLOCKLIST), "website_blocklist.json: each entry needs domain and match"
+
+
+def blocked(u):
+    if not u:
+        return False
+    bare = re.sub(r"^(?:[a-z][a-z0-9+.-]*:)?//", "", u.strip(), flags=re.I)
+    host = bare.split("/")[0].split("?")[0].split("#")[0].split(":")[0].lower().removeprefix("www.")
+    for b in BLOCKLIST:
+        if b["match"] == "domain":
+            d = b["domain"].strip().lower().removeprefix("www.")
+            if host == d or host.endswith("." + d):
+                return True
+        else:
+            want = re.sub(r"^(?:https?:)?//(?:www\.)?", "", b["domain"].strip(), flags=re.I).rstrip("/").lower()
+            if re.sub(r"^www\.", "", bare, flags=re.I).rstrip("/").lower() == want:
+                return True
+    return False
+
+
+BLOCKED_LINKS = []
+for r in D["places"]:
+    for k in ("w", "src"):        # the website, and the hand-check source link the web app shows
+        if r.get(k) and blocked(r[k]):
+            BLOCKED_LINKS.append((r["n"], r[k]))
+            r[k] = None
 CITIES, CUISINES, COUNTIES = D["cities"], D["cuisines"], D["counties"]
 THROUGH = D["records_through"]
 TERIYAKI, PHO, SEAFOOD, DRIVEIN, ESPRESSO = 1, 2, 4, 8, 16
@@ -116,7 +148,6 @@ def png_size(path):
     return struct.unpack(">II", head[16:24])
 
 
-APPLE = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.1 2.5-1.8 3.1-.5 7.6 1.3 10.1.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.3.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.9-4zM14 5.2c.7-.8 1.2-2 1-3.2-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1.1 3.1 1.1.1 2.3-.6 3-1.4z"/></svg>'
 # the app icon in miniature, same geometry as cherries() in make-brand.swift (redrawn 2026-10-09 in the shared Eats Ranked style):
 # two matte Rainier cherries on evergreen, yellow with one hard-edged red blush on the lower right; the evergreen ring behind the
 # front cherry is the icon's gap between the two
@@ -127,7 +158,8 @@ LOGO = ('<svg viewBox="0 0 64 64" width="30" height="30" aria-hidden="true"><rec
         '<path d="M41.7 32.83 Q41.98 20.22 35.84 11.39" stroke="#7A9A3A" stroke-width="2.24" fill="none" stroke-linecap="round"/>'
         '<path d="M35.84 11.39Q42.73 3.68 51.84 8.58Q44.95 16.29 35.84 11.39Z" fill="#5DAE4B"/>'
         '<circle cx="42.3" cy="41.34" r="12.16" fill="#F7C948"/><path d="M40.47 53.36A10.7 10.7 0 0 1 53.82 37.45A12.16 12.16 0 0 1 40.47 53.36Z" fill="#E0574A"/></svg>')
-FAVICON = "data:image/svg+xml," + LOGO.replace('width="30" height="30" ', "").replace(' aria-hidden="true"', "").replace("<svg ", "<svg xmlns='http://www.w3.org/2000/svg' ").replace('"', "'").replace("#", "%23").replace("<", "%3C").replace(">", "%3E")
+# the same drawing as a file at /favicon.svg: search engines show a site's favicon only from a crawlable URL, never a data: URI
+FAVICON_SVG = LOGO.replace('width="30" height="30" ', "").replace(' aria-hidden="true"', "").replace("<svg ", '<svg xmlns="http://www.w3.org/2000/svg" ')
 
 CSS = """
   :root {
@@ -150,12 +182,13 @@ CSS = """
   a:focus-visible, summary:focus-visible, button:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 6px; }
   .skip { position: absolute; left: -9999px; top: 0; background: var(--gold); color: #13231c; padding: 10px 14px; font-weight: 700; z-index: 10; }
   .skip:focus { left: 8px; top: 8px; }
+  .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
   .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
   .ridge { display: block; width: 100%; height: 26px; color: var(--green); margin-top: 6px; }
   header.site { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 0 18px; border-bottom: 4px solid var(--gold); }
   .logo { display: flex; align-items: center; gap: 10px; font: 800 22px/1 var(--display); text-transform: uppercase; letter-spacing: .01em; color: var(--green); text-decoration: none; }
   header.site nav { display: flex; flex-wrap: wrap; gap: 4px 16px; justify-content: flex-end; }
-  header.site nav a { color: var(--ink2); text-decoration: none; font-size: 15px; }
+  header.site nav a { color: var(--ink2); text-decoration: none; font-size: 15px; padding: 4px 0; }
   header.site nav a:hover { color: var(--green); text-decoration: underline; }
   h1, h2 { font-family: var(--display); font-weight: 800; color: var(--green); letter-spacing: -.005em; }
   h1 { font-size: clamp(36px, 7.5vw, 56px); line-height: 1.02; margin: 0 0 16px; text-transform: uppercase; text-wrap: balance; }
@@ -203,9 +236,9 @@ CSS = """
   .final { text-align: center; }
   .final .cta-row { justify-content: center; }
   nav.crumbs { font-size: 14px; color: var(--muted); padding: 16px 0 0; }
-  nav.crumbs ol { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  nav.crumbs ol { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   nav.crumbs li + li::before { content: "/"; margin-right: 6px; color: var(--rule); }
-  nav.crumbs a { color: var(--muted); }
+  nav.crumbs a { color: var(--muted); display: inline-block; padding: 4px 0; }
   .places { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
   .places li { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 14px 16px; min-width: 0; overflow-wrap: anywhere; }
   .places .where { margin: 2px 0 0; font-size: 15px; color: var(--muted); }
@@ -213,6 +246,7 @@ CSS = """
   .places .facts b { color: var(--ink); font-weight: 600; }
   .places .note { margin: 6px 0 0; font-size: 15px; color: var(--ink2); }
   .places .link { font-size: 14px; }
+  .places .link a { display: inline-block; padding: 4px 0; }
   .tag { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; background: var(--goldsoft); color: #13231c; border-radius: 6px; padding: 1px 6px; margin-right: 4px; }
   .tag-sound { background: var(--soundsoft); color: var(--sound); }
   .tag-kc { color: #fff; } .kc-4 { background: #12733a; } .kc-3 { background: #4b7a1b; } .kc-2 { background: #f2b01e; color: #2b1d00; } .kc-1 { background: #c1302f; }
@@ -227,6 +261,7 @@ CSS = """
   footer { padding: 32px 0 56px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--rule); margin-top: 20px; }
   footer nav { display: flex; flex-wrap: wrap; gap: 8px 16px; }
   footer a { color: var(--muted); }
+  footer nav a { display: inline-block; padding: 4px 0; }
   footer p { margin: 12px 0 0; }
   @media (max-width: 600px) {
     .grid2 { grid-template-columns: 1fr; }
@@ -259,7 +294,7 @@ def csp(doc):
     h = lambda t: "'sha256-" + base64.b64encode(hashlib.sha256(t.encode()).digest()).decode() + "'"
     scripts = " ".join(h(t) for t in re.findall(r"<script>(.*?)</script>", doc, re.S)) or "'none'"
     styles = " ".join(h(t) for t in re.findall(r"<style>(.*?)</style>", doc, re.S)) or "'none'"
-    return (f"default-src 'none'; script-src {scripts}; style-src {styles}; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; "
+    return (f"default-src 'none'; script-src {scripts}; style-src {styles}; img-src 'self'; connect-src 'self'; manifest-src 'self'; "
             "base-uri 'none'; form-action 'none'; object-src 'none'")
 
 
@@ -273,17 +308,35 @@ def crumbs(trail):
 
 
 def store_button(label="Get early access"):
+    # no Apple logo: only Apple's own "Download on the App Store" badge may carry it (Apple's marketing guidelines)
     return (f'<a class="btn store-btn" href="mailto:{EMAIL}?subject=Washington%20Eats%20early%20access&amp;body=Send%20me%20the%20TestFlight%20link.">'
-            f'{APPLE}<span class="store-label">{label}</span></a>')
+            f'<span class="store-label">{label}</span></a>')
 
 
-def page(path, title, desc, body, lds=(), robots="index,follow,max-image-preview:large", og_alt=None, extra_css=""):
+def org_node():
+    """The site's Organization, with the Eats Ranked hub as its parent. It goes on every page (the home page carries it in its @graph),
+    so each page names the family it belongs to (the hub lists this site as a subOrganization; same wording as wi-eats)."""
+    return {"@type": "Organization", "@id": f"{DOMAIN}/#org", "name": BRAND, "url": f"{DOMAIN}/",
+            "logo": {"@type": "ImageObject", "url": f"{DOMAIN}/icon-512.png", "width": 512, "height": 512}, "email": EMAIL,
+            "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "email": EMAIL, "availableLanguage": "en"},
+            "parentOrganization": {"@type": "Organization", "@id": "https://eatsranked.com/#organization", "name": "Eats Ranked",
+                                   "url": "https://eatsranked.com/"}}
+
+
+def page(path, title, desc, body, lds=(), robots="index,follow,max-image-preview:large", og_alt=None, extra_css="", og_type="website", after=""):
     assert 50 <= len(title) <= 60 or path == "404.html", (path, len(title), title)
     assert 140 <= len(desc) <= 160 or path == "404.html", (path, len(desc), desc)
     assert body.count("<h1") == 1, path
     url = DOMAIN + "/" + ("" if path == "index.html" else path.removesuffix("index.html"))
     og_alt = og_alt or f"{BRAND}: {TAGLINE}. Washington State restaurants, with hand-checked teriyaki, phở, drive-ins and oysters."
+    defines_org = lambda x: (isinstance(x, dict) and ((x.get("@type") == "Organization" and x.get("@id") == f"{DOMAIN}/#org")
+                                                      or any(defines_org(v) for v in x.values()))) or (isinstance(x, list) and any(defines_org(v) for v in x))
+    if not defines_org(list(lds)):      # every page but the home page, whose @graph already has it
+        lds = list(lds) + [{"@context": "https://schema.org", **org_node()}]
     ld = "\n".join(jsonld(x) for x in lds)
+    # the 404 page is served at whatever address was missing, so it names no address of its own
+    own_url = "" if path == "404.html" else f'<link rel="canonical" href="{url}">\n'
+    own_og_url = "" if path == "404.html" else f'<meta property="og:url" content="{url}">\n'
     doc = f"""<!DOCTYPE html>
 <html lang="en" data-base="{BASE}">
 <head>
@@ -291,16 +344,12 @@ def page(path, title, desc, body, lds=(), robots="index,follow,max-image-preview
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
-<link rel="canonical" href="{url}">
-<meta name="robots" content="{robots}">
+{own_url}<meta name="robots" content="{robots}">
 <meta name="theme-color" content="#1F4D3A">
-<!-- Smart App Banner: once the App Store Connect record exists, replace APP_ID with the numeric Apple ID and uncomment.
-<meta name="apple-itunes-app" content="app-id=APP_ID">
--->
+<!-- <meta name="apple-itunes-app" content="app-id=APP_ID"> fill in once the App Store record exists -->
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}">
-<meta property="og:url" content="{url}">
-<meta property="og:type" content="{'website' if path == 'index.html' else 'article'}">
+{own_og_url}<meta property="og:type" content="{og_type}">
 <meta property="og:site_name" content="{BRAND}">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="{DOMAIN}/og.png">
@@ -311,7 +360,7 @@ def page(path, title, desc, body, lds=(), robots="index,follow,max-image-preview
 <meta name="twitter:title" content="{e(title)}">
 <meta name="twitter:description" content="{e(desc)}">
 <meta name="twitter:image" content="{DOMAIN}/og.png">
-<link rel="icon" type="image/svg+xml" href="{FAVICON}">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -346,11 +395,11 @@ def page(path, title, desc, body, lds=(), robots="index,follow,max-image-preview
       <a href="/terms.html">Terms of use</a>
       <a href="mailto:{EMAIL}">Email us</a>
     </nav>
-    <p>Place data: hand-checked research by {BRAND} ({CHECKED}); Overture Maps Foundation (CDLA Permissive 2.0); © OpenStreetMap contributors (ODbL); Public Health – Seattle &amp; King County food establishment inspection data (public domain). Not affiliated with or endorsed by any restaurant, team, chain or government agency. James Beard Foundation and James Beard Award are trademarks of the James Beard Foundation. Places open and close, so check before you go.</p>
-    <p>© 2026 {BRAND}.</p>
+    <p>Place data: hand-checked research by {BRAND} ({CHECKED}); Overture Maps Foundation places data (CDLA Permissive 2.0), including data from Foursquare (Apache 2.0) and AllThePlaces (CC0 1.0); © OpenStreetMap contributors (ODbL); Public Health – Seattle &amp; King County food establishment inspection data (public domain). Not affiliated with or endorsed by any restaurant, team, chain or government agency. James Beard Foundation and James Beard Award are trademarks of the James Beard Foundation. Places open and close, so check before you go.</p>
+    <p>© 2026 {BRAND}. Part of <a href="https://eatsranked.com/">Eats Ranked</a>, restaurant apps state by state.</p>
   </footer>
 </div>
-<script>
+{after}<script>
   // Once the App Store listing exists, paste its URL here (looks like https://apps.apple.com/app/id123456789).
   // Every button switches from "Get early access" to "Download on the App Store" automatically.
   // Also fill in the apple-itunes-app meta tag in <head> on every page (re-run scripts/make-site.py after editing it there).
@@ -382,6 +431,9 @@ def place_item(p, show_town=True, extra=None):
         facts.append(f"<b>Since</b> {p.founded}")
     elif p.brand_founded:
         facts.append(f"<b>Business founded</b> {p.brand_founded}")
+    if p.jbf:      # jamesbeard.org's own record, newest first; a finalist or semifinalist is never called a winner
+        jb = sorted((re.sub(r"(America's Classics) - America's Classics", r"\1", x.strip()) for x in p.jbf.split(";") if x.strip()), reverse=True)
+        facts.append(f"<b>James Beard Awards:</b> {e(jb[0])}" + (f", and {len(jb) - 1} earlier" if len(jb) > 1 else ""))
     kinds = [(k, cls) for bit, k, cls in ((TERIYAKI, "Teriyaki", ""), (PHO, "Phở", " tag-sound"), (DRIVEIN, "Drive-in", " tag-sound"),
                                           (SEAFOOD, "Seafood", " tag-sound")) if p.checked & bit]
     if p.kasahara:
@@ -424,9 +476,14 @@ def item_list(name, places, url):
 
 def article_ld(url, headline, desc):
     return {"@context": "https://schema.org", "@type": "Article", "headline": headline, "description": desc,
-            "datePublished": TODAY, "dateModified": TODAY, "inLanguage": "en", "mainEntityOfPage": url,
+            "datePublished": PUBLISHED, "dateModified": UPDATED, "inLanguage": "en", "mainEntityOfPage": url,
             "image": f"{DOMAIN}/og.png", "author": {"@type": "Organization", "name": BRAND, "url": DOMAIN + "/"},
             "publisher": {"@type": "Organization", "name": BRAND, "url": DOMAIN + "/", "logo": {"@type": "ImageObject", "url": f"{DOMAIN}/icon-512.png"}}}
+
+
+def and_list(xs):
+    xs = list(xs)
+    return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " and " + xs[-1]
 
 
 def fit(options, lo, hi):
@@ -472,10 +529,12 @@ def city_links(skip=None):
 
 
 def guide_cta():
-    return f'<div class="cta-row">{store_button()}<span class="pill store-note">Free for iPhone and iPad. Coming to the App Store.</span></div>'
+    return f'<div class="cta-row">{store_button()}<span class="pill store-note">Free on iPhone and iPad; the App Store listing is on its way.</span></div>'
 
 
 written = []
+rated_in = lambda ps: sum(1 for p in ps if p.kc.get("r"))
+teri_rated, pho_rated, drive_rated, sea_rated = rated_in(TERI), rated_in(PHOS), rated_in(DRIVE), rated_in(SEA)
 region_counts = lambda ps: ", ".join(f"{r} ({len(x)})" for r, x in by_region(ps))
 
 # ---------------------------------------------------------------- the headline guide: Seattle-style teriyaki
@@ -491,9 +550,12 @@ teri_dish = Counter()
 for p in TERI:
     for d in {x.strip().lower() for x in p.dishes.split(",") if x.strip()}:
         teri_dish[re.sub(r"\s+(plate|bowl)s?$", "", d)] += 1
-spicy = sum(1 for p in TERI if "spicy" in p.dishes.lower())
+CHICKEN_TERI = re.compile(r"chicken (?:thigh |breast )?teriyaki|teriyaki chicken", re.I)
+chicken = sum(1 for p in TERI if CHICKEN_TERI.search(p.dishes))
+dish_items = lambda p: [d.strip().lower() for d in re.split(r"[;,]", p.dishes) if d.strip()]
+spicy = sum(1 for p in TERI if any("spicy" in d and "chicken" in d for d in dish_items(p)))   # spicy chicken katsu is a spicy chicken dish too
 gyoza = sum(1 for p in TERI if "gyoza" in p.dishes.lower())
-katsu = sum(1 for p in TERI if "katsu" in p.dishes.lower())
+katsu = sum(1 for p in TERI if "chicken katsu" in p.dishes.lower())
 kasa = next((p for p in TERI if p.kasahara), None)
 assert kasa is not None and kasa.city == "Mill Creek", "the Kasahara shop must be on the guide"
 title = fit([f"Seattle Teriyaki Guide: {len(TERI)} Washington Shops | {BRAND}", f"Seattle-Style Teriyaki: {len(TERI)} Checked Shops | {BRAND}",
@@ -506,7 +568,7 @@ body = f"""{nav}
   <main id="main">
   <section class="hero">
     <h1><span class="kicker">{BRAND} guide · checked {CHECKED}</span>Seattle-style teriyaki, statewide</h1>
-    <p class="lede">{len(TERI)} teriyaki shops across Washington, {outside_king} of them outside King County, each confirmed open in {CHECKED} on its own website, menu or ordering page, or in dated local news, with what it serves.</p>
+    <p class="lede">{len(TERI)} teriyaki shops across Washington, {outside_king} of them outside King County, each checked open in {CHECKED} on its own website, menu or ordering page, or in dated local news, with what it serves.</p>
     {guide_cta()}
   </section>
   <section id="history">
@@ -514,9 +576,9 @@ body = f"""{nav}
     <p>Seattle-style teriyaki is credited to Toshihiro "Toshi" Kasahara, who opened Toshi's Teriyaki on Roy Street in Lower Queen Anne in March 1976: about 30 seats and a short menu of chicken and beef teriyaki, served with rice and a small cabbage salad (<a href="{SW}" rel="noopener">Seattle Weekly, 2007</a>; <a href="{SM}" rel="noopener">Seattle Met, 2008</a>). By his own estimate he went on to open about 30 Toshi's shops, which he sold or franchised over the years, and he left the business around 2003. Buyers and imitators kept the name, which is why so many unrelated shops are called Toshi's. Since 2013 he has run <a href="#{slug(kasa.region or '')}">Toshi's Teriyaki Grill in Mill Creek</a>, the one Toshi's that is his (<a href="{TG}" rel="noopener">its own site</a>).</p>
     <p>The plate that spread from there is grilled chicken, usually thigh meat, glazed with a sweet soy sauce and served with a scoop of white rice and a small salad. In 2007, Seattle Weekly counted more than 100 teriyaki shops inside Seattle city limits alone.</p>
     <h2>What the {len(TERI)} shops serve</h2>
-    <p>Chicken teriyaki is on every menu here. {spicy} list a spicy chicken teriyaki, {katsu} a chicken katsu and {gyoza} gyoza. Many also serve beef or pork teriyaki, yakisoba, bento boxes and, at shops with a mixed menu, sushi or phở; each place's note says so.</p>
-    <p>How the list was built: every shop was checked against a 2025 or 2026 source, such as its own menu page, a live online-ordering page it runs, or a dated local news story. A listing merely named "Teriyaki", with a dead website or no current source, stays in the app's directory but not on this guide. Places in King County also show Public Health – Seattle &amp; King County's official food safety rating, as published. Nothing here comes from review sites, and the order is by region and town, not by anyone's rating.</p>
-    <p>In the {BRAND} app, the same list sorts by distance from you, and each shop opens Apple Maps' own card for live hours and photos. For noodle soup instead, see the <a href="/washington-pho.html">Washington phở guide</a>.</p>
+    <p>{chicken} of the {len(TERI)} list chicken teriyaki by name, {spicy} a spicy chicken dish, {katsu} a chicken katsu and {gyoza} gyoza. Many also serve beef or pork teriyaki, yakisoba, bento boxes and, at shops with a mixed menu, sushi or phở; each place's note says so.</p>
+    <p>Getting on this list takes more than a name. Each counter was looked up in {CHECKED} and kept only with a 2025 or 2026 source of its own: a menu page, an ordering page it runs, or a dated local news story. Shops that are merely called "Teriyaki", or whose website was dead with nothing newer, stay in the app's full directory instead. {teri_rated} of the {len(TERI)} carry Public Health – Seattle &amp; King County's official food safety rating, shown as published. No review site fed this page, and it runs by region and town, not by anyone's score.</p>
+    <p>On a phone, {BRAND} puts the nearest of these counters at the top and hands off to Apple Maps for today's hours and photos. Want noodle soup instead? Try the <a href="/washington-pho.html">Washington phở guide</a>.</p>
     <h2>Jump to a region</h2>
     {toc}
     <p class="fine">City pages: {", ".join(f'<a href="{city_url(c)}">{e(c)}</a>' for c in CITY_PAGES)}.</p>
@@ -524,7 +586,7 @@ body = f"""{nav}
 {secs}
   </main>"""
 written.append(page("washington-teriyaki.html", title, desc, body,
-                    [article_ld(url, "Seattle-style teriyaki in Washington", desc), bc, item_list("Seattle-style teriyaki shops in Washington", sorted(TERI, key=P.key), url)]))
+                    [article_ld(url, "Seattle-style teriyaki in Washington", desc), bc, item_list("Seattle-style teriyaki shops in Washington", sorted(TERI, key=P.key), url)], og_type="article"))
 
 # ---------------------------------------------------------------- phở
 url = f"{DOMAIN}/washington-pho.html"
@@ -538,28 +600,31 @@ body = f"""{nav}
   <main id="main">
   <section class="hero">
     <h1><span class="kicker">{BRAND} guide · checked {CHECKED}</span>Washington phở guide</h1>
-    <p class="lede">{len(PHOS)} restaurants whose menus center on phở, the Vietnamese beef or chicken noodle soup, each confirmed open in {CHECKED} on its own site, menu or ordering page, or in dated local news.</p>
+    <p class="lede">{len(PHOS)} restaurants whose menus center on phở, the Vietnamese beef or chicken noodle soup, each checked open in {CHECKED} on its own site, menu or ordering page, or in dated local news.</p>
     {guide_cta()}
   </section>
   <section id="about-pho">
     <h2>About this list</h2>
     <p>Seattle's Little Saigon, around South Jackson Street and 12th Avenue South, and the Chinatown-International District have the state's densest run of phở shops, and they spread from there to Tacoma, Everett, Olympia, Vancouver and Spokane. Most serve a numbered menu of phở bowls (rare steak, brisket, tendon, tripe and meatballs, or chicken), plus bún, bánh mì and cơm tấm.</p>
-    <p>How the list was built: every place was checked against a 2025 or 2026 source, such as its own menu or a dated news story. A teriyaki shop with one phở item doesn't count; places with a mixed menu say so. Places in King County also show King County's official food safety rating, as published. The order is by region and town, never by rating.</p>
-    <p>In the {BRAND} app, the list sorts by distance and each place opens Apple Maps' own card with live hours. See also the <a href="/washington-teriyaki.html">Seattle teriyaki guide</a>.</p>
+    <p>Each shop was looked up in {CHECKED} against a 2025 or 2026 source, usually its own menu or a dated news story. Phở has to be the point of the menu: a teriyaki counter with one bowl on the board doesn't make it, and places that mix cuisines say so in their note. {pho_rated} of the {len(PHOS)} show King County's official food safety rating, as published. Listed by region and town, never ranked.</p>
+    <p>The app sorts these bowls by how far they are from you and opens Apple Maps' card for hours. Teriyaki is next door: the <a href="/washington-teriyaki.html">Seattle teriyaki guide</a>.</p>
     <h2>Jump to a region</h2>
     {toc}
   </section>
 {secs}
   </main>"""
 written.append(page("washington-pho.html", title, desc, body,
-                    [article_ld(url, "Washington phở guide", desc), bc, item_list("Phở shops in Washington", sorted(PHOS, key=P.key), url)]))
+                    [article_ld(url, "Washington phở guide", desc), bc, item_list("Phở shops in Washington", sorted(PHOS, key=P.key), url)], og_type="article"))
 
 # ---------------------------------------------------------------- drive-ins
 url = f"{DOMAIN}/washington-drive-ins.html"
-chains = Counter(p.r.get("b") for p in DRIVE if p.r.get("b") is not None)
 brand_names = D["brands"]
-chain_line = ", ".join(f"{brand_names[b]} ({n})" for b, n in chains.most_common(6))
-indep = sum(1 for p in DRIVE if p.r.get("b") is None and (p.r.get("ch") or 1) < 2)
+# a brand, or an unbranded name with several locations (Frugals, Pick-Quick): every group, so the independents are the rest
+group_of = lambda p: brand_names[p.r["b"]] if p.r.get("b") is not None else (p.name if (p.r.get("ch") or 1) >= 2 else None)
+chains = Counter(group_of(p) for p in DRIVE if group_of(p))
+chain_line = ", ".join(f"{b} ({n})" for b, n in sorted(chains.items(), key=lambda x: (-x[1], x[0].lower())))
+indep = len(DRIVE) - sum(chains.values())
+assert indep == sum(1 for p in DRIVE if group_of(p) is None)
 title = fit([f"Washington Drive-In Burgers: {len(DRIVE)} Checked Stands | {BRAND}", f"Washington Drive-Ins: {len(DRIVE)} Burger Stands | {BRAND}",
              f"Washington Drive-In Burgers: {len(DRIVE)} Checked Places"], 50, 60)
 desc = fit([f"{len(DRIVE)} drive-ins and burger stands in Washington, from Dick's in Seattle to Zip's in Spokane, each checked open in {CHECKED}. Free app, no ads.",
@@ -570,20 +635,20 @@ body = f"""{nav}
   <main id="main">
   <section class="hero">
     <h1><span class="kicker">{BRAND} guide · checked {CHECKED}</span>Washington drive-in burgers</h1>
-    <p class="lede">{len(DRIVE)} drive-ins, walk-up windows and burger stands across Washington, each confirmed open in {CHECKED} on its own site or the brand's own location list.</p>
+    <p class="lede">{len(DRIVE)} drive-ins, walk-up windows and burger stands across Washington, each checked open in {CHECKED} on its own site or the brand's own location list.</p>
     {guide_cta()}
   </section>
   <section id="about-drive-ins">
     <h2>Chains and independents</h2>
     <p>The state's regional drive-in brands are on the list location by location: {e(chain_line)}. Each brand's founding year comes from its own site. The other {indep} are independent stands, many in small towns, some seasonal; when a place says it closes for winter, its note says so.</p>
-    <p>How the list was built: every location was checked against a 2025 or 2026 source, such as the brand's own location list or the stand's own menu. Places in King County also show King County's official food safety rating, as published. The order is by region and town, never by rating.</p>
+    <p>Each stand was looked up in {CHECKED}: chain locations against the brand's own store list, independents against their own menu or a dated local story, all from 2025 or 2026. {drive_rated} King County stands show its official food safety rating, as published. The page goes by region, then town, with no ranking.</p>
     <h2>Jump to a region</h2>
     {toc}
   </section>
 {secs}
   </main>"""
 written.append(page("washington-drive-ins.html", title, desc, body,
-                    [article_ld(url, "Washington drive-in burgers", desc), bc, item_list("Drive-ins and burger stands in Washington", sorted(DRIVE, key=P.key), url)]))
+                    [article_ld(url, "Washington drive-in burgers", desc), bc, item_list("Drive-ins and burger stands in Washington", sorted(DRIVE, key=P.key), url)], og_type="article"))
 
 # ---------------------------------------------------------------- oysters & seafood
 url = f"{DOMAIN}/washington-oysters-seafood.html"
@@ -598,20 +663,20 @@ body = f"""{nav}
   <main id="main">
   <section class="hero">
     <h1><span class="kicker">{BRAND} guide · checked {CHECKED}</span>Washington oysters &amp; seafood</h1>
-    <p class="lede">{len(SEA)} oyster bars, shellfish farms with a counter, seafood houses, chowder and fish-and-chips spots, {sea_out} of them outside King County, each confirmed open in {CHECKED}.</p>
+    <p class="lede">{len(SEA)} oyster bars, shellfish farms with a counter, seafood houses, chowder and fish-and-chips spots, {sea_out} of them outside King County, each checked open in {CHECKED}.</p>
     {guide_cta()}
   </section>
   <section id="about-seafood">
     <h2>About this list</h2>
     <p>{len(OYSTER_BARS)} of the {len(SEA)} serve oysters, from Puget Sound, Hood Canal, Samish Bay and Willapa Bay growers. The rest are seafood houses, chowder counters and fish-and-chips stands. Chain locations are listed when the brand's own location list confirms them.</p>
-    <p>How the list was built: every place was checked against a 2025 or 2026 source, such as its own menu or a dated news story. Seasonal places that have closed for the year stay in the app's directory but come off this list until they reopen. Places in King County also show King County's official food safety rating, as published.</p>
+    <p>Each spot was looked up in {CHECKED} against a 2025 or 2026 source, most often its own menu or a dated news story. Seasonal counters that have shut for the year drop off this page until they reopen, and stay in the app's directory meanwhile. {sea_rated} of the {len(SEA)} carry King County's official food safety rating, as published.</p>
     <h2>Jump to a region</h2>
     {toc}
   </section>
 {secs}
   </main>"""
 written.append(page("washington-oysters-seafood.html", title, desc, body,
-                    [article_ld(url, "Washington oysters and seafood", desc), bc, item_list("Oyster bars and seafood in Washington", sorted(SEA, key=P.key), url)]))
+                    [article_ld(url, "Washington oysters and seafood", desc), bc, item_list("Oyster bars and seafood in Washington", sorted(SEA, key=P.key), url)], og_type="article"))
 
 # ---------------------------------------------------------------- city pages
 city_stats = {}
@@ -632,7 +697,8 @@ for c in CITY_PAGES:
         out.sort(key=lambda x: (x[0], x[1] if x[0] else 0, x[2].name.lower()))
         return [(d, p) for _, d, p in out]
 
-    radius = 6 if c == "Seattle" else 12
+    # dense King County: a 12-mile circle around Bellevue or Kirkland is mostly the same places, so those pages look past their own town less far
+    radius = 6 if here[0].county == "King" else 12
     te, ph, dr, sf = near(TERI, radius), near(PHOS, radius), near(DRIVE, radius), near(SEA, radius)
     honored = sorted([p for p in here if p.ip is not None], key=lambda p: (-p.ip, p.name.lower()))
     oldest = sorted([p for p in here if p.founded], key=lambda p: (p.founded, p.name.lower()))[:10]
@@ -645,48 +711,69 @@ for c in CITY_PAGES:
 
     path = f"cities/{slug(c)}.html"
     url = DOMAIN + "/" + path
-    title = fit([f"{c} Teriyaki, Phở & Restaurants | {BRAND}", f"{c} Teriyaki, Pho & Restaurant Guide | {BRAND}",
-                 f"{c}, WA Teriyaki, Phở & Restaurants | {BRAND}", f"{c}, WA Teriyaki, Pho & Restaurant Guide",
-                 f"{c}, Washington Teriyaki, Phở & Restaurants", f"{c}, Washington Teriyaki & Restaurant Guide",
-                 f"{c} Teriyaki & Restaurants | {BRAND}"], 50, 60)
-    desc = fit([f"Teriyaki shops, phở, drive-ins and oyster bars in and near {c}, WA, checked open in {CHECKED}, plus local honors and the oldest places in town.",
-                f"Teriyaki, phở, drive-in burgers and seafood in and near {c}, Washington, checked open in {CHECKED}, with local honors and the oldest places.",
-                f"Teriyaki shops, phở, drive-ins and seafood in and near {c}, Washington, checked open in {CHECKED}, plus local honors and the oldest restaurants.",
-                f"Teriyaki, phở, drive-ins and oyster bars in and near {c}, WA, all checked open in {CHECKED}, plus local honors and the oldest restaurants in town."], 140, 160)
+    # the title, h1, description and lede name only what this page lists (Wenatchee has no hand-checked teriyaki or phở nearby)
+    oysters_near = any(p in OYSTER_BARS for _, p in sf)
+    kinds = [(te, "Teriyaki", "Teriyaki", "teriyaki", "teriyaki shops", ("teriyaki shop", "teriyaki shops")),
+             (ph, "Phở", "Pho", "phở", "phở", ("phở shop", "phở shops")),
+             (dr, "Drive-Ins", "Drive-Ins", "drive-ins", "drive-ins", ("drive-in", "drive-ins")),
+             (sf, "Seafood", "Seafood", "seafood", "oyster bars" if oysters_near else "seafood places", ("oyster bar or seafood place", "oyster bars and seafood places"))]
+    have = [k for k in kinds if k[0]]
+    extras = [x for x, ok in (("local honors", honored), ("the oldest places in town", oldest)) if ok]
+    tails = [f", plus {and_list(extras)}." if extras else ".", f", plus {and_list(extras)}. Free, no ads." if extras else ". Free app, no ads.",
+             f", plus {and_list(extras)}, from the free {BRAND} app." if extras else f", from the free {BRAND} app, no ads."]
+    if have:
+        heads = [", ".join(k[1] for k in have[:2]), ", ".join(k[1] if k[1] != "Phở" else k[2] for k in have[:2]), have[0][1]]
+        title = fit([f"{n} {h} & {s}" for h in heads for n in (c, f"{c}, WA", f"{c}, Washington")
+                     for s in (f"Restaurants | {BRAND}", f"Restaurant Guide | {BRAND}", "Restaurant Guide", "Restaurants")], 50, 60)
+        h1 = f"{e(c)} {e(', '.join(k[3] for k in have[:2]))} &amp; restaurants"
+        what = [and_list([k[4] for k in have]).capitalize(), and_list([k[4] for k in have[:3]]).capitalize()]
+        desc = fit([f"{w} in and near {c}, {st}, checked open in {CHECKED}{t}" for t in tails for w in what for st in ("WA", "Washington")]
+                   + [f"{w} in and near {c}, {st}, checked open in {CHECKED}, with what each serves{t}" for t in tails for w in what for st in ("WA", "Washington")], 140, 160)
+        found = and_list([f"{len(k[0])} {k[5][len(k[0]) != 1]}" for k in have])
+        lede_head = f"{found} in and around {e(c)}, {'each ' if sum(len(k[0]) for k in have) > 1 else ''}checked open in {CHECKED}."
+    else:
+        title = fit([f"{n} Restaurants & Local {s}" for n in (f"{c}, WA", f"{c}, Washington", c)
+                     for s in (f"History | {BRAND}", "Food History", "History")], 50, 60)
+        h1 = f"{e(c)} restaurants" + (" &amp; local history" if extras else "")
+        desc = fit([f"Where to eat in {c}, Washington: {n_town:,} restaurants, cafés, espresso stands and bars in the free {BRAND} app{t}" for t in tails]
+                   + [f"{n_town:,} restaurants, cafés, espresso stands and bars in {c}, Washington, sorted by distance in the free {BRAND} app{t}" for t in tails], 140, 160)
+        lede_head = f"None of our hand-checked teriyaki shops, phở shops, drive-ins or seafood places is within {radius} miles of {e(c)} yet."
     nav, bc = crumbs([("Home", "/"), ("Cities", "/#cities"), (c, "/" + path)])
     kc_line = (f" {len(rated):,} places in {e(c)} also show King County's official food safety rating, as published, through {THROUGH}." if rated else "")
     parts = [f"""{nav}
   <main id="main">
   <section class="hero">
-    <h1><span class="kicker">{BRAND} · {e(c)}, Washington</span>{e(c)} teriyaki, phở &amp; restaurants</h1>
-    <p class="lede">{len(te)} teriyaki shops, {len(ph)} phở shops, {len(dr)} drive-ins and {len(sf)} oyster bars and seafood places in and around {e(c)}, each checked open in {CHECKED}. The {BRAND} app has all {n_town:,} restaurants, cafés, espresso stands and bars in {e(c)} and sorts them by distance from you.{kc_line}</p>
+    <h1><span class="kicker">{BRAND} · {e(c)}, Washington</span>{h1}</h1>
+    <p class="lede">{lede_head} The {BRAND} app lists {n_town:,} restaurants, cafés, espresso stands and bars in {e(c)} and sorts them by distance from you.{kc_line}</p>
     {guide_cta()}
   </section>"""]
     sec = lambda sid, h, sub, lst: f'<section id="{sid}"><h2>{h}</h2><p class="sub">{sub}</p><ol class="places">{items(lst)}</ol></section>'
     if te:
-        parts.append(sec("teriyaki", f"Teriyaki in and near {e(c)}", f"Shops in {e(c)} first, then others within {radius} miles, closest first. <a href=\"/washington-teriyaki.html\">All {len(TERI)} Washington teriyaki shops</a>.", te))
+        parts.append(sec("teriyaki", f"Teriyaki in and near {e(c)}", f"Counters inside {e(c)} come first; after them, the rest within {radius} miles, nearest to farthest. Statewide: <a href=\"/washington-teriyaki.html\">{len(TERI)} hand-checked teriyaki shops</a>.", te))
     if ph:
-        parts.append(sec("pho", f"Phở in and near {e(c)}", f"Within {radius} miles. <a href=\"/washington-pho.html\">All {len(PHOS)} Washington phở shops</a>.", ph))
+        parts.append(sec("pho", f"Phở in and near {e(c)}", f"Bowls within {radius} miles of {e(c)}. Statewide: <a href=\"/washington-pho.html\">{len(PHOS)} hand-checked phở shops</a>.", ph))
     if dr:
-        parts.append(sec("drive-ins", f"Drive-ins near {e(c)}", f"Within {radius} miles. <a href=\"/washington-drive-ins.html\">All {len(DRIVE)} Washington drive-ins</a>.", dr))
+        parts.append(sec("drive-ins", f"Drive-ins near {e(c)}", f"Burger stands within {radius} miles of {e(c)}. Statewide: <a href=\"/washington-drive-ins.html\">{len(DRIVE)} hand-checked drive-ins</a>.", dr))
     if sf:
-        parts.append(sec("seafood", f"Oysters and seafood near {e(c)}", f"Within {radius} miles. <a href=\"/washington-oysters-seafood.html\">All {len(SEA)} oyster bars and seafood places</a>.", sf))
+        parts.append(sec("seafood", f"Oysters and seafood near {e(c)}", f"Shellfish and seafood counters within {radius} miles of {e(c)}. Statewide: <a href=\"/washington-oysters-seafood.html\">{len(SEA)} hand-checked oyster bars and seafood places</a>.", sf))
     if honored:
-        parts.append(f'<section id="honors"><h2>{e(c)} honors &amp; history</h2><p class="sub">James Beard finalists and semifinalists (never called winners unless they won) and long-running institutions, from the James Beard Foundation\'s own award records and other named sources.</p><ol class="places">'
+        parts.append(f'<section id="honors"><h2>{e(c)} honors &amp; history</h2><p class="sub">Who in {e(c)} has a James Beard Award nomination (a finalist or semifinalist is named as one, never as a winner) or a long history in town, taken from jamesbeard.org and other named sources.</p><ol class="places">'
                      + "".join(place_item(p) for p in honored) + "</ol></section>")
     if oldest:
-        parts.append(f'<section id="oldest"><h2>Oldest restaurants in {e(c)}</h2><p class="sub">Opening years at the current address, checked against the restaurant\'s own history page or local news, oldest first.</p><ol class="places">'
+        parts.append(f'<section id="oldest"><h2>Oldest restaurants in {e(c)}</h2><p class="sub">The year each one opened where it stands today, confirmed from its own history page or a local news story, earliest first.</p><ol class="places">'
                      + "".join(place_item(p) for p in oldest) + "</ol></section>")
     if cuis:
         rows = "".join(f'<tr><td>{e(k)}</td><td class="n">{n:,}</td></tr>' for k, n in cuis)
-        parts.append(f'<section id="cuisines"><h2>What {e(c)} eats</h2><p class="sub">The most common kinds of restaurant among the {n_town:,} in {e(c)}, from open map data and King County\'s inspection records.</p><table><thead><tr><th scope="col">Kind of place</th><th scope="col" class="n">Places</th></tr></thead><tbody>{rows}</tbody></table></section>')
-    parts.append(f'<section id="more"><h2>More Washington cities</h2>{city_links(skip=c)}</section>\n  </main>')
+        parts.append(f'<section id="cuisines"><h2>What {e(c)} eats</h2><p class="sub">The ten kinds of food that turn up most among {e(c)}\'s {n_town:,} listings, counted from Overture\'s open map data and, in King County, the health department\'s inspection records.</p><table><thead><tr><th scope="col">Kind of place</th><th scope="col" class="n">Places</th></tr></thead><tbody>{rows}</tbody></table></section>')
+    parts.append(f'<section id="more"><h2>Other Washington towns</h2>{city_links(skip=c)}</section>\n  </main>')
     seen, uniq = set(), []
     for _, p in te + ph + dr + sf:
         if id(p) not in seen:
             seen.add(id(p)); uniq.append(p)
+    headline = html.unescape(re.sub(r"<[^>]+>", "", h1))
     written.append(page(path, title, desc, "\n".join(parts),
-                        [article_ld(url, f"{c} teriyaki, phở and restaurants", desc), bc, item_list(f"Teriyaki, phở, drive-ins and seafood near {c}", uniq, url)]))
+                        [article_ld(url, headline[:1].upper() + headline[1:], desc), bc]
+                        + ([item_list(f"Hand-checked teriyaki, phở, drive-ins and seafood near {c}", uniq, url)] if uniq else []), og_type="article"))
 
 # ---------------------------------------------------------------- web app (docs/explore/): data split + page
 os.makedirs(f"{DOCS}/data", exist_ok=True)
@@ -714,13 +801,15 @@ EXPLORE_CSS = """
   .ex-hero h1 { font-size: clamp(30px, 6vw, 44px); }
   .ex-controls { background: var(--bg); padding: 10px 0 8px; border-bottom: 1px solid var(--rule); }
   .ex-guides { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 8px; scrollbar-width: none; }
-  .ex-guides button, .ex-view button, .ex-small { flex: 0 0 auto; border: 1px solid var(--rule); background: var(--surface); color: var(--green); border-radius: 999px; padding: 7px 12px; font: 600 14px/1.2 inherit; font-family: inherit; cursor: pointer; }
+  .ex-guides button, .ex-view button, .ex-small { flex: 0 0 auto; border: 1px solid var(--rule); background: var(--surface); color: var(--green); border-radius: 999px; padding: 7px 12px; font-weight: 600; font-size: 14px; line-height: 1.2; font-family: inherit; cursor: pointer; }
   .ex-guides button[aria-pressed="true"], .ex-view button[aria-pressed="true"] { background: var(--green); color: var(--bg); border-color: var(--green); }
   .ex-row1 { display: flex; gap: 8px; align-items: center; }
-  .ex-row1 input[type=search] { flex: 1; min-width: 0; font: 16px/1.3 inherit; font-family: inherit; padding: 10px 12px; border: 2px solid var(--green); border-radius: 12px; background: var(--surface); color: var(--ink); }
+  .ex-row1 input[type=search] { flex: 1; min-width: 0; font-size: 16px; line-height: 1.3; font-family: inherit; padding: 10px 12px; border: 2px solid var(--green); border-radius: 12px; background: var(--surface); color: var(--ink); }
   .ex-row2 { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 8px; font-size: 14px; }
-  .ex-row2 select { font: 14px inherit; font-family: inherit; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); color: var(--ink); max-width: 46vw; }
+  .ex-row2 label { display: inline-flex; align-items: center; gap: 4px; min-height: 30px; }
+  .ex-row2 select { font-size: 14px; font-family: inherit; padding: 6px 8px; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); color: var(--ink); max-width: 46vw; }
   .ex-view { margin-left: auto; display: flex; gap: 4px; }
+  @media (max-width: 600px) { .ex-row2 select { font-size: 16px; } }   /* under 16px, iOS zooms the page when a field gets focus */
   #ex-count { margin: 8px 0 0; font-size: 14px; color: var(--muted); }
   #ex-sub { margin: 4px 0 0; font-size: 14px; color: var(--ink2); }
   #ex-locmsg { font-size: 13px; color: var(--muted); margin: 4px 0 0; }
@@ -750,7 +839,7 @@ EXPLORE_CSS = """
   @media (prefers-color-scheme: dark) { #ex-mapwrap { background: #16303a; } }
   #ex-map { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
   .ex-zoom { position: absolute; right: 10px; top: 10px; display: flex; flex-direction: column; gap: 6px; }
-  .ex-zoom button { width: 38px; height: 38px; border-radius: 10px; border: 1px solid var(--rule); background: var(--surface); color: var(--green); font: 700 20px/1 inherit; cursor: pointer; }
+  .ex-zoom button { width: 38px; height: 38px; border-radius: 10px; border: 1px solid var(--rule); background: var(--surface); color: var(--green); font-weight: 700; font-size: 20px; line-height: 1; font-family: inherit; cursor: pointer; }
   #ex-maphint { position: absolute; left: 10px; bottom: 8px; margin: 0; font-size: 13px; background: var(--surface); padding: 3px 8px; border-radius: 999px; color: var(--ink2); }
   .ex-panel { position: fixed; z-index: 20; right: 0; top: 0; bottom: 0; width: min(440px, 100%); overflow-y: auto; background: var(--surface); border-left: 1px solid var(--rule); box-shadow: -8px 0 24px rgba(0,0,0,.12); padding: 18px 20px 40px; }
   @media (max-width: 600px) { .ex-panel { top: auto; height: 86vh; border-left: 0; border-top: 4px solid var(--gold); border-radius: 18px 18px 0 0; } }
@@ -761,7 +850,7 @@ EXPLORE_CSS = """
   .ex-actions { margin: 14px 0 8px; display: grid; gap: 8px; }
   .ex-apple { justify-content: center; }
   .ex-act-row { display: flex; gap: 8px; flex-wrap: wrap; }
-  .ex-act-row a, .ex-act-row button { flex: 1; min-width: 88px; text-align: center; padding: 10px; border: 1px solid var(--rule); border-radius: 12px; text-decoration: none; color: var(--green); font: 600 14px inherit; font-family: inherit; background: var(--surface); cursor: pointer; }
+  .ex-act-row a, .ex-act-row button { flex: 1; min-width: 88px; text-align: center; padding: 10px; border: 1px solid var(--rule); border-radius: 12px; text-decoration: none; color: var(--green); font-weight: 600; font-size: 14px; font-family: inherit; background: var(--surface); cursor: pointer; }
   .ex-act-row button[aria-pressed="true"] { background: var(--goldsoft); color: #13231c; }
   .ex-sec { margin-top: 18px; }
   .ex-sec h3 { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--rule); padding-bottom: 6px; margin-bottom: 8px; }
@@ -770,16 +859,18 @@ EXPLORE_CSS = """
   .ex-kv span { color: var(--ink2); }
   .ex-kv b { text-align: right; }
   .ex-fine { font-size: 13px !important; color: var(--muted) !important; }
+  .ex-srcl a { display: inline-block; padding: 4px 0; }
   .ex-grade { display: flex; align-items: center; gap: 10px; font-weight: 600; flex-wrap: wrap; }
   .ex-app { margin-top: 22px; font-size: 14px; color: var(--muted); }
+  .ex-scrim { position: fixed; inset: 0; z-index: 19; background: rgba(0,0,0,.28); }
   body.ex-open { overflow: hidden; }
   @media (min-width: 601px) { body.ex-open { overflow: auto; } }
 """
 url = f"{DOMAIN}/explore/"
 title = fit(["Search Washington Restaurants, Teriyaki & Phở | Washington Eats", "Search Washington Restaurants, Teriyaki & Pho Shops",
              "Washington Restaurant Search & Map | Washington Eats"], 50, 60)
-desc = fit([f"Search all {N_REST:,} Washington State restaurants by name, town, street or dish, and map {len(TERI)} hand-checked teriyaki shops and {len(PHOS)} phở shops. Free.",
-            f"Search all {N_REST:,} Washington restaurants by name, town, street or dish, and map {len(TERI)} hand-checked teriyaki shops, {len(PHOS)} phở shops and more.",
+desc = fit([f"Search {N_REST:,} Washington State restaurants by name, town, street or dish, and map {len(TERI)} hand-checked teriyaki shops and {len(PHOS)} phở shops. Free, no ads.",
+            f"Search {N_REST:,} Washington restaurants by name, town, street or dish, and map {len(TERI)} hand-checked teriyaki shops, {len(PHOS)} phở shops and more.",
             f"Search {N_REST:,} Washington restaurants by name, town, street or dish, and map {len(TERI)} hand-checked teriyaki shops and {len(PHOS)} phở shops."], 140, 160)
 nav, bc = crumbs([("Home", "/"), ("Search", "/explore/")])
 guide_buttons = "".join(f'<button type="button" data-g="{k}" aria-pressed="false">{e(t)}</button>' for k, t in
@@ -789,10 +880,10 @@ body = f"""{nav}
   <main id="main">
   <section class="ex-hero">
     <h1><span class="kicker">{BRAND} · on the web</span>Search Washington restaurants</h1>
-    <p class="sub">{N_REST:,} restaurants, cafés, espresso stands and bars, with {len(TERI)} hand-checked teriyaki shops, {len(PHOS)} phở shops, {len(DRIVE)} drive-ins and {len(SEA)} oyster bars and seafood places. The same data as the free iPhone and iPad app. Nothing about you is stored anywhere but this browser.</p>
+    <p class="sub">The iPhone app's Washington list, in a browser tab: {N_REST:,} restaurants, cafés, espresso stands and bars, led by the hand-checked teriyaki ({len(TERI)}), phở ({len(PHOS)}), drive-in ({len(DRIVE)}) and oyster and seafood ({len(SEA)}) lists. What you save, and the list you had open, stay in this browser; nothing is sent to us.</p>
   </section>
-  <p id="ex-loading">Loading the restaurant list…</p>
-  <noscript><p>The search needs JavaScript. The guides work without it: <a href="/washington-teriyaki.html">teriyaki</a>, <a href="/washington-pho.html">phở</a>, <a href="/washington-drive-ins.html">drive-ins</a>, <a href="/washington-oysters-seafood.html">oysters &amp; seafood</a>.</p></noscript>
+  <p id="ex-loading">Loading Washington's restaurants…</p>
+  <noscript><p>Search and the map run on JavaScript. The four guides are plain pages: <a href="/washington-teriyaki.html">teriyaki</a>, <a href="/washington-pho.html">phở</a>, <a href="/washington-drive-ins.html">drive-ins</a>, <a href="/washington-oysters-seafood.html">oysters &amp; seafood</a>.</p></noscript>
   <div id="ex-app" hidden>
     <div class="ex-controls">
       <div class="ex-guides" role="group" aria-label="Guides">{guide_buttons}</div>
@@ -820,22 +911,25 @@ body = f"""{nav}
       <p id="ex-maphint"></p>
     </div>
   </div>
-  <aside id="ex-panel" class="ex-panel" hidden aria-labelledby="ex-pname"></aside>
-  </main>
+  </main>"""
+# the place panel and its scrim sit outside the page wrapper, so everything else can be made inert while the dialog is open
+explore_after = f"""<div id="ex-scrim" class="ex-scrim" hidden></div>
+<aside id="ex-panel" class="ex-panel" role="dialog" aria-modal="true" aria-labelledby="ex-pname" hidden></aside>
 <script>
 {open(f"{ROOT}/scripts/explore.js").read()}
-</script>"""
+</script>
+"""
 webapp_ld = {"@context": "https://schema.org", "@type": "WebApplication", "name": f"{BRAND} web app", "url": url,
              "applicationCategory": "TravelApplication", "operatingSystem": "Any", "browserRequirements": "Requires JavaScript",
              "description": desc, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@id": f"{DOMAIN}/#org"}}
-written.append(page("explore/index.html", title, desc, body, [webapp_ld, bc], extra_css=EXPLORE_CSS))
+written.append(page("explore/index.html", title, desc, body, [webapp_ld, bc], extra_css=EXPLORE_CSS, after=explore_after))
 
 # ---------------------------------------------------------------- landing page
-shots = [("home", "Washington Eats home screen: the Seattle Teriyaki guide, then Phở, Drive-In Burgers, Oysters & Seafood, Honors & History, Oldest Places and Food Safety, with a search box for every restaurant in the state.", "Guides for teriyaki, phở, drive-ins and oysters."),
-         ("teriyaki", "Seattle Teriyaki list in Washington Eats, sorted by distance from downtown Seattle, with what each shop serves.", "Teriyaki shops nearest you first."),
-         ("detail", "Toshio's Teriyaki in Seattle in Washington Eats: address, a button for ratings, hours and photos in Apple Maps, what it serves and King County's official food safety rating.", "Each place, with live Apple Maps hours and photos."),
-         ("map", "Washington Eats map with pins for hand-checked teriyaki shops.", "The map, by teriyaki, phở, drive-ins or seafood."),
-         ("safety", "Food Safety list in Washington Eats: King County's official ratings, best first.", "King County's official food safety ratings.")]
+shots = [("home", "The Washington Eats home screen: Seattle Teriyaki on top, then Phở, Drive-In Burgers, Oysters & Seafood, Honors & History, Oldest Places and Food Safety, under a search box for restaurants statewide.", "Search on top, then the hand-checked lists."),
+         ("teriyaki", "The Seattle Teriyaki list in Washington Eats, closest to downtown Seattle first, each counter with its menu staples.", "Teriyaki counters, closest to downtown first."),
+         ("detail", "Toshio's Teriyaki in Seattle in Washington Eats: its address, what it serves, King County's official food safety rating and a button for Apple Maps' card.", "One shop: menu staples, King County's rating, Apple Maps."),
+         ("map", "The Washington Eats map with a pin for each hand-checked teriyaki counter around Puget Sound.", "Teriyaki around the Sound, on the map."),
+         ("safety", "The Food Safety list in Washington Eats: Public Health – Seattle & King County's official ratings, Excellent first.", "King County's ratings, as published.")]
 shot_html = []
 for i, (name, alt, cap) in enumerate(shots):
     png = f"{DOCS}/img/screen-{name}.png"
@@ -847,22 +941,23 @@ for i, (name, alt, cap) in enumerate(shots):
     shot_html.append(f'<li><picture>{webp}<img src="/img/screen-{name}.png" alt="{e(alt)}" width="{w}" height="{h}"{lazy} decoding="async"></picture><p>{e(cap)}</p></li>')
 shots_section = f"""
   <section id="screens">
-    <h2>What it looks like</h2>
+    <h2>Screens from the app</h2>
     <ul class="shots" tabindex="0" aria-label="Washington Eats app screenshots">
       {"".join(shot_html)}
     </ul>
   </section>
 """ if shot_html else ""
 
+KING_PLACES = sum(1 for p in REST if p.county == "King")
 faq = [
-    ("Is Washington Eats free?", "Yes. The app is free, with no ads, no in-app purchases and no account."),
-    ("Where do the teriyaki shops and other guides come from?", f"We checked each one by hand in {CHECKED}: every place on the teriyaki, phở, drive-in and oysters and seafood lists has a 2025 or 2026 source such as its own menu page, a live online-ordering page it runs or a dated news story. The rest of the {N_REST:,} restaurants come from Overture Maps' open place data and King County's food establishment inspection records."),
-    ("Is this the Washington in D.C.?", "No. Washington Eats covers Washington State only: Seattle, Spokane, Tacoma, Vancouver, the Tri-Cities, Yakima, Bellingham, Olympia and everywhere in between."),
-    ("Does the app show ratings and reviews?", "Not its own. Tap a place and Apple Maps' own place card opens inside the app with Apple's current ratings, hours, photos and directions. Our lists are never ordered by ratings."),
-    ("What are the food safety ratings?", f"For King County (Seattle and its suburbs), the app shows Public Health – Seattle & King County's official rating, as published: Excellent, Good, Okay or Needs to Improve, from inspections through {THROUGH}. We never compute our own. Other counties don't publish ratings in bulk."),
-    ("Does it need my location?", "Only if you want lists sorted by distance. Your location stays on your iPhone or iPad and is never sent to us. Everything else works without it."),
-    ("A place closed or is missing. How do I tell you?", f"Email {EMAIL} with the name and town. Corrections go into the next update."),
-    ("Is there an Android version?", f"Not yet. Washington Eats is for iPhone and iPad. If enough people ask at {EMAIL}, it moves up the list."),
+    ("Who started Seattle-style teriyaki?", "It's credited to Toshihiro \"Toshi\" Kasahara, who opened Toshi's Teriyaki on Roy Street in Lower Queen Anne in March 1976 (Seattle Weekly, 2007; Seattle Met, 2008). Plenty of shops still carry the Toshi's name; the one that is his today is Toshi's Teriyaki Grill in Mill Creek, which he opened in 2013."),
+    ("Is this Washington State or Washington, D.C.?", f"The state, end to end: Seattle and Spokane, Tacoma and Vancouver, the Tri-Cities, Yakima, Wenatchee, Bellingham, Olympia and Walla Walla, {N_TOWNS:,} towns in all. Nothing here is in D.C."),
+    ("What does Washington Eats cost?", "Nothing. There are no ads, no subscriptions, nothing to buy inside the app and no sign-up. It runs on iPhone and iPad; there's no Android version yet."),
+    ("How do you decide which places make the teriyaki, phở, drive-in and oyster lists?", f"By looking each one up in {CHECKED}. A place goes on only with a 2025 or 2026 source of its own: its menu page, an ordering page it runs, or a dated local news story. A shop that is merely called \"Teriyaki\" stays in the {N_REST:,}-place directory, which comes from Overture Maps' open place data and King County's inspection records."),
+    ("What do King County's Excellent, Good, Okay and Needs to Improve ratings mean?", f"They are Public Health – Seattle & King County's own food safety ratings, built from each place's recent routine inspections, and the app shows them exactly as published, through {THROUGH}. {len(RATED):,} King County places have one. They're the only county ratings in the app, and we never make up our own."),
+    ("Where are the star ratings and reviews?", "In Apple Maps. Tap any place and Apple's own card opens inside the app with its ratings, photos, today's hours and directions. Our lists go by region, town or distance, never by stars."),
+    ("Does Washington Eats track where I am?", "No. If you allow location, the lists use it on your iPhone or iPad to put the closest places first, and it never leaves the device. Search, the map and the lists all work with location off."),
+    ("Spotted a closed shop, or one we're missing?", f"Email the shop's name and town to {EMAIL}; the correction goes out with the next app update."),
 ]
 faq_html = "".join(f"<details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in faq)
 faq_ld = {"@context": "https://schema.org", "@type": "FAQPage", "@id": f"{DOMAIN}/#faq",
@@ -874,23 +969,20 @@ app_ld = {"@context": "https://schema.org", "@graph": [
      "url": f"{DOMAIN}/", "image": f"{DOMAIN}/og.png", "operatingSystem": "iOS, iPadOS", "applicationCategory": "TravelApplication",
      "applicationSubCategory": "Food & Drink", "inLanguage": "en", "publisher": {"@id": f"{DOMAIN}/#org"},
      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "category": "free"}},
-    {"@type": "Organization", "@id": f"{DOMAIN}/#org", "name": BRAND, "url": f"{DOMAIN}/",
-     "logo": {"@type": "ImageObject", "url": f"{DOMAIN}/icon-512.png", "width": 512, "height": 512}, "email": EMAIL,
-     "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "email": EMAIL, "availableLanguage": "en"}},
+    org_node(),
     {"@type": "WebSite", "@id": f"{DOMAIN}/#website", "name": BRAND, "alternateName": ["WA Eats", "Washington Eats app"], "url": f"{DOMAIN}/",
      "inLanguage": "en", "publisher": {"@id": f"{DOMAIN}/#org"}}]}
 if shot_html:
     app_ld["@graph"][0]["screenshot"] = f"{DOMAIN}/img/screen-home.png"
 title = "Washington Eats: Teriyaki, Phở & Restaurant App for WA"
-desc = fit([f"Free iPhone and iPad guide to {N_REST:,} Washington State restaurants, with {len(TERI)} hand-checked teriyaki shops, {len(PHOS)} phở shops, {len(DRIVE)} drive-ins and oyster bars.",
-            f"Free iPhone and iPad guide to {N_REST:,} Washington State restaurants, with {len(TERI)} hand-checked teriyaki shops, {len(PHOS)} phở shops and {len(DRIVE)} drive-in burgers.",
-            f"Free iPhone and iPad guide to {N_REST:,} Washington State restaurants, with {len(TERI)} hand-checked teriyaki shops, phở shops and drive-ins."], 140, 160)
+desc = fit([f"{len(TERI)} teriyaki counters, {len(PHOS)} phở shops and {len(DRIVE)} drive-ins checked by hand, inside a free iPhone and iPad guide to {N_REST:,} Washington State restaurants.",
+            f"{len(TERI)} teriyaki counters, {len(PHOS)} phở shops and {len(DRIVE)} drive-ins checked by hand, in a free iPhone guide to {N_REST:,} Washington State restaurants."], 140, 160)
 city_cards = "".join(f'<li><a href="{city_url(c)}">{e(c)}</a></li>' for c in CITY_PAGES)
 body = f"""  <main id="main">
   <section class="hero">
-    <h1><span class="kicker">{BRAND}: the {e(TAGLINE.lower().replace("washington", "Washington"))} for iPhone and iPad</span>Washington's restaurants, and the teriyaki Seattle made its own</h1>
-    <p class="lede">{BRAND} is a free Washington State restaurant guide. Find a teriyaki shop near you, a bowl of phở, a drive-in burger or an oyster bar, from lists we checked by hand, plus {N_REST:,} restaurants, cafés, espresso stands and bars in {N_TOWNS:,} towns.</p>
-    <div class="cta-row">{store_button()}<a class="btn btn-ghost" href="/explore/">Search on the web</a><span class="pill store-note">Free. No ads, no account. Coming to the App Store.</span></div>
+    <h1><span class="kicker">{BRAND} · Puget Sound to the Palouse</span>Washington restaurant guide: teriyaki counters, phở shops and drive-ins</h1>
+    <p class="lede">{N_REST:,} restaurants, cafés, espresso stands and bars in {N_TOWNS:,} Washington towns, in your pocket. {BRAND} opens with four short lists we looked up place by place: Seattle-style teriyaki, phở, drive-in burgers and oysters.</p>
+    <div class="cta-row">{store_button()}<a class="btn btn-ghost" href="/explore/">Search on the web</a><span class="pill store-note">Not in the App Store yet: the button asks for a TestFlight invite. No cost, no ads.</span></div>
     <ul class="stats" role="list" aria-label="What's in the app">
       <li><b>{len(TERI)}</b><span>teriyaki shops</span></li>
       <li><b>{len(PHOS)}</b><span>phở shops</span></li>
@@ -900,22 +992,22 @@ body = f"""  <main id="main">
   </section>
 
   <section id="what">
-    <h2>A Washington restaurant guide that starts with teriyaki</h2>
-    <p class="sub">General restaurant apps rank by star ratings and can't tell a 1976-style teriyaki counter from a sushi bar with a teriyaki roll. {BRAND} starts from what people here look for: a chicken teriyaki plate, a bowl of phở, a Dick's or Zip's run, a dozen oysters, and the old places that have been open for generations. Every one of those was checked open in {CHECKED}. In King County, each place also shows Public Health – Seattle &amp; King County's official food safety rating. For ratings, hours and photos, each place opens Apple Maps' own live card.</p>
+    <h2>Why it opens on teriyaki</h2>
+    <p class="sub">Toshi Kasahara's counter on Roy Street opened in 1976, and by 2007 Seattle Weekly counted more than 100 teriyaki shops inside the city limits. A map search for "teriyaki" still lumps those counters in with sushi bars that sell a teriyaki roll. {BRAND} keeps the real list, {len(TERI)} of them from Bellingham to Spokane with what each one serves, beside phở bowls, Dick's-to-Zip's drive-ins, oyster bars and places that have held one address for generations, all checked open in {CHECKED}. {len(RATED):,} of King County's {KING_PLACES:,} places also carry Public Health – Seattle &amp; King County's official food safety rating. Hours, photos and ratings come from Apple Maps' own card for each place.</p>
   </section>
 
   <section id="how">
     <h2>How it works</h2>
     <ol class="steps">
-      <li class="step"><div class="n" aria-hidden="true">1</div><div><h3>Pick a guide.</h3><p>Seattle Teriyaki, Phở, Drive-In Burgers, Oysters &amp; Seafood, Honors &amp; History, Oldest Places, Food Safety, or search every restaurant by name, town, street or dish.</p></div></li>
-      <li class="step"><div class="n" aria-hidden="true">2</div><div><h3>See what's near you.</h3><p>Sort by distance, filter by town or cuisine, or browse the map. Each teriyaki shop lists what it serves.</p></div></li>
-      <li class="step"><div class="n" aria-hidden="true">3</div><div><h3>Go.</h3><p>Open Apple Maps' place card for live hours and photos, call, get directions, or save it for later.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">1</div><div><h3>Choose a list.</h3><p>Start with Seattle Teriyaki, or open Phở, Drive-In Burgers, Oysters &amp; Seafood, Honors &amp; History, Oldest Places or King County's Food Safety ratings. Or type a name, a town, a street or a dish into search, across {N_REST:,} restaurants.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">2</div><div><h3>Narrow it down.</h3><p>Closest first once you share your location, or pick a town, a kind of food, or the map of the whole state. Teriyaki counters show their menu staples right in the list.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">3</div><div><h3>Head out.</h3><p>Apple Maps' card has today's hours and photos. Call, get directions, or save the place for your next trip over the pass.</p></div></li>
     </ol>
   </section>
 {shots_section}
   <section id="guides">
-    <h2>Washington food guides</h2>
-    <p class="sub">The app's hand-checked lists, readable on the web.</p>
+    <h2>Four lists, checked by hand</h2>
+    <p class="sub">Each list is also a page here, place by place, by region and town.</p>
     <div class="grid2">
       <a class="card lead" href="/washington-teriyaki.html"><h3>Seattle-style teriyaki</h3><p>{len(TERI)} shops statewide, with what they serve and the 1976 history.</p></a>
       <a class="card" href="/washington-pho.html"><h3>Washington phở</h3><p>{len(PHOS)} phở shops, from Little Saigon to Spokane.</p></a>
@@ -926,18 +1018,18 @@ body = f"""  <main id="main">
 
   <section id="cities">
     <h2>Teriyaki, phở and restaurants by city</h2>
-    <p class="sub">Teriyaki, phở, drive-ins, seafood, local honors and the oldest restaurants in Washington's biggest towns.</p>
+    <p class="sub">What's near the middle of 16 Washington towns: teriyaki, phở, drive-ins, seafood, local honors and the oldest dining rooms.</p>
     <ul class="cities">{city_cards}</ul>
   </section>
 
   <section id="pricing">
-    <h2>Free, and staying that way</h2>
-    <p class="sub">No ads, no subscription, no in-app purchases, no account. The whole guide is built into the app, so lists open instantly and work with a weak signal on the ferry or over the pass.</p>
+    <h2>No price, no ads</h2>
+    <p class="sub">{BRAND} costs nothing and shows no ads: no subscription, no in-app purchase, no sign-up. The list ships inside the app, so it opens with one bar of signal on a Bainbridge ferry or up on Stevens Pass.</p>
   </section>
 
   <section id="privacy">
-    <h2>Your lunch plans are your business</h2>
-    <p class="sub">{BRAND} collects nothing. If you allow location, it only sorts lists by distance on your device. Saved places stay on your device. This website sets no cookies and runs no trackers. <a href="/privacy.html">Read the privacy policy</a>.</p>
+    <h2>Nothing about you is sent to us</h2>
+    <p class="sub">The app has no account and no analytics, and nothing you do in it is sent to us. Location, if you turn it on, only sorts lists by distance on the device, and saved places stay there too. This website has no cookies or trackers. <a href="/privacy.html">Read the privacy policy</a>.</p>
   </section>
 
   <section id="faq">
@@ -947,7 +1039,7 @@ body = f"""  <main id="main">
 
   <section id="download" class="final">
     <h2>Find your teriyaki</h2>
-    <p class="sub">{BRAND} is coming to the App Store for iPhone and iPad. Free.</p>
+    <p class="sub">On its way to the App Store for iPhone and iPad, at no cost.</p>
     <div class="cta-row">{store_button()}</div>
   </section>
   </main>"""
@@ -959,7 +1051,7 @@ body = f"""{nav}
   <main id="main" class="legal">
   <section class="hero">
     <h1>Privacy policy</h1>
-    <p class="lede">Short version: the {BRAND} app collects nothing about you, and this website doesn't track you. Last updated {TODAY}.</p>
+    <p class="lede">Short version: the {BRAND} app collects nothing about you, and this website doesn't track you. Last updated {UPDATED}.</p>
   </section>
   <section>
     <h2>The app</h2>
@@ -971,9 +1063,9 @@ body = f"""{nav}
       <li><b>Spotlight.</b> The app adds its hand-checked teriyaki shops, phở shops, drive-ins and seafood places to your device's search index so you can find them from Spotlight. That index stays on your device.</li>
       <li><b>Calls, websites and email</b> you start from a place open in the Phone app, your browser or Mail, and are handled by them.</li>
     </ul>
-    <p>On the App Store, the app's privacy label is "Data Not Collected".</p>
+    <p>The app's App Store privacy label will be "Data Not Collected" (the app isn't on the App Store yet).</p>
     <h2>This website</h2>
-    <p>The site is static pages hosted on GitHub Pages. It sets no cookies and loads no analytics, fonts or scripts from anyone else. The web app's saved places stay in your browser's local storage. Its "Near me" button asks your browser for your location only when you press it; the location is used in the page to sort by distance and is never sent anywhere. GitHub may keep standard server logs, such as IP addresses, for security; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub's privacy statement</a>.</p>
+    <p>The site is static pages hosted on GitHub Pages. It sets no cookies and loads no analytics, fonts or scripts from anyone else. The web app keeps two things in your browser's local storage, on your device only: <code>wae-saved</code>, the places you save, and <code>wae-guide</code>, the list you had open last. Clearing this site's data in your browser deletes both. Its "Near me" button asks your browser for your location only when you press it; the location is used in the page to sort by distance and is never sent anywhere. GitHub may keep standard server logs, such as IP addresses, for security; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub's privacy statement</a>.</p>
     <h2>Email</h2>
     <p>If you email us, we use your message and address only to reply and to fix the listing you told us about. We don't add you to a mailing list or share your address.</p>
     <h2>Children</h2>
@@ -991,7 +1083,7 @@ body = f"""{nav}
   <main id="main" class="legal">
   <section class="hero">
     <h1>Terms of use</h1>
-    <p class="lede">The plain-language terms for the {BRAND} app and this website. Last updated {TODAY}.</p>
+    <p class="lede">The plain-language terms for the {BRAND} app and this website. Last updated {UPDATED}.</p>
   </section>
   <section>
     <h2>What the app is</h2>
@@ -1024,7 +1116,7 @@ written.append(page("terms.html", "Terms of Use: Washington Eats Teriyaki & Rest
 body = f"""  <main id="main">
   <section class="hero">
     <h1>Page not found</h1>
-    <p class="lede">That page isn't here. Try the <a href="/">{BRAND} home page</a>, the <a href="/washington-teriyaki.html">teriyaki guide</a> or the <a href="/explore/">restaurant search</a>.</p>
+    <p class="lede">Nothing lives at this address, or it moved. Head back to the <a href="/">{BRAND} home page</a>, open the <a href="/washington-teriyaki.html">Seattle teriyaki guide</a>, or look a place up in the <a href="/explore/">search of {N_REST:,} Washington restaurants</a>.</p>
   </section>
   </main>"""
 page("404.html", f"Page not found | {BRAND}", "This page doesn't exist.", body, robots="noindex,follow")
@@ -1033,7 +1125,7 @@ page("404.html", f"Page not found | {BRAND}", "This page doesn't exist.", body, 
 urls = ["" if w == "index.html" else w.replace("index.html", "") for w in written]
 urls.sort(key=lambda u: (u != "", u.startswith("cities/"), u))
 open(f"{DOCS}/sitemap.xml", "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                                       + "".join(f"  <url><loc>{DOMAIN}/{u}</loc><lastmod>{TODAY}</lastmod></url>\n" for u in urls) + "</urlset>\n")
+                                       + "".join(f"  <url><loc>{DOMAIN}/{u}</loc><lastmod>{UPDATED}</lastmod></url>\n" for u in urls) + "</urlset>\n")
 open(f"{DOCS}/robots.txt", "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n")
 json.dump({"name": BRAND, "short_name": "WA Eats", "description": f"{TAGLINE}, plus {N_REST:,} Washington State restaurants.", "start_url": f"{BASE}/", "display": "browser",
            "background_color": "#f9fbf9", "theme_color": "#1F4D3A",
@@ -1044,11 +1136,13 @@ if CUSTOM_DOMAIN:
 elif os.path.exists(f"{DOCS}/CNAME"):
     os.remove(f"{DOCS}/CNAME")   # no custom domain yet: GitHub serves the project address
 open(f"{DOCS}/.nojekyll", "w").write("")
+open(f"{DOCS}/favicon.svg", "w").write(FAVICON_SVG + "\n")
 os.makedirs(f"{ROOT}/playbook", exist_ok=True)
-json.dump({"generated": TODAY, "records_through": THROUGH, "restaurants": N_REST, "towns": N_TOWNS, "teriyaki": len(TERI), "teriyaki_outside_king": outside_king,
-           "teriyaki_spicy": spicy, "teriyaki_katsu": katsu, "teriyaki_gyoza": gyoza, "pho": len(PHOS), "drive_ins": len(DRIVE), "drive_in_independents": indep,
+json.dump({"generated": UPDATED, "records_through": THROUGH, "restaurants": N_REST, "towns": N_TOWNS, "teriyaki": len(TERI), "teriyaki_outside_king": outside_king,
+           "teriyaki_chicken": chicken, "teriyaki_spicy": spicy, "teriyaki_katsu": katsu, "teriyaki_gyoza": gyoza, "pho": len(PHOS), "drive_ins": len(DRIVE), "drive_in_independents": indep,
            "seafood": len(SEA), "oyster_places": len(OYSTER_BARS), "seafood_outside_king": sea_out, "kc_rated": len(RATED),
            "kc_ratings": dict(Counter(KCR[p.kc["r"]] for p in RATED)), "cities": city_stats},
           open(f"{ROOT}/playbook/site-numbers.json", "w"), indent=1)
 print("wrote", len(written) + 1, "pages:", ", ".join(written))
+print(f"website blocklist: dropped {len(BLOCKED_LINKS)} link(s): " + "; ".join(f"{n} {u}" for n, u in BLOCKED_LINKS))
 print(f"restaurants {N_REST:,} in {N_TOWNS} towns | teriyaki {len(TERI)} ({outside_king} outside King) | pho {len(PHOS)} | drive-ins {len(DRIVE)} | seafood {len(SEA)} | KC rated {len(RATED):,}")
