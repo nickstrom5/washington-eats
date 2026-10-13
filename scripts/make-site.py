@@ -307,7 +307,7 @@ def crumbs(trail):
     return f'<nav class="crumbs" aria-label="Breadcrumb"><ol>{items}</ol></nav>', ld
 
 
-def store_button(label="Get early access"):
+def store_button(label="Ask for early access"):
     # no Apple logo: only Apple's own "Download on the App Store" badge may carry it (Apple's marketing guidelines)
     return (f'<a class="btn store-btn" href="mailto:{EMAIL}?subject=Washington%20Eats%20early%20access&amp;body=Send%20me%20the%20TestFlight%20link.">'
             f'<span class="store-label">{label}</span></a>')
@@ -401,7 +401,7 @@ def page(path, title, desc, body, lds=(), robots="index,follow,max-image-preview
 </div>
 {after}<script>
   // Once the App Store listing exists, paste its URL here (looks like https://apps.apple.com/app/id123456789).
-  // Every button switches from "Get early access" to "Download on the App Store" automatically.
+  // Every button switches from "Ask for early access" to "Download on the App Store" automatically.
   // Also fill in the apple-itunes-app meta tag in <head> on every page (re-run scripts/make-site.py after editing it there).
   var APP_STORE_URL = "";
   if (APP_STORE_URL) {{
