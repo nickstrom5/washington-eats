@@ -1,6 +1,101 @@
 [
- {"domain": "cahoots-london.com", "match": "domain", "place": "Cahoots (Colville)", "reason": "wrong business: links a London 1940s-themed cocktail bar chain (cahoots-london.com redirects to cahoots.co.uk), not the Colville, WA place", "severity": "P2", "evidence": "$SP/work/link-scan/evidence/wa/wrong-cahoots-london_com.html (page title 'London's 1940s Inspired & Themed Cocktail Bars | Cahoots'; no mention of Colville)", "found": "2026-10-12"},
- {"domain": "lafiestabonita.com", "match": "domain", "place": "Fiesta Bonita Mexican Grill and Cantina (Vancouver)", "reason": "domain taken over: whole site is Vietnamese gambling portal \"Hitclub\" (game bài, cá cược)", "severity": "P0", "evidence": "$SP/work/link-scan/evidence/wa/lafiestabonita.com.html", "found": "2026-10-12"},
- {"domain": "mukilteolodge.com", "match": "domain", "place": "The Lodge Sports Grille (Mukilteo)", "reason": "domain taken over: whole site is Thai slot site \"MGWin88+\"", "severity": "P0", "evidence": "$SP/work/link-scan/evidence/wa/mukilteolodge.com.html", "found": "2026-10-12"},
- {"domain": "galarethaisequim.com", "match": "domain", "place": "Galare Thai Kingston (Kingston)", "reason": "domain taken over: whole site is \"PISANG123\" Indonesian game/slot site", "severity": "P0", "evidence": "$SP/work/link-scan/evidence/wa/galarethaisequim.com.html", "found": "2026-10-12"}
+  {
+    "domain": "cahoots-london.com",
+    "match": "domain",
+    "place": "Cahoots (Colville)",
+    "reason": "wrong business: links a London 1940s-themed cocktail bar chain (cahoots-london.com redirects to cahoots.co.uk), not the Colville, WA place",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/wrong-cahoots-london_com.html (page title 'London's 1940s Inspired & Themed Cocktail Bars | Cahoots'; no mention of Colville)",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "lafiestabonita.com",
+    "match": "domain",
+    "place": "Fiesta Bonita Mexican Grill and Cantina (Vancouver)",
+    "reason": "domain taken over: whole site is Vietnamese gambling portal \"Hitclub\" (game bài, cá cược)",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/lafiestabonita.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "mukilteolodge.com",
+    "match": "domain",
+    "place": "The Lodge Sports Grille (Mukilteo)",
+    "reason": "domain taken over: whole site is Thai slot site \"MGWin88+\"",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/mukilteolodge.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "galarethaisequim.com",
+    "match": "domain",
+    "place": "Galare Thai Kingston (Kingston)",
+    "reason": "domain taken over: whole site is \"PISANG123\" Indonesian game/slot site",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/galarethaisequim.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "elcubanotogo.com",
+    "match": "domain",
+    "place": "El Cubano To Go (Shoreline)",
+    "reason": "domain taken over: whole site is \"Vavada\" Polish online casino",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/elcubanotogo.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "8thstreetbistro.com",
+    "match": "domain",
+    "place": "8th Street Bistro (Yakima)",
+    "reason": "domain taken over: whole site is Thai slot site \"fu356\"",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/8thstreetbistro.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "townpump.com",
+    "match": "domain",
+    "place": "The Town Pump (Mount Vernon)",
+    "reason": "another business: Town Pump, Montana gas-station/casino chain (for The Town Pump bar, Mount Vernon, WA)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/townpump.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "sweetstopcakeshop.com",
+    "match": "domain",
+    "place": "Sweet Shack Bakery and Tea House (Shelton)",
+    "reason": "another business: Sweet Stop Cake Shop in Texas (for Sweet Shack Bakery, Shelton, WA)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/sweetstopcakeshop.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "oishionline.com",
+    "match": "domain",
+    "place": "Oishi Teriyaki (Montesano)",
+    "reason": "another business: Oishi Sushi & Grill, Louisiana (for Oishi Teriyaki, Montesano, WA)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/oishionline.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "ludwigsoysterbar.com",
+    "match": "domain",
+    "place": "Ludwig Lodge (Sammamish)",
+    "reason": "another business: Ludwig's Oyster Bar, Chest Springs, PA (for Ludwig Lodge, Sammamish, WA)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/ludwigsoysterbar.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "mickeysdeli.com",
+    "match": "domain",
+    "place": "Mickey's Grocery and Deli (Shelton)",
+    "reason": "another business: Mickey's Deli, Hermosa Beach, CA (not Shelton, WA)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/mickeysdeli.com.html",
+    "found": "2026-10-12"
+  }
 ]
