@@ -97,5 +97,104 @@
     "severity": "P2",
     "evidence": "$SP/work/link-scan/evidence/wa/mickeysdeli.com.html",
     "found": "2026-10-12"
+  },
+  {
+    "domain": "matchcoffeeandwine.com",
+    "match": "domain",
+    "place": "Match Coffee and Wine (Duvall)",
+    "reason": "domain taken over: whole site is \"JAMUslot\" Indonesian toto/slot site",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/matchcoffeeandwine.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "hyiuheehee.net",
+    "match": "domain",
+    "place": "Hy Iu Hee Hee (Gig Harbor)",
+    "reason": "domain taken over: whole site is Vietnamese betting site \"MU88\"",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/hyiuheehee.net.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "enjoyablecafes.space",
+    "match": "domain",
+    "place": "King's Teriyaki (Mukilteo)",
+    "reason": "cloaked redirect: listing-farm pages (<place>.enjoyablecafes.space); King's Teriyaki's page redirects to a World of Warships affiliate ad (promo.worldofwarships.com ...pub_id=1119080)",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/enjoyablecafes.space.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "elpatiowa.com",
+    "match": "domain",
+    "place": "El Patio (Seattle)",
+    "reason": "injected hidden links: clipped 1px block linking newnongstopcasinos.com \"new non-GamStop casinos\"",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/elpatiowa.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "luckmancoffee.com",
+    "match": "domain",
+    "place": "Luckman Coffee Company (Woodland); Luckman Coffee Company (Kalama)",
+    "reason": "injected hidden links: display:none link \"Payday Loans\" (payday-bes.co.uk) on both locations' page",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/luckmancoffee.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "risingsunteriyaki.com",
+    "match": "domain",
+    "place": "Rising Sun Fusion Cafe (Battle Ground)",
+    "reason": "domain taken over: whole site is Thai casino \"k2play\"",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/risingsunteriyaki.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "thegreatnorthcoffee.com",
+    "match": "domain",
+    "place": "The Great North (Vancouver)",
+    "reason": "another business: Great North Coffee, Oregon (for The Great North, Vancouver, WA)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/thegreatnorthcoffee.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "canary-house.com",
+    "match": "domain",
+    "place": "Canary House Thai Eatery (Lynnwood)",
+    "reason": "another business: The Canary House guest guide (Pennsylvania rental), for Canary House Thai Eatery, Lynnwood",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/canary-house.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "kremeworks.com",
+    "match": "domain",
+    "place": "Kremeworks (Issaquah)",
+    "reason": "another business: Krispy Kreme Maui, Hawaii (for Kremeworks, Issaquah)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/kremeworks.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "icpoke.com",
+    "match": "domain",
+    "place": "I C Poke (Lakewood)",
+    "reason": "another business: IC Poke, Montréal (not Lakewood, WA)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/icpoke.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "sweetmarketandbakery.com",
+    "match": "domain",
+    "place": "Sweet Market & Bakery (Vancouver)",
+    "reason": "expired: \"Your domain is expired. Renew the domain to activate the website\"",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/sweetmarketandbakery.com.html",
+    "found": "2026-10-12"
   }
 ]
