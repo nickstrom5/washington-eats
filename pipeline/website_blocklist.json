@@ -196,5 +196,494 @@
     "severity": "P2",
     "evidence": "$SP/work/link-scan/evidence/wa/sweetmarketandbakery.com.html",
     "found": "2026-10-12"
+  },
+  {
+    "domain": "trailyouth.com",
+    "match": "domain",
+    "place": "Trail Youth Coffee Home (North Bend)",
+    "reason": "domain taken over: whole site is Turkish \"7Slots Casino\"",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/trailyouth.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "rockwoodbakery.com",
+    "match": "domain",
+    "place": "Rockwood Bakery (Spokane)",
+    "reason": "domain taken over: domain is now \"Rockwood Health Club\" steroid/SARMs content (ostarine vs anabolic steroids)",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/rockwoodbakery.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "phoalderwood.com",
+    "match": "domain",
+    "place": "Pho Alderwood (Lynnwood)",
+    "reason": "domain taken over: whole site is Thai gambling site \"lynma248\"",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/phoalderwood.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "ulivopizzeria.com",
+    "match": "domain",
+    "place": "Ulivo Pizzeria (Sequim)",
+    "reason": "domain taken over: whole site is \"Chicken Road casino\" Belgian gambling page",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/ulivopizzeria.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "taco-book.com",
+    "match": "domain",
+    "place": "Taco (Everett)",
+    "reason": "injected hidden links: off-screen (left:-99999px) link \"trips casino canada\" (casinozeus.net)",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/taco-book.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "hotelcathlamet.com",
+    "match": "domain",
+    "place": "The Tavern at Hotel Cathlamet (Cathlamet)",
+    "reason": "injected hidden links: zero-size block linking valparaisofarmacia.com (pharmacy)",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/hotelcathlamet.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "newseoulgarden.com",
+    "match": "domain",
+    "place": "New Seoul Restaurant (Lynnwood)",
+    "reason": "for sale: \"newseoulgarden.com for sale",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/newseoulgarden.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "lopezgalley.com",
+    "match": "domain",
+    "place": "The Galley Restaurant and Lounge (Lopez Island)",
+    "reason": "no site: \"Index of /\" (error_log only)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/lopezgalley.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "url": "https://pintsandpupsevt.squarespace.com/",
+    "match": "url",
+    "place": "Pints and Pups Everett (Everett)",
+    "reason": "expired: \"Squarespace - Website Expired\"",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/pintsandpupsevt.squarespace.com.html",
+    "found": "2026-10-12",
+    "domain": "https://pintsandpupsevt.squarespace.com/"
+  },
+  {
+    "domain": "barracudacoffee.com",
+    "match": "domain",
+    "place": "Barracuda Coffee Company (Richland)",
+    "reason": "no site: \"Index of /\" (only a Google verification file)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/barracudacoffee.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "phothinh.com",
+    "match": "domain",
+    "place": "Pho Thinh (Spokane)",
+    "reason": "domain taken over: whole site is a Vietnamese bookmaker ranking (\"nhà cái uy tín\")",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/phothinh.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "grannyscafe.net",
+    "match": "domain",
+    "place": "Granny's Cafe (Port Angeles)",
+    "reason": "injected hidden links: off-screen (left:-79684px) \"Buy Propecia Online Without Prescription\" pharma link block",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/grannyscafe.net.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "umi-sushi.net",
+    "match": "domain",
+    "place": "Umi Sushi (Ocean Shores)",
+    "reason": "domain taken over: whole site is Thai slot site \"tga1688\"",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/umi-sushi.net.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "harborcafesantacruz.com",
+    "match": "domain",
+    "place": "Harbor Cafe (Seattle)",
+    "reason": "another business: Harbor Cafe, Santa Cruz, CA (not Seattle)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/harborcafesantacruz.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "tikalbakery.com",
+    "match": "domain",
+    "place": "Tikal Bakery (Burien)",
+    "reason": "another business: Tikal Bakery, Florida (not Burien, WA)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/tikalbakery.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "phosaigonnoodlehouse.com",
+    "match": "domain",
+    "place": "Saigon Fusion (Olympia)",
+    "reason": "another business: redirects to Pho Saigon, Texas (for Saigon Fusion, Olympia)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/phosaigonnoodlehouse.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "fasteddiespitbeef.com",
+    "match": "domain",
+    "place": "Fast Eddie's (Spokane)",
+    "reason": "another business: Fast Eddie's Pit Beef, Fallston, MD (not Spokane)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/fasteddiespitbeef.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "gyrosplus.co",
+    "match": "domain",
+    "place": "Gyros Plus (Everett)",
+    "reason": "another business: Gyros Plus, Scottsdale, AZ (not Everett, WA)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/gyrosplus.co.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "yakimacoffeeco.com",
+    "match": "domain",
+    "place": "Yakima Coffee Company (Yakima)",
+    "reason": "domain taken over: whole site is a Chinese lottery-results page (幸运168飞艇体彩官方开奖网)",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/yakimacoffeeco.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "cafebluecafe.com",
+    "match": "domain",
+    "place": "Cafe Blue (Bellingham)",
+    "reason": "domain taken over: whole site is \"1001Slot\" Indonesian games site",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/cafebluecafe.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "rollingbaycafe.com",
+    "match": "domain",
+    "place": "Rolling Bay Cafe (Bainbridge Island)",
+    "reason": "injected links: links to Indonesian PG Soft slot articles (khosango.com) injected into the cafe's home page",
+    "severity": "P0",
+    "evidence": "$SP/work/link-scan/evidence/wa/rollingbaycafe.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "url": "http://www.alstavernseattle.com/",
+    "match": "url",
+    "place": "Al's Tavern (Seattle)",
+    "reason": "domain does not resolve: host name does not exist (NXDOMAIN) though the domain does (checked with dig @1.1.1.1)",
+    "severity": "P2",
+    "evidence": null,
+    "found": "2026-10-12",
+    "domain": "http://www.alstavernseattle.com/"
+  },
+  {
+    "url": "https://www.banhuasai.com/",
+    "match": "url",
+    "place": "Ban Hua Sai (Seattle)",
+    "reason": "domain does not resolve: host name does not exist (NXDOMAIN) though the domain does (checked with dig @1.1.1.1)",
+    "severity": "P2",
+    "evidence": null,
+    "found": "2026-10-12",
+    "domain": "https://www.banhuasai.com/"
+  },
+  {
+    "domain": "hibachibuffetauburn.com",
+    "match": "domain",
+    "place": "Hibachi Buffet (Auburn)",
+    "reason": "expired, suspended or no site (auto, not hand-checked): parked: index of / index of / &nbsp; name last modified size description",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/hibachibuffetauburn.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "thebeachcomber.com",
+    "match": "domain",
+    "place": "Beach Comber Sports Bar & Grill (Seattle)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in MA and it names neither the city nor the state of Beach Comber Sports Bar & Grill (Seattle)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/thebeachcomber.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "sportys.com",
+    "match": "domain",
+    "place": "Sporty's (Vashon)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in OH and it names neither the city nor the state of Sporty's (Vashon)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/sportys.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "afcsushi.com",
+    "match": "domain",
+    "place": "Afc Sushi (Sammamish)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in CA and it names neither the city nor the state of Afc Sushi (Sammamish)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/afcsushi.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "toriimorwinery.com",
+    "match": "domain",
+    "place": "Torii Mor Winery (Woodinville)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in OR and it names neither the city nor the state of Torii Mor Winery (Woodinville)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/toriimorwinery.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "juno.us",
+    "match": "domain",
+    "place": "Juno (Seattle)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in MA and it names neither the city nor the state of Juno (Seattle)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/juno.us.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "arawanthai.com",
+    "match": "domain",
+    "place": "Arawan Thai Cuisine (Vancouver)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in OR and it names neither the city nor the state of Arawan Thai Cuisine (Vancouver)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/arawanthai.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "hurricanecoffee.com",
+    "match": "domain",
+    "place": "Hurricane Coffee (Sequim)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in OR and it names neither the city nor the state of Hurricane Coffee (Sequim)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/hurricanecoffee.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "thetinybarauburn.com",
+    "match": "domain",
+    "place": "The Tiny Bar (Algona)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in AL and it names neither the city nor the state of The Tiny Bar (Algona)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/thetinybarauburn.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "culichitown.com",
+    "match": "domain",
+    "place": "Culichitown Tacoma (Tacoma)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in CA, NV, TX and it names neither the city nor the state of Culichitown Tacoma (Tacoma)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/culichitown.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "cantinaixtapa.com",
+    "match": "domain",
+    "place": "Ixtapa Restaurant (Sultan)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in CA and it names neither the city nor the state of Ixtapa Restaurant (Sultan)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/cantinaixtapa.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "gyrostoppita.com",
+    "match": "domain",
+    "place": "Gyro Stop (Arlington); Gyro Stop (Lake Stevens); Gyro Stop (Mukilteo)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in FL and it names neither the city nor the state of Gyro Stop (Arlington); Gyro Stop (Lake Stevens); Gyro Stop (Mukilteo)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/gyrostoppita.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "tacoshop.net",
+    "match": "domain",
+    "place": "Taco Shop (Moses Lake)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in KS and it names neither the city nor the state of Taco Shop (Moses Lake)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/tacoshop.net.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "tootsies.net",
+    "match": "domain",
+    "place": "Tootsie's (Sequim)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in TN and it names neither the city nor the state of Tootsie's (Sequim)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/tootsies.net.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "wok-this-way.com",
+    "match": "domain",
+    "place": "Wok This Way (Puyallup)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in TX and it names neither the city nor the state of Wok This Way (Puyallup)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/wok-this-way.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "laesperanza.org",
+    "match": "domain",
+    "place": "La Esperanza (Bremerton)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in DE and it names neither the city nor the state of La Esperanza (Bremerton)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/laesperanza.org.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "friteandscoop.com",
+    "match": "domain",
+    "place": "Frite & Scoop (Long Beach)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in OR and it names neither the city nor the state of Frite & Scoop (Long Beach)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/friteandscoop.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "dancinggoats.com",
+    "match": "domain",
+    "place": "Dancing Goats (Olympia)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in GA and it names neither the city nor the state of Dancing Goats (Olympia)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/dancinggoats.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "maishouston.com",
+    "match": "domain",
+    "place": "Mai's Restaurant (Marysville)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in TX and it names neither the city nor the state of Mai's Restaurant (Marysville)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/maishouston.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "houseofchettinad.us",
+    "match": "domain",
+    "place": "House of Chettinad (Seattle)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in TX and it names neither the city nor the state of House of Chettinad (Seattle)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/houseofchettinad.us.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "bestpizzaever.com",
+    "match": "domain",
+    "place": "Best Pizza Ever (Walla Walla)",
+    "reason": "expired, suspended or no site (auto, not hand-checked): parked: squarespace - website expired &nbsp;",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/bestpizzaever.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "fama.org",
+    "match": "domain",
+    "place": "La Fama (Pasco)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in LA and it names neither the city nor the state of La Fama (Pasco)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/fama.org.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "countrycornerinn.com",
+    "match": "domain",
+    "place": "Country Corner (Anacortes)",
+    "reason": "another business (auto, not hand-checked): the site's addresses are in PA and it names neither the city nor the state of Country Corner (Anacortes)",
+    "severity": "P2",
+    "evidence": "$SP/work/link-scan/evidence/wa/countrycornerinn.com.html",
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "cafecityguide.website",
+    "match": "domain",
+    "place": "Golden Wheat Bakery (Seattle); Kingdome Deli (Seattle)",
+    "reason": "listing farm or directory, not the place's own site: auto-generated restaurant listing pages ('<name> - <city> - Full Menu, Reviews, Photos'), not the place's own site",
+    "severity": "P3",
+    "evidence": null,
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "cafesplanet.com",
+    "match": "domain",
+    "place": "Himitsu Teriyaki (Seattle); Huong Que Deli and Cafe (Seattle); Joyce & Co. Cafe (Port Angeles); Shucky Muckers (Seattle)",
+    "reason": "listing farm or directory, not the place's own site: auto-generated restaurant listing pages ('<name> - <city> - Full Menu, Reviews, Photos'), not the place's own site",
+    "severity": "P3",
+    "evidence": null,
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "mybistro.online",
+    "match": "domain",
+    "place": "Maxi Teriyaki & Sushi (Cosmopolis); Midori Teriyaki (Bothell)",
+    "reason": "listing farm or directory, not the place's own site: auto-generated restaurant listing pages ('<name> - <city> - Full Menu, Reviews, Photos'), not the place's own site",
+    "severity": "P3",
+    "evidence": null,
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "gastro-america.com",
+    "match": "domain",
+    "place": "Chung's Teriyaki (Poulsbo); Combo Restaurant (Bellevue)",
+    "reason": "listing farm or directory, not the place's own site: auto-generated restaurant listing pages ('<name> - <city> - Full Menu, Reviews, Photos'), not the place's own site",
+    "severity": "P3",
+    "evidence": null,
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "buzzfile.com",
+    "match": "domain",
+    "place": "Carriage Square Bar (Kent)",
+    "reason": "listing farm or directory, not the place's own site: business-directory profile pages (one 'Four Corners Deli' link lands on another company's profile), not the place's own site",
+    "severity": "P3",
+    "evidence": null,
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "seattlebars.org",
+    "match": "domain",
+    "place": "Boots Tavern (Black Diamond); First & Last Chance Tavern (Ellensburg); Marko's Place (Roslyn); Oregon Way Tavern (Longview); Pastime Tavern (LaCrosse); Pour House Grub & Pub (Eatonville) (+2 more)",
+    "reason": "listing farm or directory, not the place's own site: bar-review blog post, not the place's own site",
+    "severity": "P3",
+    "evidence": null,
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "untappd.com",
+    "match": "domain",
+    "place": "Tumac Taproom (Napavine)",
+    "reason": "listing farm or directory, not the place's own site: beer-app venue page, not the place's own site",
+    "severity": "P3",
+    "evidence": null,
+    "found": "2026-10-12"
+  },
+  {
+    "domain": "advertory.com",
+    "match": "domain",
+    "place": "Renton Deli (Renton)",
+    "reason": "listing farm or directory, not the place's own site: blank directory subdomain pages (<place>.advertory.com), not the place's own site",
+    "severity": "P3",
+    "evidence": null,
+    "found": "2026-10-12"
   }
 ]
