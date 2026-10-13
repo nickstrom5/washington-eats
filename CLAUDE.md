@@ -82,6 +82,9 @@ cd .. && cp data/app/places.json WashingtonEats/Resources/ && .venv/bin/python s
   still say work-with-nick@gmail.com until the next build. Every page's footer says "Part of Eats Ranked" and every page's JSON-LD carries the
   #org Organization with its Eats Ranked parentOrganization. The web app's localStorage keys start with `wae-` (the github.io origin is shared with other state sites), and the
   privacy page names each key. `UPDATED` in make-site.py is the pages' last content change (sitemap lastmod, dateModified, "Last updated").
+- Copy decisions (Nick, 2026-10-13, family-wide): the web app's middle tier is "High-confidence listing", never "Confirmed listing";
+  only Nick's internal TestFlight group exists, so the site never promises a TestFlight invite or link (early-access copy ends at an
+  ask; the button's mailto body may ask). `qa-site.py` fails on either (`label_and_promise_checks`).
 - `pipeline/website_blocklist.json`: hacked, expired or wrong-business websites found after the link check. make-site.py drops those links
   (website and source link, never the place) from every page and from docs/data; qa-site.py fails if one appears anywhere in docs/. Add entries
   there (`"match": "domain"` or `"url"`), no code change needed. The app bundle keeps the link until the next re-export.

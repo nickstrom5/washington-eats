@@ -985,7 +985,7 @@ body = f"""  <main id="main">
   <section class="hero">
     <h1><span class="kicker">{BRAND} · Puget Sound to the Palouse</span>Washington restaurant guide: teriyaki counters, phở shops and drive-ins</h1>
     <p class="lede">{N_REST:,} restaurants, cafés, espresso stands and bars in {N_TOWNS:,} Washington towns, in your pocket. {BRAND} opens with four short lists we looked up place by place: Seattle-style teriyaki, phở, drive-in burgers and oysters.</p>
-    <div class="cta-row">{store_button()}<a class="btn btn-ghost" href="/explore/">Search on the web</a><span class="pill store-note">Not in the App Store yet: the button asks for a TestFlight invite. No cost, no ads.</span></div>
+    <div class="cta-row">{store_button()}<a class="btn btn-ghost" href="/explore/">Search on the web</a><span class="pill store-note">Not in the App Store yet: the button asks for early access. No cost, no ads.</span></div>
     <ul class="stats" role="list" aria-label="What's in the app">
       <li><b>{len(TERI)}</b><span>teriyaki shops</span></li>
       <li><b>{len(PHOS)}</b><span>phở shops</span></li>

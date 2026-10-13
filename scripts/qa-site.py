@@ -16,6 +16,7 @@ Static checks, every HTML file (fast, no browser):
   they have; guide pages list exactly the hand-checked places in the data, and the numbers on the pages equal the data's (towns, teriyaki dishes,
   King County ratings, drive-in groups);
   no website from pipeline/website_blocklist.json anywhere in docs/;
+  no "Confirmed listing" anywhere in docs/ (the label is "High-confidence listing") and no promise of a TestFlight invite or link;
   sitemap = the indexable pages, lastmod valid and not in the future; robots.txt; no notes (*.md) in docs/; every indexable page
   linked from another and within 3 clicks of home; the web app keeps localStorage under "wae-" (the github.io origin is shared).
 
@@ -738,6 +739,7 @@ def site_file_checks(parsed):
                 if OLD_EMAIL in open(full, encoding="utf-8", errors="replace").read():
                     bad(f"{os.path.relpath(full, DOCS)}: still shows {OLD_EMAIL} (the site's address is {EMAIL})")
     blocklist_checks()
+    label_and_promise_checks()
     js = "\n".join(parsed.get("explore/index.html", Page("")).scripts)
     # every key the web app writes is named on the privacy page (the github.io origin is shared, so the prefix matters too)
     privacy = visible_text(open(os.path.join(DOCS, "privacy.html"), encoding="utf-8").read()) if os.path.exists(os.path.join(DOCS, "privacy.html")) else ""
@@ -760,6 +762,33 @@ def site_file_checks(parsed):
             bad(f"detail.json: website {d['w'][:40]!r} for {C['n'][i]!r} isn't http(s)")
         if d.get("ph") and not re.fullmatch(r"\+1\d{10}", re.sub(r"[^\d+]", "", d["ph"])):
             bad(f"detail.json: phone {d['ph']!r} for {C['n'][i]!r} isn't a +1 ten-digit number")
+
+
+# Nick, 2026-10-13 (family-wide): the web app's middle tier is a "High-confidence listing", never a "Confirmed listing"; and since only
+# his internal TestFlight group exists, the site never promises or offers a TestFlight invite or link: the early-access copy ends at an ask.
+OLD_LABEL = re.compile(r"confirmed\s+listing", re.I)
+PROMISES = [re.compile(r"\b(?:we|you)(?:\\?['’]ll|\s+will)\b[^.!?]{0,60}?(?:invit\w*|testflight(?:\s+(?:invit\w*|links?))?|\bbeta\b)", re.I),  # "we'll email you a TestFlight invite"
+            re.compile(r"\btestflight\s+(?:invit\w*|links?)\b", re.I)]                                           # "the button asks for a TestFlight invite"
+
+
+def label_and_promise_checks():
+    """No "Confirmed listing" (any case) in any file in docs/, the web app's script and data included; and nothing a visitor reads
+    (page text, meta descriptions, alt and aria text, JSON-LD, the web app's strings) promises or offers a TestFlight invite or link.
+    A mailto: link whose body asks for access is fine, so mailto hrefs are left out of the promise check."""
+    for d, _, fs in os.walk(DOCS):
+        for f in fs:
+            if not f.endswith((".html", ".json", ".xml", ".txt", ".webmanifest", ".svg", ".js", ".css", ".md")):
+                continue
+            rel = os.path.relpath(os.path.join(d, f), DOCS)
+            s = open(os.path.join(d, f), encoding="utf-8", errors="replace").read()
+            m = OLD_LABEL.search(s)
+            if m:
+                bad(f"{rel}: says {m.group(0)!r} (the label is 'High-confidence listing')")
+            raw = html.unescape(re.sub(r'href="mailto:[^"]*"', 'href=""', s))
+            found = [m.group(0) for text in (raw, re.sub(r"<[^>]+>", " ", raw))   # as written, and with inline tags out of the way
+                     for rx in PROMISES for m in [rx.search(text)] if m]
+            if found:
+                bad(f"{rel}: promises a TestFlight invite or link: {' '.join(found[0].split())!r}")
 
 
 BLOCKLIST = os.path.join(ROOT, "pipeline", "website_blocklist.json")
