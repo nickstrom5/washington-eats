@@ -2,7 +2,7 @@
 <html lang="en" data-base="/washington-eats">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-jM6AaKXSSRMBu8i+0KoIJLjGIF47ZGronfIszm+CzCI=' 'sha256-fO7GvureecpzSVAMmm9xTnDsQ23j4eQLtrGbzUEiUlc='; style-src 'sha256-1w2D0IF+dmsG/vANn3GhjA2UWiv3Rk5ddMR/XFSnkhA='; img-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-/Wxh/8FjSRHT8lKIEClTaNGkYtxpR7eRZY3inlmWPkM=' 'sha256-fO7GvureecpzSVAMmm9xTnDsQ23j4eQLtrGbzUEiUlc='; style-src 'sha256-ZVRpUiEs1YGvMCYD40XmOo3/CrFZVdPi0v7SvKZGMZ0='; img-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Search Washington Restaurants, Teriyaki &amp; Pho Shops</title>
@@ -177,6 +177,7 @@
   .ex-rank { flex: 0 0 34px; height: 34px; display: grid; place-items: center; font: 800 20px var(--display); color: var(--green); border-radius: 8px; }
   .ex-rank.top { background: var(--gold); color: #13231c; }
   .ex-empty { padding: 24px 4px; color: var(--muted); }
+  .ex-widen { display: block; margin-top: 10px; text-align: left; }   /* a guide search with few or no matches: the same search in All restaurants */
   #ex-more { display: block; margin: 8px auto 24px; }
   #ex-mapwrap { position: relative; height: min(72vh, 620px); margin: 10px 0 20px; border: 1px solid var(--rule); border-radius: 16px; overflow: hidden; background: #cfe3ea; }
   @media (prefers-color-scheme: dark) { #ex-mapwrap { background: #16303a; } }
@@ -306,7 +307,7 @@
       <div class="ex-guides" role="group" aria-label="Guides"><button type="button" data-g="teriyaki" aria-pressed="false">Teriyaki</button><button type="button" data-g="pho" aria-pressed="false">Phở</button><button type="button" data-g="drivein" aria-pressed="false">Drive-ins</button><button type="button" data-g="seafood" aria-pressed="false">Oysters &amp; seafood</button><button type="button" data-g="honors" aria-pressed="false">Honors</button><button type="button" data-g="oldest" aria-pressed="false">Oldest</button><button type="button" data-g="safety" aria-pressed="false">Food safety</button><button type="button" data-g="all" aria-pressed="false">All restaurants</button><button type="button" data-g="saved" aria-pressed="false">Saved</button></div>
       <div class="ex-row1">
         <label class="skip" for="ex-q">Search</label>
-        <input id="ex-q" type="search" placeholder="Name, town, street, zip or dish" autocomplete="off" enterkeyhint="search">
+        <input id="ex-q" type="search" placeholder="Name, town, street or dish" autocomplete="off" enterkeyhint="search">
         <button type="button" id="ex-locate" class="ex-small">Near me</button>
       </div>
       <div class="ex-row2">
@@ -533,11 +534,31 @@
     saveHash();
   }
 
+  // A search inside a guide only looks in that guide, and the app opens on Teriyaki: a first visit that types "canlis" would find
+  // nothing. When a guide search finds none or only a few, offer the same search (and filters) in All restaurants, with its count.
+  // (Worded by the list's name, All restaurants, so the button makes no claim about how complete the list is.)
+  const FEW = 5;
+  function elsewhere() {
+    const q = parse(st.q);
+    if (st.g === "all" || qEmpty(q) || current.length >= FEW) return 0;
+    const n = P.filter((p) => !p.v && allows(p) && matches(p, q)).length;
+    return n > current.length ? n : 0;
+  }
+  function widen() {
+    st.g = "all"; st.sort = ""; shown = 100; render();
+    $(".ex-row")?.focus();
+  }
+  const widenButton = (n) => `<button type="button" class="ex-small ex-widen" id="ex-widen">See ${n.toLocaleString()} ${n === 1 ? "match" : "matches"} in All restaurants</button>`;
+
   function renderList(o) {
     const ol = $("#ex-list");
     const g = GUIDES[st.g];
+    const more = elsewhere();
+    const scope = st.g === "saved" ? "your saved places" : `the ${g.title} guide`;
     if (!current.length) {
-      ol.innerHTML = `<li class="ex-empty">${st.g === "saved" ? "Nothing saved yet. Open a place and tap Save to keep it here, in this browser." : "No places match. Try fewer words or clear the filters."}</li>`;
+      ol.innerHTML = `<li class="ex-empty">${more ? `No place in ${esc(scope)} matches that. ${widenButton(more)}`
+        : st.g === "saved" && qEmpty(parse(st.q)) ? "Nothing saved yet. Open a place and tap Save to keep it here, in this browser." : "No places match. Try fewer words or clear the filters."}</li>`;
+      if (more) $("#ex-widen").onclick = widen;
       $("#ex-more").hidden = true;
       return;
     }
@@ -548,7 +569,8 @@
       const metricHtml = m ? (m[1] === "King County" ? `<span class="ex-metric"><span class="ex-kc ex-kc-${p.kr}">${esc(m[0])}</span><small>official</small></span>`
         : `<span class="ex-metric"><b>${esc(m[0])}</b><small>${m[1]}</small></span>`) : "";
       return `<li><button class="ex-row" data-i="${p.i}">${rank}<span class="ex-main"><b>${esc(p.n)}</b><span class="ex-town">${esc([p.c, p.cu].filter(Boolean).join(" · "))}</span>${second ? `<span class="ex-town">${esc(second)}</span>` : ""}<span class="ex-chips">${chips(p, 4)}</span></span>${metricHtml}</button></li>`;
-    }).join("");
+    }).join("") + (more ? `<li class="ex-empty ex-few">Only ${current.length === 1 ? "one" : current.length} in ${esc(scope)}. ${widenButton(more)}</li>` : "");
+    if (more) $("#ex-widen").onclick = widen;
     const left = current.length - shown;
     $("#ex-more").hidden = left <= 0;
     $("#ex-more").textContent = `Show more (${left.toLocaleString()} left)`;

@@ -183,11 +183,31 @@
     saveHash();
   }
 
+  // A search inside a guide only looks in that guide, and the app opens on Teriyaki: a first visit that types "canlis" would find
+  // nothing. When a guide search finds none or only a few, offer the same search (and filters) in All restaurants, with its count.
+  // (Worded by the list's name, All restaurants, so the button makes no claim about how complete the list is.)
+  const FEW = 5;
+  function elsewhere() {
+    const q = parse(st.q);
+    if (st.g === "all" || qEmpty(q) || current.length >= FEW) return 0;
+    const n = P.filter((p) => !p.v && allows(p) && matches(p, q)).length;
+    return n > current.length ? n : 0;
+  }
+  function widen() {
+    st.g = "all"; st.sort = ""; shown = 100; render();
+    $(".ex-row")?.focus();
+  }
+  const widenButton = (n) => `<button type="button" class="ex-small ex-widen" id="ex-widen">See ${n.toLocaleString()} ${n === 1 ? "match" : "matches"} in All restaurants</button>`;
+
   function renderList(o) {
     const ol = $("#ex-list");
     const g = GUIDES[st.g];
+    const more = elsewhere();
+    const scope = st.g === "saved" ? "your saved places" : `the ${g.title} guide`;
     if (!current.length) {
-      ol.innerHTML = `<li class="ex-empty">${st.g === "saved" ? "Nothing saved yet. Open a place and tap Save to keep it here, in this browser." : "No places match. Try fewer words or clear the filters."}</li>`;
+      ol.innerHTML = `<li class="ex-empty">${more ? `No place in ${esc(scope)} matches that. ${widenButton(more)}`
+        : st.g === "saved" && qEmpty(parse(st.q)) ? "Nothing saved yet. Open a place and tap Save to keep it here, in this browser." : "No places match. Try fewer words or clear the filters."}</li>`;
+      if (more) $("#ex-widen").onclick = widen;
       $("#ex-more").hidden = true;
       return;
     }
@@ -198,7 +218,8 @@
       const metricHtml = m ? (m[1] === "King County" ? `<span class="ex-metric"><span class="ex-kc ex-kc-${p.kr}">${esc(m[0])}</span><small>official</small></span>`
         : `<span class="ex-metric"><b>${esc(m[0])}</b><small>${m[1]}</small></span>`) : "";
       return `<li><button class="ex-row" data-i="${p.i}">${rank}<span class="ex-main"><b>${esc(p.n)}</b><span class="ex-town">${esc([p.c, p.cu].filter(Boolean).join(" · "))}</span>${second ? `<span class="ex-town">${esc(second)}</span>` : ""}<span class="ex-chips">${chips(p, 4)}</span></span>${metricHtml}</button></li>`;
-    }).join("");
+    }).join("") + (more ? `<li class="ex-empty ex-few">Only ${current.length === 1 ? "one" : current.length} in ${esc(scope)}. ${widenButton(more)}</li>` : "");
+    if (more) $("#ex-widen").onclick = widen;
     const left = current.length - shown;
     $("#ex-more").hidden = left <= 0;
     $("#ex-more").textContent = `Show more (${left.toLocaleString()} left)`;

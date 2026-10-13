@@ -834,6 +834,7 @@ EXPLORE_CSS = """
   .ex-rank { flex: 0 0 34px; height: 34px; display: grid; place-items: center; font: 800 20px var(--display); color: var(--green); border-radius: 8px; }
   .ex-rank.top { background: var(--gold); color: #13231c; }
   .ex-empty { padding: 24px 4px; color: var(--muted); }
+  .ex-widen { display: block; margin-top: 10px; text-align: left; }   /* a guide search with few or no matches: the same search in All restaurants */
   #ex-more { display: block; margin: 8px auto 24px; }
   #ex-mapwrap { position: relative; height: min(72vh, 620px); margin: 10px 0 20px; border: 1px solid var(--rule); border-radius: 16px; overflow: hidden; background: #cfe3ea; }
   @media (prefers-color-scheme: dark) { #ex-mapwrap { background: #16303a; } }
@@ -876,6 +877,8 @@ nav, bc = crumbs([("Home", "/"), ("Search", "/explore/")])
 guide_buttons = "".join(f'<button type="button" data-g="{k}" aria-pressed="false">{e(t)}</button>' for k, t in
                         (("teriyaki", "Teriyaki"), ("pho", "Phở"), ("drivein", "Drive-ins"), ("seafood", "Oysters & seafood"), ("honors", "Honors"),
                          ("oldest", "Oldest"), ("safety", "Food safety"), ("all", "All restaurants"), ("saved", "Saved")))
+# the search box's placeholder is the app's own prompt (GuideListView.swift): "…street, zip or dish" was cut off at 375 px, and qa-site.py
+# checks it fits on a phone (zip codes still search)
 body = f"""{nav}
   <main id="main">
   <section class="ex-hero">
@@ -889,7 +892,7 @@ body = f"""{nav}
       <div class="ex-guides" role="group" aria-label="Guides">{guide_buttons}</div>
       <div class="ex-row1">
         <label class="skip" for="ex-q">Search</label>
-        <input id="ex-q" type="search" placeholder="Name, town, street, zip or dish" autocomplete="off" enterkeyhint="search">
+        <input id="ex-q" type="search" placeholder="Name, town, street or dish" autocomplete="off" enterkeyhint="search">
         <button type="button" id="ex-locate" class="ex-small">Near me</button>
       </div>
       <div class="ex-row2">

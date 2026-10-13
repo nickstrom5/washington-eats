@@ -31,7 +31,10 @@ list never claims "Nearest" without a location; a place opens as a labelled moda
 data file's own address, phone and website; Escape and the browser's Back close it; Near me works again after a move (a fresh fix each press); bad stored values don't stop the app; a #p= deep link opens the right place on a fresh
 load; Save survives a reload under the "wae-" prefix; hostile hashes, a junk stored guide and script/quote/bidi text in the hash or
 the search box stay inert; the skip link doesn't reset a search; the map draws and a dot opens its place; keyboard focus is visible;
-every control has an accessible name; prefers-reduced-motion turns smooth scrolling off; a failed core.json is reported.
+every control has an accessible name; prefers-reduced-motion turns smooth scrolling off; a failed core.json is reported; the search
+box's placeholder isn't cut off at 375 px (scrollWidth against clientWidth) and is 16px or more; a famous place that isn't in the opening
+guide (Canlis, in Teriyaki) finds nothing there but offers "See N matches in All restaurants", and one click shows it there with the
+same search (a guide search with only a few matches offers it too, and a search nothing matches offers nothing).
 
 Usage: .venv/bin/python scripts/qa-site.py [--static]
   QA_DOCS=<dir>   check another copy of docs/ (used to prove each check can fail)
@@ -1036,6 +1039,109 @@ def lonlat_px(page, lat, lon):
     }""", [lat, lon])
 
 
+PLACEHOLDER = """() => {
+  // the placeholder's own width: the same text as the value of a plain text field with the search box's computed font, padding,
+  // border and width (in the search box itself a value brings a clear button that an empty box doesn't show), so scrollWidth >
+  // clientWidth means the hint is cut off
+  const i = document.querySelector('#ex-q'), cs = getComputedStyle(i), ph = i.placeholder, c = document.createElement('input');
+  c.type = 'text';
+  for (const k of ['font', 'letterSpacing', 'wordSpacing', 'textIndent', 'boxSizing', 'width', 'paddingLeft', 'paddingRight', 'borderLeftWidth', 'borderRightWidth', 'borderStyle'])
+    c.style[k] = cs[k];
+  c.style.position = 'absolute'; c.style.visibility = 'hidden';
+  i.parentElement.appendChild(c);
+  c.value = ph;
+  const sw = c.scrollWidth, cw = c.clientWidth, same = Math.abs(c.offsetWidth - i.offsetWidth) <= 1;
+  c.remove();
+  return { ph, sw, cw, same, px: parseFloat(getComputedStyle(i, '::placeholder').fontSize) };
+}"""
+
+
+def placeholder_cut(page):
+    """The search box's placeholder fits in the box (California's read "…zip or d" at 375 px) at 16px or more (under that, iOS zooms)."""
+    r = page.evaluate(PLACEHOLDER)
+    out = []
+    if not r["ph"]:
+        out.append("the search box has no placeholder")
+    if not r["same"]:
+        out.append("the placeholder measure didn't copy the search box's width (fix PLACEHOLDER in qa-site.py)")
+    if r["sw"] > r["cw"]:
+        out.append(f"the search placeholder {r['ph']!r} is cut off ({r['sw']}px of text and padding in a {r['cw']}px box)")
+    if r["px"] < 16:
+        out.append(f"the search placeholder is {r['px']}px (under 16px)")
+    return out
+
+
+def guide_search_checks(browser, base):
+    """A search inside a guide that finds none or only a few offers the same search in All restaurants, with its count, and one click
+    shows it there (ME-V08 / WI-V-03: the app opens on Teriyaki, so a first visit typing a famous restaurant found nothing)."""
+    ex = base + BASE + "/explore/"
+    famous = "Canlis"     # Seattle's best-known fine-dining room: in the data, not on the teriyaki guide
+    fi = [i for i in REST if C["n"][i] == famous]
+    if not fi or any(i in IN_GUIDE[1] for i in fi):
+        bad(f"guide search: pick another famous non-guide place ({famous!r} is {'on the teriyaki guide' if fi else 'not in the data'})")
+        return
+    for vw, vh, scheme in ((375, 812, "light"), (1280, 800, "dark")):
+        w = f"explore @{vw} {scheme} (guide search)"
+        ctx = browser.new_context(viewport={"width": vw, "height": vh}, color_scheme=scheme)
+        ctx.add_init_script(INIT)
+        page = ctx.new_page()
+        log = watch(page, base)
+        goto(page, ex, "networkidle")     # no hash, nothing stored: the app opens on its first guide, Teriyaki
+        page.wait_for_function("() => document.querySelectorAll('.ex-row').length > 0", timeout=60000)
+        if page.evaluate("document.querySelector('.ex-guides button[aria-pressed=true]')?.dataset.g") != "teriyaki":
+            bad(f"{w}: a first visit didn't open on the teriyaki guide")
+        search(page, famous.lower())
+        btn = page.locator("#ex-widen")
+        if page.locator(".ex-row").count() or not btn.count() or not btn.is_visible():
+            bad(f"{w}: “{famous.lower()}” in the teriyaki guide listed {page.locator('.ex-row').count()} and offered no All restaurants button: "
+                f"{(page.locator('#ex-list').text_content() or '').strip()[:90]!r}")
+        else:
+            m = re.fullmatch(r"See ([\d,]+) match(?:es)? in All restaurants", (btn.text_content() or "").strip())
+            if not m:
+                bad(f"{w}: the All restaurants button says {btn.text_content()!r}")
+            if vw == 375:
+                for t in page.evaluate(TAP):
+                    bad(f"{w}: tap target under 24px: {t}")
+            for t in page.evaluate(CONTRAST, "#ex-list"):
+                bad(f"{w}: text contrast under 4.5:1: {t}")
+            btn.click()
+            page.wait_for_timeout(300)
+            st = page.evaluate("""() => ({ g: document.querySelector('.ex-guides button[aria-pressed=true]')?.dataset.g, q: document.querySelector('#ex-q').value,
+                hash: location.hash, focus: document.activeElement?.classList.contains('ex-row') })""")
+            if st["g"] != "all" or st["q"] != famous.lower() or "g=all" not in st["hash"]:
+                bad(f"{w}: the button didn't switch to All restaurants with the same search: {st}")
+            if m and count(page) != int(m.group(1).replace(",", "")):
+                bad(f"{w}: the button promised {m.group(1)} matches, All restaurants lists {count(page)}")
+            if not any(r.startswith(famous) and CITY(fi[0]) in r for r in rows(page)):
+                bad(f"{w}: one click didn't find {famous}: {rows(page)[:2]}")
+            if not st["focus"]:
+                bad(f"{w}: focus didn't move to the results after the click")
+            if page.locator("#ex-widen").count():
+                bad(f"{w}: All restaurants still offers to widen the search")
+        # a few in the guide and more statewide: the button follows the short list. "seafood" names a few teriyaki-and-seafood
+        # shops; checked against the counts the browser shows for both lists, so it can't pass by finding nothing.
+        fresh(page, ex + "#g=teriyaki")
+        page.wait_for_function("() => document.querySelectorAll('.ex-row').length > 0", timeout=60000)
+        search(page, "seafood")
+        n_guide, btn = count(page), page.locator("#ex-widen")
+        offered = btn.text_content() if btn.count() and btn.is_visible() else None
+        page.locator('.ex-guides button[data-g="all"]').click()
+        page.wait_for_timeout(300)
+        n_all = count(page)
+        if not 0 < n_guide < 5 or n_all <= n_guide:
+            bad(f"{w}: pick another few-matches query (“seafood”: {n_guide} in the teriyaki guide, {n_all} in All restaurants)")
+        elif not offered or not re.fullmatch(rf"See {n_all:,} match(?:es)? in All restaurants", offered.strip()):
+            bad(f"{w}: “seafood” found {n_guide} in the teriyaki guide and {n_all} in All restaurants, but the guide offered {offered!r}")
+        # nothing anywhere: no button, the plain message
+        page.locator('.ex-guides button[data-g="teriyaki"]').click()
+        search(page, "qqzxv")
+        if page.locator("#ex-widen").count() or "No places match" not in (page.locator("#ex-list").text_content() or ""):
+            bad(f"{w}: a search nothing matches offered a button or lost its message: {(page.locator('#ex-list').text_content() or '')[:80]!r}")
+        problems.extend(f"{w}: CSP violation: {v}" for v in page.evaluate("window.__csp"))
+        problems.extend(f"{w}: console error: {e[:160]}" for e in log["errors"])
+        ctx.close()
+
+
 def webapp_checks(browser, base):
     ex = base + BASE + "/explore/"
     kas = next(i for i in range(N) if C["ks"][i] == 1)
@@ -1081,6 +1187,8 @@ def webapp_checks(browser, base):
             for sel, px in page.evaluate("[...document.querySelectorAll('#ex-q, .ex-row2 select')].map(e => [e.id, parseFloat(getComputedStyle(e).fontSize)])"):
                 if px < 16:
                     bad(f"{w}: #{sel} is {px}px, so iOS zooms the page when it gets focus")
+        for t in placeholder_cut(page):
+            bad(f"{w}: {t}")
         # searches, in All restaurants
         page.locator('.ex-guides button[data-g="all"]').click()
         page.wait_for_timeout(300)
@@ -1378,6 +1486,7 @@ def main():
             browser = pw.chromium.launch(channel="chrome")
             loads = page_checks(browser, base)
             webapp_checks(browser, base)
+            guide_search_checks(browser, base)
             browser.close()
         srv.shutdown()
     print(f"static: {len(files)} HTML files, {n_static} problems" + ("" if STATIC_ONLY else f" | browser: {loads} page loads (375 and 1280 px, light and dark), plus the web app"))
