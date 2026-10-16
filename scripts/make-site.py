@@ -24,7 +24,7 @@ DOCS = f"{ROOT}/docs"
 # Where the site lives. Until Nick's Cloudflare record `washington CNAME nickstrom5.github.io` (DNS only) resolves, the site is served
 # at the GitHub Pages project address. Then set CUSTOM_DOMAIN = "washington.eatsranked.com", re-run, push (with Nick's OK), and GitHub
 # forwards the old github.io links (the ones inside shipped app builds) to it.
-CUSTOM_DOMAIN = ""
+CUSTOM_DOMAIN = "washington.eatsranked.com"
 DOMAIN = f"https://{CUSTOM_DOMAIN}" if CUSTOM_DOMAIN else "https://nickstrom5.github.io/washington-eats"
 BASE = "" if CUSTOM_DOMAIN else "/washington-eats"     # path prefix for root-relative links
 BRAND = "Washington Eats"

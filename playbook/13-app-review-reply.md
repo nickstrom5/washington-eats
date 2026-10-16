@@ -44,7 +44,7 @@ Thank you. Here is the information requested. A screen recording from an iPhone 
 - Core Spotlight: on-device indexing so places appear in iPhone search.
 - No backend, accounts, analytics, advertising, payments or AI services. The restaurant data is bundled in the app.
 - Bundled data sources: Overture Maps Foundation open place data (CDLA Permissive 2.0, with Foursquare-sourced records under Apache 2.0 and AllThePlaces under CC0; license texts are in the app); Public Health – Seattle & King County's Food Establishment Inspection Data (public domain), including King County's own food safety ratings, shown as published; James Beard Foundation award records (facts only); and our own research of restaurants' public websites, menus and local news.
-- The website with the privacy policy and support page is static and hosted on GitHub Pages: https://nickstrom5.github.io/washington-eats/
+- The website with the privacy policy and support page is static and hosted on GitHub Pages: https://washington.eatsranked.com/
 
 5. Regional differences: none. The content covers Washington State; the app is offered in the United States and works the same everywhere.
 
@@ -53,4 +53,3 @@ Thank you. Here is the information requested. A screen recording from an iPhone 
 Support: work-with-nick@gmail.com
 ```
 
-(If the custom domain is live by submission, replace the website line with https://washington.eatsranked.com and update Links.swift.)

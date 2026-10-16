@@ -12,7 +12,7 @@ nothing is archived or uploaded.
    `329204362+nickstrom5@users.noreply.github.com`.
 2. **Done 2026-10-06.** **Enable GitHub Pages** from `main` / `docs`. Check every page returns 200 at https://nickstrom5.github.io/washington-eats/ (privacy
    and support URLs must load before App Review).
-3. **Cloudflare DNS (Nick):** `washington` CNAME → `nickstrom5.github.io`, **DNS only** (grey cloud).
+3. **Done 2026-10-16.** **Cloudflare DNS (Nick):** `washington` CNAME → `nickstrom5.github.io`, **DNS only** (grey cloud).
 4. When `dig washington.eatsranked.com` shows the CNAME: set `CUSTOM_DOMAIN = "washington.eatsranked.com"` in `scripts/make-site.py`,
    re-run it (writes `docs/CNAME`), push, wait for the Pages certificate, then
    `gh api -X PUT repos/nickstrom5/washington-eats/pages -F https_enforced=true`, set the repo's Website field, and switch
@@ -23,7 +23,10 @@ nothing is archived or uploaded.
 ## App Store
 1. **Nick:** register the bundle ID `com.washingtoneats.ios` and create the App Store Connect record "Washington Eats: Restaurants"
    (SKU e.g. `washington-eats`). The API can't create app records.
-2. Trademark check: USPTO search for "Washington Eats" (classes 9, 43).
+2. **Done 2026-10-16.** Trademark check (USPTO Trademark Search, knockout search, not legal advice): no live "WASHINGTON EATS",
+   "WA EATS" or "EATS RANKED" mark. The one exact "WASHINGTON EATS" (serial 77914503, Saval Foods Corp., classes 9 and 43, an
+   electronic magazine) is dead/cancelled. "[Place] EATS" marks coexist (IOWA EATS, BAMA EATS, ISTANBUL EATS in 9/43, COUPANG EATS,
+   UBER EATS); nearby live marks: EATS (Eats, LLC, Utah vegan bakery, 30/35/43) and TASTE WASHINGTON (Washington Wine Commission, 35/41).
 3. Re-run `pipeline/check_websites.py` and rebuild, run the unit and UI tests on both simulators, recapture screenshots if any UI changed.
 4. Archive with the **public Xcode** (`DEVELOPER_DIR="/Applications/Xcode 1.app/Contents/Developer"`), check `DTXcodeBuild`, upload to
    TestFlight (with Nick's yes). Version 1.0.0 (1); App Store Connect's version must be `1.0.0`.

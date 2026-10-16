@@ -5,8 +5,8 @@
  "app": "Washington Eats: Restaurants",
  "home_name": "WA Eats",
  "tagline": "Seattle-style teriyaki, phở, drive-ins and oyster bars we checked by hand, plus every restaurant in Washington State.",
- "site": "https://nickstrom5.github.io/washington-eats/",
- "how": "https://nickstrom5.github.io/washington-eats/",
+ "site": "https://washington.eatsranked.com/",
+ "how": "https://washington.eatsranked.com/",
  "app_store": null,
  "app_store_id": null,
  "app_store_note": "Coming soon to the App Store",
@@ -14,6 +14,6 @@
  "colors": {"bg": "#1F4D3A", "accent": "#F7C948", "text": "#FFFFFF"},
  "icon": "icons/washington.png",
  "tagline_short": "Teriyaki & phở guide, plus every Washington State restaurant.",
- "web_app": "https://nickstrom5.github.io/washington-eats/explore/",
+ "web_app": "https://washington.eatsranked.com/explore/",
  "web_app_label": "Search on the web"
 }

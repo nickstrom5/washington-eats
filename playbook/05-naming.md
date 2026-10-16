@@ -3,7 +3,7 @@
 **App Store name:** `Washington Eats: Restaurants` (28 of 30)
 **Subtitle:** `WA State Teriyaki & Food Guide` (30 of 30)
 **Home Screen name** (`CFBundleDisplayName`): `WA Eats`
-**Website:** https://washington.eatsranked.com/ (hub eatsranked.com; until the Cloudflare `washington` CNAME resolves, https://nickstrom5.github.io/washington-eats/)
+**Website:** https://washington.eatsranked.com/ (hub eatsranked.com; live 2026-10-16)
 **Bundle ID:** `com.washingtoneats.ios` · **Repo folder:** `wa-eats/` · planned GitHub repo `nickstrom5/washington-eats` (not created; needs Nick's yes)
 
 ## Why this name
