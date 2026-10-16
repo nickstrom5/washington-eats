@@ -16,6 +16,7 @@ import math
 import os
 import re
 import struct
+import sys
 from collections import Counter, defaultdict
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -35,28 +36,12 @@ UPDATED = "2026-10-12"           # last content change: sitemap lastmod, dateMod
 CHECKED = "October 2026"
 
 D = json.load(open(f"{ROOT}/data/app/places.json"))
-# Hacked, expired or wrong-business websites found after the data's link check (pipeline/website_blocklist.json; more entries can be
-# added there without code changes). Only the link is dropped, everywhere the site publishes it; the place stays.
-# "domain" covers the registered domain and every subdomain, "url" that exact address.
-BLOCKLIST = json.load(open(f"{ROOT}/pipeline/website_blocklist.json"))
-assert all(b.get("match") in ("domain", "url") and b.get("domain") for b in BLOCKLIST), "website_blocklist.json: each entry needs domain and match"
-
-
-def blocked(u):
-    if not u:
-        return False
-    bare = re.sub(r"^(?:[a-z][a-z0-9+.-]*:)?//", "", u.strip(), flags=re.I)
-    host = bare.split("/")[0].split("?")[0].split("#")[0].split(":")[0].lower().removeprefix("www.")
-    for b in BLOCKLIST:
-        if b["match"] == "domain":
-            d = b["domain"].strip().lower().removeprefix("www.")
-            if host == d or host.endswith("." + d):
-                return True
-        else:
-            want = re.sub(r"^(?:https?:)?//(?:www\.)?", "", b["domain"].strip(), flags=re.I).rstrip("/").lower()
-            if re.sub(r"^www\.", "", bare, flags=re.I).rstrip("/").lower() == want:
-                return True
-    return False
+# Hacked, expired or wrong-business websites found after the data's link check: the app export drops them too (pipeline/website_blocklist.py,
+# shared so the app and the site never disagree); this pass keeps the site right even if places.json predates a new entry.
+sys.path.insert(0, f"{ROOT}/pipeline")
+from website_blocklist import blocked  # noqa: E402
+if open(f"{ROOT}/data/app/places.json", "rb").read() != open(f"{ROOT}/WashingtonEats/Resources/places.json", "rb").read():
+    print("WARNING: WashingtonEats/Resources/places.json differs from data/app/places.json: copy it so the app ships what the site shows")
 
 
 BLOCKED_LINKS = []

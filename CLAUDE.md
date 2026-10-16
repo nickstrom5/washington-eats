@@ -87,7 +87,8 @@ cd .. && cp data/app/places.json WashingtonEats/Resources/ && .venv/bin/python s
   ask; the button's mailto body may ask). `qa-site.py` fails on either (`label_and_promise_checks`).
 - `pipeline/website_blocklist.json`: hacked, expired or wrong-business websites found after the link check. make-site.py drops those links
   (website and source link, never the place) from every page and from docs/data; qa-site.py fails if one appears anywhere in docs/. Add entries
-  there (`"match": "domain"` or `"url"`), no code change needed. The app bundle keeps the link until the next re-export.
+  there (`"match": "domain"` or `"url"`), no code change needed. The app export applies the same list (`pipeline/website_blocklist.py`,
+  shared with make-site.py), so re-export and copy places.json after adding entries; make-site warns when the app's copy is out of date.
 - No analytics, no third-party scripts, no `aggregateRating`, no reviews in JSON-LD. Every page carries a Content-Security-Policy meta tag
   that allows only its own inline scripts and styles by hash (`csp()` in make-site.py): no inline `on…=` handlers or `style=` attributes.
 

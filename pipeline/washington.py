@@ -20,6 +20,7 @@ from common import (norm_name, nice, name_sim, cuisine, FOOD_COST, MARGIN, MARGI
                     canon_city, town_key, street_key, street_nums, CUISINE_RULES, undir, street_eq)
 from brands import brand_of
 from listings_util import official_match, _close_words
+from website_blocklist import blocked
 import official as OFFICIAL
 
 APP = os.environ.get("WA_APP") == "1"
@@ -1070,6 +1071,10 @@ if APP:
             kcd = {"r": RCODE.get(x.kc_rating), "d": x.kc_lr_date if isinstance(x.kc_lr_date, str) else None, "res": RESCODE.get(x.kc_lr_result), "red": r(x.kc_lr_red), "n": r(x.kc_n),
                    "u": r(x.kc_unsat), "rt": r(x.kc_return), "cl": x.kc_closure if isinstance(x.kc_closure, str) else None, "risk": r(x.kc_risk)}
             p["kc"] = {k: v for k, v in kcd.items() if v is not None}
+        for k in ("w", "src"):   # hacked, expired or wrong-business sites found after the link check (website_blocklist.json)
+            if p.get(k) and blocked(p[k]):
+                link_drops["on the website blocklist"] += 1
+                del p[k]
         while p["id"] in seen_ids:
             p["id"] = p["id"] + "x"
         seen_ids.add(p["id"])
