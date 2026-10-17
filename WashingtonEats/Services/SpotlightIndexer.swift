@@ -22,7 +22,9 @@ enum SpotlightIndexer {
             attrs.contentDescription = ([kinds.joined(separator: " · ")] + [p.fullAddress]).filter { !$0.isEmpty }.joined(separator: "\n")
             attrs.keywords = kinds + [p.city, p.cuisine, "Washington"].compactMap { $0 }
             if let c = p.coordinate { attrs.latitude = NSNumber(value: c.latitude); attrs.longitude = NSNumber(value: c.longitude); attrs.supportsNavigation = true }
-            return CSSearchableItem(uniqueIdentifier: p.id, domainIdentifier: domain, attributeSet: attrs)
+            let item = CSSearchableItem(uniqueIdentifier: p.id, domainIdentifier: domain, attributeSet: attrs)
+            item.expirationDate = .distantFuture   // CoreSpotlight's default time to live is 1 month; the index is only rebuilt when the data changes
+            return item
         }
         CSSearchableIndex.default().deleteSearchableItems(withDomainIdentifiers: [domain]) { _ in
             CSSearchableIndex.default().indexSearchableItems(items) { error in
