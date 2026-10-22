@@ -32,6 +32,20 @@ Read `README.md` and `playbook/12-sources.md` first. Never modify `../chi-eats/`
 - James Beard honors are facts from jamesbeard.org (`data/research/jbf_wa.json`): finalists and semifinalists are never called winners,
   and an America's Classics year that jamesbeard.org doesn't list isn't shown. There is no MICHELIN Guide for Washington State
   ("Washington" in MICHELIN, App Store and map data often means D.C.: filter by state code and polygon).
+- Hijacked pages (QA 2026-10-19, P1 #4; ported 2026-10-21): `check_websites.py` runs `pipeline/injection.py`, Wisconsin's detector, on every
+  page (planted casino, betting, adult, pharma and link-farm links, visible, hidden or off-screen; other-language gambling text; parked
+  and default pages). Keep it identical to `../wi-eats/pipeline/injection.py`; `test_injection.py` must pass. `--recheck-ok` fetches every
+  passing page again before each submission (resumable: pages re-checked in the last 2 days are skipped), `--retry-transient` re-fetches
+  429s and connection errors afterwards, and `CHECK_WORKERS=4` slows a run (Squarespace rate-limits across all our concurrent checkers).
+- Tracking tags: the app export strips `ref=google`, `referrer=google_food_ordering`, `cn_channel`, `utm_*`, `fbclid`, Yext `cid=RF:YXT…`
+  and similar from every outbound link (`pipeline/tracking_params.py`, the same in every state; store ids and locations stay). The site
+  reads the app export, and a unit test fails if a tracked link is bundled (QA 2026-10-19, P1 #13).
+- Not open to the public (QA 2026-10-19, P1 #7): `pipeline/private_dining.py` (identical in wa-eats and ca-eats) hides employer
+  cafeterias ("Google Cafe Nuage", "Amazon Block 21", "Ba @ Google …"), contract caterers' units (Bon Appétit, Guckenheimer, Sodexo,
+  Compass One) and school dining ("Basis Independent", "… @ Seattle U") with the non-restaurants. Legal-entity names show the trade
+  name (after "dba", without an "Lp"/"LLC" tail); a bare holder name ("Joban & Supreet Enterprises") is removed, and so is a
+  repaired one that duplicates a same-address listing starting with the same word. Hand-checked and honored places are exempt; ids
+  keep the old name. Read the export's dump of what each rule hid or removed after every change; a unit test guards the bundle.
 - Website links: `pipeline/check_websites.py` fetches every link politely; the export drops any that isn't plainly the place's own live
   page (spam, parked, directory, moved, dead, blocked, or a page saying it isn't the place's own). Re-run it before each submission.
   Since 2026-10-07: links are http(s) only (`clean_url` refuses other schemes, unwraps l.facebook.com / l.instagram.com, strips tracking
@@ -78,8 +92,8 @@ cd .. && cp data/app/places.json WashingtonEats/Resources/ && .venv/bin/python s
 - QA: `.venv/bin/python scripts/qa-site.py` (serves under `/washington-eats/` and answers missing paths with 404.html as GitHub does;
   headless Chrome at 375 and 1280 px, light and dark, plus the web app's flows). `--static` for the fast checks only; `QA_DOCS=<dir>` checks a
   copy (prove a new check fails on a broken copy before trusting it); `QA_PORT` pins the port; `QA_SHOTS=<dir>` saves screenshots.
-- The site's contact address is nick@eatsranked.com (Nick, 2026-10-12); the app's `Links.swift`, the App Store listing and the review reply
-  still say work-with-nick@gmail.com until the next build. Every page's footer says "Part of Eats Ranked" and every page's JSON-LD carries the
+- The site's contact address is nick@eatsranked.com (Nick, 2026-10-12); the app's `Links.swift`, the App Store listing, the review reply
+  and the pipeline user agents use it too (2026-10-21), and a unit test fails on "gmail.com" in the app's source. Every page's footer says "Part of Eats Ranked" and every page's JSON-LD carries the
   #org Organization with its Eats Ranked parentOrganization. The web app's localStorage keys start with `wae-` (the github.io origin is shared with other state sites), and the
   privacy page names each key. `UPDATED` in make-site.py is the pages' last content change (sitemap lastmod, dateModified, "Last updated").
 - Copy decisions (Nick, 2026-10-13, family-wide): the web app's middle tier is "High-confidence listing", never "Confirmed listing";

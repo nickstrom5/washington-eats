@@ -22,6 +22,8 @@ from brands import brand_of
 from listings_util import official_match, _close_words
 from website_blocklist import blocked
 import official as OFFICIAL
+import tracking_params   # outbound links lose their tracking tags (QA 2026-10-19, P1 #13)
+import private_dining   # employer cafeterias, schools, caterers, legal-entity names (QA 2026-10-19, P1 #7)
 
 APP = os.environ.get("WA_APP") == "1"
 SITE = os.environ.get("WA_SITE") or (os.path.join(ROOT, "data", "app") if APP else os.path.join(ROOT, "site"))
@@ -690,6 +692,18 @@ junk = (nm.str.match(r"(?i)^\d+\s+(?:[NSEW]{1,2}\.?\s+)?[\w.' ]+?\b(?:St|Street|
 print("junk names dropped:", int(junk.sum()), nm[junk].head(12).tolist())
 o = o[~junk].reset_index(drop=True)
 
+# ---------------------------------------------------------------- legal-entity names (QA 2026-10-19, P1 #7; private_dining.py)
+# "Sars Enterprises Dba Dashpoint Chevron" shows its trade name, "Smoke Eaters Mercado, Lp" loses the tail; a bare holder name
+# ("Joban & Supreet Enterprises") is removed below, after the hand checks and honors are known. Ids keep the old name.
+_fix = [private_dining.entity_fix(n) for n in o.name_out.fillna("")]
+_rule = pd.Series([r for _, r in _fix], index=o.index)
+_fixed = _rule.notna() & _rule.ne("holder")
+print("legal-entity names replaced by the trade name:", int(_fixed.sum()),
+      [f"{a} -> {b[0]}" for a, b, f_ in zip(o.name_out, _fix, _fixed) if f_][:60], flush=True)
+o["id_name"] = o.name_out.where(_fixed)
+o.loc[_fixed, "name_out"] = [b[0] for b, f_ in zip(_fix, _fixed) if f_]
+o["holder_name"] = _rule.eq("holder")
+
 # ---------------------------------------------------------------- not restaurants (hidden unless "include non-restaurants" is on)
 STORE = re.compile(r"^(?:SAFEWAY|QFC|FRED MEYER|ALBERTSONS|HAGGEN|WINCO(?: FOODS)?|WALMART\b.*|COSTCO\b.*|TARGET|PCC(?: COMMUNITY MARKETS?)?|TOWN AND COUNTRY MARKET|"
                    r"METROPOLITAN MARKET|GROCERY OUTLET|TRADER JOES|WHOLE FOODS(?: MARKET)?|YOKES(?: FRESH MARKET)?|ROSAUERS|SAARS|CHEVRON|ARCO|AM ?PM|SHELL|"
@@ -747,6 +761,13 @@ airport = o.street.fillna("").str.upper().str.contains(r"^17801 INTERNATIONAL")
 vaddr &= ~((o.reviews.fillna(0) >= 300) & ~airport)
 venue |= vaddr
 print("stadium / airport / campus addresses:", int(vaddr.sum()))
+# employer cafeterias, contract caterers' units and school dining: not open to the public (private_dining.py)
+_priv = pd.Series([private_dining.private_dining(n) for n in o.name_out.fillna("")], index=o.index)
+_new = _priv.notna() & ~(store | venue)
+print("private dining hidden with the non-restaurants:", _priv.value_counts().to_dict(), "| newly hidden:", int(_new.sum()), flush=True)
+for _k in sorted(_priv[_new].unique()):
+    print(f"  {_k}:", sorted(o.name_out[_new & _priv.eq(_k)].tolist()), flush=True)
+venue |= _priv.notna()
 o["venue"] = store | venue | o.get("lic_shared", pd.Series(False, index=o.index)).fillna(False).astype(bool)
 print("non-restaurants flagged:", int(o.venue.sum()), "| stores:", int(store.sum()), "| venues:", int((venue & ~store).sum()))
 
@@ -809,6 +830,19 @@ shop = o.get("shop", pd.Series(False, index=o.index)).fillna(False).astype(bool)
 o.loc[o.honored & ~shop, "venue"] = False
 o.loc[o.hc & ~shop, "venue"] = False
 o.loc[shop & o.jbf.isna(), "venue"] = True   # a shop is an icon but not a restaurant, unless James Beard honored it as one (Beast & Cleaver)
+# a license holder's name with no trade name (private_dining.entity_fix): never shown, unless hand-checked or honored
+_holder = o.holder_name.fillna(False).astype(bool) & ~o.hc.fillna(False).astype(bool) & ~o.honored.fillna(False).astype(bool)
+print("legal-entity names removed (no trade name known):", int(_holder.sum()), sorted(o.name_out[_holder].tolist()), flush=True)
+o = o[~_holder].reset_index(drop=True)
+# a repaired entity row ("Holdren's Terrace Ltd Lp", "Finney's Funk Zone Lp") is usually the license holder's copy of a listing at the same
+# street address that starts with the same word ("Holdren's Steaks & Seafood", "Finney's Crafthouse"): that listing stands for it
+_street = o.street.fillna("").astype(str).str.upper().str.replace(r"[^A-Z0-9]+", " ", regex=True).str.strip()
+_first = o.name_out.fillna("").map(lambda n: ((norm_name(n) or "").split() or [""])[0])
+_fixed_row = o.id_name.notna() & ~o.hc.fillna(False).astype(bool) & ~o.honored.fillna(False).astype(bool)
+_plain = set(zip(_street[~o.id_name.notna()], _first[~o.id_name.notna()]))
+_dup = _fixed_row & pd.Series([s_ != "" and len(f_) >= 3 and (s_, f_) in _plain for s_, f_ in zip(_street, _first)], index=o.index)
+print("repaired entity names that duplicate a listing at the same address, removed:", int(_dup.sum()), sorted(o.name_out[_dup].tolist()), flush=True)
+o = o[~_dup].reset_index(drop=True)
 o["bar"] = o.cat.isin(["bar", "brewery"]) | (o.cuisine == "Bar & Pub")
 
 # ---------------------------------------------------------------- King County: the official rating and inspection facts
@@ -1015,7 +1049,8 @@ if APP:
     LINKS = json.load(open(f"{WA}/website_check.json")) if os.path.exists(f"{WA}/website_check.json") else None
     link_drops, link_cands, phone_drops = collections.Counter(), {}, 0
     for i, x in o.iterrows():
-        idsrc = f"{norm_name(x.name_out)}|{round(float(x.lat), 3)}|{round(float(x.lon), 3)}" if x.lat == x.lat else f"{norm_name(x.name_out)}|{x.get('lic') or x.get('id')}"
+        idn = x.id_name if isinstance(x.get("id_name"), str) else x.name_out   # a trade-name fix keeps the id
+        idsrc = f"{norm_name(idn)}|{round(float(x.lat), 3)}|{round(float(x.lon), 3)}" if x.lat == x.lat else f"{norm_name(idn)}|{x.get('lic') or x.get('id')}"
         p = {"id": hashlib.md5(idsrc.encode()).hexdigest()[:12], "n": x.name_out, "c": ci.get(x.city) if isinstance(x.city, str) else None,
              "cu": cu[x.cuisine], "t": TIER[x.tier], "s": SRCS.index(x.src) if x.src in SRCS else 1}
         if isinstance(x.county, str): p["co"] = coi[x.county]
@@ -1081,6 +1116,9 @@ if APP:
         places.append(p)
     print("website links dropped:", sum(link_drops.values()), link_drops.most_common(8))
     print("phone numbers dropped (not a valid US number):", phone_drops)
+    # tracking tags (ref=google, utm_*, cn_channel …) off every outbound link; the store's own parameters stay (tracking_params.py)
+    tp_changes = tracking_params.scrub(places)
+    print("tracking parameters stripped from links:", sum(tp_changes.values()), dict(tp_changes))
     # a URL several listings share is checked for the name most of them carry (subway.com for Subway, not for one stray teriyaki shop)
     json.dump({u: c.most_common(1)[0][0] for u, c in link_cands.items()}, open(f"{WA}/website_candidates.json", "w"), indent=0, ensure_ascii=False)
     # only the app's own calibration (Overture source and confidence groups): the artifact's groups and all-listings coverage

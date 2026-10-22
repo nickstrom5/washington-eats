@@ -14,7 +14,7 @@ Polite by design: an honest user agent, one request at a time per host, and thre
 80%+ one brand). Shared hosts (Square, Wix, Linktree, Instagram) carry many unrelated places, so every link there is checked on its own.
 Never bypasses bot protection.
 
-Usage: ../.venv/bin/python check_websites.py   (reads data/wa/website_candidates.json) → data/wa/website_check.json ({url: {"ok": bool, "why": str, "final": str}})
+Usage: ../.venv/bin/python check_websites.py [--recheck-ok] [--retry-transient]   (reads data/wa/website_candidates.json) → data/wa/website_check.json ({url: {"ok": bool, "why": str, "final": str}})
 The app export (washington.py, WA_APP=1) drops every link that isn't ok. Re-run before each App Store submission.
 Copied from wi-eats/pipeline/check_websites.py; Washington adds tribal casino names and a "not affiliated" rule (toshisgrill.com has a page
 for each unrelated "Toshi's Teriyaki" saying so, and copycat sites call themselves "unofficial").
@@ -29,11 +29,15 @@ import unicodedata
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
+import sys
+
 import requests
+
+import injection   # hijacked-page detector, ported from wi-eats (QA 2026-10-19, P1 #4)
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 OUT = f"{ROOT}/data/wa/website_check.json"
-UA = "WashingtonEatsLinkCheck/1.0 (+https://washington.eatsranked.com/; work-with-nick@gmail.com)"
+UA = "WashingtonEatsLinkCheck/1.0 (+https://washington.eatsranked.com/; nick@eatsranked.com)"
 GENERIC = set("""the and of a an at on in restaurant restaurants bar bars grill grille cafe caffe coffee pizza pizzeria pub tavern house
 supper club inn lounge kitchen bistro eatery diner bakery deli market express food foods co company inc llc ltd corp wa washington
 seattle tacoma spokane teriyaki pho espresso family original new old north south east west st saint mt sports place spot shop shoppe taproom brewing brewery
@@ -185,9 +189,18 @@ def check(url, name):
         return {"ok": False, "why": f"http {r.status_code}", "final": final}
     text = BLOBS.sub(" ", body).lower()
     head = " ".join(a or b for a, b in HEAD.findall(text[:60_000]))
-    casino = CASINO_PLACE.search(name) or CASINO_PLACE.search(urllib.parse.urlparse(final).netloc)
-    if SPAM.search(text) or SPAM.search(final) or (not casino and (BETTING.search(head) or len(BETTING.findall(text)) >= 2)):
+    # a casino by its name or its own host, never by where a (maybe taken-over) domain redirects (wi-eats)
+    casino = CASINO_PLACE.search(name) or CASINO_PLACE.search(host) or injection.CASINO_HOSTS_OK.search(host)
+    if SPAM.search(text) or SPAM.search(final) or (not casino and (BETTING.search(head) or len(injection.BETTING_PROSE.findall(text)) >= 2)):
         return {"ok": False, "why": "gambling or adult content", "final": final}
+    # planted links and spam (casino, betting, adult, pharma, link farms; visible, hidden or off-screen): injection.py
+    reasons = injection.scan(body, host, final, name, casino=bool(casino))
+    if reasons:
+        rule, evidence = reasons[0]
+        return {"ok": False, "why": "hacked: " + rule, "final": final, "evidence": evidence[:300]}
+    pk = injection.parked(body, final)
+    if pk:
+        return {"ok": False, "why": "parked, expired or coming soon", "final": final, "evidence": pk[1][:300]}
     if PARKED.search(text[:60_000]):
         return {"ok": False, "why": "parked, expired or coming soon", "final": final}
     if NOT_OURS.search(text):
@@ -214,6 +227,24 @@ def check(url, name):
     return {"ok": True, "why": "ok", "final": final}
 
 
+def save_atomic(results, indent=None):
+    """Write then rename: a stopped run never leaves a half-written file."""
+    with open(OUT + ".tmp", "w") as f:
+        json.dump(results, f, indent=indent)
+    os.replace(OUT + ".tmp", OUT)
+
+
+
+def safe_check(*item):
+    """check(), stamped with the day it ran ("rc": --recheck-ok skips pages already re-checked in the last 2 days, so a stopped run
+    resumes), and never raising: one malformed page must not stop a run of thousands."""
+    try:
+        res = check(*item)
+    except Exception as e:
+        res = {"ok": False, "why": "error: " + type(e).__name__, "final": item[0]}
+    return {**res, "rc": __import__("datetime").date.today().isoformat()}
+
+
 def main():
     # every link the export considered (written by wisconsin.py, WI_APP=1), so a link dropped last time gets another chance
     cands = json.load(open(f"{ROOT}/data/wa/website_candidates.json"))
@@ -225,6 +256,12 @@ def main():
     # chain verdicts are recomputed every run; host rules may have grown since a page was fetched
     prev = {u: v for u, v in prev.items() if not v["why"].startswith(("chain domain", "brand's own"))
             and v["why"] not in ("moved to another domain", "gambling or adult content")}
+    if "--recheck-ok" in sys.argv:   # fetch every passing page again (after a new rule, and before each submission); resumable
+        since = (__import__("datetime").date.today() - __import__("datetime").timedelta(days=2)).isoformat()
+        prev = {u: v for u, v in prev.items() if not v["ok"] or v.get("rc", "") >= since}
+    prev = {u: v for u, v in prev.items() if not v["why"].startswith("hacked")}   # injection.py's rules keep growing
+    if "--retry-transient" in sys.argv:   # after a busy run: fetch again what was rate-limited (429) or failed to connect
+        prev = {u: v for u, v in prev.items() if not (v["why"] == "http 429" or v["why"].startswith("error:"))}
     todo, chain_hosts, brand_of = [], {}, {}
     for dom, items in jobs.items():
         uniq = list(dict.fromkeys(items))
@@ -256,15 +293,15 @@ def main():
 
     def run(item):
         nonlocal done
-        res = {**check(*item), "rule": 5, "for": item[1]}   # the name the verdict was earned for
+        res = {**safe_check(*item), "rule": 6, "for": item[1]}   # the name the verdict was earned for
         with lock:
             results[item[0]] = res
             done += 1
             if done % 500 == 0:
                 print(f"  {done}/{len(todo)}", flush=True)
-                json.dump(results, open(OUT, "w"))
+                save_atomic(results)
 
-    with ThreadPoolExecutor(max_workers=24) as ex:
+    with ThreadPoolExecutor(max_workers=int(os.environ.get("CHECK_WORKERS") or 0) or 24) as ex:
         list(ex.map(run, todo))
     for dom, urls in chain_hosts.items():
         samples = [results.get(u) for u in urls[:3] if results.get(u)]
@@ -277,7 +314,7 @@ def main():
                 results[u] = {**results[u], "ok": True, "why": why}
         for u in urls[3:]:
             results[u] = {"ok": verdict, "why": why, "final": u, "for": brand_of[dom]}
-    json.dump(results, open(OUT, "w"), indent=0)
+    save_atomic(results, indent=0)
     c = collections.Counter(v["why"] if not v["ok"] else "ok" for v in results.values())
     print("results:", c.most_common())
 
