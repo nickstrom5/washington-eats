@@ -52,33 +52,39 @@ final class AppModel {
         #if DEBUG
         if ProcessInfo.processInfo.arguments.contains("-resetState") {
             defaults.removeObject(forKey: "saved"); defaults.removeObject(forKey: "filters")
+            DataFiles.standard.removeAll()          // and any downloaded data: start from the bundled copy
         }
         #endif
         saved = Set(defaults.stringArray(forKey: "saved") ?? [])
         if let data = defaults.data(forKey: "filters"), let f = try? JSONDecoder().decode(Filters.self, from: data) { filters = f }
     }
 
-    func load(from url: URL? = Bundle.main.url(forResource: "places", withExtension: "json")) async {
+    func load(from url: URL? = AppData.url("places")) async {
         guard !isLoaded else { return }
         guard let url else { loadError = "The restaurant data is missing from the app."; return }
         do {
-            let (file, places) = try await Task.detached(priority: .userInitiated) { () throws -> (DataFile, [Place]) in
-                let data = try Data(contentsOf: url)
-                let file = try JSONDecoder().decode(DataFile.self, from: data)
-                // building each place's search text is the slow part of launch: spread it over every core
-                let recs = file.places, chunk = 1_000
-                var out = [[Place]](repeating: [], count: (recs.count + chunk - 1) / chunk)
-                out.withUnsafeMutableBufferPointer { buf in
-                    DispatchQueue.concurrentPerform(iterations: buf.count) { i in
-                        buf[i] = recs[(i * chunk)..<min(recs.count, (i + 1) * chunk)].map { Place($0, file: file) }
-                    }
-                }
-                return (file, out.flatMap { $0 })
-            }.value
+            let (file, places) = try await Task.detached(priority: .userInitiated) { try AppModel.read(url) }.value
             apply(file: file, places: places)
         } catch {
+            // a downloaded copy this build can't read (OTA-DATA.md): back to the data built into the app
+            if let bundled = AppData.fallback(from: url) { return await load(from: bundled) }
             loadError = "The restaurant data couldn't be read (\(error.localizedDescription))."
         }
+    }
+
+    /// Reads a places.json: launch, and the check a downloaded copy passes before it's stored (DataLayout.app, OTA-DATA.md).
+    nonisolated static func read(_ url: URL) throws -> (DataFile, [Place]) {
+        let data = try Data(contentsOf: url)
+        let file = try JSONDecoder().decode(DataFile.self, from: data)
+        // building each place's search text is the slow part of launch: spread it over every core
+        let recs = file.places, chunk = 1_000
+        var out = [[Place]](repeating: [], count: (recs.count + chunk - 1) / chunk)
+        out.withUnsafeMutableBufferPointer { buf in
+            DispatchQueue.concurrentPerform(iterations: buf.count) { i in
+                buf[i] = recs[(i * chunk)..<min(recs.count, (i + 1) * chunk)].map { Place($0, file: file) }
+            }
+        }
+        return (file, out.flatMap { $0 })
     }
 
     func apply(file: DataFile, places: [Place]) {
