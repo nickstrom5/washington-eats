@@ -272,6 +272,12 @@ final class SmokeUITests: XCTestCase {
         try audit("home")
         button(containing: "Seattle Teriyaki").tap()
         waitFor(text(containing: "places ·"), 5, "teriyaki list")
+        // on a fresh device this guide asks for location (it sorts by distance). The prompt sits on top of the app and the
+        // audit then fails with "Invalid target app", so answer it first, like a first-time user would
+        let prompt = XCUIApplication(bundleIdentifier: "com.apple.springboard").alerts.firstMatch
+        if prompt.waitForExistence(timeout: 3) {
+            for b in ["Allow While Using App", "Allow Once"] where prompt.buttons[b].exists { prompt.buttons[b].tap(); break }
+        }
         try audit("teriyaki")
         app.buttons.matching(NSPredicate(format: "label CONTAINS ' · '")).firstMatch.tap()
         waitFor(button(containing: "Ratings, hours"), 5, "a place")
