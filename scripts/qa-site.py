@@ -876,6 +876,8 @@ def serve():
     if BASE:
         root = tempfile.mkdtemp(prefix="wa-qa-")
         os.symlink(DOCS, os.path.join(root, BASE.strip("/")))
+    # the default listen backlog (5) resets one of a browser's burst of requests when the machine is busy
+    http.server.ThreadingHTTPServer.request_queue_size = 64
     srv = http.server.ThreadingHTTPServer(("127.0.0.1", int(os.environ.get("QA_PORT") or 0)), functools.partial(Handler, directory=root))
     srv.handle_error = lambda *a: None     # a browser dropping a connection mid-file isn't a site problem
     threading.Thread(target=srv.serve_forever, daemon=True).start()
