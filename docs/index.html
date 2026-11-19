@@ -2,17 +2,16 @@
 <html lang="en" data-base="">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-PlOHBWTNoWMdrLy4J9nSbgvuCrk1tljsfBmIAdtHXpY='; style-src 'sha256-W2gxnO7+zUuNLAxaWdxknDlnDK44hr4/OLiTKdwrvG4='; img-src 'self'; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'none'; style-src 'sha256-3XFfAz/wOAQ6lczYficSL/3r3ivifFwKf+JmihZJ04o='; img-src 'self'; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Washington Eats: Teriyaki, Phở &amp; Restaurant App for WA</title>
-<meta name="description" content="179 teriyaki counters, 51 phở shops and 76 drive-ins checked by hand, inside a free iPhone and iPad guide to 20,174 Washington State restaurants.">
+<title>Washington Eats: Teriyaki, Phở &amp; Restaurant Guide for WA</title>
+<meta name="description" content="179 teriyaki counters, 51 phở shops and 76 drive-ins checked by hand, inside a free guide to 20,174 Washington State restaurants, on the web.">
 <link rel="canonical" href="https://washington.eatsranked.com/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#1F4D3A">
-<!-- <meta name="apple-itunes-app" content="app-id=APP_ID"> fill in once the App Store record exists -->
-<meta property="og:title" content="Washington Eats: Teriyaki, Phở &amp; Restaurant App for WA">
-<meta property="og:description" content="179 teriyaki counters, 51 phở shops and 76 drive-ins checked by hand, inside a free iPhone and iPad guide to 20,174 Washington State restaurants.">
+<meta property="og:title" content="Washington Eats: Teriyaki, Phở &amp; Restaurant Guide for WA">
+<meta property="og:description" content="179 teriyaki counters, 51 phở shops and 76 drive-ins checked by hand, inside a free guide to 20,174 Washington State restaurants, on the web.">
 <meta property="og:url" content="https://washington.eatsranked.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Washington Eats">
@@ -22,8 +21,8 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Washington Eats: Teriyaki &amp; Washington State food guide. Washington State restaurants, with hand-checked teriyaki, phở, drive-ins and oysters.">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Washington Eats: Teriyaki, Phở &amp; Restaurant App for WA">
-<meta name="twitter:description" content="179 teriyaki counters, 51 phở shops and 76 drive-ins checked by hand, inside a free iPhone and iPad guide to 20,174 Washington State restaurants.">
+<meta name="twitter:title" content="Washington Eats: Teriyaki, Phở &amp; Restaurant Guide for WA">
+<meta name="twitter:description" content="179 teriyaki counters, 51 phở shops and 76 drive-ins checked by hand, inside a free guide to 20,174 Washington State restaurants, on the web.">
 <meta name="twitter:image" content="https://washington.eatsranked.com/og.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -85,10 +84,6 @@
   .step { display: flex; gap: 14px; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
   .step .n { flex: 0 0 32px; height: 32px; border-radius: 50%; background: var(--gold); color: #13231c; font-weight: 800; display: grid; place-items: center; }
   .step p { margin: 4px 0 0; color: var(--ink2); }
-  .shots { display: flex; gap: 14px; overflow-x: auto; margin: 0 -20px; padding: 4px 20px 14px; scroll-snap-type: x proximity; list-style: none; }
-  .shots li { flex: 0 0 auto; width: 210px; scroll-snap-align: start; }
-  .shots img { display: block; width: 210px; height: auto; border-radius: 24px; border: 1px solid var(--rule); background: var(--surface2); }
-  .shots p { font-size: 14px; color: var(--muted); margin: 8px 2px 0; }
   .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
   .card { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
   .card p { margin: 6px 0 0; color: var(--ink2); }
@@ -148,33 +143,6 @@
  "@context": "https://schema.org",
  "@graph": [
   {
-   "@type": "MobileApplication",
-   "@id": "https://washington.eatsranked.com/#app",
-   "name": "Washington Eats: Restaurants",
-   "alternateName": [
-    "Washington Eats",
-    "WA Eats",
-    "Washington Eats: WA State Teriyaki \u0026 Food Guide"
-   ],
-   "description": "A free guide to 20,174 Washington State restaurants, with hand-checked lists of 179 teriyaki shops, 51 phở shops, 76 drive-ins and 91 oyster bars and seafood places. Sort by distance, open Apple Maps' live place card for hours and photos, and save places.",
-   "url": "https://washington.eatsranked.com/",
-   "image": "https://washington.eatsranked.com/og.png",
-   "operatingSystem": "iOS, iPadOS",
-   "applicationCategory": "TravelApplication",
-   "applicationSubCategory": "Food \u0026 Drink",
-   "inLanguage": "en",
-   "publisher": {
-    "@id": "https://washington.eatsranked.com/#org"
-   },
-   "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD",
-    "category": "free"
-   },
-   "screenshot": "https://washington.eatsranked.com/img/screen-home.png"
-  },
-  {
    "@type": "Organization",
    "@id": "https://washington.eatsranked.com/#org",
    "name": "Washington Eats",
@@ -204,10 +172,10 @@
    "@id": "https://washington.eatsranked.com/#website",
    "name": "Washington Eats",
    "alternateName": [
-    "WA Eats",
-    "Washington Eats app"
+    "WA Eats"
    ],
    "url": "https://washington.eatsranked.com/",
+   "description": "A free guide to 20,174 Washington State restaurants, with hand-checked lists of 179 teriyaki shops, 51 phở shops, 76 drive-ins and 91 oyster bars and seafood places.",
    "inLanguage": "en",
    "publisher": {
     "@id": "https://washington.eatsranked.com/#org"
@@ -243,7 +211,7 @@
    "name": "What does Washington Eats cost?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Nothing. There are no ads, no subscriptions, nothing to buy inside the app and no sign-up. It runs on iPhone and iPad; there's no Android version yet."
+    "text": "Nothing. There are no ads, no subscriptions, nothing to buy and no sign-up. It's a website, so it works in any browser. The same guide is in Eats Ranked for iPhone and iPad, coming soon to the App Store."
    }
   },
   {
@@ -259,7 +227,7 @@
    "name": "What do King County's Excellent, Good, Okay and Needs to Improve ratings mean?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "They are Public Health – Seattle \u0026 King County's own food safety ratings, built from each place's recent routine inspections, and the app shows them exactly as published, through 2026-09-25. 7,249 King County places have one. They're the only county ratings in the app, and we never make up our own."
+    "text": "They are Public Health – Seattle \u0026 King County's own food safety ratings, built from each place's recent routine inspections, and this site shows them exactly as published, through 2026-09-25. 7,249 King County places have one. They're the only county ratings here, and we never make up our own."
    }
   },
   {
@@ -267,7 +235,7 @@
    "name": "Where are the star ratings and reviews?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "In Apple Maps. Tap any place and Apple's own card opens inside the app with its ratings, photos, today's hours and directions. Our lists go by region, town or distance, never by stars."
+    "text": "In Apple Maps. In the web search, each place links to Apple Maps for its ratings, photos, today's hours and directions. Our lists go by region, town or distance, never by stars."
    }
   },
   {
@@ -275,7 +243,7 @@
    "name": "Does Washington Eats track where I am?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "No. If you allow location, the lists use it on your iPhone or iPad to put the closest places first, and it never leaves the device. Search, the map and the lists all work with location off."
+    "text": "No. If you share your location, the web search uses it inside your browser to put the closest places first, and it never reaches us. Search, the map and the lists all work with location off."
    }
   },
   {
@@ -283,7 +251,7 @@
    "name": "Spotted a closed shop, or one we're missing?",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Email the shop's name and town to nick@eatsranked.com; the correction goes out with the next app update."
+    "text": "Email the shop's name and town to nick@eatsranked.com; the correction goes out with the next update."
    }
   }
  ]
@@ -308,9 +276,9 @@
   <main id="main">
   <section class="hero">
     <h1><span class="kicker">Washington Eats · Puget Sound to the Palouse</span>Washington restaurant guide: teriyaki counters, phở shops and drive-ins</h1>
-    <p class="lede">20,174 restaurants, cafés, espresso stands and bars in 405 Washington towns, in your pocket. Washington Eats opens with four short lists we looked up place by place: Seattle-style teriyaki, phở, drive-in burgers and oysters.</p>
-    <div class="cta-row"><a class="btn store-btn" href="mailto:nick@eatsranked.com?subject=Washington%20Eats%20early%20access&amp;body=Send%20me%20the%20TestFlight%20link."><span class="store-label">Ask for early access</span></a><a class="btn btn-ghost" href="/explore/">Search on the web</a><span class="pill store-note">Not in the App Store yet: the button asks for early access. No cost, no ads.</span></div>
-    <ul class="stats" role="list" aria-label="What's in the app">
+    <p class="lede">20,174 restaurants, cafés, espresso stands and bars in 405 Washington towns, in one guide. Washington Eats starts with four short lists we looked up place by place: Seattle-style teriyaki, phở, drive-in burgers and oysters.</p>
+    <div class="cta-row"><a class="btn" href="/explore/">Search Washington restaurants</a><span class="pill">No cost, no ads. Also in <a href="https://eatsranked.com/#app" rel="noopener">Eats Ranked for iPhone and iPad</a>, coming soon to the App Store.</span></div>
+    <ul class="stats" role="list" aria-label="What's in the guide">
       <li><b>179</b><span>teriyaki shops</span></li>
       <li><b>51</b><span>phở shops</span></li>
       <li><b>76</b><span>drive-ins</span></li>
@@ -331,14 +299,6 @@
       <li class="step"><div class="n" aria-hidden="true">3</div><div><h3>Head out.</h3><p>Apple Maps' card has today's hours and photos. Call, get directions, or save the place for your next trip over the pass.</p></div></li>
     </ol>
   </section>
-
-  <section id="screens">
-    <h2>Screens from the app</h2>
-    <ul class="shots" tabindex="0" aria-label="Washington Eats app screenshots">
-      <li><picture><source srcset="/img/screen-home.webp" type="image/webp"><img src="/img/screen-home.png" alt="The Washington Eats home screen: Seattle Teriyaki on top, then Phở, Drive-In Burgers, Oysters &amp; Seafood, Honors &amp; History, Oldest Places and Food Safety, under a search box for restaurants statewide." width="480" height="1043" decoding="async"></picture><p>Search on top, then the hand-checked lists.</p></li><li><picture><source srcset="/img/screen-teriyaki.webp" type="image/webp"><img src="/img/screen-teriyaki.png" alt="The Seattle Teriyaki list in Washington Eats, closest to downtown Seattle first, each counter with its menu staples." width="480" height="1043" decoding="async"></picture><p>Teriyaki counters, closest to downtown first.</p></li><li><picture><source srcset="/img/screen-detail.webp" type="image/webp"><img src="/img/screen-detail.png" alt="Toshio&#x27;s Teriyaki in Seattle in Washington Eats: its address, what it serves, King County&#x27;s official food safety rating and a button for Apple Maps&#x27; card." width="480" height="1043" loading="lazy" decoding="async"></picture><p>One shop: menu staples, King County&#x27;s rating, Apple Maps.</p></li><li><picture><source srcset="/img/screen-map.webp" type="image/webp"><img src="/img/screen-map.png" alt="The Washington Eats map with a pin for each hand-checked teriyaki counter around Puget Sound." width="480" height="1043" loading="lazy" decoding="async"></picture><p>Teriyaki around the Sound, on the map.</p></li><li><picture><source srcset="/img/screen-safety.webp" type="image/webp"><img src="/img/screen-safety.png" alt="The Food Safety list in Washington Eats: Public Health – Seattle &amp; King County&#x27;s official ratings, Excellent first." width="480" height="1043" loading="lazy" decoding="async"></picture><p>King County&#x27;s ratings, as published.</p></li>
-    </ul>
-  </section>
-
   <section id="guides">
     <h2>Four lists, checked by hand</h2>
     <p class="sub">Each list is also a page here, place by place, by region and town.</p>
@@ -358,52 +318,42 @@
 
   <section id="pricing">
     <h2>No price, no ads</h2>
-    <p class="sub">Washington Eats costs nothing and shows no ads: no subscription, no in-app purchase, no sign-up. The list ships inside the app, so it opens with one bar of signal on a Bainbridge ferry or up on Stevens Pass.</p>
+    <p class="sub">Washington Eats costs nothing and shows no ads: no subscription, nothing to buy, no sign-up. The guides and the search are open to anyone with a browser. The Eats Ranked app keeps a state's lists on the phone, so they open with one bar of signal on a Bainbridge ferry or up on Stevens Pass.</p>
   </section>
 
   <section id="privacy">
     <h2>Nothing about you is sent to us</h2>
-    <p class="sub">The app has no account and no analytics, and nothing you do in it is sent to us. Location, if you turn it on, only sorts lists by distance on the device, and saved places stay there too. This website has no cookies or trackers. <a href="/privacy.html">Read the privacy policy</a>.</p>
+    <p class="sub">This site has no account and no analytics, and nothing you do on it is sent to us. Location, if you share it, only sorts lists by distance inside your browser, and saved places stay there too. There are no cookies or trackers. <a href="/privacy.html">Read the privacy policy</a>.</p>
   </section>
 
   <section id="faq">
     <h2>Questions</h2>
-    <details><summary>Who started Seattle-style teriyaki?</summary><p>It&#x27;s credited to Toshihiro &quot;Toshi&quot; Kasahara, who opened Toshi&#x27;s Teriyaki on Roy Street in Lower Queen Anne in March 1976 (Seattle Weekly, 2007; Seattle Met, 2008). Plenty of shops still carry the Toshi&#x27;s name; the one that is his today is Toshi&#x27;s Teriyaki Grill in Mill Creek, which he opened in 2013.</p></details><details><summary>Is this Washington State or Washington, D.C.?</summary><p>The state, end to end: Seattle and Spokane, Tacoma and Vancouver, the Tri-Cities, Yakima, Wenatchee, Bellingham, Olympia and Walla Walla, 405 towns in all. Nothing here is in D.C.</p></details><details><summary>What does Washington Eats cost?</summary><p>Nothing. There are no ads, no subscriptions, nothing to buy inside the app and no sign-up. It runs on iPhone and iPad; there&#x27;s no Android version yet.</p></details><details><summary>How do you decide which places make the teriyaki, phở, drive-in and oyster lists?</summary><p>By looking each one up in October 2026. A place goes on only with a 2025 or 2026 source of its own: its menu page, an ordering page it runs, or a dated local news story. A shop that is merely called &quot;Teriyaki&quot; stays in the 20,174-place directory, which comes from Overture Maps&#x27; open place data and King County&#x27;s inspection records.</p></details><details><summary>What do King County&#x27;s Excellent, Good, Okay and Needs to Improve ratings mean?</summary><p>They are Public Health – Seattle &amp; King County&#x27;s own food safety ratings, built from each place&#x27;s recent routine inspections, and the app shows them exactly as published, through 2026-09-25. 7,249 King County places have one. They&#x27;re the only county ratings in the app, and we never make up our own.</p></details><details><summary>Where are the star ratings and reviews?</summary><p>In Apple Maps. Tap any place and Apple&#x27;s own card opens inside the app with its ratings, photos, today&#x27;s hours and directions. Our lists go by region, town or distance, never by stars.</p></details><details><summary>Does Washington Eats track where I am?</summary><p>No. If you allow location, the lists use it on your iPhone or iPad to put the closest places first, and it never leaves the device. Search, the map and the lists all work with location off.</p></details><details><summary>Spotted a closed shop, or one we&#x27;re missing?</summary><p>Email the shop&#x27;s name and town to nick@eatsranked.com; the correction goes out with the next app update.</p></details>
+    <details><summary>Who started Seattle-style teriyaki?</summary><p>It&#x27;s credited to Toshihiro &quot;Toshi&quot; Kasahara, who opened Toshi&#x27;s Teriyaki on Roy Street in Lower Queen Anne in March 1976 (Seattle Weekly, 2007; Seattle Met, 2008). Plenty of shops still carry the Toshi&#x27;s name; the one that is his today is Toshi&#x27;s Teriyaki Grill in Mill Creek, which he opened in 2013.</p></details><details><summary>Is this Washington State or Washington, D.C.?</summary><p>The state, end to end: Seattle and Spokane, Tacoma and Vancouver, the Tri-Cities, Yakima, Wenatchee, Bellingham, Olympia and Walla Walla, 405 towns in all. Nothing here is in D.C.</p></details><details><summary>What does Washington Eats cost?</summary><p>Nothing. There are no ads, no subscriptions, nothing to buy and no sign-up. It&#x27;s a website, so it works in any browser. The same guide is in Eats Ranked for iPhone and iPad, coming soon to the App Store.</p></details><details><summary>How do you decide which places make the teriyaki, phở, drive-in and oyster lists?</summary><p>By looking each one up in October 2026. A place goes on only with a 2025 or 2026 source of its own: its menu page, an ordering page it runs, or a dated local news story. A shop that is merely called &quot;Teriyaki&quot; stays in the 20,174-place directory, which comes from Overture Maps&#x27; open place data and King County&#x27;s inspection records.</p></details><details><summary>What do King County&#x27;s Excellent, Good, Okay and Needs to Improve ratings mean?</summary><p>They are Public Health – Seattle &amp; King County&#x27;s own food safety ratings, built from each place&#x27;s recent routine inspections, and this site shows them exactly as published, through 2026-09-25. 7,249 King County places have one. They&#x27;re the only county ratings here, and we never make up our own.</p></details><details><summary>Where are the star ratings and reviews?</summary><p>In Apple Maps. In the web search, each place links to Apple Maps for its ratings, photos, today&#x27;s hours and directions. Our lists go by region, town or distance, never by stars.</p></details><details><summary>Does Washington Eats track where I am?</summary><p>No. If you share your location, the web search uses it inside your browser to put the closest places first, and it never reaches us. Search, the map and the lists all work with location off.</p></details><details><summary>Spotted a closed shop, or one we&#x27;re missing?</summary><p>Email the shop&#x27;s name and town to nick@eatsranked.com; the correction goes out with the next update.</p></details>
   </section>
 
   <section id="download" class="final">
     <h2>Find your teriyaki</h2>
-    <p class="sub">On its way to the App Store for iPhone and iPad, at no cost.</p>
-    <div class="cta-row"><a class="btn store-btn" href="mailto:nick@eatsranked.com?subject=Washington%20Eats%20early%20access&amp;body=Send%20me%20the%20TestFlight%20link."><span class="store-label">Ask for early access</span></a></div>
+    <p class="sub">The guides and the web search are free and open now. The same Washington guide is in <a href="https://eatsranked.com/#app" rel="noopener">Eats Ranked for iPhone and iPad</a>, one free app with the state guides inside, coming soon to the App Store.</p>
+    <div class="cta-row"><a class="btn" href="/explore/">Search on the web</a><a class="btn btn-ghost" href="https://eatsranked.com/#app" rel="noopener">About the Eats Ranked app</a></div>
   </section>
   </main>
   <footer>
     <nav aria-label="Footer">
-      <a href="/">Washington Eats app</a>
+      <a href="/">Washington Eats home</a>
       <a href="/explore/">Search Washington restaurants</a>
       <a href="/washington-teriyaki.html">Seattle teriyaki guide</a>
       <a href="/washington-pho.html">Washington phở</a>
       <a href="/washington-drive-ins.html">Drive-in burgers</a>
       <a href="/washington-oysters-seafood.html">Oysters &amp; seafood</a>
+      <a href="https://eatsranked.com/#app" rel="noopener">Eats Ranked app</a>
       <a href="/privacy.html">Privacy policy</a>
       <a href="/terms.html">Terms of use</a>
       <a href="mailto:nick@eatsranked.com">Email us</a>
     </nav>
     <p>Place data: hand-checked research by Washington Eats (October 2026); Overture Maps Foundation places data (CDLA Permissive 2.0), including data from Foursquare (Apache 2.0) and AllThePlaces (CC0 1.0); © OpenStreetMap contributors (ODbL); Public Health – Seattle &amp; King County food establishment inspection data (public domain). Not affiliated with or endorsed by any restaurant, team, chain or government agency. James Beard Foundation and James Beard Award are trademarks of the James Beard Foundation. Places open and close, so check before you go.</p>
-    <p>© 2026 Washington Eats. Part of <a href="https://eatsranked.com/">Eats Ranked</a>, restaurant apps state by state.</p>
+    <p>© 2026 Washington Eats. Part of <a href="https://eatsranked.com/">Eats Ranked</a>, free restaurant guides state by state.</p>
     <p>Created by <a href="https://work-with-nick.com/" rel="author noopener">Nick Soderstrom</a></p>
   </footer>
 </div>
-<script>
-  // Once the App Store listing exists, paste its URL here (looks like https://apps.apple.com/app/id123456789).
-  // Every button switches from "Ask for early access" to "Download on the App Store" automatically.
-  // Also fill in the apple-itunes-app meta tag in <head> on every page (re-run scripts/make-site.py after editing it there).
-  var APP_STORE_URL = "";
-  if (APP_STORE_URL) {
-    document.querySelectorAll(".store-btn").forEach(function (b) { b.href = APP_STORE_URL; b.rel = "noopener"; });
-    document.querySelectorAll(".store-label").forEach(function (l) { l.textContent = "Download on the App Store"; });
-    document.querySelectorAll(".store-note").forEach(function (n) { n.textContent = "Free for iPhone and iPad."; });
-  }
-</script>
 </body>
 </html>

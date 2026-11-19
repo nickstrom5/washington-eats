@@ -78,7 +78,56 @@ STORAGE_PREFIX = "wae-"                 # Wisconsin is "we-", Connecticut "ce-",
 EMAIL = "nick@eatsranked.com"           # Nick, 2026-10-12
 OLD_EMAIL = "work-with-nick@gmail.com"
 PARENT = {"@type": "Organization", "@id": "https://eatsranked.com/#organization", "name": "Eats Ranked", "url": "https://eatsranked.com/"}
-PART_OF = 'Part of <a href="https://eatsranked.com/">Eats Ranked</a>, restaurant apps state by state.'
+# Nick, 2026-11-14: one app, Eats Ranked, carries the state guides; no state has an app of its own. This site is the guide on the web
+# and points to the hub's app section. Three rules, all checked on every page:
+# - OLD_APP: what a page that still presents a Washington-only app carries, anywhere in its source (markup, meta, JSON-LD, scripts)
+# - the word "app" is read only in APP_OK's phrases, and "iPhone"/"iPad" only in a sentence that names Eats Ranked (visible text,
+#   meta and alt text, JSON-LD; the web app's own code comments aside)
+# - NOT_YET: until the app is on the App Store (the copy then says "free on the App Store"), no page says it can be had
+APP_URL = "https://eatsranked.com/#app"
+APP_PRIVACY_URL = "https://eatsranked.com/privacy.html"
+OLD_APP = re.compile(r"apple-itunes-app|MobileApplication|APP_STORE_URL|store-btn|store-note|apps\.apple\.com|/img/screen-|TestFlight"
+                     r"|early(?:%20|\s)+access|iPhone app|Washington Eats: Restaurants|restaurant apps state by state", re.I)
+APP_OK = re.compile(r"\bweb app\b|\bEats Ranked app\b|\bone free app\b|\bApp Store\b|\.app\b")   # ".app": a place's own web address (phoquynh.vercel.app)
+APP_WORD = re.compile(r"\bapps?\b", re.I)
+DEVICE = re.compile(r"\biPhones?\b|\biPads?\b")
+NOT_YET = re.compile(r"\b(?:download|get|install)\b[^.!?]{0,40}\b(?:Eats Ranked|App Store)\b|\b(?:available|out now|live) (?:on|in) the App Store\b", re.I)
+
+
+def readable(text):
+    """What a reader, a search engine or a link preview takes from a page: its visible text, the text in content=, alt=, title= and
+    aria-label= attributes, and its JSON-LD. Executable scripts and styles are left out."""
+    lds = re.findall(r'<script type="application/ld\+json">(.*?)</script>', text, re.S)
+    body = re.sub(r"<script\b.*?</script>|<style\b.*?</style>", " ", text, flags=re.S)
+    attrs = re.findall(r'\s(?:content|alt|title|aria-label)="([^"]*)"', body)
+    plain = re.sub(r"<[^>]+>", " ", body)
+    out = "\n".join([plain] + attrs + [x.encode().decode("unicode_escape", "replace") if "\\u" in x else x for x in lds])
+    return re.sub(r"[ \t]+", " ", html.unescape(out).replace("\u2019", "'"))
+
+
+def one_app_problems(where, text):
+    """The one-app rule for a page (see OLD_APP above)."""
+    out = []
+    for m in OLD_APP.finditer(html.unescape(text)):
+        out.append(f"{where}: still presents a Washington-only app ({m.group(0)!r} in the page source)")
+    r = readable(text)
+    for m in APP_WORD.finditer(APP_OK.sub(lambda k: "#" * len(k.group(0)), r)):
+        out.append(f"{where}: says 'app' outside 'web app', 'Eats Ranked app', 'one free app' and 'App Store': …{r[max(0, m.start() - 50):m.end() + 30].strip()!r}…")
+    for sent in re.split(r"(?<=[.!?])\s+|\n", r):
+        if DEVICE.search(sent) and "Eats Ranked" not in sent:
+            out.append(f"{where}: names iPhone or iPad without naming Eats Ranked: {sent.strip()[:120]!r}")
+    if f'href="{APP_URL}"' not in text:
+        out.append(f"{where}: no link to the Eats Ranked app's section on the hub ({APP_URL})")
+    if "free on the App Store" not in r:
+        for m in NOT_YET.finditer(r):
+            out.append(f"{where}: says the app can be had before it is on the App Store: {m.group(0)!r}")
+    for sent in re.split(r"(?<=[.!?])\s+|\n", r):
+        if "App Store" in sent and not re.search(r"coming soon to the App Store|free on the App Store", sent):
+            out.append(f"{where}: names the App Store without 'coming soon to' (or, once live, 'free on'): {sent.strip()[:120]!r}")
+    return out
+
+
+PART_OF = 'Part of <a href="https://eatsranked.com/">Eats Ranked</a>, free restaurant guides state by state.'
 ROBOTS = "index,follow,max-image-preview:large"
 TODAY = datetime.date.today().isoformat()
 BANNED_LD = {"aggregateRating", "review", "reviews", "reviewRating", "ratingValue", "reviewCount", "bestRating"}
@@ -364,8 +413,13 @@ def static_checks():
                 need = [sha(b) for b in blocks] or ["'none'"]
                 if sorted(have) != sorted(need):
                     bad(f"{w}: CSP {name} hashes don't match the page's inline blocks")
-        if '<!-- <meta name="apple-itunes-app" content="app-id=APP_ID"> fill in once the App Store record exists -->' not in s:
-            bad(f"{w}: no commented apple-itunes-app placeholder (SEO-SPEC)")
+        if "<!--" in s:     # no comment at all: the Smart App Banner placeholder went with the Washington-only app (2026-11-19)
+            bad(f"{w}: HTML comment left in the output")
+        # one app, Eats Ranked: no page presents a Washington-only app, and every page points to the hub's app section
+        for msg in one_app_problems(w, s):
+            bad(msg)
+        if w == "privacy.html" and (f'href="{APP_PRIVACY_URL}"' not in s or "this website doesn't track you" not in html.unescape(s).replace("\u2019", "'")):
+            bad("privacy.html: doesn't link the Eats Ranked app's own privacy policy, or doesn't say this website doesn't track you")
         if '<meta name="referrer" content="strict-origin-when-cross-origin">' not in s:
             bad(f"{w}: no referrer meta")
         if pg.bad_attrs:
@@ -476,9 +530,6 @@ def static_checks():
         for so in pg.sources:
             if not file_for(so.get("srcset", "")):
                 bad(f"{w}: <source> file missing: {so.get('srcset')}")
-        for m in re.finditer(r'<a class="btn store-btn"[^>]*>(.*?)</a>', s, re.S):
-            if "<svg" in m.group(1):
-                bad(f"{w}: the early-access button carries an Apple logo (only Apple's own badge may)")
         dup = {i for i in pg.ids if pg.ids.count(i) > 1}
         if dup:
             bad(f"{w}: duplicate ids {sorted(dup)[:5]}")
@@ -639,7 +690,7 @@ def content_checks(pages, parsed):
         for d in re.findall(r"through (\d{4}-\d{2}-\d{2})", t):
             if d != CORE["records_through"]:
                 bad(f"{rel}: says records through {d}, the data says {CORE['records_through']}")
-        m = re.search(r"app lists ([\d,]+) restaurants, cafés, espresso stands and bars in ([^.]+?) and sorts", t)
+        m = re.search(r"Washington Eats lists ([\d,]+) restaurants, cafés, espresso stands and bars in ([^.]+?), and the web search sorts", t)
         if rel.startswith("cities/"):
             if not m:
                 bad(f"{rel}: no count of the town's restaurants")
